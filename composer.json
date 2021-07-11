@@ -13,7 +13,7 @@
 		{
 			"name": "Your Name",
 			"email": "your@email.net",
-			"homepage": "https://yourhomepage.com/"
+			"homepage": "https://github.com/flarum-lang/hungarian"
 		}
 	],
 	"support": {
@@ -35,8 +35,8 @@
 			}
 		},
 		"flarum-locale": {
-			"code": "xx",
-			"title": "Xxish"
+			"code": "hu",
+			"title": "Hungarian"
 		},
 		"extiverse": {
 			"discuss": ""
