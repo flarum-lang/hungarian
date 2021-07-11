@@ -1,12 +1,12 @@
 {
-	"name": "yourname/flarum-lang-xxish",
+	"name": "flarum-lang/hungarian",
 	"type": "flarum-extension",
-	"description": "Xxish language pack for Flarum.",
-	"homepage": "https://github.com/yourname/flarum-lang-xxish",
+	"description": "Hungarian language pack for Flarum.",
+	"homepage": "https://github.com/flarum-lang/hungarian",
 	"keywords": [
 		"locale",
 		"flarum",
-		"xx-locale"
+		"hungarian-locale"
 	],
 	"license": "MIT",
 	"authors": [
@@ -17,8 +17,8 @@
 		}
 	],
 	"support": {
-		"issues": "https://github.com/yourname/flarum-lang-xxish/issues",
-		"source": "https://github.com/yourname/flarum-lang-xxish"
+		"issues": "https://github.com/flarum-lang/hungarian/issues",
+		"source": "https://github.com/flarum-lang/hungarian"
 	},
 	"require": {
 		"flarum/core": "^1.0"
@@ -27,7 +27,7 @@
 	"prefer-stable": true,
 	"extra": {
 		"flarum-extension": {
-			"title": "Xxish",
+			"title": "Hungarian",
 			"icon": {
 				"image": "icon.svg",
 				"backgroundSize": "cover",
