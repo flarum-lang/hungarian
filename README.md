@@ -73,6 +73,8 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
+| [`fof/pages`](https://github.com/FriendsOfFlarum/pages) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/fof-pages/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-pages/hu/) |
+| [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/fof-user-directory/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-user-directory/hu/) |
 
 <!-- fof-extensions-list-stop -->
 
@@ -83,6 +85,7 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
+| [`acpl/my-tags`](https://github.com/android-com-pl/my-tags) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/acpl-my-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/acpl-my-tags/hu/) |
 
 <!-- various-extensions-list-stop -->
 
