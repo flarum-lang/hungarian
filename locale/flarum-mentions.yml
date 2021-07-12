@@ -3,6 +3,14 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 flarum-mentions:
+  admin:
+    settings:
+      allow_username_format_label: 'A felhasználó megemlítésének engedélyezése (@Felhasználó)'
+  email:
+    post_mentioned:
+      subject: '{replier_display_name} válaszolt a hozzászólásodra itt: {title}'
+    user_mentioned:
+      subject: '{mentioner_display_name} megemlített téged itt: {title}'
   forum:
     composer:
       mention_tooltip: 'Említs meg egy felhasználót vagy posztot.'
@@ -18,6 +26,8 @@ flarum-mentions:
       quote_button: Idézem
       reply_link: '=> core.ref.reply'
       you_text: '=> core.ref.you'
+    post_mention:
+      deleted_text: '[ismeretlen]'
     settings:
       notify_post_mentioned_label: 'Valaki válaszolt az egyik posztomra'
       notify_user_mentioned_label: 'Valaki megemlített egy posztban'

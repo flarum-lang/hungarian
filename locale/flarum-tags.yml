@@ -24,6 +24,7 @@ flarum-tags:
       tags_text: 'Itt tudod kezelni a tageket, hogy átláthatóak és strukturáltak legyenek a témák.'
     permissions:
       allow_edit_tags_label: 'Tagek szerkesztésének engedélyezése'
+      bypass_tag_counts_label: 'Címke követelmények kihagyása'
       restrict_by_tag_heading: 'Korlátozás téma által'
       tag_discussions_label: 'Témák tagelése'
     tag_settings:
@@ -35,10 +36,13 @@ flarum-tags:
       title: Tag-beállítások
     tags:
       about_tags_text: 'A tagek a témák kategorizálására használhatóak. Az elsődleges tagek hasonlóak, mint a hagyományos fórumkategóriák: kétszintes hierarchiába rendezhetőek. A másodlagos tagek nem rendelkeznek hierarchiával, mikro-kategorizálásra használhatóak.'
+      create_primary_tag_button: 'Elsődleges címke készítése'
+      create_secondary_tag_button: 'Másodlagos címke készítése'
       create_tag_button: '=> flarum-tags.ref.create_tag'
       primary_heading: 'Elsődleges tagek'
       secondary_heading: 'Másodlagos tagek'
       settings_button: Beállítások
+      settings_heading: Beállítások
   forum:
     all_tags:
       meta_description_text: 'Az összes tag'
