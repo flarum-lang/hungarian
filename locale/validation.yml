@@ -12,8 +12,15 @@ validation:
   alpha_num: 'A(z) :attribute kizárólag betűket és számokat tartalmazhat!'
   array: 'A(z) :attribute egy tömb kell, hogy legyen!'
   attributes:
+    content: tartalom
+    email: e-mail
     name: név
+    name_plural: 'többes számú név'
+    name_singular: 'egyes számú név'
     password: jelszó
+    tag_count_primary: 'elsődleges címkék száma'
+    tag_count_secondary: 'másodlagos címkék száma'
+    title: cím
     username: felhasználónév
   before: 'A(z) :attribute :date előtti dátum kell, hogy legyen!'
   before_or_equal: 'A(z) :attribute nem lehet későbbi dátum, mint :date!'
@@ -25,6 +32,7 @@ validation:
   boolean: 'A(z) :attribute mező csak true vagy false értéket kaphat!'
   confirmed: 'A(z) :attribute nem egyezik a megerősítéssel.'
   date: 'A(z) :attribute nem érvényes dátum.'
+  date_equals: 'A(z) :attribute egyenlő kell legyen ezzel :date.'
   date_format: 'A(z) :attribute nem egyezik az alábbi dátum formátummal :format!'
   different: 'A(z) :attribute és :other értékei különbözőek kell, hogy legyenek!'
   digits: 'A(z) :attribute :digits számjegyű kell, hogy legyen!'
@@ -36,6 +44,16 @@ validation:
   exists: 'A(z) :attribute már létezik.'
   file: 'A(z) :attribute fájl kell, hogy legyen!'
   filled: 'A(z) :attribute megadása kötelező!'
+  gt:
+    array: 'A(z) :attributetöbb kell legyen mint :value elem.'
+    file: 'A(z) :attribute nagyobb kell legyen mint :value kilobytes.'
+    numeric: 'A(z) :attribute nagyobb kell legyen ennél :date.'
+    string: 'A(z) :attribute nagyobb kell legyen mint :value karakter.'
+  gte:
+    array: 'A(z) :attribute ennyi vagy több kell legyen: :value.'
+    file: 'A(z) :attribute nagyobb vagy egyenlő kell legyen mint :value kilóbájt.'
+    numeric: 'A(z) :attribute nagyobb vagy egyenlő kell legyen mint :value.'
+    string: 'A(z) :attribute nagyobb vagy egyenlő kell legyen mint :value karakter.'
   image: 'A(z) :attribute képfájl kell, hogy legyen!'
   in: 'A kiválasztott :attribute érvénytelen.'
   in_array: 'A(z) :attribute értéke nem található a(z) :other értékek között.'
@@ -44,6 +62,16 @@ validation:
   ipv4: 'A(z) :attribute érvényes IPv4 cím kell, hogy legyen!'
   ipv6: 'A(z) :attribute érvényes IPv6 cím kell, hogy legyen!'
   json: 'A(z) :attribute érvényes JSON szöveg kell, hogy legyen!'
+  lt:
+    array: 'A(z) :attribute kevesebb kell legyen mint :value.'
+    file: 'A(z) :attribute kevesebb kell legyen mint :value kilóbájt.'
+    numeric: 'A(z) :attribute kisebb kell legyen mint :value.'
+    string: 'A(z) :attribute kevesebb kell legyen mint :value karakter.'
+  lte:
+    array: 'A(z) :attribute nem lehet több mint :value.'
+    file: 'A(z) :attribute kevesebb vagy egyenlő kell legyen mint :value kilóbájt.'
+    numeric: 'A(z) :attribute kisebb vagy egyenlő kell legyen mint :value.'
+    string: 'A(z) :attribute kevesebb vagy egyenlő kell legyen mint :value karakter.'
   max:
     array: 'A(z) :attribute legfeljebb :max elemet kell, hogy tartalmazzon.'
     file: 'A(z) :attribute mérete nem lehet több, mint :max kilobájt.'
@@ -56,9 +84,15 @@ validation:
     file: 'A(z) :attribute mérete nem lehet kevesebb, mint :min kilobájt.'
     numeric: 'A(z) :attribute értéke nem lehet kisebb, mint :min!'
     string: 'A(z) :attribute hossza nem lehet kevesebb, mint :min karakter.'
+  multiple_of: 'Az :attribute a :value többszörösének kell lennie.'
   not_in: 'A(z) :attribute értéke érvénytelen.'
+  not_regex: 'A(z) :attribute formátuma érvénytelen.'
   numeric: 'A(z) :attribute szám kell, hogy legyen!'
+  password: 'A jelszó hibás.'
   present: 'A(z) :attribute mező nem található!'
+  prohibited: 'A(z) :attribute mező tiltott.'
+  prohibited_if: 'A(z) :attribute mező tiltott amikor :other  :value.'
+  prohibited_unless: 'A(z) :attribute mező tiltott amíg :other  :values.'
   regex: 'A(z) :attribute formátuma érvénytelen.'
   required: 'A(z) :attribute megadása kötelező!'
   required_if: 'A(z) :attribute megadása kötelező, ha a(z) :other értéke :value!'
