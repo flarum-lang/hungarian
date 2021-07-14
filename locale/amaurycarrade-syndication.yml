@@ -10,6 +10,7 @@ amaurycarrade-syndication:
         label: 'Teljes szöveg csatorna'
       html:
         label: 'Formázott feed'
+      title: 'Szindikációs beállítások'
   forum:
     autodiscovery:
       discussion_last_posts: 'Ez a beszélgetés'
