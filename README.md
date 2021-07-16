@@ -74,6 +74,7 @@ php flarum cache:clear
 | Extension | Status |
 | --- | --- |
 | [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/fof-byobu/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-byobu/hu/) |
+| [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/fof-drafts/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-drafts/hu/) |
 | [`fof/formatting`](https://github.com/FriendsOfFlarum/formatting) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/fof-formatting/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-formatting/hu/) |
 | [`fof/frontpage`](https://github.com/FriendsOfFlarum/frontpage) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/fof-frontpage/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-frontpage/hu/) |
 | [`fof/links`](https://github.com/FriendsOfFlarum/links) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/fof-links/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-links/hu/) |
@@ -94,6 +95,7 @@ php flarum cache:clear
 | --- | --- |
 | [`acpl/my-tags`](https://github.com/android-com-pl/my-tags) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/acpl-my-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/acpl-my-tags/hu/) |
 | [`amaurycarrade/flarum-ext-syndication`](https://github.com/AmauryCarrade/flarum-ext-syndication) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/amaurycarrade-syndication/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/amaurycarrade-syndication/hu/) |
+| [`clarkwinkelmann/flarum-ext-bookmarks`](https://github.com/clarkwinkelmann/flarum-ext-bookmarks) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/clarkwinkelmann-bookmarks/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-bookmarks/hu/) |
 | [`ffans/clipboardjs`](https://github.com/FFans/clipboardjs) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/ffans-clipboardjs/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ffans-clipboardjs/hu/) |
 
 <!-- various-extensions-list-stop -->
