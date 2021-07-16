@@ -11,8 +11,8 @@
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Your Name",
-			"email": "your@email.net",
+			"name": "Rebootcode",
+			"email": "office@rebootcode.ro",
 			"homepage": "https://github.com/flarum-lang/hungarian"
 		}
 	],
@@ -29,7 +29,7 @@
 		"flarum-extension": {
 			"title": "Hungarian",
 			"icon": {
-				"image": "icon.svg",
+				"image": "hu.svg",
 				"backgroundSize": "cover",
 				"backgroundPosition": "center"
 			}
