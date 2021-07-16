@@ -74,8 +74,13 @@ php flarum cache:clear
 | Extension | Status |
 | --- | --- |
 | [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/fof-byobu/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-byobu/hu/) |
+| [`fof/formatting`](https://github.com/FriendsOfFlarum/formatting) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/fof-formatting/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-formatting/hu/) |
+| [`fof/frontpage`](https://github.com/FriendsOfFlarum/frontpage) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/fof-frontpage/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-frontpage/hu/) |
+| [`fof/links`](https://github.com/FriendsOfFlarum/links) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/fof-links/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-links/hu/) |
+| [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/fof-oauth/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-oauth/hu/) |
 | [`fof/pages`](https://github.com/FriendsOfFlarum/pages) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/fof-pages/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-pages/hu/) |
 | [`fof/split`](https://github.com/FriendsOfFlarum/split) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/fof-split/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-split/hu/) |
+| [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/fof-user-bio/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-user-bio/hu/) |
 | [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/fof-user-directory/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-user-directory/hu/) |
 
 <!-- fof-extensions-list-stop -->
