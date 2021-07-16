@@ -357,7 +357,7 @@ core:
       oldest_button: Legrégebbi
       relevance_button: Relevancia
       toggle_dropdown_accessible_label: 'Beszélgetés lista rendezésének megváltoztatása'
-      top_button: Tetejére
+      top_button: Felkapott
     log_in:
       forgot_password_link: 'Elfelejtetted a jelszavadat?'
       invalid_login_message: 'A belépési adataid hibásak.'
