@@ -73,11 +73,13 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
+| [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/fof-best-answer/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-best-answer/hu/) |
 | [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/fof-byobu/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-byobu/hu/) |
 | [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/fof-drafts/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-drafts/hu/) |
 | [`fof/formatting`](https://github.com/FriendsOfFlarum/formatting) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/fof-formatting/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-formatting/hu/) |
 | [`fof/frontpage`](https://github.com/FriendsOfFlarum/frontpage) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/fof-frontpage/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-frontpage/hu/) |
 | [`fof/links`](https://github.com/FriendsOfFlarum/links) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/fof-links/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-links/hu/) |
+| [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/fof-nightmode/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-nightmode/hu/) |
 | [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/fof-oauth/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-oauth/hu/) |
 | [`fof/pages`](https://github.com/FriendsOfFlarum/pages) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/fof-pages/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-pages/hu/) |
 | [`fof/split`](https://github.com/FriendsOfFlarum/split) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/fof-split/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-split/hu/) |
