@@ -73,6 +73,7 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
+| [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/fof-analytics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-analytics/hu/) |
 | [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/fof-best-answer/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-best-answer/hu/) |
 | [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/fof-byobu/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-byobu/hu/) |
 | [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/fof-drafts/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-drafts/hu/) |
@@ -106,6 +107,7 @@ php flarum cache:clear
 | [`clarkwinkelmann/flarum-ext-bookmarks`](https://github.com/clarkwinkelmann/flarum-ext-bookmarks) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/clarkwinkelmann-bookmarks/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-bookmarks/hu/) |
 | [`clarkwinkelmann/flarum-ext-group-list`](https://github.com/clarkwinkelmann/flarum-ext-group-list) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/clarkwinkelmann-group-list/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-group-list/hu/) |
 | [`ffans/clipboardjs`](https://github.com/FFans/clipboardjs) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/ffans-clipboardjs/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ffans-clipboardjs/hu/) |
+| [`itnt/flarum-uitab`](https://github.com/Littlegolden/flarum-uitab) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/itnt-uitab/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/itnt-uitab/hu/) |
 | [`luuhai48/oauth-linkedin`](https://github.com/luuhai48/oauth-linkedin) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/luuhai48-oauth-linkedin/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/luuhai48-oauth-linkedin/hu/) |
 | [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/v17development-blog/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-blog/hu/) |
 
