@@ -9,9 +9,14 @@ fof-drafts:
       start: 'Vázlat létrehozása'
     settings:
       enable_scheduled_drafts: 'Időzített vázlat bekapcsolása'
+      schedule_log_output: 'Az ütemező kimenetének hozzáfűzése a naplóhoz'
+      schedule_on_one_server: 'Használja az ''onOneServer ()'' utasítást a feladatütemezőhöz (Redis / Memcache szükséges)'
       title: 'FoF vázlat'
+  console:
+    scheduled_drafts_disabled: 'Jelenleg az ütemezés ki van kapcsolva a beállításokban.'
   forum:
     composer:
+      discard_empty_draft_alert: 'Elveted az üres vázlatot?'
       exit_alert: 'Eldobod a módosításokat?'
       saved: Mentve!
       saving: Mentés...
@@ -24,12 +29,14 @@ fof-drafts:
       empty_text: 'Nincs egyetlen vázlat sem'
       schedule_button: '=> fof-drafts.ref.schedule_draft'
       scheduled_icon_tooltip: 'Időzítve ekkorra: {datetime}'
+      scheduled_icon_tooltip_formatter: 'L [at] LT'
       title: Vázlatok
       tooltip: '=> fof-drafts.forum.dropdown.title'
     schedule_draft_modal:
       reschedule_button: 'Újra időzítés'
       schedule_button: Időzítés
       schedule_time_preview: 'Ez a vázlat automatikusan publikálva lesz: <b>{datetime}</b>.'
+      schedule_time_preview_formatter: LLLL
       schedule_time_preview_invalid: 'Hibás dátum vagy idő'
       scheduled_error: 'Nem lehet időzíteni a vázlatot: {error}.'
       scheduled_text: 'Időzítetted a hozzászólást: {datetime}.'
@@ -41,6 +48,7 @@ fof-drafts:
       settings:
         draft_autosave_enable: 'Bekapcsolod a vázlatok automatikus mentését?'
         draft_autosave_interval_button: 'Frissítés ideje'
+        draft_autosave_interval_invalid: 'Az intervallum 4-nél nagyobb egész szám kell legyen.'
         draft_autosave_interval_label: 'Automatikus mentés ideje (másodperc)'
         drafts_heading: Vázlatok
   ref:
