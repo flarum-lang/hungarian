@@ -9,6 +9,7 @@ clarkwinkelmann-group-list:
     permissions:
       see: 'Csoportok listája'
     settings:
+      showAvatarBadges: 'Mutasson más jelvényeket az avatar mellett'
       showOnlineStatus: 'Online státus mutatása'
       showSideNavLink: 'Csoportok link megjelenik az oldalmenüben'
   forum:

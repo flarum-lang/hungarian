@@ -5,6 +5,7 @@
 fof-pretty-mail:
   admin:
     css_settings:
+      help: 'Beállíthatod, hogy a fórum CSS-jét felvedd az e-mail HTML-kódjába. Ha engedélyezed, akkor problémák léphetnek fel egyes e-mail szolgáltatóknál.'
       label: 'CSS beállítások'
       switch_label: 'Teljes fórum CSS beágyazása'
     nav:
@@ -12,8 +13,10 @@ fof-pretty-mail:
     settings:
       confirm: 'Vissza akarod állítani az alapértelmezett sablont'
       default: 'Alapértelmezett sablon'
+      help: 'A "$body" tartalmazza az e-mail tényleges tartalmát, a "$forumStyle" tartalmazza a <strong> teljes fórum CSS </strong> t, az "$url" a Flarums UrlGenerator, a "$settings" lehetővé teszi, hogy kapcsolatba lépjen a SettingsRepositoryInterface-vel, és a "$link" tartalmazza az e-mailben található linket. Nézd meg az egyes sablonokat az egyes változók használatáról.'
       label: 'E-mail sablonok'
       newPost: 'Új hozzászólás e-mail'
+      notificationHelp: 'Javasoljuk, hogy ezekhez az e-mailekhez használja a "$forumStyle" szót, mivel ezek tartalmazhatnak BBCODE-t. Ezekben az e-mailekben elérhető az "$user" is, amely tartalmazza az e-mailben küldött felhasználó teljes felhasználói modelljét.'
       notifications: 'Értesítés sablonok'
       postMentioned: 'Hozzászólás említése e-mail'
       reset: 'Alapértelmezett visszaállítása'

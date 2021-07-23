@@ -7,8 +7,11 @@ amaurycarrade-syndication:
     settings:
       entries-count: 'Mennyi elem legyen feed-enként?'
       full-text:
+        help: 'Ha le van tiltva, a hírcsatornák csak bejegyzések kivonatait tartalmazzák, és a felhasználóknak el kell menniük a fórumra, hogy mindent elolvassanak.'
         label: 'Teljes szöveg csatorna'
+        recommendation: 'Azt javasoljuk, hogy hagyd ezt az opciót aktívnak annak érdekében, hogy tiszteletben tartsd az embereket, akik az RSS összesítőből követik a fórumot - ha van ilyen.'
       html:
+        help: 'Jelöld be ezt, ha a HTML-et a létrehozott hírcsatornákat szeretnél létrehozni. Ha le van tiltva, a hírcsatornák egyszerű szövegben jelennek meg.'
         label: 'Formázott feed'
       title: 'Szindikációs beállítások'
   forum:
