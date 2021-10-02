@@ -338,7 +338,9 @@ core:
       log_in_link: '=> core.ref.log_in'
       log_out_button: '=> core.ref.log_out'
       profile_button: Profil
+      search_clear_button_accessible_label: 'Cache sorbaállás leállítása'
       search_placeholder: Keresés
+      search_role_label: 'Fórum keresése'
       session_dropdown_accessible_label: 'Munkamenet opciók legördülő menü váltása'
       settings_button: '=> core.ref.settings'
       sign_up_link: '=> core.ref.sign_up'
@@ -480,6 +482,7 @@ core:
       generic_message: 'Hoppá! Valami hiba történt. Kérlek, frissítsd az oldalt és próbáld meg még egyszer.'
       missing_dependencies_message: 'Nem kapcsolhatod ki a(z) {extension}  amíg ez a bővítmény be van kapcsolva: {extension}'
       not_found_message: 'A kért erőforrás nem található.'
+      payload_too_large_message: 'A kérés terhelése túl nagy volt.'
       permission_denied_message: 'Nem rendelkezel megfelelő jogokkal ehhez.'
       rate_limit_exceeded_message: 'Túl gyors vagy! Próbáld meg kicsit később.'
     loading_indicator:
@@ -498,6 +501,7 @@ core:
     change_email: 'E-mail cseréje'
     change_password: 'Jelszó cseréje'
     color: Szín
+    confirm_email: 'Email megerősítése'
     confirm_password: 'Jelszó megerősítése'
     confirmation_email_sent: 'Elküldtük a megerősítő emailt a {email} címre. Ha nem érkezik meg hamarosan, akkor ellenőrizd a spam mappát is.'
     custom_footer_text: 'Adj meg HTML-t, amely az oldal alján fog megjelenni.'
@@ -510,6 +514,7 @@ core:
     edit: Szerkesztés
     edit_user: 'Felhasználó szerkesztése'
     email: E-mail
+    extensions: Bővítmény
     icon: Ikon
     icon_text: 'Adj meg egy nevet bármely <a>FontAwesome</a> ikon-osztályból a <code>fas fa-</code> prefix <em>hozzáadásával</em>.'
     load_more: 'Továbbiak betöltése'
@@ -539,6 +544,22 @@ core:
     write_a_reply: 'Válasz írása...'
     you: Te
   views:
+    admin:
+      extensions:
+        caption: '=> core.ref.extensions'
+        disable: Kikapcsolás
+        empty: 'Nincs telepített bővítmény'
+        enable: Bekapcsolás
+        name: 'Bővítmény neve'
+        package_name: 'Csomag neve'
+        version: Verzió
+      info:
+        caption: 'Alkalmazás infó'
+      title: Adminisztráció
+    confirm_email:
+      submit_button: '=> core.ref.confirm_email'
+      text: 'Kattintson az alábbi gombra az e -mail cím megerősítéséhez.'
+      title: '=> core.ref.confirm_email'
     content:
       javascript_disabled_message: 'A legjobb élményhez egy modern böngésző szükséges engedélyezett JavaScript-tel.'
       load_error_message: 'Valami félresikerült az oldal betöltése közben. Próbáld meg frissíteni az oldalt.'
