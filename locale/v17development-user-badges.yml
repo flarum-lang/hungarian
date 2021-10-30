@@ -15,6 +15,7 @@ v17development-flarum-badges:
       metric_drivers:
         badges_received: 'Jelvények érkeztek'
       not_installed:
+        content: 'Ez a bővítmény több funkciót kínál, ha az <a>Automatikus moderátor</a> telepítve van és aktiválva van. A bővítmény telepítésekor a felhasználók automatikusan jelvényeket kaphatnak, a közösségi alkalmazottak beavatkozása nélkül!'
         dismiss: 'Ne mutassa ismét'
         install: Telepítés
         title: 'Automatikusan jutalmazza a felhasználókat jelvényekkel'
@@ -45,10 +46,10 @@ v17development-flarum-badges:
     new_badge: 'Új jelvény'
     nothing_here_yet: 'Még nem hoztál létre kategóriát vagy jelvényt.'
     permissions:
-      badge_detail_users: 'Látszanak a felhasználók a jelvény részleteinek oldalán'
+      badge_detail_users: 'A felhasználók megjelenítése a jelvény részleteinek oldalán'
       give_badge: 'Adj jelvényt a felhasználónak'
       take_badge: 'Vegyél el jelvényt a felhasználótól'
-    uncategorized: 'Kategória nélkül'
+    uncategorized: 'Kategória nélküli'
     update_badge: 'Jelvény frissítése'
     update_category: 'Kategória frissítése'
   forum:
@@ -60,8 +61,8 @@ v17development-flarum-badges:
       badges: Jelvények
       category: 'Jelvény kategória'
       description: 'Jelvény leírása'
-      earned_by_count: 'Megszerezve <b># felhasználó</b> által'
-      earned_count: '<b># felhasználó</b> megkapta ezt a jelvényt'
+      earned_by_count: '{count, plural, one {Megszerezve <b># felhasználó</b> által} other {Megszerezve <b># felhasználó</b> által}}'
+      earned_count: '{count, plural, one {<b># felhasználó</b> kapta meg ezt a jelvényt} other {<b># felhasználó</b> kapta meg ezt a jelvényt}}'
       earned_on: 'A jelvény megszerzése'
       earning_reason: 'A jelvény megszerzésének oka'
       name: 'Jelvény neve'
