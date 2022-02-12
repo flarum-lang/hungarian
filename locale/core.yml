@@ -471,6 +471,8 @@ core:
     mod: Moderátor
     mods: Moderátorok
   lib:
+    alert:
+      dismiss_a11y_label: 'Figyelmeztetés elvetése'
     badge:
       hidden_tooltip: Rejtett
     debug_button: Hibakeresés
@@ -500,6 +502,9 @@ core:
       render_failed_message: 'Sajnáljuk, hiba történt a tartalom megjelenítése során. Ha Ön felhasználó, akkor próbálja újra később. Ha rendszergazda, akkor további információkért nézze meg a Flarum naplófájljait.'
     loading_indicator:
       accessible_label: '=> core.ref.loading'
+    meta_titles:
+      with_page_title: '{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Oldal # - {forumName}}}'
+      without_page_title: '{pageNumber, plural, =1 {{forumName}} other {Oldal # - {forumName}}}'
     modal:
       close: Bezárás
     nav:

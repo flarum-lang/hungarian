@@ -4,8 +4,10 @@
 
 datlechin-birthdays:
   admin:
+    permissions:
+      edit_own_birthday_label: 'Saját születésnap szerkesztése'
     settings:
-      date_format_help: 'A <a>moment.js</a> dátum formátum használata. hagyja üresen az alapértelmezett formátumért.'
+      date_format_help: 'A <a>dayjs</a> dátum formátum használata. hagyja üresen az alapértelmezett formátumért.'
       date_format_label: 'Dátum formátum'
       date_none_year_label: 'Dátum formátuma év nélkül'
       set_on_registration_label: 'Születésnap beállításának engedélyezése regisztrációkor'
