@@ -27,10 +27,16 @@ clarkwinkelmann-featured-discussions:
         not: 'Nem kiemelt'
       title: 'Kiemelt témák'
       until:
+        auto: Automata
         manual: 'Kézi dátum'
     nav:
       schedule: 'Kiemelés időzítése'
+    post:
+      scheduled: 'Ütemezve kiemelt témának {from} -tól eddig: {until}'
+      unscheduled: 'Nincs ütemezve'
     schedule:
+      custom: Egyéni
       drop-error: 'Érvénytelen téma link'
       drop-here: 'Húzd ide az időzítésért'
       empty: 'Nincs téma'
+      help: "Húzza át a beszélgetéseket az oldalon vagy egy másik ablakból az ütemezésük módosításához. Az ütemezés eltávolításához használja a 3 pontos menüt\n"
