@@ -4,4 +4,4 @@
 
 fof-email-checker:
   error:
-    disposable_email_message: 'Nem használható eldobható e-mail.'
+    disposable_email_message: 'Nem használhat eldobható e-mail-címet.'

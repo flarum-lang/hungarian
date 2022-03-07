@@ -7,10 +7,10 @@ clarkwinkelmann-group-list:
     items:
       add: 'Csoport hozzáadása'
     permissions:
-      see: 'Csoportok listája'
+      see: 'Csoportok megtekintése'
     settings:
-      showAvatarBadges: 'Mutasson más jelvényeket az avatar mellett'
-      showOnlineStatus: 'Online státus mutatása'
-      showSideNavLink: 'Csoportok link megjelenik az oldalmenüben'
+      showAvatarBadges: 'Más jelvények megjelenítése a profilkép mellett'
+      showOnlineStatus: 'Elérhető állapot megjelenítése'
+      showSideNavLink: 'Hivatkozás megjelenítése az oldalmenüben'
   forum:
-    nav: 'Csoport lista'
+    nav: Csoportlista
