@@ -10,18 +10,18 @@ askvortsov-moderator-warnings:
       view_warnings: 'Moderátori figyelmeztetések megtekintése'
   emails:
     post_warned:
-      body: "Kedves {warnee_display_name}!\n\n{warner_display_name} {strike} kihágás miatt figyelmeztette itt: {discussion_title}\n\nAz alábbi okokat adta meg:\n\n---\n\n{public_comment}\n"
-      subject: '{warner_display_name} {strikes} kihágás miatt figyelmeztette itt: {discussion_title}'
+      body: "Kedves {warnee_display_name}!\n\n{warner_display_name} {strike} büntetőponttal figyelmeztette itt: {discussion_title}\n\nA következő okokat adta meg:\n\n---\n\n{public_comment}\n"
+      subject: '{warner_display_name} {strikes} büntetőponttal figyelmeztette itt: {discussion_title}'
     user_warned:
-      body: "Üdv {warnee_display_name}!\n\n{warner_display_name} figyelmeztetett {# strikes}\n\nAz alábbi okokból:\n\n---\n\n{public_comment}\n"
-      subject: '{warner_display_name} figyelmeztetett  {# strike}'
+      body: "Kedves {warnee_display_name}!\n\n{warner_display_name} {strikes} büntetőponttal figyelmeztette.\n\nA következő okokat adta meg:\n\n---\n\n{public_comment}\n"
+      subject: '{warner_display_name} {strikes} büntetőponttal figyelmeztette'
   forum:
     notifications:
-      warning_no_strikes_text: 'Figyelmeztetést kaptál tőle: {mod_username} (no strikes)'
-      warning_text: 'Ez naplózza az értesítésekről szóló információkat a „tárhely/naplók” mappába. Általában le kell tiltani, hogy elkerüljük a naplók szükségtelen feltöltését.'
+      warning_no_strikes_text: '{mod_username} figyelmeztette (nincsenek büntetőpontok)'
+      warning_text: '{mod_username} {strikes} büntetőponttal figyelmeztette'
     post:
-      warning: '{strikes, plural, one {Figyelmeztettett # strike by {mod_username}} other {Figyelmeztettett with # strikes by {mod_username}}}'
-      warning_no_strikes: 'Figyelmeztetés nélkül: {mod_username}'
+      warning: '{mod_username} {strikes} büntetőponttal figyelmeztetve'
+      warning_no_strikes: '{mod_username} büntetőpontok nélkül figyelmeztette'
     post_controls:
       warning_button: 'Felhasználó figyelmeztetése'
     settings:
@@ -29,11 +29,27 @@ askvortsov-moderator-warnings:
     user:
       warnings: 'Moderátori figyelmeztetések'
     validation:
-      public_comment_required: 'Legtöbbször nyilvános megjegyzést teszel.'
+      invalid_strike_count: 'A büntetőpontok számának 0 és 5 között kell lennie.'
+      public_comment_required: 'Nyilvános megjegyzést kell tennie.'
     warning_controls:
       delete_button: Eltávolítás
       delete_forever_button: 'Végleges törlés'
       restore_button: Helyreállítás
     warning_list:
       add_button: 'Új figyelmeztetés'
-      no_warnings: 'Úgy tűnik nincs figyelmeztetés itt.'
+      no_warnings: 'Úgy tűnik, hogy itt nincsenek figyelmeztetések.'
+      warnings: 'Moderátori figyelmeztetések: {strikes} kapott büntetőpont'
+      warnings_no_strikes: 'Moderátori figyelmeztetések: nincsenek büntetőpontok'
+    warning_list_item:
+      linked_post: 'Hozzákapcsolt bejegyzés'
+      list_item_heading: '<strong>{strikes}</strong> büntetőpont'
+      list_item_heading_hidden: '<strong>{strikes}</strong> büntetőpont, {time} <strong>(eltávolítva)</strong>'
+      private_comment: 'Moderátorok számára látható megjegyzések'
+      public_comment: Figyelmeztetés
+    warning_modal:
+      confirmation_message: 'A figyelmeztetés mentve. Lehet, hogy újra kell töltenie a lapot, hogy lássa.'
+      heading: '<strong>{username}</strong> figyelmeztetése'
+      private_comment_heading: '<strong>{username}</strong> miért kapja ezeket a figyelmeztetéseket? Ezek a megjegyzések CSAK a többi moderátor számára lesznek láthatók.'
+      public_comment_heading: '<strong>{username}</strong> miért kapja ezeket a figyelmeztetéseket? Ezek a megjegyzések láthatók lesznek a felhasználó, és a többi moderátor számára.'
+      strikes_heading: 'Hány büntetőpontot kapjon?'
+      submit_button: 'Figyelmeztetés mentése'

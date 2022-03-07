@@ -6,5 +6,5 @@ afrux-news-widget:
   admin:
     settings:
       add_line: 'Új sor hozzáadása'
-      html_warning: 'Legyen figyelmes, a HTML futtatva lesz.'
+      html_warning: 'Legyen óvatos, minden HTML meg lesz jelenítve.'
       lines: 'Hír sorok'

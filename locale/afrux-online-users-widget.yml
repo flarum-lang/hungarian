@@ -5,8 +5,8 @@
 afrux-online-users-widget:
   admin:
     settings:
-      max_users: 'Maximum ennyi felhasználót mutasson'
+      max_users: 'Megjelenítendő felhasználók legnagyobb száma'
   forum:
     widget:
-      empty: 'Nincs jelenleg senki online.'
-      title: 'Felhasználók online'
+      empty: 'Jelenleg senki sem érhető el.'
+      title: 'Elérhető felhasználók'

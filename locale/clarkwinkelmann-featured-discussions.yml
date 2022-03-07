@@ -5,38 +5,39 @@
 clarkwinkelmann-featured-discussions:
   admin:
     permissions:
-      feature: 'Kiemelt beszélgetések kezelése'
+      feature: 'Kiemelt témák kezelése'
     settings:
       duration: 'Alapértelmezett időtartam (másodperc)'
       eventPost: 'Bejegyzés létrehozása az ütemezés módosításakor'
-      schedule: 'Időzítés (CRON syntax)'
+      schedule: 'Ütemezés (CRON szintaxis)'
   forum:
     badge: Kiemelt
     controls:
-      feature: 'Kiemelt téma'
+      feature: 'Téma kiemelése'
     modal:
       action:
-        cancel: Mégsem
+        cancel: Mégse
         submit: Küldés
       fields:
-        from: Tól
-        until: Előtt
+        from: Kezdet
+        until: Befejezés
       from:
         manual: 'Kézi dátum'
-        next: 'Következő slot'
+        next: 'Következő időszak'
         not: 'Nem kiemelt'
-      title: 'Kiemelt témák'
+      title: 'Téma kiemelése'
       until:
-        auto: Automata
+        auto: Automatikus
         manual: 'Kézi dátum'
     nav:
-      schedule: 'Kiemelés időzítése'
+      schedule: 'Kiemelés ütemezése'
     post:
-      scheduled: 'Ütemezve kiemelt témának {from} -tól eddig: {until}'
-      unscheduled: 'Nincs ütemezve'
+      auto: (automatikus)
+      scheduled: 'Kiemelt témának ütemezve {from} és {until} között'
+      unscheduled: 'Már nincs kiemeltnek ütemezve'
     schedule:
       custom: Egyéni
-      drop-error: 'Érvénytelen téma link'
-      drop-here: 'Húzd ide az időzítésért'
+      drop-error: 'Érvénytelen témahivatkozás'
+      drop-here: 'Húzza ide az ütemezéshez'
       empty: 'Nincs téma'
-      help: "Húzza át a beszélgetéseket az oldalon vagy egy másik ablakból az ütemezésük módosításához. Az ütemezés eltávolításához használja a 3 pontos menüt\n"
+      help: "Húzza át a beszélgetéseket az oldalon vagy egy másik ablakból az ütemezésük módosításához. Az ütemezés eltávolításához használja a 3 pontos menüt.\n"

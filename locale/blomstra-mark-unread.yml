@@ -5,7 +5,7 @@
 blomstra-mark-unread:
   admin:
     permissions:
-      mark-unread: 'Beszélgetés olvasatlannak jelölése'
+      mark-unread: 'Téma olvasatlannak jelölése'
   forum:
     controls:
-      mark-unread: 'Olvasatlannak jelöl'
+      mark-unread: 'Megjelölés olvasatlanként'
