@@ -8,11 +8,11 @@ fof-ignore-users:
       can_not_be_ignored_label: 'Nem hagyható figyelmen kívül'
   forum:
     badge:
-      discussion_label: 'Indította egy ignorált felhasználó'
-      user_label: 'Ignorált felhasználó'
-    profile_link: 'Felhasználók, akiket figyelmen kívül hagytál'
+      discussion_label: 'Egy figyelmen kívül hagyott felhasználó indította'
+      user_label: 'Figyelmen kívül hagyott felhasználó'
+    profile_link: 'Figyelmen kívül hagyott felhasználók'
     user_controls:
-      ignore_button: Ignorálás
-      ignore_confirmation: 'Tényleg szeretnéd ignorálni a felhasználót?'
-      unignore_button: 'Ignorálás visszavonása'
-      unignore_confirmation: 'Tényleg visszavonod?'
+      ignore_button: 'Figyelmen kívül hagyás'
+      ignore_confirmation: 'Valóban figyelmen kívül hagyja ezt a felhasználót?'
+      unignore_button: 'Figyelembe vétel'
+      unignore_confirmation: 'Valóban figyelembe veszi a felhasználót?'

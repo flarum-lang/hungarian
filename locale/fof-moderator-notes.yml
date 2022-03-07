@@ -9,18 +9,18 @@ fof-moderator-notes:
       deletenotes: 'Moderátori jegyzetek törlése'
       viewnotes: 'Moderátori jegyzetek megtekintése'
   api:
-    auto_note: '_Váltottam erre a felhasználóra:_ {reason}'
-    auto_note_actor: '_Váltottam_ @{username}: {reason}'
+    auto_note: '_Átváltottam erre a felhasználóra:_ {reason}'
+    auto_note_actor: '_Átváltottam_ @{username} felhasználóra: {reason}'
     no_reason_provided: 'Nincs ok megadva'
   forum:
     moderatorNotes:
       add_button: 'Új jegyzet'
-      confirm: 'Tényleg törlöd a jegyzetet?'
+      confirm: 'Valóban törli ezt a jegyzetet?'
       create-heading: 'Új moderátori jegyzet'
       created_text: '{username} létrehozta ezt a bejegyzést ekkor: {date}'
       delete: Törlés
       dismiss_button: Rendben
-      input_heading: 'Írd be a jegyzetet <strong>{username}</strong> részére, (formázás engedélyezett)'
+      input_heading: 'Írja be a megjegyzéseit <strong>{username}</strong> számára, (a markdown támogatott)'
       noNotes: 'Itt nincsenek jegyzetek.'
       submit_button: Mentés
     no_content_given: 'Üres bejegyzés nem engedélyezett.'
