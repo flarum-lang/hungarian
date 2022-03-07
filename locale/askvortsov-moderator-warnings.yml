@@ -5,13 +5,13 @@
 askvortsov-moderator-warnings:
   admin:
     permissions:
-      delete_warnings: 'A moderátori figyelmeztetések végleges törlése'
+      delete_warnings: 'Moderátori figyelmeztetések végleges törlése'
       manage_warnings: 'Moderátori figyelmeztetések létrehozása és eltávolítása'
-      view_warnings: 'Moderátor figyelmeztetések megtekintése'
+      view_warnings: 'Moderátori figyelmeztetések megtekintése'
   emails:
     post_warned:
-      body: "Üdv {warnee_display_name}!\n\n{warner_display_name} figyelmeztetett {# strike} itt: {discussion_title}\n\nAz alábbi okokból:\n\n---\n\n{public_comment}\n"
-      subject: '{warner_display_name} figyelmeztetett {# strike} other itt: {discussion_title}'
+      body: "Kedves {warnee_display_name}!\n\n{warner_display_name} {strike} kihágás miatt figyelmeztette itt: {discussion_title}\n\nAz alábbi okokat adta meg:\n\n---\n\n{public_comment}\n"
+      subject: '{warner_display_name} {strikes} kihágás miatt figyelmeztette itt: {discussion_title}'
     user_warned:
       body: "Üdv {warnee_display_name}!\n\n{warner_display_name} figyelmeztetett {# strikes}\n\nAz alábbi okokból:\n\n---\n\n{public_comment}\n"
       subject: '{warner_display_name} figyelmeztetett  {# strike}'
@@ -33,7 +33,7 @@ askvortsov-moderator-warnings:
     warning_controls:
       delete_button: Eltávolítás
       delete_forever_button: 'Végleges törlés'
-      restore_button: Visszaállítás
+      restore_button: Helyreállítás
     warning_list:
       add_button: 'Új figyelmeztetés'
       no_warnings: 'Úgy tűnik nincs figyelmeztetés itt.'
