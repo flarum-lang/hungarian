@@ -6,7 +6,7 @@ fof-open-collective:
   admin:
     settings:
       api_key_label: 'API kulcs'
-      desc: 'Kérj API kulcsot innen: <a>https://opencollective.com/applications</a>.'
-      group_label: 'Hozzárendelt csoportok'
-      slug_label: 'Collective Slug'
+      desc: 'Kérjen egy API kulcsot innen: <a>https://opencollective.com/applications</a>.'
+      group_label: 'Hozzárendelendő csoport'
+      slug_label: 'Collective keresőbarát URL'
       title: 'FriendsOfFlarum Open Collective'

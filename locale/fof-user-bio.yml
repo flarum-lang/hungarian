@@ -7,9 +7,9 @@ fof-user-bio:
     permission:
       editAny: 'Bármelyik bemutatkozás szerkesztése'
       editOwn: 'Saját bemutatkozás szerkesztése'
-      view: 'Rólam megtekintése'
+      view: 'Bemutatkozás megtekintése'
     setting:
-      bioLimit: 'Bemutatkozás karakter limit'
+      bioLimit: 'Bemutatkozás karakterkorlátja'
   forum:
-    userbioPlaceholder: 'Írj valamit magadról'
-    userbioPlaceholderOtherUser: 'Írj bemutatkozást neki: {username}'
+    userbioPlaceholder: 'Írjon valamit magáról'
+    userbioPlaceholderOtherUser: 'Írjon bemutatkozást {username} számára'

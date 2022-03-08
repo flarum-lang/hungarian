@@ -5,34 +5,37 @@
 fof-user-directory:
   admin:
     permissions:
-      view_user_directory: 'Felhasználók megtekintése'
+      view_user_directory: 'Felhasználói címtár megtekintése'
     settings:
       default-sort: 'Alapértelmezett rendezés'
       disable-global-search-source: 'Ne adja hozzá a felhasználói címtárat a Flarum globális keresési mezőjéhez'
-      link: 'Link hozzáadása a főoldalhoz hogy a felhasználók elérjék a Felhasználók oldalt'
-      use-small-cards: 'Kisebb kártyák használata'
+      link: 'Hivatkozás hozzáadása a főoldalhoz, hogy a felhasználók lássak a címtárat'
+      use-small-cards: 'Kisebb felhasználói kártyák használata'
   forum:
     header:
-      back_to_user_directory_tooltip: 'Vissza a felhasználókhoz'
+      back_to_user_directory_tooltip: 'Vissza a felhasználói címtárhoz'
     page:
-      empty_text: 'Nem találtunk egyetlen felhasználót sem a keresésed alapján.'
+      empty_text: 'Nem található egyetlen felhasználó sem a keresése alapján.'
       filter_button: 'Csoportok szűrése'
-      load_more_button: 'Több betöltése'
-      nav: Felhasználók
-      refresh_tooltip: Újratölt
+      load_more_button: '=> core.ref.load_more'
+      nav: 'Felhasználói címtár'
+      refresh_tooltip: '=> core.forum.index.refresh_tooltip'
     search:
       field:
         placeholder: 'Összes felhasználó keresése'
-      users_heading: 'Keresés a felhasználók között: "{query}"'
+      kinds:
+        group: Csoport
+        text: 'Szabad szöveg'
+      users_heading: 'Összes felhasználó keresése: „{query}”'
   lib:
     sort:
       default: Alapértelmezett
-      least_discussions: 'Legkevesebb témával rendelkezők'
-      least_posts: 'Legkevesebb hozzászólással rendelkezők'
-      most_discussions: 'Legtöbb témával rendelkezők'
-      most_posts: 'Legtöbb hozzászólással rendelkezők'
+      least_discussions: 'Legkevesebb téma'
+      least_posts: 'Legkevesebb bejegyzés'
+      most_discussions: 'Legtöbb téma'
+      most_posts: 'Legtöbb bejegyzés'
       newest: Újabbak
-      not_specified: 'Flarum alapértelmezett használata'
+      not_specified: 'Flarum alapértelmezésének használata'
       oldest: Régebbiek
       username_az: 'Felhasználónév (a-z)'
       username_za: 'Felhasználónév (z-a)'
