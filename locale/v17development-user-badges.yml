@@ -6,79 +6,86 @@ v17development-flarum-badges:
   admin:
     auto_moderator:
       action_drivers:
-        badge_id: 'Jelvény ID'
+        badge_id: Jelvényazonosító
         give_badge: 'Jelvény adása'
         remove_badge: 'Jelvény eltávolítása'
       badge_selector:
         loading_badges: 'Jelvények betöltése'
-        placeholder: 'Válassz egy jelvényt'
+        placeholder: 'Válasszon egy jelvényt'
       metric_drivers:
-        badges_received: 'Jelvények érkeztek'
+        badges_received: 'Jelvényeket kapott'
       not_installed:
-        content: 'Ez a bővítmény több funkciót kínál, ha az <a>Automatikus moderátor</a> telepítve van és aktiválva van. A bővítmény telepítésekor a felhasználók automatikusan jelvényeket kaphatnak, a közösségi alkalmazottak beavatkozása nélkül!'
-        dismiss: 'Ne mutassa ismét'
+        content: 'Ez a bővítmény több funkciót kínál, ha az <a>Automatikus moderátor</a> telepítve és aktiválva van. A bővítmény telepítésekor a felhasználók automatikusan jelvényeket kaphatnak, a közösségi alkalmazottak beavatkozása nélkül.'
+        dismiss: 'Ne jelenítse meg többet'
         install: Telepítés
-        title: 'Automatikusan jutalmazza a felhasználókat jelvényekkel'
+        title: 'A felhasználók automatikus jutalmazása jelvényekkel'
       requirement_drivers:
         has_badge: 'Jelvénye van'
     badge:
-      description: 'Jelvény leírás'
-      icon: 'Jelvény ikon'
+      background_color: Háttérszín
+      description: 'Jelvény leírása'
+      icon: 'Jelvény ikonja'
+      icon_color: 'Ikon színe'
+      image: 'Jelvény kép URL-je'
+      image_placeholder: 'Adja meg a jelvény képének URL-jét'
+      is_image: 'A jelvény egy kép'
+      is_image_description: 'Kép használata az alapértelmezett jelvény helyett'
+      label_color: Szövegszín
       name: 'Jelvény neve'
       visible: Látható
-      visible_description: 'Engedélyezd ezt a jelvényt. Ha letiltod, a jelvény nem lesz látható.'
+      visible_description: 'A jelvény engedélyezése. Ha letiltja, akkor a jelvény nem lesz látható.'
     badge_category:
       blockview: Blokknézet
-      blockview_description: 'Kategória-jelvények megjelenítése blokknézetben a jelvény áttekintésében. Ha le van tiltva, az összes jelvény egy táblázatban jelenik meg.'
+      blockview_description: 'Kategóriajelvények megjelenítése blokknézetben a jelvény áttekintésében. Ha le van tiltva, az összes jelvény egy táblázatban jelenik meg.'
       description: 'Kategória leírása'
       enabled: Bekapcsolva
-      enabled_description: 'Engedélyezd ezt a kategóriát. Ha le van tiltva, az összes jelvény le lesz tiltva, és a kategória el lesz rejtve.'
+      enabled_description: 'A kategória engedélyezése. Ha le van tiltva, az összes jelvény le lesz tiltva, és a kategória el lesz rejtve.'
       name: 'Kategória neve'
     confirm_dialog:
       'no': Nem
       title: Megerősítés
       'yes': Igen
     confirm_messages:
-      delete_badge: 'Biztosan eltávolítod ezt a jelvényt? Az összes felhasználótól eltávolítódik, és visszafordíthatatlan.'
-      delete_category: 'Biztosan eltávolítod ezt a kategóriát? Ha vannak jelvények ebben a kategóriában, azokat „kategória nélküli”-nek jelöljük meg.'
+      delete_badge: 'Valóban eltávolítja ezt a jelvényt? Az összes felhasználótól el lesz véve, és ez nem fordítható vissza.'
+      delete_category: 'Valóban eltávolítja ezt a kategóriát? Ha vannak jelvények ebben a kategóriában, akkor azok „kategória nélküliként” lesznek jelölve.'
     create_category: 'Kategória létrehozása'
     edit_category: 'Kategória szerkesztése'
     new_badge: 'Új jelvény'
-    nothing_here_yet: 'Még nem hoztál létre kategóriát vagy jelvényt.'
+    nothing_here_yet: 'Még nem hozott létre kategóriát vagy jelvényt.'
     permissions:
       badge_detail_users: 'A felhasználók megjelenítése a jelvény részleteinek oldalán'
-      give_badge: 'Adj jelvényt a felhasználónak'
-      take_badge: 'Vegyél el jelvényt a felhasználótól'
+      give_badge: 'Jelvény adása a felhasználónak'
+      take_badge: 'Jelvény elvétele a felhasználótól'
     uncategorized: 'Kategória nélküli'
     update_badge: 'Jelvény frissítése'
     update_category: 'Kategória frissítése'
   forum:
-    all_badges: 'Összes jelvény'
-    all_users: 'Összes felhasználó'
+    all_badges: 'Összes jelvény megtekintése'
+    all_users: 'Összes felhasználó megtekintése'
     badge:
       badge: Jelvény
-      badge_details: 'Jelvény részletek'
+      badge_details: 'Jelvény részletei'
       badges: Jelvények
-      category: 'Jelvény kategória'
+      category: 'Jelvény kategóriája'
       description: 'Jelvény leírása'
-      earned_by_count: '{count, plural, one {Megszerezve <b># felhasználó</b> által} other {Megszerezve <b># felhasználó</b> által}}'
-      earned_count: '{count, plural, one {<b># felhasználó</b> kapta meg ezt a jelvényt} other {<b># felhasználó</b> kapta meg ezt a jelvényt}}'
-      earned_on: 'A jelvény megszerzése'
+      earned_by_count: '<b>{count} felhasználó</b> érdemelte ki'
+      earned_count: '<b>{count} felhasználó</b> érdemelte ki ezt a jelvényt'
+      earned_on: 'Jelvény megszerzési ideje'
       earning_reason: 'A jelvény megszerzésének oka'
       name: 'Jelvény neve'
-      no_earning_reason: 'Nincs beállítva ok'
-      received_on: 'Megszerezve {date}'
-      update_earning_reason: 'Jelvény frissítés oka'
-    badge_information: 'Jelvény információk'
-    give_badge: 'Adj jelvényt'
+      no_earning_reason: 'Nincs beállítva megszerzési ok'
+      received_on: 'Megszerezve: {date}'
+      update_earning_reason: 'Megszerzés okának frissítése'
+    badge_information: Jelvényinformációk
+    give_badge: 'Jelvény adása'
     moderation:
-      give_badge: 'Adj jelvényt'
-      remove_badge: 'Jelvény eltávolítása'
-      remove_badge_confirm: 'Tényleg eltávolítod a jelvényt?'
+      give_badge: 'Jelvény megadása'
+      remove_badge: 'Jelvény eltávolítása a felhasználótól'
+      remove_badge_confirm: 'Valóban eltávolítja a jelvényt a felhasználótól?'
     no_received: 'Egyetlen felhasználó sem érdemelte ki ezt a jelvényt.'
     notification:
       settings: 'Jelvényt kaptam'
-      title: 'Új jelvényt kaptál'
+      title: 'Új jelvényt kapott'
     select_badge: 'Jelvény kiválasztása'
     uncategorized: '=> v17development-flarum-badges.admin.uncategorized'
     update_badge: 'Jelvény frissítése'

@@ -4,19 +4,19 @@
 
 flarum-ext-welcomebox:
   admin:
-    UseWidget: 'A widget verzió használata'
-    enablepostbox: 'A Welcome Box bekapcsolása vendégeknek'
-    img: 'Kép url (Guest Box)'
-    img-help: 'írd ide a kép URL-jét'
+    UseWidget: 'A modul verzió használata'
+    enablepostbox: 'A Welcome Box bekapcsolása a vendégek számára'
+    img: 'Kép URL (Vendég doboz)'
+    img-help: 'írja ide a vendég doboz kép URL-jét'
   forum:
     SettingsLink: Beállítások
     discussion: '=> core.ref.discussions'
     goToProfile: Profil
     lastSeen: 'Utolsó látogatás'
-    notregistered: 'Jelenleg nem vagy regisztrálva a fórumra.'
+    notregistered: 'Jelenleg nincs regisztrálva a fórumra.'
     npost: '=> core.ref.posts'
     tooltipDisclist: 'Saját témák'
     tooltipMentions: Említések
     tooltipProfile: Profil
-    wback: 'Üdv ismét,'
-    welcomeguest: 'Üdv, vendég'
+    wback: 'Üdvözöljük újra,'
+    welcomeguest: 'Üdvözöljük, vendég'
