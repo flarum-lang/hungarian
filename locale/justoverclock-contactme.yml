@@ -5,24 +5,24 @@
 flarum-ext-contactme:
   admin:
     settings:
-      emaillabel: 'E-mail-cím ahová a kapcsolat form küldi a levelet'
+      emaillabel: 'E-mail-cím, ahová a kapcsolati űrlap lesz küldve'
   email:
     contact:
-      body: "Üdv!\n\nÚj üzenet érkezett a kapcsolat formán keresztül: {username} (e-mail: {email})\n\nÜzenet:\n\n{message}"
-      subject: 'Új kapcsolat'
+      body: "Üdv!\n\nÚj üzenet érkezett a kapcsolati űrlapon keresztül: {username} (e-mail: {email})\n\nAz üzenet:\n\n{message}"
+      subject: 'Új kapcsolat az űrlapon keresztül'
   forum:
     backsoon: 'hamarosan válaszolunk'
     emailfield: 'Írja be az e-mail-címét'
     messagesent: 'Üzenet elküldve!'
-    notloggedin: 'Kérjük jelentkezzen be'
+    notloggedin: 'Jelentkezzen be a kapcsolati űrlap használatához'
     pText: "...\n"
     pageTitle: .Kapcsolat
     placeholderName: 'Írja be a nevét'
-    plsregister: 'Kérjük regisztráljon vagy jelentkezzen be'
+    plsregister: 'Regisztráljon vagy jelentkezzen be'
     sendForm: 'Üzenet elküldése'
-    subject: Üzenet
-    textAreaField: 'Írja be az üzenetét'
+    subject: 'Üzenet a kapcsolati űrlapról'
+    textAreaField: 'Írja ide az üzenetét'
     title: Kapcsolat
-    tocontinue: 'to continue with this contact form'
+    tocontinue: 'a kapcsolati űrlap folytatásához,'
   settings:
-    emaillabel: 'E-mail-cím ahová a kapcsolat form küldi a levelet'
+    emaillabel: 'E-mail-cím, ahová a kapcsolati űrlap lesz küldve'

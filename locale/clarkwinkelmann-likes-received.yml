@@ -5,7 +5,7 @@
 clarkwinkelmann-likes-received:
   admin:
     permission:
-      view: 'A kapott kedvelések megtekintése'
+      view: 'Kapott kedvelések megtekintése'
   forum:
     user-card:
-      likes: '{likes, plural, one {# lájkot kapott} other {# lájkot kapott}}'
+      likes: '{count} kedvelést kapott'
