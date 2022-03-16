@@ -18,6 +18,8 @@ v17development-flarum-blog:
       categories_heading: Kategóriák
       default_article_image_label: 'Alapértelmezett cikk kép'
       default_article_image_text: 'Válaszd ki az alapértelmezett képet, amely azoknál a cikkeknél jelenik meg ahol nincs kép csatolva.'
+      featured_count_label: 'Kiemelt bejegyzések legnagyobb száma'
+      featured_count_text: 'Hány bejegyzés jelenjen meg a blog oldal tetején található nagy rácsban?'
       hide_on_discussion_list_label: 'Ne mutassa a beszélgetés listában'
       hide_on_discussion_list_text: 'Blog hozzáaszólások elrejtése a beszélgetés listában.'
       hide_tags_in_taglist_label: 'Címék elrejtése a címke listából'
