@@ -6,6 +6,8 @@ ianm-synopsis:
   admin:
     settings:
       excerpt-label: 'Az összefoglaló hossza (karakter)'
+      excerpt-length:
+        label: 'Összegző kivonat hossza karakterekben'
       excerpt-type: 'Melyik hozzászólás jelenjen meg az összefoglalóban?'
       first-label: 'Első hozzászólás'
       last-label: 'Utolsó hozzászólás'

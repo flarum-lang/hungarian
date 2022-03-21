@@ -5,8 +5,8 @@
 ffans-clipboardjs:
   admin:
     settings:
-      codeLang_label: 'Nyelv kód mutatása'
-      copy_enable_label: 'Kód másolás bekapcsolása'
+      codeLang_label: 'Nyelvkód megjelenítése'
+      copy_enable_label: 'Kódmásolás bekapcsolása'
       themes:
         cnblog: cnBlogs
         csdn: CSDN
@@ -15,11 +15,11 @@ ffans-clipboardjs:
         jianshu: 'Jian Shu'
         lingcoder: LingCoder
         segmentfault: SegmentFault
-      themes_label: 'A Másolás gomb stílusa'
+      themes_label: 'A másolás gomb stílusa'
   forum:
     action_copy: Másolás
     action_cut: Kivágás
     error_btn: Hiba
-    msg: 'Nyomd meg a(z) {actionKey} hogy {action}'
+    msg: 'Nyomja a(z) {actionKey} gombot a következőhöz: {action}'
     no_support: 'Nem támogatott'
     ok_btn: Másolva
