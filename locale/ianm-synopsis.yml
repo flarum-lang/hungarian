@@ -7,11 +7,17 @@ ianm-synopsis:
     settings:
       excerpt-label: 'Az összefoglaló hossza (karakter)'
       excerpt-length:
-        label: 'Összegző kivonat hossza karakterekben'
+        help: 'Hány karakter jelenjen meg a bejegyzésből.'
+        label: 'Összegző részlet hossza karakterekben'
       excerpt-type: 'Melyik hozzászólás jelenjen meg az összefoglalóban?'
-      first-label: 'Első hozzászólás'
-      last-label: 'Utolsó hozzászólás'
+      excerpt-type.help: 'Válasszon, hogy az első vagy az utolsó bejegyzés legyen használva az összefoglaló tartalomhoz'
+      excerpt-type.label: 'Melyik bejegyzés jelenjen meg a részletként?'
+      first-label: 'Első bejegyzés'
+      last-label: 'Utolsó bejegyzés'
       rich-excerpts: 'Jelenjenek meg a formázások (használd elővigyázatosan)'
+      rich-excerpts.help: 'Ha be van kapcsolva, akkor képek, beágyazott és más nem szöveges elemek is szerepelhetnek az összegzésben'
+      rich-excerpts.label: 'Részlet megjelenítése multimédiás tartalommal együtt'
+      tags-enabled: 'A <code>flarum/tags</code> be van kapcsolva. Ezek a beállítások lesznek az alapértelmezettek, hacsak az egyes címkék nem rendelkeznek saját beállításokkal.'
   forum:
     user:
       settings:
