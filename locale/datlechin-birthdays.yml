@@ -6,28 +6,34 @@ datlechin-birthdays:
   admin:
     permissions:
       edit_own_birthday_label: 'Saját születésnap szerkesztése'
+      view_birthday_label: 'Születésnap megtekintése'
     settings:
-      date_format_help: 'A <a>dayjs</a> dátum formátum használata. hagyja üresen az alapértelmezett formátumért.'
-      date_format_label: 'Dátum formátum'
-      date_none_year_label: 'Dátum formátuma év nélkül'
+      date_format_help: 'A <a>dayjs</a> dátumformátum használata. Az alapértelmezett formátum használatához hagyja üresen.'
+      date_format_label: Dátumformátum
+      date_none_year_label: 'Év nélküli dátumformátuma'
+      min_age_help: 'Regisztráció minimális életkora'
+      min_age_label: 'Minimális életkor'
+      required_help: 'Engedélyeznie kell a regisztrációkori megadást, hogy ez a lehetőség működjön'
+      required_label: 'A születésnap megadásának megkövetelése'
       set_on_registration_label: 'Születésnap beállításának engedélyezése regisztrációkor'
   api:
-    invalid_dob_message: 'A születésnapja nem lehet régebbi mint 100 év.'
+    invalid_age_message: 'Legalább {minAge} évesnek kell lennie.'
+    invalid_dob_message: 'Érvénytelen születési dátum'
   forum:
     change_dob:
-      date_of_birth_text: Születésnap
+      date_of_birth_text: 'Születési dátum'
       submit_button: '=> core.ref.save_changes'
-      title: 'Születésnap szerkesztése'
+      title: 'Születési dátum szerkesztése'
     edit_user:
-      dob_heading: Születésnap
+      dob_heading: 'Születési dátum'
     header:
-      edit_dob_button: 'Születésnap szerkesztése'
+      edit_dob_button: 'Születési dátum szerkesztése'
     settings:
-      change_dob_label: 'Születésnap szerkesztése'
-      dob_heading: Születésnap
-      show_dob_date_label: 'Mutassa a napot és hónapot'
-      show_dob_year_help: 'Ez megengedi a felhasználóknak hogy láthassák hány éves.'
-      show_dob_year_label: 'Mutassa az évet'
+      change_dob_label: 'Születési dátum szerkesztése'
+      dob_heading: 'Születési dátum'
+      show_dob_date_label: 'A nap és hónap megjelenítése'
+      show_dob_year_help: 'Ez megengedi a felhasználóknak, hogy láthassák hány éves.'
+      show_dob_year_label: 'Az év megjelenítése'
     user:
       age_text: 'Életkor: {age}'
       birthday_text: 'Születésnap: {date}'

@@ -9,34 +9,41 @@ fof-masquerade:
       delete-field: 'Mező törlése'
       edit-field: 'Módosítások mentése'
     fields:
-      add: 'Mező hozzáadása {field}'
+      add: '{field} mező hozzáadása'
       description: 'Mező leírása'
-      description-help: "Opcionális leírás a mező használatának/szükségletének magyarázatához.\n"
-      edit: 'Mező szerkesztése {field}'
+      description-help: "Esetleges leírás a mező használatának/szükségének magyarázatához.\n"
+      edit: '{field} mező szerkesztése'
       force-user-to-completion: 'Felhasználó kötelezése hogy kitöltse a profil adatokat'
       icon: Ikon
+      icon-help: "Egy ikont jelenít meg a felhasználó által megadott értékek előtt. Az elérhető ikonok referenciájához nézze meg a <a>Fontawesome weboldalát</a>. A „fa-” előtagú ikonneveket használja, például „fas fa-info”.\n"
       name: 'Mező neve'
       name-help: "A nyilvánosan látható (nem lefordítható) mezőcímke.\n"
-      on_bio: 'Válasz megjelenítése erre a mezőre a felhasználói életrajzban'
-      option-new: 'Új opció'
-      options: Opciók
-      prefix: 'Mező prefix'
+      on_bio: 'A mezőre adott válasz megjelenítése a felhasználói életrajzban'
+      option-comma-warning: 'A lehetőség címkéje nem tartalmazhat vesszőt („,”).'
+      option-new: 'Új lehetőség'
+      options: Lehetőségek
+      prefix: 'Mező előtagja'
       prefix-help: "Megjeleníti az előtagot a felhasználó által ebbe a mezőbe beírt értékek előtt.\n"
       required: 'Megjelölés kötelezőként'
       title: Mezők
       type: Típus
-      validation: Validálás
+      validation: Ellenőrzés
+      validation-help: "A támogatott <a>Laravel ellenőrzési szabályok</a> vizsgálata. Például „string|min:5” vagy „url”.\n"
     general-options: 'Általános beállítások'
     permissions:
-      edit-others-profile: 'Szerkessze más felhasználók profilját'
-      have-profile: 'Lehet ál-profilja'
-      view-profile: 'Ál-profil megtekintése'
+      edit-others-profile: 'Más felhasználók profiljának szerkesztése'
+      have-profile: 'Lehet álprofilja'
+      view-profile: 'Álprofil megtekintése'
     types:
-      advanced: Haladó
+      advanced: Speciális
+      boolean: Jelölőmező
+      email: E-mail
+      select: Legördülő
+      url: URL
   forum:
     alerts:
-      profile-completed: 'A profil elkészült! <a>Tovább a kezdőlapra</a>'
-      profile-completion-required: "Kérjük, töltse ki a szükséges profilmezőket alább.\n"
+      profile-completed: 'A profil elkészült. <a>Tovább a kezdőlapra</a>'
+      profile-completion-required: "Töltse ki az alábbi szükséges profilmezőket.\n"
     buttons:
       edit-profile: 'Profil szerkesztése'
       save-profile: Mentés
@@ -46,5 +53,5 @@ fof-masquerade:
         'no': Nem
         'yes': Igen
       select:
-        none-optional: 'Nincs kiválasztva opció (opcionális)'
-        none-required: 'Kérjük, válasszon egy lehetőséget (kötelező)'
+        none-optional: 'Nincs kiválasztva lehetőség (nem kötelező)'
+        none-required: 'Válasszon egy lehetőséget (kötelező)'
