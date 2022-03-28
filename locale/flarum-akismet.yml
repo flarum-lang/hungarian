@@ -5,9 +5,13 @@
 flarum-akismet:
   admin:
     akismet_settings:
-      api_key_label: 'API kulcs'
+      api_key_label: API-kulcs
+      delete_blatant_spam_help: 'Ha az Akismet azt állapította meg, hogy a megjegyzés egyértelműen kéretlen tartalom, akkor a megjelölés helyett automatikusan törli a bejegyzést'
+      delete_blatant_spam_label: 'Egyértelmű kéretlen tartalom automatikus törlése'
       title: 'Akismet beállítások'
+    permissions:
+      bypass_akismet: 'Akismet megkerülése'
   forum:
     post:
-      akismet_flagged_text: 'Akismet spamnek jelölte'
-      not_spam_button: 'Nem spam'
+      akismet_flagged_text: 'Az Akismet kéretlen tartalomnak jelölte'
+      not_spam_button: 'Nem kéretlen tartalom'

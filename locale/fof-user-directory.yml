@@ -5,7 +5,7 @@
 fof-user-directory:
   admin:
     permissions:
-      view_user_directory: 'Felhasználói címtár megtekintése'
+      view_user_directory: Felhasználók
     settings:
       default-sort: 'Alapértelmezett rendezés'
       disable-global-search-source: 'Ne adja hozzá a felhasználói címtárat a Flarum globális keresési mezőjéhez'

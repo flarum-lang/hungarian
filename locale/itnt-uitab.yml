@@ -5,5 +5,11 @@
 itnt-uitab:
   admin:
     settings:
-      help_text: 'Ha a Flarum egy alkönyvtárba van telepítve, kérjük, add meg az alkönyvtárat (perrel a végén), ellenkező esetben hagyd meg az alapértelmezett értéket. például. <code>/sub/</code>'
+      composer_icon_label: 'Szerkesztő ikon'
+      discussions_icon_label: 'Témák ikon'
+      help_text: 'Ha a Flarum egy alkönyvtárba van telepítve, akkor adja meg az alkönyvtárat (perrel a végén), ellenkező esetben hagyja meg az alapértelmezett értéket, például <code>/sub/</code>'
       home_page_label: Alkönyvtár
+      icon_help: 'Hagyja üresen az alapértelmezett ikon használatához.'
+      notifications_icon_label: 'Értesítések ikon'
+      settings_icon_label: 'Beállítások ikon'
+      tags_icon_label: 'Címkék ikon'
