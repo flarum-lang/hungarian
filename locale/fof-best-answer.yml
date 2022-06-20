@@ -71,3 +71,5 @@ fof-best-answer:
         select_best_answer: 'Automatizált emlékeztető az általam kezdett téma legjobb válaszának kiválasztásához'
     remove_best_answer: 'Legjobb válasz kiválasztásának visszavonása'
     this_best_answer: 'Legjobb válasz kiválasztása'
+    user:
+      best-answer-count: '{count} legjobb válasz'

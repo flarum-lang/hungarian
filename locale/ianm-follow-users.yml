@@ -6,6 +6,8 @@ ianm-follow-users:
   admin:
     permissions:
       be_followed_label: 'Követés engedélyezése a felhasználók számára'
+    settings:
+      button-on-profile-label: 'A Követés gomb megjelenítése közvetlenül a felhasználó profiljának fejlécében'
   email:
     new_discussion_by_user_body: "Kedves {recipient_display_name}!\n\n{user_display_name} új témát nyitott: {discussion_title}\n\nA téma megtekintéséhez kattintson a következő hivatkozásra:\n\n{discussion_url}\n\n---\n\n{post_content}\n"
     new_discussion_by_user_subject: '[Felhasználó követése] {title}'
