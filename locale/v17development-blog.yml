@@ -10,14 +10,16 @@ v17development-flarum-blog:
       auto_approve_posts: 'Cikkek mentése jóváhagyás nélkül'
       write_articles: 'Blog cikkek írása és szerkesztése'
     settings:
+      add_hero_label: 'Üdvözlő banner megjelenítése'
+      add_hero_text: 'Üdvözlő banner megjelenítése a blogoldalakon, ha még nem lett bezárva.'
       add_sidebar_nav_label: 'Hozzáadás a navigációhoz'
       add_sidebar_nav_text: 'Bloghivatkozás megjelenítése az oldalsó menüben.'
       allow_comments_label: 'Hozzászólások engedélyezése'
       allow_comments_text: 'Alapértelmezetten hozzá lehet szólni a cikkekhez. Ha ki van kapcsolva, akkor cikkenként lehet beállítani hogy hozzá lehet-e szólni. <b>Megjegyzés:</b> A jelen beállítások nem módosítják a már létező cikkeket.'
       blog_heading: Blog
       categories_heading: Kategóriák
-      default_article_image_label: 'Alapértelmezett cikk kép'
-      default_article_image_text: 'Válaszd ki az alapértelmezett képet, amely azoknál a cikkeknél jelenik meg ahol nincs kép csatolva.'
+      default_article_image_label: 'Alapértelmezett cikk-kép'
+      default_article_image_text: 'Válassza ki az alapértelmezett képet, amely azoknál a cikkeknél jelenik meg, ahol nincs kép megadva.'
       featured_count_label: 'Kiemelt bejegyzések legnagyobb száma'
       featured_count_text: 'Hány bejegyzés jelenjen meg a blog oldal tetején található nagy rácsban?'
       hide_on_discussion_list_label: 'Ne jelenjen meg a témalistában'
@@ -27,8 +29,8 @@ v17development-flarum-blog:
       no_categories_selected: 'Nincs kategória kiválasztva'
       redirect_articles_label: 'Blogcikkek átirányítása'
       redirect_articles_text: 'Ha be van kapcsolva, az eredeti beszélgetés a blogra lesz irányítva.'
-      redirect_tags_label: 'Blog címkék átirányítása'
-      redirect_tags_text: 'Ha be van kapcsolva, a blog címke URL át lesz irányítva a blog kategóriára.'
+      redirect_tags_label: 'Blogcímkék átirányítása'
+      redirect_tags_text: 'Ha be van kapcsolva, a blogcímke URL át lesz irányítva a blog kategóriára.'
       redirects_heading: Átirányítások
       require_review_label: 'A blogbejegyzésekhez jóváhagyás szükséges'
       require_review_text: 'A cikk létrehozásakor az nem lesz közvetlenül látható, csak egy moderátor jóváhagyása után.'
@@ -38,44 +40,44 @@ v17development-flarum-blog:
       show_tag_hierarchy_text: 'Behúzás hozzáadása az alkategóriákhoz, és hierarchia adása a kategórialistához.'
   forum:
     article:
-      slug: Slug
+      slug: 'Keresőbarát URL'
       summary: Összefoglaló
       title: Cím
     blog: Blog
     categories: Kategóriák
-    category_empty: 'Ebben a kategóriában nincsenek cikkek.'
+    category_empty: 'Ebben a kategóriában nincsenek blogbejegyzések.'
     comment_section:
       comments: Hozzászólások
       locked: 'A hozzászólások nem engedélyezettek ennél a cikknél'
     compose:
-      write_article: 'Cikk létrehozása'
+      write_article: 'Cikk írása'
     composer:
       comment_section: 'A hozzászólás rész nem jelenik meg ameddig a cikk szerkesztés alatt van.'
       edit_categories: 'Kategóriák szerkesztése'
-      enter_message_here: 'Írd az üzenetet ide'
+      enter_message_here: 'Írja ide az üzenetet'
       no_blog_tags_selected: 'Egyik címke sem blog címke, amit kiválasztottál. Kérünk válassz másikat.'
       no_title: 'Nincs cím'
       nothing_to_preview: 'Nincs előnézet'
-      post_article: 'Cikk mentése'
+      post_article: 'Cikk beküldése'
       post_without_blog_info: 'Biztosan el akarja küldeni ezt a blogbejegyzést? Még nem írtál be blog-összefoglalót vagy nem töltöttél fel képet.'
       select_category: 'Válassz kategóriát'
       update_settings: 'Blog beállítások frissítése'
       view: Megtekintés
       write: Írj
-    forum_nav: 'Fórum navigáció'
+    forum_nav: Fórumnavigáció
     hidden: Elrejtve
-    no_more_posts: 'Nincs több cikk.'
-    read_more: Több
+    no_more_posts: 'Nincs több blogbejegyzés.'
+    read_more: Tovább
     recent_posts: 'Friss cikkek'
-    return_to_overview: 'Vissza a blog összefoglalóhoz '
+    return_to_overview: 'Vissza a blogösszefoglalóhoz '
     review_article:
       approve_article: 'Cikk jóváhagyása'
-      approve_article_approved: 'A cikk jóváhagyva és publikálva'
-      pending_review: 'Jóváhagyásra vár, addig nem jelenik meg publikusan'
-      pending_review_title: 'Várakozik a jóváhagyásra'
+      approve_article_approved: 'A cikk jóvá lett hagyva és közzé lett téve'
+      pending_review: 'Ez cikk jóváhagyásra vár, és még nem lett közzétéve'
+      pending_review_title: 'Jóváhagyásra vár'
     tools:
       approve_article: 'Cikk jóváhagyása'
-      article_settings: 'Cikk beállítások'
+      article_settings: 'Cikk beállításai'
       delete_forever: 'Végleges törlés'
       disable_comments: 'Hozzászólások kikapcsolása'
       edit_article: 'Cikk szerkesztése'
@@ -86,7 +88,7 @@ v17development-flarum-blog:
       update_category: 'Kategóriák frissítése'
     utils:
       redirect:
-        link: '<a>Kattints ide</a> ha nem lettél átirányítva'
-        title: 'Átirányítás a blog cikkhez...'
+        link: '<a>Kattintson ide</a>, ha az oldal nem irányítja át'
+        title: 'Átirányítás a blogcikkhez...'
     validation:
-      missing_id: 'Hiányzó ID'
+      missing_id: 'Hiányzó azonosító'
