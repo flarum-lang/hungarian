@@ -52,18 +52,18 @@ v17development-flarum-blog:
     compose:
       write_article: 'Cikk írása'
     composer:
-      comment_section: 'A hozzászólás rész nem jelenik meg ameddig a cikk szerkesztés alatt van.'
+      comment_section: 'A hozzászólások rész addig nem jelenik meg, ameddig a cikk szerkesztés alatt van.'
       edit_categories: 'Kategóriák szerkesztése'
       enter_message_here: 'Írja ide az üzenetet'
-      no_blog_tags_selected: 'Egyik címke sem blog címke, amit kiválasztottál. Kérünk válassz másikat.'
+      no_blog_tags_selected: 'Egyik kiválasztott címke sem blogcímke. Válasszon legalább egyet.'
       no_title: 'Nincs cím'
       nothing_to_preview: 'Nincs előnézet'
       post_article: 'Cikk beküldése'
-      post_without_blog_info: 'Biztosan el akarja küldeni ezt a blogbejegyzést? Még nem írtál be blog-összefoglalót vagy nem töltöttél fel képet.'
-      select_category: 'Válassz kategóriát'
-      update_settings: 'Blog beállítások frissítése'
+      post_without_blog_info: 'Biztos, hogy beküldi ezt a blogbejegyzést? Még nem írt be blogösszefoglalót, vagy nem töltött fel képet.'
+      select_category: 'Válasszon kategóriát'
+      update_settings: 'Blogbeállítások frissítése'
       view: Megtekintés
-      write: Írj
+      write: Írás
     forum_nav: Fórumnavigáció
     hidden: Elrejtve
     no_more_posts: 'Nincs több blogbejegyzés.'
