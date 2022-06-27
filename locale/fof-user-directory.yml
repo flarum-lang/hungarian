@@ -20,6 +20,9 @@ fof-user-directory:
       load_more_button: '=> core.ref.load_more'
       nav: 'Felhasználói címtár'
       refresh_tooltip: '=> core.forum.index.refresh_tooltip'
+      usercard:
+        discussion-count: '{count} téma'
+        post-count: '{count} bejegyzés'
     search:
       field:
         placeholder: 'Összes felhasználó keresése'

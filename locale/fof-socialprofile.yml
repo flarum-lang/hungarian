@@ -9,7 +9,7 @@ fof-socialprofile:
       editOwn: 'Saját közösségi profil szerkesztése'
       view: 'Közösségi profil megtekintése'
     settings:
-      allow_external_favicons_label: 'Külső webhelyikonok engedélyezése'
+      allow_external_favicons_label: 'Külső webhelyikonok engedélyezése (a DuckDuckGo favikon API-ját használja)'
   forum:
     edit:
       add: 'Gombok hozzáadása a közösségi médiáihoz'

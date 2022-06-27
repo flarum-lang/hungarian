@@ -7,6 +7,7 @@ flarum-suspend:
     permissions:
       suspend_users_label: 'Felhasználók felfüggesztése'
   email:
+    no_reason_given: 'Nem lett megadva a felfüggesztés oka.'
     suspended:
       body: "Kedves {recipient_display_name}!\n\nA fiókját a következő okból felfüggesztették:\n\n---\n{suspension_message}\n---\n"
       subject: 'A fiókját felfüggesztették'

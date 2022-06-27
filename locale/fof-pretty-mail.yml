@@ -11,6 +11,13 @@ fof-pretty-mail:
     nav:
       desc: 'HTML e-mail sablonok testreszabása.'
     settings:
+      attributes:
+        body: 'Az e-mail tényleges szövegét tartalmazza'
+        forumStyle: 'A <strong>teljes fórum CSS-t</strong> tartalmazza'
+        link: 'Az e-mailen belüli hivatkozást tartalmazza'
+        settings: 'Lehetővé teszi, hogy kapcsolatba lépjen a SettingsRepositoryInterface-szel'
+        url: 'A Flarum <code>UrlGenerator</code> összetevője'
+      attributes_label: 'Elérhető attribútumok'
       confirm: 'Valóban visszaállítja a következő alapértelmezett sablonját:'
       default: 'Alapértelmezett sablon'
       help: 'A „$body” tartalmazza az e-mail tényleges tartalmát, a „$forumStyle” tartalmazza a <strong>teljes fórum CSS-t</strong>, az „$url” a Flarum URL előállítója, a „$settings” lehetővé teszi, hogy kapcsolatba lépjen a SettingsRepositoryInterface-szel, és a „$link” tartalmazza az e-mailben található hivatkozást. Nézze meg az egyes sablonokat az egyes változók használatáról.'
@@ -20,4 +27,5 @@ fof-pretty-mail:
       notifications: 'Értesítési sablonok'
       postMentioned: 'Hozzászólások megemlítésének e-mailje'
       reset: 'Alapértelmezett visszaállítása'
+      template_help: 'Lásd a sablonokat, hogy miként kell használni az egyes attribútumokat.'
       userMentioned: 'Felhasználó megemlítéseinek e-mailje'
