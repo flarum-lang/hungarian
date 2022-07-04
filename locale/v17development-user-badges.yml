@@ -52,10 +52,15 @@ v17development-flarum-badges:
     edit_category: 'Kategória szerkesztése'
     new_badge: 'Új jelvény'
     nothing_here_yet: 'Még nem hozott létre kategóriát vagy jelvényt.'
+    number_of_badges_on_user_card: 'Jelvények száma'
+    number_of_badges_on_user_card_help: 'A felhasználói kártyán megjelenítendő jelvények száma'
     permissions:
       badge_detail_users: 'A felhasználók megjelenítése a jelvény részleteinek oldalán'
+      edit_card_badges: 'Felhasználói jelvények szerkesztése'
+      edit_own_card_badges: 'Saját felhasználói jelvények szerkesztése'
       give_badge: 'Jelvény adása a felhasználónak'
       take_badge: 'Jelvény elvétele a felhasználótól'
+    show_badges_on_user_card: 'Jelvények megjelenítése a felhasználói kártyán'
     uncategorized: 'Kategória nélküli'
     update_badge: 'Jelvény frissítése'
     update_category: 'Kategória frissítése'
@@ -74,9 +79,16 @@ v17development-flarum-badges:
       earning_reason: 'A jelvény megszerzésének oka'
       name: 'Jelvény neve'
       no_earning_reason: 'Nincs beállítva megszerzési ok'
+      others_link: '+ {count} további'
       received_on: 'Megszerezve: {date}'
       update_earning_reason: 'Megszerzés okának frissítése'
     badge_information: Jelvényinformációk
+    badges_in_card:
+      description: 'Lecserélheti a felhasználói kártyáján látható jelvényeket más jelvényekre. Ha nem választ ki egyet sem, akkor automatikusan ki lesznek választva.'
+      hit_limit: 'Csak <b> {limit, plural, one {<b>egy jelvénynek</b>} other {<b># jelvénynek</b>}}</b> van hely az Ön kártyáján. Távolítson el egyet, hogy helyet csináljon ennek a jelvénynek.'
+      manage_badges: 'Jelvények kezelése'
+      select_limit: '{limit, plural, one {<b>Egy jelvényt</b>} other {<b># jelvényt</b>}} választhat ki, hogy látható legyen a felhasználói kártyáján.'
+      title: 'Felhasználói kártyán lévő jelvények'
     give_badge: 'Jelvény adása'
     moderation:
       give_badge: 'Jelvény megadása'
@@ -86,6 +98,7 @@ v17development-flarum-badges:
     notification:
       settings: 'Jelvényt kaptam'
       title: 'Új jelvényt kapott'
+    save_changes: 'Módosítások mentése'
     select_badge: 'Jelvény kiválasztása'
     uncategorized: '=> v17development-flarum-badges.admin.uncategorized'
     update_badge: 'Jelvény frissítése'

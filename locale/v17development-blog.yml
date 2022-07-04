@@ -43,6 +43,19 @@ v17development-flarum-blog:
       slug: 'Keresőbarát URL'
       summary: Összefoglaló
       title: Cím
+    article_settings:
+      fields:
+        highlight:
+          helper_text: 'Adjon egy nagy képet ehhez a bejegyzéshez a blog áttekintő oldalán.'
+          title: 'Kiemelt bejegyzés'
+        image:
+          helper_text: 'A közösségi média szempontjából legjobb felbontás: 1200×630'
+          title: 'Cikk képe'
+        summary:
+          helper_text: 'Ez a összefoglalás látható lesz a blog áttekintő oldalán, és keresőoptimalizációs célra lesz használva.'
+          placeholder: 'Adjon meg egy összefoglalást'
+          title: 'Cikk összefoglalása'
+      title: Blogbejegyzés-beállítások
     blog: Blog
     categories: Kategóriák
     category_empty: 'Ebben a kategóriában nincsenek blogbejegyzések.'

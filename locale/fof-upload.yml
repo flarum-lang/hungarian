@@ -17,7 +17,17 @@ fof-upload:
       s3_instance_profile: "Hagyja a kulcsot és a titkot üresen, hogy a példány profiljában lévő hitelesítő adatokat használja.\n"
       watermark: "Válasszon, hogy a képek vízjelet kapjanak-e feltöltéskor. A vízjelek a nem GIF képekhez lesznek adva, a lenti beállítások alapján.\n"
     inspect-mime:
+      description: "A FoF Feltöltés a <a>PHP Mime Detector</a> programkönyvtárat használja a gyakori MIME-típusokhoz, tartaléknak pedig a PHP Fileinfót.\nA Fileinfo által visszaadott MIME-érték különbözhet a különböző kiszolgálók esetén!\n"
+      guessed-extension: 'Alapértelmezett fájlkiterjesztés (ha az eredeti nem szerepel a fehérlistán)'
+      laravel-validation: 'Laravel fájlellenőrzés'
+      mime-detector: 'MIME észlelő (elsődleges)'
+      mime-fileinfo: 'PHP Fileinfo (tartalék)'
+      no-file-selected: 'Nincs fájl'
+      not-available: 'Nincs találat'
+      select: 'Válasszon egy lenti fájlt, hogy megvizsgálja a használandó értékeket. A fájl nem lesz mentve.'
       title: 'MIME-típus vizsgálata'
+      validation-failed: 'Sikertelen: {error}'
+      validation-passed: Átment
     labels:
       aws-s3:
         acl: 'Hozzáférés-vezérlési lista (ACL)'
