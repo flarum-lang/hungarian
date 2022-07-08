@@ -4,17 +4,17 @@
 
 sycho-profile-cover:
   admin:
-    max_size: 'A profil borítójának maximális mérete (KB-ban)'
+    max_size: 'A profil borítóképének legnagyobb mérete (KB-ban)'
     permission:
-      set_cover: 'Profil borító beállítása'
-    thumbnails: 'Thumbnail-ek létrehozása'
+      set_cover: 'Profil borítóképének beállítása'
+    thumbnails: 'Bélyegképek létrehozása'
   forum:
     added:
       error: 'A kép nem tölthető fel.'
       success: 'Borítókép feltöltve.'
     cover: Borító
     edit_cover: 'Borító szerkesztése'
-    notice: 'Maximum méret: {size}'
+    notice: 'Legnagyobb méret: {size}'
     removed:
-      error: 'Nem lehet törölni a borítóképet, próbáld még egyszer később.'
+      error: 'Nem lehet törölni a borítóképet, próbálja újra később.'
       success: 'A borítókép eltávolítva.'
