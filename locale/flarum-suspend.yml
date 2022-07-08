@@ -17,8 +17,8 @@ flarum-suspend:
   forum:
     notifications:
       user_suspended_indefinite_text: 'Határozatlan ideig felfüggesztették'
-      user_suspended_text: 'Fel vagy függesztve {timeReadable}'
-      user_unsuspended_text: 'A felfüggesztésed fel lett oldva'
+      user_suspended_text: 'Felfüggesztették {timeReadable}'
+      user_unsuspended_text: 'A felfüggesztését feloldották'
     suspend_user:
       display_message: 'Üzenet megjelenítése a felhasználónak'
       indefinitely_label: 'Határozatlan ideig felfüggesztve'

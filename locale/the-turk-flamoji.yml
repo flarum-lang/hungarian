@@ -5,7 +5,20 @@
 the-turk-flamoji:
   admin:
     custom_emojis_section:
+      edit_emoji:
+        delete_emoji_button: 'Emodzsi törlése'
+        delete_emoji_confirmation: 'Valóban törli ezt az emodzsit?'
+        emoji_title_label: 'Emodzsi címe'
+        modal_title: 'Emodzsi hozzáadása'
+        path_or_url_label: 'Útvonal vagy webcím'
+        saved_message: '=> core.admin.settings.saved_message'
+        submit_button: '=> core.ref.save_changes'
+        text_to_replace_label: 'Lecserélendő szöveg'
+      emoji_list:
+        load_more_button: '=> core.forum.post_stream.load_more_button'
+      export_json_button: 'JSON exportálása'
       heading_title: 'Egyéni emodzsik'
+      import_emojis_message: 'Ez csak az emodzsik konfigurációját importálja. A képeket kézzel kell feltöltenie.'
       import_json_button: 'JSON importálása'
     settings:
       auto_hide_label: 'Automatikus elrejtés'
@@ -41,3 +54,34 @@ the-turk-flamoji:
       show_variants_text: 'Egyes emodzsiknak különböző bőrtónusú változatai vannak. Ha olyan emodzsit választanak ki, amelynek vannak változatai, akkor a felhasználók egy felugró ablakon választhatják ki a kívánt változatot.'
       specify_categories_label: 'Adja meg a kategóriákat'
       specify_categories_text: 'Itt megadhatja a kategóriákat, és a választó csak ezeket fogja megjeleníteni.'
+  forum:
+    composer:
+      emoji_tooltip: 'Emodzsi beszúrása'
+    emoji-button:
+      categories:
+        activities: '=> the-turk-flamoji.ref.emoji_categories.activities'
+        animals: '=> the-turk-flamoji.ref.emoji_categories.animals'
+        custom: '=> the-turk-flamoji.ref.emoji_categories.custom'
+        flags: '=> the-turk-flamoji.ref.emoji_categories.flags'
+        food: '=> the-turk-flamoji.ref.emoji_categories.food'
+        objects: '=> the-turk-flamoji.ref.emoji_categories.objects'
+        people: '=> the-turk-flamoji.ref.emoji_categories.people'
+        recents: '=> the-turk-flamoji.ref.emoji_categories.recents'
+        smileys: '=> the-turk-flamoji.ref.emoji_categories.smileys'
+        symbols: '=> the-turk-flamoji.ref.emoji_categories.symbols'
+        travel: '=> the-turk-flamoji.ref.emoji_categories.travel'
+      no_emojis_found_message: 'Nem találhatók emodzsik'
+      search_placeholder: 'Emodzsik keresése'
+  ref:
+    emoji_categories:
+      activities: Tevékenységek
+      animals: 'Állatok és természet'
+      custom: Egyéni
+      flags: Zászlók
+      food: 'Étel és ital'
+      objects: Tárgyak
+      people: 'Emberek és test'
+      recents: 'Nemrég használt emodzsik'
+      smileys: 'Mosolyok és érzelem'
+      symbols: Szimbólumok
+      travel: 'Utazás és helyek'

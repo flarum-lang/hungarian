@@ -12,4 +12,4 @@ flarum-pusher:
       title: 'Pusher beállítások'
   forum:
     discussion_list:
-      show_updates_text: 'Mutasd a {count} frissített témát'
+      show_updates_text: '{count} frissített témamegjelenítése'
