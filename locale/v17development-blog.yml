@@ -6,9 +6,9 @@ v17development-flarum-blog:
   admin:
     blog: Blog
     permissions:
-      approve_posts: 'Jóváhagyhatja a blog cikkeket'
+      approve_posts: 'Jóváhagyhatja a blogcikkeket'
       auto_approve_posts: 'Cikkek mentése jóváhagyás nélkül'
-      write_articles: 'Blog cikkek írása és szerkesztése'
+      write_articles: 'Blogcikkek írása és szerkesztése'
     settings:
       add_hero_label: 'Üdvözlő banner megjelenítése'
       add_hero_text: 'Üdvözlő banner megjelenítése a blogoldalakon, ha még nem lett bezárva.'
@@ -21,11 +21,11 @@ v17development-flarum-blog:
       default_article_image_label: 'Alapértelmezett cikk-kép'
       default_article_image_text: 'Válassza ki az alapértelmezett képet, amely azoknál a cikkeknél jelenik meg, ahol nincs kép megadva.'
       featured_count_label: 'Kiemelt bejegyzések legnagyobb száma'
-      featured_count_text: 'Hány bejegyzés jelenjen meg a blog oldal tetején található nagy rácsban?'
+      featured_count_text: 'Hány bejegyzés jelenjen meg a blogoldal tetején található nagy rácsban?'
       hide_on_discussion_list_label: 'Ne jelenjen meg a témalistában'
       hide_on_discussion_list_text: 'Blogbejegyzések elrejtése a témalistában.'
       hide_tags_in_taglist_label: 'Címkék elrejtése a címkelistából'
-      hide_tags_in_taglist_text: 'Ha be van kapcsolva, a blog címkék rejtve lesznek a fórumban.'
+      hide_tags_in_taglist_text: 'Ha be van kapcsolva, a blogcímkék rejtve lesznek a fórumban.'
       no_categories_selected: 'Nincs kategória kiválasztva'
       redirect_articles_label: 'Blogcikkek átirányítása'
       redirect_articles_text: 'Ha be van kapcsolva, az eredeti beszélgetés a blogra lesz irányítva.'
@@ -34,7 +34,7 @@ v17development-flarum-blog:
       redirects_heading: Átirányítások
       require_review_label: 'A blogbejegyzésekhez jóváhagyás szükséges'
       require_review_text: 'A cikk létrehozásakor az nem lesz közvetlenül látható, csak egy moderátor jóváhagyása után.'
-      select_categories_button: 'Válasszon blog kategóriát'
+      select_categories_button: 'Válasszon blogkategóriát'
       selected_category_count: '# kategória kiválasztva'
       show_tag_hierarchy_label: 'Címkehierarchia megjelenítése'
       show_tag_hierarchy_text: 'Behúzás hozzáadása az alkategóriákhoz, és hierarchia adása a kategórialistához.'
@@ -78,10 +78,10 @@ v17development-flarum-blog:
       view: Megtekintés
       write: Írás
     forum_nav: Fórumnavigáció
-    hidden: Elrejtve
+    hidden: Rejtett
     no_more_posts: 'Nincs több blogbejegyzés.'
     read_more: Tovább
-    recent_posts: 'Friss cikkek'
+    recent_posts: 'Friss blogbejegyzések'
     return_to_overview: 'Vissza a blogösszefoglalóhoz '
     review_article:
       approve_article: 'Cikk jóváhagyása'

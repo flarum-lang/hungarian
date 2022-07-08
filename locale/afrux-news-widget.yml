@@ -5,6 +5,6 @@
 afrux-news-widget:
   admin:
     settings:
-      add_line: 'Új sor hozzáadása'
+      add_line: 'Új hírsor hozzáadása'
       html_warning: 'Legyen óvatos, minden HTML meg lesz jelenítve.'
-      lines: 'Hír sorok'
+      lines: Hírsorok

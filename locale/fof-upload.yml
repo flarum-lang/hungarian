@@ -59,7 +59,7 @@ fof-upload:
         tos: 'Az Ön felelőssége, hogy a fórum felhasználói betartsák az Imgur <a>szolgáltatási feltételeit</a>'
       inspect-mime: 'Fájl MIME-típusának tesztelése'
       local:
-        cdn_url: 'Tartalomszolgáltató URL (fájlok előtagja)'
+        cdn_url: 'Tartalomszolgáltató webcíme (fájlok előtagja)'
         title: 'Helyi tároló beállításai'
       preferences:
         max_file_size: 'Legnagyobb fájlméret (kilobájtban)'
@@ -97,7 +97,7 @@ fof-upload:
       image-preview: 'Teljes képelőnézeti sablon'
       image-preview_description: "Soron belül jeleníti meg a teljes képet. Nincs letöltési funkció, nincs statisztikagyűjtés, és a hivatkozásvédelem figyelmen kívül lesz hagyva.\n"
       image_description: "Megjeleníti a kép bélyegképét, és PHP-n keresztül proxyzza. Lehetővé teszi a statisztikagyűjtést és a hivatkozásvédelmet.\n"
-      just-url: 'Csak az URL'
+      just-url: 'Csak a webcím'
       just-url_description: "Csak az URL-t illeszti be. A megjelenítést más, automatikus hivatkozásra képes kiegészítők kezelhetik. Nincs letöltési funkció, és statisztika sem keletkezik, valamint a hivatkozásvédelem is figyelmen kívül lesz hagyva.\n"
       markdown-image: 'Markdown képsablon'
       markdown-image_description: "A teljes kép megjelenítése soron belül, Markdown használatával. <strong>A működéséhez telepíteni kell a flarum/markdown csomagot, és engedélyeznie kell azt.</strong> Nincs letöltési funkció, nincs statisztikagyűjtés, és a hivatkozásvédelem figyelmen kívül lesz hagyva.\n"

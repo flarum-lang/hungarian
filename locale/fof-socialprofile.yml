@@ -16,10 +16,10 @@ fof-socialprofile:
       delete: Törlés
       deletetitle: 'Törlés gomb'
       edit: 'Saját közösségimédia-gombok szerkesztése'
-      favicon: Favicon
-      grey_favicon: 'Szürke favicon'
+      favicon: Favikon
+      grey_favicon: 'Szürke favikon'
       headtitle: 'Szerkesztés gombok'
       save_disabled_fetching_favicons: 'Egy vagy több ikon beolvasása folyamatban van. Kis türelmet.'
       submit: Mentés
       title: Cím
-      url: URL
+      url: Webcím
