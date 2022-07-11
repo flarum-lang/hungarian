@@ -24,5 +24,11 @@ davwheat:
           heading: 'Hivatkozások testreszabása'
           table:
             header:
+              delete: Eltávolítás
               icon: Hivatkozásikon
+              internal: 'Flarumos webcím?'
               position: Pozíció
+              text: 'Hivatkozás szövege'
+              url: 'Hivatkozás webcíme'
+            placeholders:
+              icon: 'fas fa-link'
