@@ -22,3 +22,7 @@ davwheat:
             fix_errors: 'A változtatások mentése előtt javítania kell a fenti problémákat.'
           confirm_delete: 'A(z) „{link}” hivatkozás törlésének megerősítése'
           heading: 'Hivatkozások testreszabása'
+          table:
+            header:
+              icon: Hivatkozásikon
+              position: Pozíció
