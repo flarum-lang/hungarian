@@ -30,7 +30,7 @@ core:
       logo_heading: Logó
       logo_text: 'Kép feltöltése, mely a fórumcím helyett fog megjelenni.'
       submit_button: '=> core.ref.save_changes'
-      title: Megjelenítés
+      title: Megjelenés
     basics:
       all_discussions_label: '=> core.ref.all_discussions'
       default_language_heading: 'Alapértelmezett nyelv'
@@ -56,7 +56,7 @@ core:
       title: Vezérlőpult
       tools_button: Eszközök
     edit_css:
-      customize_text: 'Szabd testre a fórum kinézetét saját LESS/CSS kód hozzáadásával, amellyel felülírhatja a Flarum <a>alapértelmezett stílusait</a>.'
+      customize_text: 'Szabja testre a fórum kinézetét saját LESS/CSS kód hozzáadásával, amellyel felülírhatja a Flarum <a>alapértelmezett stílusait</a>.'
       submit_button: '=> core.ref.save_changes'
       title: 'Egyéni CSS szerkesztése'
     edit_footer:
