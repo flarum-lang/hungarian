@@ -22,6 +22,11 @@ davwheat:
             fix_errors: 'A változtatások mentése előtt javítania kell a fenti problémákat.'
           confirm_delete: 'A(z) „{link}” hivatkozás törlésének megerősítése'
           heading: 'Hivatkozások testreszabása'
+          save_btn:
+            dirty: 'Beállítások mentése'
+            fix_errors: 'A mentés előtt javítsa a hibákat'
+            saved: 'Nincsenek mentendő változtatások'
+            saving: 'Változtatások mentése…'
           table:
             header:
               delete: Eltávolítás
@@ -32,3 +37,25 @@ davwheat:
               url: 'Hivatkozás webcíme'
             placeholders:
               icon: 'fas fa-link'
+              text: 'Az én weboldalam'
+              url: 'https://flarum.org'
+            tooltips:
+              icon_preview: 'Ikon előnézete'
+              move_down: 'Lentebb helyezés'
+              move_up: 'Fentebb helyezés'
+        new_link_modal:
+          labels:
+            icon: '=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.icon'
+            internal: '=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.internal'
+            text: '=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.text'
+            url: '=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.url'
+          placeholders:
+            icon: '=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.icon'
+            text: '=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.text'
+            url: '=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.url'
+          submit_btn:
+            add: 'Hivatkozás hozzáadása'
+            fix_url: 'Érvénytelen webcím'
+            invalid_form: 'Töltse ki az összes mezőt'
+            loading: 'Hivatkozás hozzáadása'
+          title: 'Új hivatkozás hozzáadása'
