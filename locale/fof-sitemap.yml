@@ -29,4 +29,6 @@ fof-sitemap:
         cache_disk: Lemezalapú
         multi_file: 'Több fájlos'
         runtime: Futásidejű
+      risky_performance_improvements: 'Kockázatos teljesítménybeli fejlesztések engedélyezése'
+      risky_performance_improvements_help: 'Ezek a fejlesztések gyorsabbá teszik a CRON feladat futtatását a millió soros adatkészletek esetén, de elronthatják a kompatibilitást bizonyos bővítményekkel.'
       title: 'FoF Oldaltérkép'
