@@ -31,6 +31,8 @@ fof-reactions:
             Label: 'Reakciók átalakítása kedveléssé'
             legend: Kedvelések
           warning: 'Ugyanazon reakció <strong>nem</strong> alakítható át kedveléssé <strong>és</strong> felszavazássá'
+        react_own_posts_help: 'Ha be van kapcsolva, akkor jogosultság alapján, a felhasználók reagálhatnak a saját bejegyzéseikre a fórumban. Ha ezt meg akarja akadályozni, akkor kapcsolja ki ezt a beállítást.'
+        react_own_posts_label: 'A felhasználók reagálhatnak a saját bejegyzésükre'
         save_settings: 'Beállítások mentése'
     permissions:
       react_posts_label: 'Reagálás a bejegyzésekre'

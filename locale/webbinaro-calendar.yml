@@ -3,7 +3,19 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 flarum-calendar:
+  admin:
+    basics:
+      homepage: 'Jelenlegi naptári hónap'
+    permissions:
+      add: 'Új naptáresemények létrehozása'
+      moderate: 'Naptáresemények eltávolítása vagy szerkesztése (minden felhasználó szerkesztheti a sajátját)'
+      view: 'Események megtekintése'
   forum:
     button:
       create: 'Új esemény'
       landing: Eseménynaptár
+      login: 'Saját esemény hozzáadása '
+    event:
+      details: 'További részletek erről az eseményről'
+    modal:
+      submit: Elküldés
