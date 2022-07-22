@@ -16,7 +16,7 @@ flarum-tags:
       icon_text: '=> core.ref.icon_text'
       name_label: '=> flarum-tags.ref.name'
       name_placeholder: '=> flarum-tags.ref.name'
-      slug_label: Slug
+      slug_label: 'Keresőbarát webcím'
       submit_button: '=> core.ref.save_changes'
       title: 'Címke létrehozása'
     nav:
@@ -65,9 +65,9 @@ flarum-tags:
       tags_link: '=> flarum-tags.ref.tags'
       untagged_link: 'Címke nélküli'
     post_stream:
-      added_and_removed_tags_text: '{username} hozzáadott {tagsAdded} és eltávolított {tagsRemoved}.'
-      added_tags_text: '{username} hozzáadott {tagsAdded}.'
-      removed_tags_text: '{username} eltávolított {tagsRemoved}.'
+      added_and_removed_tags_text: '{username} hozzáadta: {tagsAdded} és eltávolította: {tagsRemoved}.'
+      added_tags_text: '{username} hozzáadta: {tagsAdded}.'
+      removed_tags_text: '{username} eltávolította: {tagsRemoved}.'
       tags_text: '{tags} címkét'
     tag:
       meta_description_text: 'Az összes téma a(z) {tag} címkével'
