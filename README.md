@@ -216,6 +216,7 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
+| [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/blomstra-payments/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-payments/hu/) |
 | [`blomstra/readme`](https://extiverse.com/extension/blomstra/readme) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/blomstra-readme/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-readme/hu/) |
 | [`justoverclock/discord-widget`](https://extiverse.com/extension/justoverclock/discord-widget) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/justoverclock-discord-widget/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-discord-widget/hu/) |
 | [`justoverclock/related-discussions`](https://extiverse.com/extension/justoverclock/related-discussions) | [![Translation status](https://weblate.rob006.net/widgets/flarum/hu/justoverclock-related-discussions/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-related-discussions/hu/) |
