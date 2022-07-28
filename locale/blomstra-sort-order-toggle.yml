@@ -5,4 +5,5 @@
 blomstra-sort-order-toggle:
   forum:
     sort-toggle:
+      asc-label: 'Növekvő rendezés (kattintás az átkapcsoláshoz)'
       desc-label: 'Csökkenő rendezés (kattintás az átkapcsoláshoz)'
