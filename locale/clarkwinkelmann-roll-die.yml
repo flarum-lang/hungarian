@@ -6,3 +6,9 @@ clarkwinkelmann-roll-die:
   admin:
     settings:
       clearOnEdit: 'Új számok előállítása a bejegyzések szerkesztésekor'
+  forum:
+    composer:
+      rollDie: Kockadobás
+    tooltip:
+      preview: 'Véletlenszerű kockadobás mentéskor'
+      render: 'Véletlenszerű kockadobás: {number}'
