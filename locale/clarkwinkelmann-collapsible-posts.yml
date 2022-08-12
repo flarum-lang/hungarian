@@ -26,5 +26,5 @@ clarkwinkelmann-collapsible-posts:
       uncollapse: Kibontás
     stream:
       explanation: 'Miért látja ezt?'
-      hidden: '{count} bejegyzés elrejtve a következő ok miatt: {reason}'
+      hidden: '{count, plural, one {#} other {#}} bejegyzés elrejtve a következő ok miatt: {reason}'
       load: 'Továbbiak betöltése'

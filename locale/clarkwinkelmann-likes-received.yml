@@ -8,4 +8,4 @@ clarkwinkelmann-likes-received:
       view: 'Kapott kedvelések megtekintése'
   forum:
     user-card:
-      likes: '{count} kedvelést kapott'
+      likes: '{likes, plural, one {#} other {#}} kedvelést kapott'

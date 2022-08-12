@@ -9,5 +9,5 @@ antoinefr-online:
       titleoflist: 'A lista felett megjelenítendő cím'
   forum:
     andmore: 'és még {more}…'
-    online_users: '{more} felhasználó érhető el'
+    online_users: '{more, plural, one {#} other {#}} felhasználó érhető el'
     title: 'Ki érhető el?'

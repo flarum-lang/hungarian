@@ -36,7 +36,7 @@ clarkwinkelmann-carving-contest:
       like: Kedvelés
       likes:
         liked_by_self_text: '{users} kedvelte ezt.'
-        liked_by_text: '{users} kedvelte ezt.'
+        liked_by_text: '{count, plural, one {{users} kedvelte ezt.} other {{users} kedvelte ezt.}}'
         others_link: '=> core.ref.some_others'
         you_text: '=> core.ref.you'
       load-more: 'További bejegyzések betöltése'
