@@ -73,8 +73,8 @@ v17development-flarum-badges:
       badges: Jelvények
       category: 'Jelvény kategóriája'
       description: 'Jelvény leírása'
-      earned_by_count: '<b>{count} felhasználó</b> érdemelte ki'
-      earned_count: '<b>{count} felhasználó</b> érdemelte ki ezt a jelvényt'
+      earned_by_count: '<b>{count, plural, one {#} other {#}} felhasználó</b> érdemelte ki'
+      earned_count: '<b>{count, plural, one {#} other {#}} felhasználó</b> érdemelte ki ezt a jelvényt'
       earned_on: 'Jelvény megszerzési ideje'
       earning_reason: 'A jelvény megszerzésének oka'
       name: 'Jelvény neve'

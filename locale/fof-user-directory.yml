@@ -21,8 +21,8 @@ fof-user-directory:
       nav: 'Felhasználói címtár'
       refresh_tooltip: '=> core.forum.index.refresh_tooltip'
       usercard:
-        discussion-count: '{count} téma'
-        post-count: '{count} bejegyzés'
+        discussion-count: '{count, plural, one {#} other {#}} téma'
+        post-count: '{count, plural, one {#} other {#}} bejegyzés'
     search:
       field:
         placeholder: 'Összes felhasználó keresése'

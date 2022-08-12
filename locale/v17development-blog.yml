@@ -35,7 +35,7 @@ v17development-flarum-blog:
       require_review_label: 'A blogbejegyzésekhez jóváhagyás szükséges'
       require_review_text: 'A cikk létrehozásakor az nem lesz közvetlenül látható, csak egy moderátor jóváhagyása után.'
       select_categories_button: 'Válasszon blogkategóriát'
-      selected_category_count: '# kategória kiválasztva'
+      selected_category_count: '{count, plural, one {#} other {#}} kategóriát választott ki'
       show_tag_hierarchy_label: 'Címkehierarchia megjelenítése'
       show_tag_hierarchy_text: 'Behúzás hozzáadása az alkategóriákhoz, és hierarchia adása a kategórialistához.'
   forum:

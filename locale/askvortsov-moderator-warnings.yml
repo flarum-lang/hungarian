@@ -10,17 +10,17 @@ askvortsov-moderator-warnings:
       view_warnings: 'Moderátori figyelmeztetések megtekintése'
   emails:
     post_warned:
-      body: "Kedves {warnee_display_name}!\n\n{warner_display_name} {strike} büntetőponttal figyelmeztette itt: {discussion_title}\n\nA következő okokat adta meg:\n\n---\n\n{public_comment}\n"
-      subject: '{warner_display_name} {strikes} büntetőponttal figyelmeztette itt: {discussion_title}'
+      body: "Kedves {warnee_display_name}!\n\n{warner_display_name} {strikes, plural, one {# büntetőponttal} other {# büntetőponttal}} figyelmeztette itt: {discussion_title}\n\nA következő okokat adta meg:\n\n---\n\n{public_comment}\n"
+      subject: '{warner_display_name} {strikes, plural, one {# büntetőponttal} other {# büntetőponttal}} figyelmeztette itt: {discussion_title}'
     user_warned:
-      body: "Kedves {warnee_display_name}!\n\n{warner_display_name} {strikes} büntetőponttal figyelmeztette.\n\nA következő okokat adta meg:\n\n---\n\n{public_comment}\n"
-      subject: '{warner_display_name} {strikes} büntetőponttal figyelmeztette'
+      body: "Kedves {warnee_display_name}!\n\n{warner_display_name} {strikes, plural, one {# büntetőponttal} other {# büntetőponttal}} figyelmeztette.\n\nA következő okokat adta meg:\n\n---\n\n{public_comment}\n"
+      subject: '{warner_display_name} {strikes, plural, one {# büntetőponttal} other {# büntetőponttal}} figyelmeztette'
   forum:
     notifications:
       warning_no_strikes_text: '{mod_username} figyelmeztette (nincsenek büntetőpontok)'
-      warning_text: '{mod_username} {strikes} büntetőponttal figyelmeztette'
+      warning_text: '{mod_username} {strikes, plural, one {# büntetőponttal} other {# büntetőponttal}} figyelmeztette'
     post:
-      warning: '{mod_username} {strikes} büntetőponttal figyelmeztetve'
+      warning: '{mod_username} {strikes, plural, one {# büntetőponttal} other {# büntetőponttal}} figyelmeztetve'
       warning_no_strikes: '{mod_username} büntetőpontok nélkül figyelmeztette'
     post_controls:
       warning_button: 'Felhasználó figyelmeztetése'
@@ -38,12 +38,12 @@ askvortsov-moderator-warnings:
     warning_list:
       add_button: 'Új figyelmeztetés'
       no_warnings: 'Úgy tűnik, hogy itt nincsenek figyelmeztetések.'
-      warnings: 'Moderátori figyelmeztetések: {strikes} kapott büntetőpont'
+      warnings: 'Moderátori figyelmeztetések: {strikes, plural, one {# büntetőpontot} other {# büntetőpontot}} kapott'
       warnings_no_strikes: 'Moderátori figyelmeztetések: nincsenek büntetőpontok'
     warning_list_item:
       linked_post: 'Hozzákapcsolt bejegyzés'
-      list_item_heading: '<strong>{strikes}</strong> büntetőpont'
-      list_item_heading_hidden: '<strong>{strikes}</strong> büntetőpont, {time} <strong>(eltávolítva)</strong>'
+      list_item_heading: '{strikes, plural, one {<strong>#</strong> büntetőpont, {time}} other {<strong>#</strong> büntetőpont, {time}}}'
+      list_item_heading_hidden: '{strikes, plural, one {<strong>#</strong> büntetőpont, {time} <strong>(eltávolítva)</strong>} other {<strong>#</strong> büntetőpont, {time} <strong>(eltávolítva)</strong>}}'
       private_comment: 'Moderátorok számára látható megjegyzések'
       public_comment: Figyelmeztetés
     warning_modal:

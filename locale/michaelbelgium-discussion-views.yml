@@ -26,7 +26,7 @@ michaelbelgium-discussion-views:
     discussion_controls:
       resetviews_button: 'Nézettség visszaállítása'
     modal_resetviews:
-      label: 'Ez eltávolít {count} megtekintést a témáról. Folytatja?'
+      label: 'Ez eltávolít {count, plural, one {#} other {#}} megtekintést a témáról. Folytatja?'
       submit_button: 'Igen, az összes eltávolítása'
       title: 'Nézettség nullázása'
     post:

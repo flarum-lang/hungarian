@@ -48,7 +48,7 @@ fof-byobu:
     input:
       search_recipients: 'Keressen címzettet az első három karakter beírásával…'
     labels:
-      recipients: '{count} címzett'
+      recipients: '{count, plural, one {{count} címzett} other {{count} címzett}}'
     modal:
       help:
         add_recipients: 'Ezt a beszélgetést csak az itt kiválasztott felhasználók láthatják. Legalább 1 címzett (Önön kívül) szükséges.'

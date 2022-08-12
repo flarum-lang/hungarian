@@ -72,4 +72,4 @@ fof-best-answer:
     remove_best_answer: 'Legjobb válasz kiválasztásának visszavonása'
     this_best_answer: 'Legjobb válasz kiválasztása'
     user:
-      best-answer-count: '{count} legjobb válasz'
+      best-answer-count: '{count, plural, one { {count} legjobb válasz} other {{count} legjobb válasz}}'
