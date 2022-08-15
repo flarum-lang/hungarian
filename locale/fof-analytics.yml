@@ -19,7 +19,7 @@ fof-analytics:
         piwikTrackAccounts: 'Egyéni felhasználó fiók követése'
         piwikTrackSubdomain: 'Látogatók követése az összes aldoménen'
         piwikUrl: 'Matomo domén vagy URL'
-        statusGoogle: 'Google Analytics bekapcsolása'
+        statusGoogle: 'Google Analytics (UA/GA4) bekapcsolása'
         statusPiwik: 'Matomo bekapcsolása'
       placeholder:
         piwikAuthToken: "Írja be a tokent a Matomo statisztikai felületi elem engedélyezéséhez az adminisztrációs panelen.\nA Beállítások > Személyes > API hitelesítési token menüpontban találja.\n"
