@@ -23,6 +23,8 @@ ianm-follow-users:
         lurk: 'Minden követése'
     filter:
       following: 'Követett felhasználók'
+    followed: Követett
+    followers: Követő
     index:
       follow_tag_button: '=> ianm-follow-users.lib.follow'
       unfollow_tag_button: '=> ianm-follow-users.lib.change_follow_type'
