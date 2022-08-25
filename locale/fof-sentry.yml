@@ -6,5 +6,6 @@ fof-sentry:
   admin:
     settings:
       dsn_label: 'Sentry DSN'
+      javascript_console_label: 'JavaScript-konzol rögzítése'
       javascript_label: 'JavaScript-hibák jelentése'
       user_feedback_label: 'Felhasználói visszajelzés'
