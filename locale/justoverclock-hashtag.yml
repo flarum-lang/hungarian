@@ -3,6 +3,11 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 justoverclock-hashtag:
+  admin:
+    settings:
+      oldregexdesc: 'Ez a hashtagek régi reguláris kifejezése: <code>{regex}</code>'
+      regexdesc: 'A lenti helykitöltő egy példa. Csak akkor szerkessze, ha érti a reguláris kifejezéseket.'
+      regexlabel: 'Hashtagek reguláris kifejezése'
   forum:
     post:
-      hashtag_link_tooltip: 'Keresd meg ezt a hashtaget a Flarumban'
+      hashtag_link_tooltip: 'Ehhez a hashtaghez kapcsolódó bejegyzések keresése'
