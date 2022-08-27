@@ -15,6 +15,12 @@ clarkwinkelmann-scout:
         algolia: Algolia
         meilisearch: Meilisearch
         'null': Nincs
+        tntsearch: TNTSearch
       meilisearchHost: 'Meilisearch gazdagép'
       meilisearchKey: 'Meilisearch kulcs'
       prefix: 'Indexnév előtagja (nem kötelező)'
+      tntsearchFuzziness: 'TNT fuzzy keresés (elírások/variációk egyezése)'
+      tntsearchFuzzyDistance: 'TNT fuzzy keresés Levenshtein-távolsága (nem kötelező)'
+      tntsearchFuzzyMaxExpansions: 'TNT fuzzy keresés kibontásainak legnagyobb száma (nem kötelező)'
+      tntsearchFuzzyPrefixLength: 'TNT fuzzy keresés előtaghossza (nem kötelező)'
+      tntsearchMaxDocs: 'TNT keresés dokumentumainak legnagyobb száma (nem kötelező, találatok legnagyobb száma)'
