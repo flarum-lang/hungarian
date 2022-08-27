@@ -37,7 +37,7 @@ the-turk-diff:
     confirmRollback: 'Biztos, hogy módosítja a jelenlegi bejegyzését?'
     createdInfo: '{username} létrehozta {ago}'
     deleteButton: '=> core.forum.post_controls.delete_button'
-    deleteErrorMessage: 'A szerkesztés tartalmának törlése sikertelen'
+    deleteErrorMessage: 'A szerkesztés tartalmának törlése sikertelen.'
     deleteSuccessMessage: 'A szerkesztés tartalma törölve lett.'
     deletedInfo: '{username} törölte ezt a tartalmat {ago}'
     deletedText: (törölve)
