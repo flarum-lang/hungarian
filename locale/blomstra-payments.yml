@@ -10,6 +10,8 @@ blomstra-payments:
     edit-tag:
       bump-others: '(PTB) Mások is kiemelhetik a témát'
       bump-others-description: "Ha be van kapcsolva, akkor nem csak a téma szerzője emelheti ki a témát fizetés ellenében.\n"
+      select-bounty-description: "A termék kiválasztása engedélyezi a jutalom beállítását. A terméknek csak egy ára lehet a modellel: „Egyéni ár választása”. Másolja a <code>prod_</code> szöveggel kezdődő azonosítót ebbe a mezőben.\n"
+      select-bounty-product: '(Jutalom) Kötelező termék'
       select-ptb-product: '(PTB) Kötelező termék'
       select-ptb-product-description: "A termék kiválasztása a fizetés után lehetővé teszi egy téma kiemelését.\n"
       select-ptp-product: '(PTP) Kötelező termék'
@@ -18,16 +20,33 @@ blomstra-payments:
       select-ptv-product-description: "A termék kiválasztása a fizetés után lehetővé teszi a küszöb után összes bejegyzés elérését. Hozzon létre egy terméket a Stripe vezérlőpulton és másolja a <code>prod_</code> szöveggel kezdődő azonosítót ebbe a mezőben.\n"
       visible-from: 'Bejegyzések elrejtése ennél a küszöbnél'
       visible-from-description: "Az itt megadott szám meghatározza, hogy hány pontnál lesznek elrejtve a bejegyzések azon felhasználók számára, akik nem fizettek a tartalom eléréséért. Használjon 0-t az összes, 1-et az eredeti bejegyzés utáni bejegyzések elrejtéséhez.\n"
+    permission:
+      enable-bounties: 'Jutalmak engedélyezése'
     settings:
       link-access-portal: 'Hozzáférési portál hivatkozása a felhasználói legördülő menüben'
+      link-to-terms: 'Fizetési feltételek webcíme'
       pk: 'Közzétehető (API) kulcs'
       sk: 'Titkos (API) kulcs'
       webhook-secret: 'Webhook aláírási titka'
   forum:
+    accept-terms-modal:
+      accept_label: 'Elolvastam és elfogadom a <link>fizetési feltételeket</link>.'
+      continue_button: 'Fizetés folytatása'
+      title: 'Feltételek elfogadása'
     access-portal:
       options: lehetőségek
       purchase: vásárlás
       subscribed: előfizetve
+    backers-widget:
+      label: '{sum} fő támogatta'
+      none: 'Még nincsenek támogatók.'
+    bounties:
+      enable-control: 'Jutalmak engedélyezése'
+      purchase-control: 'Jutalom hozzáadása'
+    choose-bounty-amount-modal:
+      checkout-control: Fizetés
+      description: 'Válassza ki a(z) „{subject}” támogatásra szánt összegét vagy adjon meg egyéni összeget.'
+      title: 'Válassza ki a jutalom összegét'
     nav:
       access_portal: 'Hozzáférési portál'
       user_subscriptions: Előfizetések
@@ -50,6 +69,7 @@ blomstra-payments:
     stripe:
       interval_once: egyszer
     subscription-card:
+      bounty: Jutalom
       cancel-control: Mégse
       none: 'Nincsenek fizetések vagy aktív előfizetések'
       pta: 'Fizetett a hozzéférésért'
@@ -58,3 +78,7 @@ blomstra-payments:
       ptv: 'Fizetett a megtekintésért'
     tag:
       require-payment-label: 'Fizetés szükséges'
+core:
+  forum:
+    index_sort:
+      mostBacked_button: 'Legtöbbet támogatott'
