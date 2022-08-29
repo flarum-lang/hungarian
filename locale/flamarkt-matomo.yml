@@ -5,4 +5,10 @@
 flamarkt-matomo:
   admin:
     settings:
+      siteId: Oldalazonosító
+      trackAccounts: 'Egyéni felhasználói fiókok követése'
+      trackAccountsOptions:
+        email: 'Követés e-mail-cím alapján'
+        none: 'Ne kövessen'
+        username: 'Követés felhasználónév alapján'
       url: 'Matomo-kiszolgáló domainje vagy webcíme'
