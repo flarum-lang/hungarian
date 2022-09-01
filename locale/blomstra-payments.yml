@@ -49,8 +49,8 @@ blomstra-payments:
       title: 'Válassza ki a jutalom összegét'
     exceptions:
       out-of-bounds-amount:
-        max: 'A(z) {amount} összes nem engedélyezett, {max} a legmagasabb összeg.'
-        min: 'A(z) {amount} összes nem engedélyezett, {min} a legalacsonyabb összeg.'
+        max: 'A(z) {amount} összeg nem engedélyezett, {max} a legmagasabb összeg.'
+        min: 'A(z) {amount} összeg nem engedélyezett, {min} a legalacsonyabb összeg.'
     nav:
       access_portal: 'Hozzáférési portál'
       user_subscriptions: Előfizetések
