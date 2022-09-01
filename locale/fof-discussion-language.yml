@@ -8,6 +8,9 @@ fof-discussion-language:
       allow_change_language_label: 'Nyelv szerkesztésének engedélyezése'
     settings:
       composer_default_label: 'A jelenlegi területi beállítás előzetes kiválasztása a témaszerkesztőben'
+      config:
+        country_label: 'Ország (a zászló megjelenítéséhez)'
+        language_label: Nyelv
       errors:
         missing_assets: 'A bővítmény számára szükséges erőforrások nem tölthetők be. Próbálja futtatni a <code>php flarum assets:publish</code> parancsot, és nézze meg, hogy megoldotta-e a problémát.'
       locale_sort_label: 'Észlelt nyelv használata az alapértelmezett témaszűrőhöz'

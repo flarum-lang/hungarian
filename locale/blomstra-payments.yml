@@ -47,6 +47,10 @@ blomstra-payments:
       checkout-control: Fizetés
       description: 'Válassza ki a(z) „{subject}” támogatásra szánt összegét vagy adjon meg egyéni összeget.'
       title: 'Válassza ki a jutalom összegét'
+    exceptions:
+      out-of-bounds-amount:
+        max: 'A(z) {amount} összes nem engedélyezett, {max} a legmagasabb összeg.'
+        min: 'A(z) {amount} összes nem engedélyezett, {min} a legalacsonyabb összeg.'
     nav:
       access_portal: 'Hozzáférési portál'
       user_subscriptions: Előfizetések
