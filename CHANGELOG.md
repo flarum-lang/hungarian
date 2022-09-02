@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+2.2.0 (2022-09-02)
+------------------
+
+**Új bővítmények támogatása hozzáadva**:
+
+* [`clarkwinkelmann/flarum-ext-status`](https://github.com/clarkwinkelmann/flarum-ext-status)
+* [`justoverclock/first-visit-popup`](https://github.com/justoverclockl/first-visit-popup)
+* [`justoverclock/header-slideshow`](https://github.com/justoverclockl/header-slideshow)
+
+
+**Bővítményfordítások frissítve**:
+
+* [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
+
+
+Összes változás: [v2.1.0...v2.2.0](https://github.com/flarum-lang/hungarian/compare/v2.1.0...v2.2.0).
+
+
 2.1.0 (2022-08-30)
 ------------------
 
