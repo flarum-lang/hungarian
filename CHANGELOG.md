@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.2.1 (XXXX-XX-XX)
+------------------
+
+**Bővítményfordítások frissítve**:
+
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+
+
+Összes változás: [v2.2.0...v2.2.1](https://github.com/flarum-lang/hungarian/compare/v2.2.0...v2.2.1).
+
+
 2.2.0 (2022-09-02)
 ------------------
 
