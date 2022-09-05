@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-2.2.1 (XXXX-XX-XX)
+2.2.1 (2022-09-05)
 ------------------
 
 **Bővítményfordítások frissítve**:
