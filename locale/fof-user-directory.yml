@@ -9,7 +9,7 @@ fof-user-directory:
     settings:
       default-sort: 'Alapértelmezett rendezés'
       disable-global-search-source: 'Ne adja hozzá a felhasználói címtárat a Flarum globális keresési mezőjéhez'
-      link: 'Hivatkozás hozzáadása a főoldalhoz, hogy a felhasználók lássak a címtárat'
+      link: 'Hivatkozás hozzáadása a főoldalhoz, hogy a felhasználók lássák a címtárat'
       use-small-cards: 'Kisebb felhasználói kártyák használata'
   forum:
     header:
