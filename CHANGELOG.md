@@ -23,12 +23,15 @@ CHANGELOG
 * [`nomiscz/flarum-ext-auth-steam`](https://github.com/NomisCZ/flarum-ext-auth-steam)
 * [`nomiscz/flarum-ext-auth-wechat`](https://github.com/NomisCZ/flarum-ext-auth-wechat)
 * [`nosun/reply-to-see`](https://github.com/nosun/flarum-ext-reply2see)
+* [`ramesh-dada/flarum-gui-image-and-link`](https://github.com/ramesh-dada/Flarum-GUI-Image-and-Link)
+* [`ramesh-dada/realtime`](https://github.com/ramesh-dada/realtime)
 * [`serakoi/flarum-hideprofile`](https://github.com/Serakoi/flarum-hideprofile)
 
 
 **Bővítményfordítások frissítve**:
 
 * [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
+* [`justoverclock/related-discussions`](https://extiverse.com/extension/justoverclock/related-discussions)
 * [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor)
 
 
