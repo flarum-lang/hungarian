@@ -4,6 +4,8 @@
 
 nearata-twofactor:
   admin:
+    permissions:
+      can_enable_twofactor: 'Engedélyezheti a kétlépcsős hitelesítést'
     settings:
       generate_backups: 'Biztonsági tartalékkódok előállítása.'
   forum:

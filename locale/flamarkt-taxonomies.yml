@@ -23,6 +23,9 @@ flamarkt-taxonomies:
         showFilter: 'Szűrő megjelenítése a kezdőlapon'
         showLabel: 'Taxonómia címkéjének megjelenítése a kifejezéssel együtt'
         slug: '=> flamarkt-taxonomies.ref.field.slug'
+        tagScope: 'Csak a megadott címkékben'
+        tagScopeDescription: "A taxonómia csak a kiválasztott címkékben lesz elérhető. Ha egyetlen címkét választ ki, akkor a kezdőoldalon lévő szűrő csak abban a címkében lesz látható.\n"
+        tagScopePlaceholder: 'Gépeljen egy címke kereséséhez…'
         type: Típus
         typeDescription: "A taxonómiák többféle Flarum erőforrásban használhatók. Létrehozás után a típus nem módosítható. A különböző típusoknál használhat azonos neveket és keresőbarát webcímeket.\n"
       slugger-options:
@@ -70,6 +73,7 @@ flamarkt-taxonomies:
       reset-term-order: 'Kifejezéslista visszaállítása betűrendbe'
       title: Taxonómiák
     permissions:
+      bypassTermCounts: 'Kifejezésszám követelményeinek megkerülése'
       editAnyDiscussion: 'Összes téma taxonómiáinak szerkesztése'
       editAnyUser: 'Összes felhasználó taxonómiáinak szerkesztése'
       editOwnDiscussion: 'Saját témák taxonómiáinak szerkesztése'
@@ -86,8 +90,13 @@ flamarkt-taxonomies:
       goToPage: 'Ugrás a beállítóoldalra'
   api:
     error:
+      cannot_use_taxonomies_on_model: 'Nem használhat taxonómiákat ebben a környezetben'
+      discussion_taxonomy_not_in_scope: 'A(z) „{slug}” taxonómia nem érhető el a jelenlegi címkekombinációban'
       invalid_filter_taxonomy: 'Érvénytelen „{type}” taxonómiaszűrő-kulcs: „{slug}”'
   forum:
+    blog:
+      widget:
+        title: Taxonómiák
     composer:
       choose: '{taxonomy} választása'
     discussion:
@@ -97,6 +106,7 @@ flamarkt-taxonomies:
       nav: Taxonómiák
   lib:
     modal:
+      bypassTermCounts: 'Kifejezésszám megkerülése'
       custom: '{value} használata'
       placeholder: '{count, plural, one {Válasszon egy feltételt…} other {Válasszon # feltételt…}}'
       placeholderOptional: Válasszon…
