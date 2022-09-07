@@ -10,6 +10,7 @@ justoverclock-related-discussions:
     relatedTitle: 'A „Kapcsolódó témák” címe'
     relatedTitle-help: 'A kapcsolódó témák alapértelmezett címének lecserélése a sajátjára'
     showExcerpt: 'Összefoglaló kivonat megjelenítése'
+    showTooltip: 'Buboréksúgó megjelenítése a kivonattal'
   forum:
     deleted: Törölve
     hasBestAnswer: Megoldott
