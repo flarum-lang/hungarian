@@ -2,6 +2,42 @@ CHANGELOG
 =========
 
 
+2.3.0 (2022-09-09)
+------------------
+
+**Új bővítmények támogatása hozzáadva**:
+
+* [`datlechin/flarum-who-replied`](https://github.com/datlechin/flarum-who-replied)
+* [`justoverclock/flarum-ext-newsfeed`](https://github.com/justoverclockl/flarum-ext-newsfeed)
+* [`justoverclock/flarum-ext-purify`](https://github.com/justoverclockl/flarum-ext-purify)
+* [`justoverclock/thread-read-time`](https://github.com/justoverclockl/thread-read-time)
+* [`justoverclock/user-statistics`](https://github.com/justoverclockl/user-statistics)
+* [`justoverclock/username-blacklist`](https://github.com/justoverclockl/username-blacklist)
+* [`justoverclock/website-live-screenshot`](https://extiverse.com/extension/justoverclock/website-live-screenshot)
+* [`malago/flarum-ext-fancybox`](https://github.com/malago86/flarum-ext-fancybox)
+* [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)
+* [`nearata/flarum-ext-cakeday`](https://github.com/Nearata/flarum-ext-cakeday)
+* [`nearata/flarum-ext-copy-code-to-clipboard`](https://github.com/Nearata/flarum-ext-copy-code-to-clipboard)
+* [`nearata/flarum-ext-minecraft-avatars`](https://github.com/Nearata/flarum-ext-minecraft-avatars)
+* [`nearata/flarum-ext-signup-confirm-password`](https://github.com/Nearata/flarum-ext-signup-confirm-password)
+* [`nomiscz/flarum-ext-auth-steam`](https://github.com/NomisCZ/flarum-ext-auth-steam)
+* [`nomiscz/flarum-ext-auth-wechat`](https://github.com/NomisCZ/flarum-ext-auth-wechat)
+* [`nosun/reply-to-see`](https://github.com/nosun/flarum-ext-reply2see)
+* [`ramesh-dada/flarum-gui-image-and-link`](https://github.com/ramesh-dada/Flarum-GUI-Image-and-Link)
+* [`ramesh-dada/realtime`](https://github.com/ramesh-dada/realtime)
+* [`serakoi/flarum-hideprofile`](https://github.com/Serakoi/flarum-hideprofile)
+
+
+**Bővítményfordítások frissítve**:
+
+* [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
+* [`justoverclock/related-discussions`](https://extiverse.com/extension/justoverclock/related-discussions)
+* [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor)
+
+
+Összes változás: [v2.2.1...v2.3.0](https://github.com/flarum-lang/hungarian/compare/v2.2.1...v2.3.0).
+
+
 2.2.1 (2022-09-05)
 ------------------
 
