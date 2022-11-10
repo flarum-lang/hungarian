@@ -6,6 +6,9 @@ flarum-likes:
   admin:
     permissions:
       like_posts_label: 'Hozzászólások kedvelése'
+    settings:
+      like_own_posts_help: 'Ha engedélyezett, akkor a felhasználók, a jogosultságuktól függően, kedvelhetik a saját bejegyzéseiket a fórumban. Ha nem szeretné, hogy kedvelhessék a saját bejegyzésüket, kapcsolja ki ezt a beállítást.'
+      like_own_posts_label: 'A felhasználók kedvelhetik a saját bejegyzésüket'
   forum:
     notifications:
       others_text: '=> core.ref.some_others'
@@ -21,3 +24,5 @@ flarum-likes:
       title: 'Felhasználók, akiknek tetszik'
     settings:
       notify_post_liked_label: 'Valakinek tetszik a bejegyzésem'
+    user:
+      likes_link: Kedvelések
