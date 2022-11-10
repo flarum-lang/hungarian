@@ -6,6 +6,7 @@ fof-sentry:
   admin:
     settings:
       dsn_label: 'Sentry DSN'
+      environment_label: 'Sentry környezet'
       javascript_console_label: 'JavaScript-konzol rögzítése'
       javascript_label: 'JavaScript-hibák jelentése'
       javascript_trace_sample_rate: 'Előtétprogram teljesítményfigyelési aránya (0 – 100)'

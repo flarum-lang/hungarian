@@ -11,17 +11,23 @@ flarum-statistics:
         end_before_start: 'A záró dátumnak a kezdési dátum után kell lennie.'
       start_date: 'Kezdési dátum (ezt is beleértve)'
       submit_button: 'Erősítse meg a dátumintervallumot'
+      title: 'Válasszon egy dátumintervallumot'
     statistics:
       active_users_text: '{count} aktív'
+      current_period: 'Jelenlegi időszak'
+      custom_label: 'Válasszon egyéni intervallumot…'
+      custom_label_specified: '{fromDate} – {toDate}'
       discussions_heading: '=> core.ref.discussions'
       last_12_months_label: 'Utolsó 12 hónap'
       last_28_days_label: 'Utolsó 28 nap'
       last_7_days_label: 'Utolsó 7 nap'
       loading: '=> core.ref.loading'
       mini_heading: Fórumstatisztikák
+      no_data: 'Nem érhetők el adatok ehhez a dátumintervallumhoz.'
       posts_heading: '=> core.ref.posts'
       previous_28_days_label: 'Előző 28 nap'
       previous_7_days_label: 'Előző 7 nap'
+      previous_period: 'Előző időszak'
       today_label: Ma
       total_label: Összesen
       users_heading: '=> core.ref.users'

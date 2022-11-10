@@ -17,10 +17,12 @@ fof-gamification:
         converted: 'Mind a(z) {number} kedvelés sikeresen átalakítva'
         converting: 'A kedvelései most kerülnek átalakításra. Frissítse az oldalt pár perc múlva, hogy lássa a folyamat végét. (Az átalakítás eltarthat egy ideig, az összes kedvelés számától függően)'
         help: 'Átalakítja a flarum-ext-likes bővítményből származó kedvelések felszavazásokká, valamit kiszámítja az összes jelenlegi téma népszerűségét.'
+      groups:
+        title: 'Automatikusan kiosztott csoportok'
       rankings:
         blocked:
           help: 'Ezek a felhasználók nem jelennek meg a rangsor oldalon. A felhasználóneveket vesszővel és egy azt követő szóközzel kell elválasztani.'
-          placeholder: 'CDK2020, Ralkage, AngelAvila'
+          placeholder: 'admin, user1, user2'
           title: 'Figyelmen kívül hagyott felhasználók'
         custom_image_1: '1. helyezett képe'
         custom_image_2: '2. helyezett képe'
@@ -38,6 +40,7 @@ fof-gamification:
         title: Rangok
       save_settings: 'Beállítások mentése'
       votes:
+        allow_self_votes: 'A felhasználók szavazhatnak a saját bejegyzésükre'
         alternate_layout: 'Alternatív szavazási elrendezés a témalistában'
         alternate_post_layout: 'Alternatív szavazási elrendezés a bejegyzéseknél'
         auto_upvote: 'Bejegyzések automatikus felpontozása közzétételkor'
