@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.3.1 (XXXX-XX-XX)
+------------------
+
+**Bővítményfordítások frissítve**:
+
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+
+
+Összes változás: [v2.3.0...v2.3.1](https://github.com/flarum-lang/hungarian/compare/v2.3.0...v2.3.1).
+
+
 2.3.0 (2022-09-09)
 ------------------
 
