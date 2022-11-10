@@ -23,9 +23,11 @@ blomstra-payments:
     permission:
       enable-bounties: 'Jutalmak engedélyezése'
     settings:
+      assign-bounty-tag-id: 'A témához rendelendő címke az első felajánlott jutalom után'
       link-access-portal: 'Hozzáférési portál hivatkozása a felhasználói legördülő menüben'
       link-to-terms: 'Fizetési feltételek webcíme'
       pk: 'Közzétehető (API) kulcs'
+      recount-total-discussion-bounties: 'Az összes téma jutalmának újraszámolása'
       sk: 'Titkos (API) kulcs'
       webhook-secret: 'Webhook aláírási titka'
   forum:
@@ -38,8 +40,10 @@ blomstra-payments:
       purchase: vásárlás
       subscribed: előfizetve
     backers-widget:
-      label: '{sum} fő támogatta'
+      backers: Támogatók
+      label: '{sum} {currency} felajánlva'
       none: 'Még nincsenek támogatók.'
+      pledged: Felajánlva
     bounties:
       enable-control: 'Jutalmak engedélyezése'
       purchase-control: 'Jutalom hozzáadása'
@@ -70,6 +74,8 @@ blomstra-payments:
     payment-options-modal:
       description: "Válasszon a következő lehetőségek közül, hogy hozzáférjen a csoporthoz. Át lesz irányítva a szolgáltatónkhoz, a Stripe-hoz, a fizetésének feldolgozásához.\n"
       title: 'Fizetési lehetőségek, hogy hozzáférjen a(z) {group} csoporthoz'
+    post_stream:
+      bounty_added_text: '{username} hozzáadott egy {amount} összegű jutalmat.'
     stripe:
       interval_once: egyszer
     subscription-card:

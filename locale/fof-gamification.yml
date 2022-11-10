@@ -18,6 +18,12 @@ fof-gamification:
         converting: 'A kedvelései most kerülnek átalakításra. Frissítse az oldalt pár perc múlva, hogy lássa a folyamat végét. (Az átalakítás eltarthat egy ideig, az összes kedvelés számától függően)'
         help: 'Átalakítja a flarum-ext-likes bővítményből származó kedvelések felszavazásokká, valamit kiszámítja az összes jelenlegi téma népszerűségét.'
       groups:
+        add: 'Új szabály hozzáadása'
+        column:
+          group: Csoport
+          maxPoints: 'Legnagyobb pontszám (ezt is beleértve)'
+          minPoints: 'Legkevesebb pontszám (ezt is beleértve)'
+        delete: 'Szabály törlése'
         title: 'Automatikusan kiosztott csoportok'
       rankings:
         blocked:

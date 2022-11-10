@@ -28,6 +28,11 @@ datlechin-birthdays:
       dob_heading: 'Születési dátum'
     header:
       edit_dob_button: 'Születési dátum szerkesztése'
+    nav:
+      nav_item: 'Mai születésnapok'
+    page:
+      discussion_count: '{count, plural, one {Téma: #} other {Téma: #}}'
+      post_count: '{count, plural, one {Bejegyzés: #} other {Bejegyzés: #}}'
     settings:
       change_dob_label: 'Születési dátum szerkesztése'
       dob_heading: 'Születési dátum'

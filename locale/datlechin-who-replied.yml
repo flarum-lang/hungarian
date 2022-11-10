@@ -4,4 +4,9 @@
 
 datlechin-who-replied:
   admin:
+    limit_help: 'A bejegyzések száma, ami után megjelenik a válaszolók megtekintésének gombja (alapértelmezés szerint 5).'
     limit_label: 'Bejegyzések számának korlátozása'
+  forum:
+    button_label: 'Válaszolók megtekintése'
+    post_replies:
+      title: 'Erre válaszolók'
