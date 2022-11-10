@@ -12,6 +12,9 @@ CHANGELOG
 
 **Bővítményfordítások frissítve**:
 
+* [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+* [`datlechin/flarum-who-replied`](https://github.com/datlechin/flarum-who-replied)
 * [`flarum/likes`](https://github.com/flarum/likes)
 * [`flarum/statistics`](https://github.com/flarum/statistics)
 * [`flarum/sticky`](https://github.com/flarum/sticky)
@@ -19,6 +22,7 @@ CHANGELOG
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
+* [`justoverclock/discussion-info`](https://github.com/justoverclockl/discussions-info)
 
 
 Összes változás: [v2.3.0...v2.3.1](https://github.com/flarum-lang/hungarian/compare/v2.3.0...v2.3.1).
