@@ -16,9 +16,14 @@ clarkwinkelmann-scout:
         meilisearch: Meilisearch
         'null': Nincs
         tntsearch: TNTSearch
+      limit: 'Találatok alapértelmezett korlátja'
+      limitHelp: "Ez felülbírálja az egyes keresőmotoroktól kért találatok számát, és hatással van arra is, hogy hány lapnyi találat állítható elő (a korlát a felhasználó által nem látott tartalmat is számolja). Egyes keresőmotorok esetén további beállításokra lehet szükség a maximumkorlát módosításához.\n"
+      limitPlaceholder: Automatikus
       meilisearchHost: 'Meilisearch gazdagép'
       meilisearchKey: 'Meilisearch kulcs'
       prefix: 'Indexnév előtagja (nem kötelező)'
+      queue: 'Indexfrissítések feldolgozása sorban'
+      queueHelp: 'A beállításnak csak akkor van hatása, ha aszinkron sorkezelő van beállítva a Flarumban.'
       tntsearchFuzziness: 'TNT fuzzy keresés (elírások/variációk egyezése)'
       tntsearchFuzzyDistance: 'TNT fuzzy keresés Levenshtein-távolsága (nem kötelező)'
       tntsearchFuzzyMaxExpansions: 'TNT fuzzy keresés kibontásainak legnagyobb száma (nem kötelező)'
