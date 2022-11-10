@@ -5,9 +5,17 @@ CHANGELOG
 2.3.1 (XXXX-XX-XX)
 ------------------
 
+**Általános változások**:
+
+* Flarum core fordítások frissítve.
+
+
 **Bővítményfordítások frissítve**:
 
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/statistics`](https://github.com/flarum/statistics)
 * [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
 
 
 Összes változás: [v2.3.0...v2.3.1](https://github.com/flarum-lang/hungarian/compare/v2.3.0...v2.3.1).
