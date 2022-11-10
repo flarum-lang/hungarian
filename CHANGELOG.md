@@ -16,6 +16,9 @@ CHANGELOG
 * [`flarum/statistics`](https://github.com/flarum/statistics)
 * [`flarum/sticky`](https://github.com/flarum/sticky)
 * [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
 
 
 Összes változás: [v2.3.0...v2.3.1](https://github.com/flarum-lang/hungarian/compare/v2.3.0...v2.3.1).
