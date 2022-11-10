@@ -16,4 +16,4 @@ flarum-sticky:
       discussion_stickied_text: '{username} kitűzte a témát.'
       discussion_unstickied_text: '{username} eltávolította a kitűzést.'
   ref:
-    sticky: Kitűzve
+    sticky: Kitűzés
