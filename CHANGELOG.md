@@ -5,9 +5,25 @@ CHANGELOG
 2.3.2 (XXXX-XX-XX)
 ------------------
 
+**Általános változások**:
+
+* Flarum core fordítások frissítve.
+
+
 **Bővítményfordítások frissítve**:
 
+* [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
+* [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime)
+* [`blomstra/search`](https://github.com/blomstra/flarum-ext-search)
+* [`clarkwinkelmann/flarum-ext-passwordless`](https://github.com/clarkwinkelmann/flarum-ext-passwordless)
+* [`clarkwinkelmann/flarum-ext-scout`](https://github.com/clarkwinkelmann/flarum-ext-scout)
+* [`flamarkt/backoffice`](https://github.com/flamarkt/backoffice)
+* [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/statistics`](https://github.com/flarum/statistics)
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 
 
 Összes változás: [v2.3.1...v2.3.2](https://github.com/flarum-lang/hungarian/compare/v2.3.1...v2.3.2).
