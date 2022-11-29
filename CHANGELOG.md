@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.3.2 (XXXX-XX-XX)
+------------------
+
+**Bővítményfordítások frissítve**:
+
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+
+
+Összes változás: [v2.3.1...v2.3.2](https://github.com/flarum-lang/hungarian/compare/v2.3.1...v2.3.2).
+
+
 2.3.1 (2022-11-10)
 ------------------
 
