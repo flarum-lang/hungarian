@@ -11,6 +11,8 @@ fof-polls:
       start: 'Szavazás indítása'
       view_results_without_voting: 'Eredmény megtekintése szavazás nélkül'
       vote: 'Részvétel a szavazásokban'
+    settings:
+      allow_option_image: 'Képre hivatkozó webcím engedélyezése minden egyes szavazási lehetőségnél'
   forum:
     composer_discussion:
       add_poll: 'Szavazás hozzáadása'
@@ -21,6 +23,7 @@ fof-polls:
       add_title: 'Szavazás hozzáadása'
       date_placeholder: 'Szavazás vége (nem kötelező)'
       edit_title: 'Szavazás szerkesztése'
+      image_option_placeholder: 'Kép webcíme (nem kötelező)'
       include_question: 'Lennie kell egy kérdésnek'
       max: 'Legfeljebb 10 válasz lehet'
       min: 'Legalább 2 választ meg kell adni'

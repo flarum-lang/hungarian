@@ -62,11 +62,17 @@ fof-oauth:
       twitter: '=> fof-oauth.lib.providers.twitter'
     signup:
       username_help: 'Válasszon egy itt használandó felhasználónevet'
+    unlink: 'Összekapcsolás eltávolítása'
     user:
       settings:
         linked-account:
+          help: 'Ezek a kapcsolt fiókok lehetővé teszik, hogy más szolgáltatókkal jelentkezzen be a fórumba.'
+          identifier-label: '{provider}-azonosító'
           label: 'Csatolt fiókok'
           last-used-label: 'Utoljára használt'
+          link-created-label: 'Összekapcsolás létrehozva'
+          orphaned-account: 'Eddig ezen a szolgáltatón keresztül jelentkezett be, de a fórum azóta letiltotta ezt a bejelentkezési módot.'
+          unlink-confirm: 'Biztos, hogy eltávolítja a(z) {provider} összekapcsolását? Többé nem fog tudni ezzel bejelentkezni a fórumra, hacsak nem hitelesít vele újra a jövőben.'
   lib:
     providers:
       discord: Discord

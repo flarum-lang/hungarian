@@ -7,6 +7,8 @@ fof-default-user-preferences:
     settings:
       followAfterReply: 'Követés válasz után'
       followAfterReply-help: 'Ha be van kapcsolva, az új felhasználók automatikusan követik a témákat, amelyekhez hozzászólnak.'
+      groupMentioned: 'Csoport megemlítési e-mail'
+      groupMentioned-help: 'Ha engedélyezett, az új felhasználók automatikusan e-mail-értesítést kapnak ha egy olyan csoportot említenek meg, melynek tagjai.'
       postMentioned: 'Bejegyzés megemlítési e-mail'
       postMentioned-help: 'Ha be van kapcsolva, akkor az új felhasználók automatikusan e-mail-értesítést kapnak, ha az egyik bejegyzésüket megemlítik.'
       userMentioned: 'Felhasználó megemlítési e-mail'

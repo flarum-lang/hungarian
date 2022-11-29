@@ -28,6 +28,11 @@ flamarkt-taxonomies:
         tagScopePlaceholder: 'Gépeljen egy címke kereséséhez…'
         type: Típus
         typeDescription: "A taxonómiák többféle Flarum erőforrásban használhatók. Létrehozás után a típus nem módosítható. A különböző típusoknál használhat azonos neveket és keresőbarát webcímeket.\n"
+      section:
+        browsing: Böngészés
+        filling: Kitöltés
+        info: Információ
+        scope: Hatókör
       slugger-options:
         alpha_dash: 'ASCII alfanumerikus keresőbarát webcímkészítő'
         random: 'Véletlenszerű azonosító'
@@ -65,7 +70,10 @@ flamarkt-taxonomies:
         new: 'Kifejezés létrehozása'
     menu:
       description: 'Egyéni taxonómiák és kifejezések létrehozása.'
+      discussions: 'Témák taxonómiái'
+      products: 'Termékek taxonómiái'
       title: Taxonómiák
+      users: 'Felhasználók taxonómiái'
     page:
       create:
         taxonomy: 'Taxonómia létrehozása'

@@ -11,3 +11,7 @@ blomstra-search:
     elastic-index: Index
     elastic-password: '=> core.ref.password'
     elastic-username: '=> core.ref.username'
+    match-sentences: 'Teljes mondatok egyezésének vizsgálata'
+    match-words: 'Teljes szavak egyezésének vizsgálata'
+    search-discussion-subjects: 'Keresés a témacímekben'
+    search-post-bodies: 'Keresés a hozzászólásokban'
