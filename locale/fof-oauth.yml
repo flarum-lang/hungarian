@@ -62,6 +62,11 @@ fof-oauth:
       twitter: '=> fof-oauth.lib.providers.twitter'
     signup:
       username_help: 'Válasszon egy itt használandó felhasználónevet'
+    user:
+      settings:
+        linked-account:
+          label: 'Csatolt fiókok'
+          last-used-label: 'Utoljára használt'
   lib:
     providers:
       discord: Discord
