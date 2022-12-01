@@ -17,6 +17,8 @@ CHANGELOG
 * [`blomstra/search`](https://github.com/blomstra/flarum-ext-search)
 * [`clarkwinkelmann/flarum-ext-passwordless`](https://github.com/clarkwinkelmann/flarum-ext-passwordless)
 * [`clarkwinkelmann/flarum-ext-scout`](https://github.com/clarkwinkelmann/flarum-ext-scout)
+* [`datlechin/flarum-scroll-buttons`](https://github.com/datlechin/flarum-scroll-buttons)
+* [`datlechin/flarum-signup-button`](https://github.com/datlechin/flarum-signup-button)
 * [`flamarkt/backoffice`](https://github.com/flamarkt/backoffice)
 * [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
 * [`flarum/mentions`](https://github.com/flarum/mentions)
