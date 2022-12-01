@@ -10,9 +10,13 @@ datlechin-flarum-scroll-buttons:
         help: 'A gomb ikonjának testreszabása. Hagyja üresen az alapértelmezett ikon használatához.'
         label: 'Aljára görgetés ikonja'
       label: 'Görgetés az aljára'
+    scroll_to_bottom_help: 'Gomb megjelenítése, amely a lap aljára görget'
+    scroll_to_bottom_label: 'Görgetés az aljára'
     scroll_to_top:
       help: 'Gomb megjelenítése az oldal tetejére görgetéséhez'
       icon:
         help: 'A gomb ikonjának testreszabása. Hagyja üresen az alapértelmezett ikon használatához.'
         label: 'Tetejére görgetés ikonja'
       label: 'Görgetés a tetejére'
+    scroll_to_top_help: 'Gomb megjelenítése, amely a lap tetejére görget'
+    scroll_to_top_label: 'Görgetés a tetejére'
