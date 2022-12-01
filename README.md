@@ -345,8 +345,10 @@ php flarum cache:clear
 | [`blomstra/readme`](https://extiverse.com/extension/blomstra/readme) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum/hu/blomstra-readme/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-readme/hu/) |
 | [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum/hu/blomstra-realtime/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-realtime/hu/) |
 | [`justoverclock/discord-widget`](https://extiverse.com/extension/justoverclock/discord-widget) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum/hu/justoverclock-discord-widget/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-discord-widget/hu/) |
+| [`justoverclock/frontend-blog`](https://extiverse.com/extension/justoverclock/frontend-blog) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum/hu/justoverclock-frontend-blog/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-frontend-blog/hu/) |
 | [`justoverclock/related-discussions`](https://extiverse.com/extension/justoverclock/related-discussions) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum/hu/justoverclock-related-discussions/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-related-discussions/hu/) |
 | [`justoverclock/website-live-screenshot`](https://extiverse.com/extension/justoverclock/website-live-screenshot) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum/hu/justoverclock-website-live-screenshot/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-website-live-screenshot/hu/) |
+| [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum/hu/v17development-support/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-support/hu/) |
 
 <!-- premium-extensions-list-stop -->
 
