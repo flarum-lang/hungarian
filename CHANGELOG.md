@@ -2,12 +2,18 @@ CHANGELOG
 =========
 
 
-2.3.2 (XXXX-XX-XX)
+2.4.0 (XXXX-XX-XX)
 ------------------
 
 **Általános változások**:
 
 * Flarum core fordítások frissítve.
+
+
+**Új bővítmények támogatása hozzáadva**:
+
+* [`justoverclock/frontend-blog`](https://extiverse.com/extension/justoverclock/frontend-blog)
+* [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)
 
 
 **Bővítményfordítások frissítve**:
@@ -28,7 +34,7 @@ CHANGELOG
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 
 
-Összes változás: [v2.3.1...v2.3.2](https://github.com/flarum-lang/hungarian/compare/v2.3.1...v2.3.2).
+Összes változás: [v2.3.1...v2.4.0](https://github.com/flarum-lang/hungarian/compare/v2.3.1...v2.4.0).
 
 
 2.3.1 (2022-11-10)
