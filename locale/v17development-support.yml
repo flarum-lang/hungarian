@@ -3,6 +3,22 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 v17development-flarum-support:
+  emails:
+    replied_to_ticket:
+      body: "Kedves {recipient_display_name}!\n\n{replier_display_name} válaszolt a következő jegyére: #{ticket_id} (tárgy: „{subject}”).\n\nHasználja a lenti hivatkozást a válaszoláshoz:\n{url}\n\nVárunk a válaszára, vagy arra, hogy megoldottnak jelölje a jegyet.\n"
+      subject: '{replier_display_name} válaszolt a következő jegyére: #{ticket_id}'
+    ticket_pending_reply:
+      body: "Kedves {recipient_display_name}!\n\nNemrég {replier_display_name} ekkor válaszolt a(z) #{ticket_id} jegyére: {replied_date}, és most a válaszára várunk.\n\nA jegye webcíme a következő:\n{url}\n\nHa a probléma elhárult, akkor jelölje megoldottnak a jegyet.\n"
+      subject: 'A(z) #{ticket_id} jegy a válaszára vár'
+    ticket_pending_reply_closed:
+      body: "Kedves {recipient_display_name}!\n\nNemrég {replier_display_name} válaszolt a következő jegyére: #{ticket_id}. Sajnos nem kaptunk választ Öntől. A jegy tétlenség miatt automatikusan le lett zárva.\n\nHa mégis válaszolni szeretne, akkor a jegye webcíme a következő:\n{url}\n"
+      subject: 'A(z) #{ticket_id} jegy tétlenség miatt le lett zárva'
+    ticket_resolved:
+      body: "Kedves {recipient_display_name}!\n\nA(z) #{ticket_id} jegye megoldottnak lett jelölve. Ez azt jelenti, hogy a jegyet lezárták.\n\nA jegye webcíme:\n{url}\n\nHa nem ért egyet a jegy lezárásával, akkor válaszoljon a jegyére, és nyissa meg újra.\n"
+      subject: 'A(z) #{ticket_id} jegy megjelölve megoldottként'
+    ticket_status_update:
+      body: "Kedves {recipient_display_name}!\n\nA(z) #{ticket_id} jegye állapota erre változott: {new_status}.\n\nA jegye webcíme:\n{url}\n"
+      subject: 'A(z) #{ticket_id} jegy megjelölve mint {new_status}'
   forum:
     admin_overview: 'Rendszergazdai áttekintés megnyitása'
     article:
@@ -71,6 +87,13 @@ v17development-flarum-support:
       description: 'Sajnáljuk, ez a cikk vagy kategória már nem létezik ezen a helyen.'
       solution: 'Használhatja a fenti keresőmezőt, hogy megtalálja, amit keres.'
       title: 'Az elem nem található'
+    notifications:
+      replied_to_ticket:
+        content: '=> v17development-flarum-support.emails.replied_to_ticket.subject'
+        name: 'Válaszoltak a jegyemre'
+      ticket_resolved:
+        content: '=> v17development-flarum-support.emails.ticket_resolved.subject'
+        name: 'Megoldották a jegyemet'
     or: vagy
     overview:
       back_to: 'Vissza ide: {category}'
@@ -120,20 +143,121 @@ v17development-flarum-support:
         neutral_emoji_disabled: 'A semleges emodzsi le lett tiltva.'
     support_tickets: 'Támogatási jegyek'
     tickets:
+      compose_ticket:
+        not_allowed: 'Most nem nyithat új támogatási jegyet'
+        private_support: 'A személyes támogatáshoz használja ezt az űrlapot, hogy új jegyet hozzon létre a támogatási platformunkhoz. A nem személyes támogatási dolgokhoz keresse fel a <a>nyilvános fórumunkat</a>.'
+        title: 'Új jegy írása'
       convert_to_discussion:
         button: 'Átalakítás témáva'
+        confirm: 'Biztos, hogy nyilvános témává alakítja ezt a jegyet? Ha valaki magánjellegű adatokat osztott meg, akkor ezek is nyilvánosak lesznek.'
+        event: "A(z) {ticket_title} jegy témává lett alakítva\n\nFelkeresi most a témát?\n"
       convert_to_ticket:
         button: 'Jeggyé alakítás'
         confirm: 'Biztos, hogy jeggyé alakítja ezt a témát?'
         event: 'A(z) {ticket_title} téma jeggyé lett alakítva'
+      fields:
+        assignees:
+          placeholder: 'A jegy állapota'
+          title: Megbízottak
+        information:
+          placeholder: 'Mondja el, hogy miben segíthetünk'
+          title: Jegyinformációk
+        language:
+          description: 'A támogatási jegye ezen a nyelven lesz kezelve: {language}.'
+          empty: 'Nincs nyelv kiválasztva'
+          placeholder: 'Válasszon nyelvet'
+          title: Nyelv
+        private_note:
+          edit_button: 'Feljegyzés szerkesztése'
+          info: 'A személyes feljegyzések csak más támogatási ügyintézők számára láthatók. Az ügyfél számára nem látható.'
+          placeholder: 'Példa: 2022. január 1. – Ügyintéző neve: Ügyfél törölve az adatbázisból'
+          tip: 'TIPP: Ha több ügyintézővel dolgozik egy jegyen, akkor adja meg a nevét és a dátumot a feljegyzésben.'
+          title: 'Személyes feljegyzések'
+        status:
+          placeholder: 'A jegy állapota'
+          title: Állapot
+        subject:
+          description: 'Próbálja egy rövid mondatban leírni a kérdését.'
+          placeholder: 'Jegy tárgya'
+          title: Tárgy
+      load_more:
+        title: 'További jegyek betöltése'
+      my_tickets:
+        description: 'Ezen az oldalon megtalálja az összes személyes jegyét.'
+        no_tickets: 'Még nincsenek jegyei.'
+        title: 'Saját jegyek'
+      new_tickets_dropdown:
+        no_tickets: 'Nincsenek jegyértesítések'
+        ticket_new: '{username} létrehozta a jegyet: {ticket}'
+        ticket_updated: '{username} beküldte ide: {ticket}'
+        title: Jegyértesítések
       opened_on: 'Megnyitva:'
+      overview:
+        all_tickets: 'Összes jegy'
+        description: 'Mosolyogjon, Ön az a hős, aki megmenti mások napját.'
+        filter:
+          assignees:
+            search: 'Megbízott keresése'
+            title: 'Szűrés megbízottakra'
+            unassigned: 'Nem kiosztott'
+          language:
+            any: 'Bármelyik nyelv'
+          status:
+            filter_count: '{count} szűrő'
+            title: 'Jegy állapota'
+        no_tickets: 'Nincsenek a feltételeknek megfelelő jegyek, valószínűleg jó munkát végez!'
+        refresh: Frissítés
+        selection_closed: 'Lezárt jegyek'
+        selection_open: 'Nyitott jegyek'
+        selection_unfiltered: Szűretlen
+        sort:
+          least_recent: 'Legrégebbi tevékenység'
+          newest: 'Legújabb elöl'
+          oldest: 'Legrégebbi elöl'
+          recent_activity: 'Legfrissebb tevékenység'
+        title: 'Jegyek áttekintése'
       reminders_sent: '{count} emlékeztető küldve'
       return_to_overview: 'Vissza a jegyáttekintőhöz'
+      status:
+        closed:
+          close_after_posting: 'Jegy lezárása a bejegyzés beküldése után'
+          description: 'Ez a jegy le lett zárva.'
+          is_auto_closed: 'Ez a jegy tétlenség miatt le lett zárva.'
+          is_closed: 'Ez a jegy lezárult, ha válaszol, akkor újra fog nyílni. Azt javasoljuk, hogy csak akkor nyissa újra a jegyet, ha a probléma nem lett megoldva. Ha egy új problémáról van szó, nyisson egy új jegyet.'
+          title: Lezárt
+        duplicate:
+          description: 'Ez a jegy ismétlődőnek lett jelölve.'
+          title: Ismétlődő
+        new:
+          description: 'Ez egy új, nem megválaszolt jegy'
+          title: Új
+        on_hold:
+          description: 'Ez a jegy várakoztatva van.'
+          title: Várakoztatva
+        open:
+          description: 'A jegyhez új válasz érkezett, és a válaszára vár.'
+          title: Nyitott
+        pending:
+          description: 'Ez a jegy a felhasználó válaszára vár.'
+          description_user: 'Az Ön válaszára vagy a jegy megoldottnak jelölésére várunk.'
+          title: Függőben
+        solved:
+          description: 'Ez a jegy megoldottnak lett jelölve.'
+          mark_as_solved: 'A jegy megoldottnak jelölése'
+          title: Megoldott
       subject: Tárgy
       ticket: Jegy
       ticket_activity: 'Szerző: {username}, utolsó tevékenység: {date}'
       ticket_does_not_exist: 'A kért támogatási jegy nem létezik.'
       ticket_overview: Jegyáttekintő
+      tools:
+        assign_me: 'Hozzám rendelés'
+        close_ticket: 'Jegy lezárása'
+        remove_me: 'Visszavonás magamtól'
+        update_note: 'Személyes feljegyzés frissítése'
+        update_status: 'Jegy állapotának frissítése'
+        update_subject: 'Tárgy frissítése'
+        view_ticket: 'Jegy megtekintése'
     utils:
       redirect:
         link: '<a>Kattintson ide</a>, ha az oldal nem irányítja át'
