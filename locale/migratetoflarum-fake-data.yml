@@ -24,6 +24,6 @@ migratetoflarum-fake-data:
       discussion-tags-random: Véletlenszerű
       post-count: 'Létrehozandó bejegyzések száma'
       refresh: 'Bezárás és az oldal frissítése'
-      reset: 'Az előállítás kész! Kattintson a visszaállításhoz.'
+      reset: 'Az előállítás kész! Kattintson az űrlap visszaállításához.'
       send: 'Adatok előállítása'
       user-count: 'Létrehozandó felhasználók száma'
