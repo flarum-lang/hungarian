@@ -2,6 +2,29 @@ CHANGELOG
 =========
 
 
+2.5.0 (XXXX-XX-XX)
+------------------
+
+**Új bővítmények támogatása hozzáadva**:
+
+* [`annonny/flarum-dice`](https://github.com/mizhiyugan529/flarum-dice)
+* [`blomstra/conversations`](https://github.com/blomstra/flarum-ext-conversations)
+* [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
+* [`convo-extensions/flarum-ext-quick-reply`](https://extiverse.com/extension/convo-extensions/flarum-ext-quick-reply)
+* [`ianm/no-meta-title`](https://github.com/imorland/no-meta-title)
+* [`justoverclock/discussion-hero-showtags`](https://github.com/justoverclockl/discussion-hero-showtags)
+* [`justoverclock/staff-members-widget`](https://github.com/justoverclockl/staff-member-widget)
+* [`ziiven/flarum-post-number`](https://github.com/Ziiven/flarum-post-number)
+
+
+**Bővítményfordítások frissítve**:
+
+* [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data)
+
+
+Összes változás: [v2.4.0...v2.5.0](https://github.com/flarum-lang/hungarian/compare/v2.4.0...v2.5.0).
+
+
 2.4.0 (2022-12-04)
 ------------------
 
