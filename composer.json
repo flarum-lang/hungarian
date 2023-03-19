@@ -28,6 +28,7 @@
 	"extra": {
 		"flarum-extension": {
 			"title": "Hungarian",
+			"category": "language",
 			"icon": {
 				"image": "hu.svg",
 				"backgroundSize": "cover",
