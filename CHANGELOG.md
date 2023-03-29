@@ -19,6 +19,10 @@ CHANGELOG
 
 **Bővítményfordítások frissítve**:
 
+* [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data)
 
 
