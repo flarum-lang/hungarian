@@ -27,6 +27,8 @@ flarum-tags:
       bypass_tag_counts_label: 'Címke követelményeinek megkerülése'
       restrict_by_tag_heading: 'Korlátozás címke alapján'
       tag_discussions_label: 'Témák címkézése'
+    settings:
+      button_text: '=> flarum-tags.ref.choose_tags'
     tag_settings:
       range_separator_text: ' – '
       required_primary_heading: 'Szükséges elsődleges címkék száma'
