@@ -2,6 +2,41 @@ CHANGELOG
 =========
 
 
+2.5.0 (2023-03-29)
+------------------
+
+**Új bővítmények támogatása hozzáadva**:
+
+* [`annonny/flarum-dice`](https://github.com/mizhiyugan529/flarum-dice)
+* [`blomstra/conversations`](https://github.com/blomstra/flarum-ext-conversations)
+* [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
+* [`convo-extensions/flarum-ext-quick-reply`](https://extiverse.com/extension/convo-extensions/flarum-ext-quick-reply)
+* [`ianm/no-meta-title`](https://github.com/imorland/no-meta-title)
+* [`justoverclock/discussion-hero-showtags`](https://github.com/justoverclockl/discussion-hero-showtags)
+* [`justoverclock/staff-members-widget`](https://github.com/justoverclockl/staff-member-widget)
+* [`ziiven/flarum-post-number`](https://github.com/Ziiven/flarum-post-number)
+
+
+**Bővítményfordítások frissítve**:
+
+* [`clarkwinkelmann/flarum-ext-anonymous-posting`](https://github.com/clarkwinkelmann/flarum-ext-anonymous-posting)
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
+* [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users)
+* [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+* [`justoverclock/related-discussions`](https://extiverse.com/extension/justoverclock/related-discussions)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
+* [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data)
+
+
+Összes változás: [v2.4.0...v2.5.0](https://github.com/flarum-lang/hungarian/compare/v2.4.0...v2.5.0).
+
+
 2.4.0 (2022-12-04)
 ------------------
 
