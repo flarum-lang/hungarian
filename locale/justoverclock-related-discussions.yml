@@ -12,6 +12,7 @@ justoverclock-related-discussions:
     showExcerpt: 'Összefoglaló kivonat megjelenítése'
     showTooltip: 'Buboréksúgó megjelenítése a kivonattal'
   forum:
+    avatarTooltip: 'létrehozta a bejegyzést ekkor:'
     deleted: Törölve
     hasBestAnswer: Megoldott
     hasBestAnswer-title: 'Ez a téma megoldottnak van jelölve'

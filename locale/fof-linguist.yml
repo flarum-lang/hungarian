@@ -88,6 +88,8 @@ fof-linguist:
       validation: 'Ellenőrzési hibák'
     locales:
       all: Összes
+    permissions:
+      view_string_keys: 'Fordítási szövegkulcsok megtekintése'
     placeholder:
       all-locales: 'Az itt megadott szöveg az összes nyelven megjelenik'
       hint: 'Eredeti érték:'

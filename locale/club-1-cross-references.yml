@@ -3,6 +3,19 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 club-1-cross-references:
+  admin:
+    enable_short_references:
+      help: 'Az üzenetekben található #<AZONOSÍTÓ> szövegek átalakítása (például #42) a megfelelő témára mutató hivatkozásokká.'
+      label: 'Rövid hivatkozások bekapcsolása'
+    retrofit_links_in_frontend:
+      help: "A témahivatkozások címének megjelenítése azoknál az üzeneteknél, amelyek beküldésekor még a bővítmény nem volt bekapcsolva. Ez a felületen történik, így rossz felhasználói élményhez vezethet.\n"
+      label: 'Hivatkozások felújítása a felületen'
+    show_discussion_id:
+      help: 'Témaazonosító-számok hozzáadása mindenhol, ahol a téma megjelenik.'
+      label: 'Témaazonosító megjelenítése'
   forum:
+    comment: hozzászólás
     post_stream:
+      discussion_referenced_multiple_text: '{username} több forrásból is hivatkozta ezt a témát: {sources}'
       discussion_referenced_text: '{username} hivatkozott erre a témára a következő helyről: {source}'
+    unknown_discussion: '[ismeretlen téma]'

@@ -5,11 +5,13 @@
 fof-share-social:
   admin:
     settings:
-      canonical-urls: 'Kanonikus URL-ek használata a megosztáshoz'
+      canonical-urls: 'Kanonikus webcímek használata a megosztáshoz'
+      plain-copy: 'Egyszerű webcímmásolás megjelenítése'
   forum:
     discussion:
       share_button: Megosztás
     modal:
+      copy_button: Másolás
       title: Megosztás
   lib:
     networks:

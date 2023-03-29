@@ -8,7 +8,16 @@ datlechin-link-preview:
       blacklist_help: 'Adja meg a domainek vagy webcímek vesszővel elválasztott listáját, hogy kizárja azokat a hivatkozás-előnézetből.'
       blacklist_label: Tiltólista
       blacklist_placeholder: 'például facebook.com,https://example.com/útvonal'
+      cache_time_help: 'A percek száma, amíg a felkeresett hivatkozások gyorsítótárazva lesznek az újbóli elérésükig. Állítsa 0-ra, hogy ezt kikapcsolja. Ha nincs beállítva, akkor az alapértelmezés 60 perc.'
+      cache_time_label: 'Gyorsítótárazás ideje'
       convert_media_urls_help: 'Ha be van kapcsolva, akkor az összes médiawebcímet hivatkozás-előnézetté alakítja.'
       convert_media_urls_label: 'Médiawebcímek átalakítása'
+      open_links_in_new_tab_help: 'Ha be van kapcsolva, akkor a hivatkozások új lapon nyílnak meg.'
+      open_links_in_new_tab_label: 'Hivatkozások megnyitása új lapon'
+      use_google_favicons_help: 'Ha be van kapcsolva, akkor a Google szolgáltatását fogja használni a megfelelő oldal faviconjának lekéréséhez.'
+      use_google_favicons_label: 'Google Favicon API használata'
+      whitelist_help: 'Adja meg a domainek vagy webcímek vesszővel elválasztott listáját, melyeknél engedélyezett a hivatkozás-előnézet.'
+      whitelist_label: Fehérlista
+      whitelist_placeholder: 'például facebook.com,https://domain.com/path'
   forum:
     site_cannot_be_reached: 'Ez az oldal nem érhető el.'

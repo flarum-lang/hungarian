@@ -5,10 +5,12 @@
 clarkwinkelmann-anonymous-posting:
   admin:
     permissions:
-      moderate: 'Tetszőleges téma vagy bejegyzés anonimizálásának megszüntetése'
+      moderate: 'Tetszőleges téma vagy bejegyzés anonimizálása vagy annak megszüntetése'
       reveal: 'Névtelenül közzétett témák és bejegyzések valódi szerzőinek felfedése'
-      use: 'Közzététel névtelenül'
+      use: 'Téma anonimmá tételi lehetőségének megjelenítése a szerkesztés során'
     settings:
+      alwaysAnonymiseEdits: 'Szerkesztések állandó anonimizálása'
+      alwaysAnonymiseEditsHelp: "Alapértelmezetten az anonim szerző szerkesztései/elrejtései anonimizáltak, de a bejegyzést vagy témát szerkesztő moderátor továbbra is megjelenik, mint a szerkesztés/elrejtés szerzője. Ha ez a beállítás be van kapcsolva, akkor a szerkesztés/elrejtés szerzője sosem lesz naplózva az anonim tartalmak esetén.\n"
       avatarAdd: 'Profilképszabály hozzáadása'
       avatarAvatarUrl: 'Profilkép webcíme'
       avatarFieldKey: 'Mező kulcsa'
@@ -17,9 +19,12 @@ clarkwinkelmann-anonymous-posting:
       avatars: 'Névtelen profilképek'
       avatarsHelp: "Ehhez a funkcióhoz a prémium <a>Formulaire bővítmény</a> szükséges. A funkció használata némi teljesítménycsökkenéssel jár, mivel további adatbázis-lekérdezések szükségesek a témák és bejegyzések lekéréséhez. A bemenetek formátumának további részleteihez lásd a README fájlt.\n"
       composerHelpTextPosition: 'Szerkesztő súgószövegének pozíciója'
+      composerHelpTextPositionHelp: 'A jelölőmező és ez a szöveg csak a váltási engedéllyel rendelkező felhasználók számára érhető el.'
       composerHelpTextPositionHidden: Rejtett
       composerHelpTextPositionTooltip: 'Buboréksúgó (címke után)'
       composerHelpTextPositionVisible: 'Látható (címke alatt)'
+      defaultAnonymity: 'Az új tartalmak alapértelmezetten anonimak'
+      defaultAnonymityWhenAbleToSwitch: 'A váltási engedéllyel rendelkező felhasználók új tartalmai alapértelmezetten anonimak'
   forum:
     composerControls:
       anonymize: 'Közzététel névtelenül'

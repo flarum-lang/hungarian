@@ -11,6 +11,8 @@ fof-ignore-users:
       discussion_label: 'Egy figyelmen kívül hagyott felhasználó indította'
       user_label: 'Figyelmen kívül hagyott felhasználó'
     profile_link: 'Figyelmen kívül hagyott felhasználók'
+    profile_page:
+      no_ignored: 'Úgy néz ki, hogy senkit sem hagy figyelmen kívül.'
     user_controls:
       ignore_button: 'Figyelmen kívül hagyás'
       ignore_confirmation: 'Valóban figyelmen kívül hagyja ezt a felhasználót?'

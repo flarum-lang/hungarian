@@ -6,3 +6,10 @@ blomstra-conversations:
   admin:
     permissions:
       view-conversation-source: 'Beszélgetés forrásának megtekintése'
+      view-raw-source: 'Natív HTML vagy a bejövő bejegyzések HTML-forráskódjának megtekintése'
+  forum:
+    post:
+      controls:
+        view: 'HTML verzió megtekintése'
+        view-code: 'HTML forráskód vizsgálata'
+      source-raw-heading: 'HTML megtekintése'
