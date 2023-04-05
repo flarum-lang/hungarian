@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.5.2 (XXXX-XX-XX)
+------------------
+
+**Bővítményfordítások frissítve**:
+
+* [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
+
+
+Összes változás: [v2.5.1...v2.5.2](https://github.com/flarum-lang/hungarian/compare/v2.5.1...v2.5.2).
+
+
 2.5.1 (2023-03-30)
 ------------------
 
