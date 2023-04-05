@@ -13,7 +13,7 @@ jslirola-login2seeplus:
     title: Login2SeePlus
   forum:
     code: 'Jelentkezzen be a kód megtekintéséhez'
-    image: 'Jelentkezzen be a lép megtekintéséhez'
+    image: 'Jelentkezzen be a kép megtekintéséhez'
     link: 'Jelentkezzen be a hivatkozás megtekintéséhez'
     post: '{login} vagy {register} a teljes bejegyzés megtekintéséhez'
     post_login: '{login} a teljes bejegyzés megtekintéséhez'
