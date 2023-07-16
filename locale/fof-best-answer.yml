@@ -30,8 +30,12 @@ fof-best-answer:
       schedule_stop_overnight_help: '19 órától 8 óráig, a kiszolgáló órája szerint'
       select_best_answer_reminder_days: 'Emlékeztető gyakorisága'
       select_best_answer_reminder_days_help: 'Emlékeztető küldése a megadott számú nap után, hogy az eredeti szerző válassza ki a legjobb választ, 0 = emlékeztetők letiltása.'
+      select_best_answer_tags_help: 'Válassza ki, hogy mely címkék legyenek hozzáadva a legjobb válasszal rendelkező témákhoz (ha van ilyen). Csak a másodlagos címkék engedélyezettek. Ezek a címkék el lesznek távolítva, ha eltávolításra kerül a legjobb válasz.'
+      select_best_answer_tags_label: 'Címkék a legjobb válasszal rendelkező témákhoz'
       show_filter_help: 'Azoknál a címkéknél, ahol a legjobb válaszok engedélyezettek, jelenjen meg a megoldott/megoldatlan szűrőlehetőség a témalistában'
       show_filter_label: 'A Legjobb válasz szűrő legördülő megjelenítése'
+      show_max_lines_help: 'Állítsa 0-ra a kikapcsoláshoz. Ha egy bejegyzés hosszabb mint a beállított sorok száma, akkor a bejegyzés előnézete le lesz rövidítve egy elhalványítási hatással.'
+      show_max_lines_label: 'Bejegyzés-előnézetekben megjelenítendő sorok legnagyobb száma'
       use_alt_ui: 'Alternatív elrendezés'
       use_alt_ui_help: 'A legjobb válasz gombok a bejegyzés láblécében'
   email:
@@ -73,3 +77,8 @@ fof-best-answer:
     this_best_answer: 'Legjobb válasz kiválasztása'
     user:
       best-answer-count: '{count, plural, one { {count} legjobb válasz} other {{count} legjobb válasz}}'
+fof-user-directory:
+  lib:
+    sort:
+      least_best_answers: 'Legkevesebb legjobb válasz'
+      most_best_answers: 'Legtöbb legjobb válasz'

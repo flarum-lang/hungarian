@@ -8,7 +8,7 @@ club-1-cross-references:
       help: 'Az üzenetekben található #<AZONOSÍTÓ> szövegek átalakítása (például #42) a megfelelő témára mutató hivatkozásokká.'
       label: 'Rövid hivatkozások bekapcsolása'
     retrofit_links_in_frontend:
-      help: "A témahivatkozások címének megjelenítése azoknál az üzeneteknél, amelyek beküldésekor még a bővítmény nem volt bekapcsolva. Ez a felületen történik, így rossz felhasználói élményhez vezethet.\n"
+      help: "<p><strong>Elavult</strong> (el lesz távolítva a <code>v1.2.0</code>-ban) Fontolja meg inkább a <code>club-1/flarum-ext-chore-commands</code> bővítmény <code>chore:reparse</code> parancsának használatát. Lásd: <code> https://github.com/club-1/flarum-ext-chore-commands</code></p> <p>A témahivatkozások címének megjelenítése azoknál az üzeneteknél, amelyek beküldésekor még a bővítmény nem volt bekapcsolva. Ez a felületen történik, így rossz felhasználói élményhez vezethet.</p>\n"
       label: 'Hivatkozások felújítása a felületen'
     show_discussion_id:
       help: 'Témaazonosító-számok hozzáadása mindenhol, ahol a téma megjelenik.'

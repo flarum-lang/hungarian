@@ -5,6 +5,9 @@
 ianm-synopsis:
   admin:
     settings:
+      disable-when-searching:
+        help: 'Ha be van kapcsolva, akkor az alapértelmezett legrelevánsabb bejegyzés kivonata lesz használva az összefoglaló helyett'
+        label: 'Összefoglaló kikapcsolása kereséskor'
       excerpt-label: 'Az összefoglaló hossza (karakter)'
       excerpt-length:
         help: 'Hány karakter jelenjen meg a bejegyzésből.'

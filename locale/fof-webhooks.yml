@@ -43,6 +43,9 @@ fof-webhooks:
     settings:
       actions:
         flarum:
+          approval:
+            postwasapproved: 'Bejegyzés jóváhagyva'
+            title: 'Flarum jóváhagyás'
           discussion:
             deleted: '=> fof-webhooks.ref.deleted'
             hidden: '=> fof-webhooks.ref.hidden'
@@ -72,6 +75,7 @@ fof-webhooks:
       help:
         disabled: 'Ez a webhook le van tiltva, mert egyetlen eseménye sincs engedélyezve.'
         general: 'Itt adhatja hozzá, szerkesztheti és távolíthatja el a fórumja webhookjait.'
+        tags: 'A webhookokat adott címkékre lehet korlátozni. Ha kiválaszt címkéket, akkor a webhook csak akkor fog aktiválódni, ha az esemény egy olyan erőforráson történt, amelyre a kiválasztott címkék vonatkoznak.'
         url: 'A webhook végrehajtandó végpontja'
       item:
         tag_any_label: 'Bármely címke'
