@@ -24,7 +24,10 @@ CHANGELOG
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
 * [`ianm/synopsis`](https://github.com/imorland/synopsis)
@@ -32,6 +35,7 @@ CHANGELOG
 * [`justoverclock/flarum-ext-keywords`](https://github.com/justoverclockl/flarum-ext-keywords)
 * [`nearata/flarum-ext-cakeday`](https://github.com/Nearata/flarum-ext-cakeday)
 * [`nearata/flarum-ext-embed-video`](https://github.com/Nearata/flarum-ext-embed-video)
+* [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar)
 
 
 Összes változás: [v2.5.1...v2.5.2](https://github.com/flarum-lang/hungarian/compare/v2.5.1...v2.5.2).
