@@ -17,6 +17,7 @@ fof-webhooks:
       deleted: 'Csoport törölve: „{1}”'
       renamed: 'Csoport átnevezve erre: „{1}”'
     post:
+      approved: 'Bejegyzés engedélyezve itt: „{1}”'
       deleted: 'Bejegyzés törölve itt: „{1}”'
       hidden: 'Bejegyzés elrejtve itt: „{1}”'
       posted: 'Új bejegyzés itt: „{1}”'
@@ -34,6 +35,7 @@ fof-webhooks:
   admin:
     errors:
       service_not_found: 'A(z) „{service}” szolgáltatás nem található.'
+      tag_disabled: 'Ehhez a webhookhoz címkekorlátozás van beállítva. A Címkék bővítmény ki van kapcsolva. A korlátozás nem lesz alkalmazva. Győződjön meg róla, hogy ez így helyes.'
       tag_invalid: 'Ez a webhook egy érvénytelen címkére van korlátozva. A korlátozás nem lesz alkalmazva. Győződjön meg róla, hogy ez a szándékolt működés.'
       url_invalid: 'A webcím nem érvényes a kiválasztott szolgáltatáshoz.'
     nav:
@@ -72,7 +74,7 @@ fof-webhooks:
         general: 'Itt adhatja hozzá, szerkesztheti és távolíthatja el a fórumja webhookjait.'
         url: 'A webhook végrehajtandó végpontja'
       item:
-        tag_any_label: Bármely
+        tag_any_label: 'Bármely címke'
       modal:
         description: 'Itt módosíthatja, hogy mely eseményekre aktiválódik a webhook.'
         events_label: Események

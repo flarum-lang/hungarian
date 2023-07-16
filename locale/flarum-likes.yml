@@ -21,6 +21,7 @@ flarum-likes:
       unlike_link: 'Mégse tetszik'
       you_text: '=> core.ref.you'
     post_likes:
+      load_more_button: '=> core.ref.load_more'
       title: 'Felhasználók, akiknek tetszik'
     settings:
       notify_post_liked_label: 'Valakinek tetszik a bejegyzésem'

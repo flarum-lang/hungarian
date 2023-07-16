@@ -27,8 +27,9 @@ fof-links:
       links: '=> fof-links.ref.links'
     settings:
       show_icons_only_on_mobile: 'Az ikonok megjelenítése csak mobilon'
+      show_icons_only_on_tablet: 'Ikonok megjelenítése csak a táblagép méretű képernyőkön'
   ref:
     create_link: 'Hivatkozás létrehozása'
     links: Hivatkozások
     title: Cím
-    url: URL
+    url: Webcím

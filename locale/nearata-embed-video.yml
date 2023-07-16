@@ -25,6 +25,7 @@ nearata-embed-video:
         webtorrent: WebTorrent
   forum:
     button_tooltip_title: 'Videó beágyazása'
+    cannot_create: 'Nem ágyazhat be videót'
     cannot_view: 'Hiba: Nem tekintheti meg ezt a tartalmat'
     modal:
       add_pointer: 'Mutató hozzáadása'

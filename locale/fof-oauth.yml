@@ -38,6 +38,8 @@ fof-oauth:
           api_key_label: API-kulcs
           api_secret_label: API-titok
           description: 'Hozzon létre egy alkalmazást itt: {link}. Be kell állítani az Általános Szerződési Feltételek URL-jét és az Adatvédelmi irányelvek URL-jét. Ezután adja hozzá az e-mail kérési engedélyt.'
+      update_email_from_provider_help: 'Ha be van kapcsolva, akkor a fórumba történő bejelentkezéskor a felhasználó e-mail-címe frissítve lesz, hogy megegyezzen az OAuth-szolgáltató által megadottal. Nem minden szolgáltató adja meg a frissített e-mail-címet, ebben az esetben a beállítás nincs hatással ezekre a szolgáltatókra.'
+      update_email_from_provider_label: 'E-mail-cím frissítése a szolgáltató által'
     settings_accessibility_label: '{name} beállításai'
   forum:
     error:

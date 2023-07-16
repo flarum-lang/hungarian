@@ -53,6 +53,15 @@ core:
       title: Alapok
       welcome_banner_heading: 'Üdvözlő banner'
       welcome_banner_text: 'Állítsa be az „Összes téma” lapon megjelenítendő banner szövegét. Ezt a fórumra érkező látogatók köszöntéséhez használhatja.'
+    create_user:
+      email_confirmed_label: 'Cím megerősítésének megkövetelése'
+      email_placeholder: '=> core.ref.email'
+      password_placeholder: '=> core.ref.password'
+      submit_and_create_another_button: 'Létrehozás és újabb hozzáadása'
+      submit_button: 'Felhasználó létrehozása'
+      title: 'Új felhasználó létrehozása'
+      use_random_password: 'Véletlenszerű jelszó előállítása'
+      username_placeholder: '=> core.ref.username'
     dashboard:
       clear_cache_button: 'Gyorsítótár törlése'
       description: 'Fórum összefoglalása.'
@@ -191,6 +200,7 @@ core:
       userlist_button: '=> core.admin.users.title'
       userlist_title: '=> core.admin.users.description'
     permissions:
+      allow_hide_own_posts_label: 'Saját bejegyzések törlésének engedélyezése'
       allow_post_editing_label: 'Bejegyzések szerkesztésének engedélyezése'
       allow_renaming_label: 'Átnevezés engedélyezése'
       create_access_token_label: 'Hozzáférési token létrehozása'
@@ -225,6 +235,7 @@ core:
       view_user_list_label: 'Tagok listájának megtekintése'
     permissions_controls:
       allow_indefinitely_button: 'Korlátlan ideig'
+      allow_never_button: '=> core.ref.never'
       allow_some_minutes_button: '{count} percig'
       allow_ten_minutes_button: '10 percig'
       allow_until_reply_button: 'A következő válaszig'
@@ -239,6 +250,7 @@ core:
       remove_button: '=> core.ref.remove'
       upload_button: 'Válasszon egy képet…'
     users:
+      create_user_button: 'Új felhasználó'
       description: 'Az összes felhasználót tartalmazó lapozható lista.'
       grid:
         columns:
@@ -274,6 +286,10 @@ core:
       title: '=> core.ref.users'
       total_users: 'Felhasználók száma: {count}'
   api:
+    invalid_filter_type:
+      must_be_numeric_message: 'A(z) {filter} szűrőnek numerikusnak kell lennie.'
+      must_not_be_array_message: 'A(z) {filter} szűrőnek tömbnek kell lennie.'
+      must_not_be_multidimensional_array_message: 'A(z) {filter} szűrőnek többdimenziós tömbnek kell lennie.'
     invalid_username_message: 'A felhasználónév csak betűket, számokat és kötőjeleket tartalmazhat.'
   email:
     activate_account:
@@ -454,7 +470,7 @@ core:
         log_out_button: '=> core.ref.log_out'
       hide_access_token: 'Token elrejtése'
       last_activity: 'Legutóbbi tevékenység'
-      never: Soha
+      never: '=> core.ref.never'
       new_access_token_button: '=> core.ref.new_token'
       new_access_token_modal:
         submit_button: 'Token létrehozása'
@@ -554,6 +570,7 @@ core:
       username_heading: '=> core.ref.username'
       username_label: '=> core.ref.username'
     error:
+      circular_dependencies_message: 'Körkörös függőségek észlelve. {extensions}. Megszakítás. Tiltsa le az egyik bővítményt, és próbálja újra.'
       dependent_extensions_message: 'Nem tilthatja le a(z) {extension} bővítményt, amíg a következő bővítmények engedélyezettek: {extensions}'
       extension_initialiation_failed_message: 'A(z) {extension} előkészítése sikertelen, további információkért nézze meg a böngészőkonzolt.'
       generic_cross_origin_message: 'Hoppá! Hiba történt a nem egyező eredetű kérésnél. Töltse újra az oldalt, és próbálja újra.'
@@ -609,6 +626,7 @@ core:
     log_in: Bejelentkezés
     log_out: Kijelentkezés
     mark_all_as_read: 'Összes megjelölése olvasottként'
+    never: Soha
     new_token: 'Új token'
     next_page: 'Következő oldal'
     notifications: Értesítések

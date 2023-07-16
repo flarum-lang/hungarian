@@ -5,6 +5,7 @@
 fof-byobu:
   admin:
     permission:
+      add_more_than_two_user_recipients: 'Privát téma kezdeményezéséhez adjon hozzá több mint 2 résztvevőt'
       create_private_discussions_with_blocking_users: 'Privát téma kezdeményezése olyan felhasználókkal, akik blokkolják'
       create_private_discussions_with_groups: 'Új privát témák kezdeményezése csoportokkal'
       create_private_discussions_with_users: 'Új privát témák kezdeményezése felhasználókkal'
@@ -18,6 +19,8 @@ fof-byobu:
       delete_on_last_recipient_left_help: 'Ha be van kapcsolva, akkor a privát témák véglegesen törlődnek az adatbázisból, ha az utolsó felhasználó kilép. Különben a privát téma el lesz rejtve.'
       enable-make-public-option: 'Engedélyezi a „nyilvánossá tétel” lehetőséget'
       enable-make-public-option-help: 'Lehetőséget ad az összes résztvevő eltávolítására, új címke hozzárendelésére, és arra, hogy nyilvánosan láthatóvá váljon a téma (a kiválasztott címke beállításai alapján).'
+      hide_from_all_discussions_page: 'Privát témák elrejtése az „Összes téma” oldalon'
+      hide_from_all_discussions_page_help: 'A privát témák csak a „Privát témák” oldalon vagy a felhasználói profilon lesznek elérhetők'
       post-event-icon: 'Byobu bejegyzésesemények'
   email:
     body:
