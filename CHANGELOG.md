@@ -5,9 +5,22 @@ CHANGELOG
 2.5.2 (XXXX-XX-XX)
 ------------------
 
+**Általános változások**:
+
+* Flarum core fordítások frissítve.
+
+
 **Bővítményfordítások frissítve**:
 
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`clarkwinkelmann/flarum-ext-mailing`](https://github.com/clarkwinkelmann/flarum-ext-mailing)
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
 * [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
+* [`nearata/flarum-ext-embed-video`](https://github.com/Nearata/flarum-ext-embed-video)
 
 
 Összes változás: [v2.5.1...v2.5.2](https://github.com/flarum-lang/hungarian/compare/v2.5.1...v2.5.2).
