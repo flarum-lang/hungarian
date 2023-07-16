@@ -7,25 +7,33 @@ fof-polls:
     permissions:
       change_vote: 'Szavazat módosítása'
       moderate: 'Szavazások szerkesztése és törlése'
-      self_edit: 'A felhasználók módosíthatják a saját szavazásukat'
+      self_edit: 'Létrehozott szavazások szerkesztése (bejegyzésszerkesztési engedély szükséges)'
+      self_post_edit: 'Az *összes* saját bejegyzésben lévő szavazás szerkesztése (bejegyzésszerkesztési engedély szükséges)'
       start: 'Szavazás indítása'
       view_results_without_voting: 'Eredmény megtekintése szavazás nélkül'
       vote: 'Részvétel a szavazásokban'
     settings:
       allow_option_image: 'Képre hivatkozó webcím engedélyezése minden egyes szavazási lehetőségnél'
+      max_options: 'A lehetőségek legnagyobb száma szavazásonként'
   forum:
     composer_discussion:
-      add_poll: 'Szavazás hozzáadása'
+      add_poll: '=> fof-polls.forum.moderation.add'
       edit_poll: '=> fof-polls.forum.moderation.edit'
+      no_permission_alert: 'Nem indíthat szavazást.'
     days_remaining: 'A szavazás véget ér: {time}.'
+    max_votes_allowed: 'A szavazásban legfeljebb {max} lehetőség választható.'
     modal:
       add_option_label: 'Lehetőség hozzáadása'
       add_title: 'Szavazás hozzáadása'
+      allow_multiple_votes_label: 'Az emberek több lehetőségre is szavazhatnak'
       date_placeholder: 'Szavazás vége (nem kötelező)'
       edit_title: 'Szavazás szerkesztése'
+      hide_votes_label: 'Szavazatok elrejtése a szavazás végéig'
       image_option_placeholder: 'Kép webcíme (nem kötelező)'
       include_question: 'Lennie kell egy kérdésnek'
-      max: 'Legfeljebb 10 válasz lehet'
+      max: 'Legfeljebb {max} válasz lehet'
+      max_votes_help: 'Állítsa 0-ra, hogy az összes lehetőségre szavazhassanak.'
+      max_votes_label: 'Szavazatok maximális száma felhasználónként'
       min: 'Legalább 2 választ meg kell adni'
       no_voters: 'Nincs szavazat'
       option_placeholder: Válasz
@@ -34,6 +42,7 @@ fof-polls:
       question_placeholder: Kérdés
       submit: Beküldés
     moderation:
+      add: 'Szavazás hozzáadása'
       delete: 'Szavazás eltávolítása'
       delete_confirm: 'Valóban törli a szavazást?'
       edit: 'Szavazás szerkesztése'

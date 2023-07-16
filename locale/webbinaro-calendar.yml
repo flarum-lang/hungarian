@@ -10,12 +10,26 @@ flarum-calendar:
       add: 'Új naptáresemények létrehozása'
       moderate: 'Naptáresemények eltávolítása vagy szerkesztése (minden felhasználó szerkesztheti a sajátját)'
       view: 'Események megtekintése'
+    settings:
+      hide_host: 'Házigazda elrejtése'
   forum:
     button:
       create: 'Új esemény'
       landing: Eseménynaptár
       login: 'Saját esemény hozzáadása '
     event:
+      confirm_delete: 'Biztos, hogy törli ezt az eseményt?'
+      deleted: 'Ez az esemény törölve lett'
       details: 'További részletek erről az eseményről'
+      ends: 'Befejezés ideje:'
+      hosted_by: 'Házigazda:'
+      starts: 'Kezdés ideje:'
     modal:
+      dates_label: Mikor
+      description_label: Részletek
+      description_placeholder: Eseményrészletek
+      requirement_message: 'Az eseményhez név és leírás szükséges'
       submit: Elküldés
+      title_create: 'Új naptáresemény létrehozása'
+      title_edit: 'Eseményrészletek szerkesztése'
+      title_label: Mi
