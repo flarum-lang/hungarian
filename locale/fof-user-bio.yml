@@ -9,6 +9,7 @@ fof-user-bio:
       editOwn: 'Saját bemutatkozás szerkesztése'
       view: 'Bemutatkozás megtekintése'
     setting:
+      allowFormatting: 'Formázás engedélyezése a bemutatkozásban'
       bioLimit: 'Bemutatkozás karakterkorlátja'
   forum:
     userbioPlaceholder: 'Írjon valamit magáról'

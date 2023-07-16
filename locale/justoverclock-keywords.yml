@@ -4,12 +4,16 @@
 
 flarum-ext-keywords:
   admin:
+    addRow: 'Definíció hozzáadása'
     definition: Meghatározás
     parseonce: 'Elemezze a szavakat egyszer a bejegyzésben'
     removedef: Törlés
     word: Szó
   forum:
+    definition: Definíció
+    loadMore: 'Továbbiak betöltése'
     pagetitle: 'Szójegyzék oldal'
     searchtext: 'Kezdj írni a kereséshez...'
     tagline: 'Szeretnél többet megtudni a weboldalon használt kifejezésekről? Lásd a szószedetet'
+    term: Kifejezés
     title: Szójegyzék
