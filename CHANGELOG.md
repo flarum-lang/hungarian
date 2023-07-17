@@ -35,6 +35,7 @@ CHANGELOG
 * [`justoverclock/flarum-ext-keywords`](https://github.com/justoverclockl/flarum-ext-keywords)
 * [`nearata/flarum-ext-cakeday`](https://github.com/Nearata/flarum-ext-cakeday)
 * [`nearata/flarum-ext-embed-video`](https://github.com/Nearata/flarum-ext-embed-video)
+* [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor)
 * [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar)
 
 
