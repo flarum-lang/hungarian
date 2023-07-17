@@ -7,6 +7,7 @@ nearata-twofactor:
     permissions:
       can_enable_twofactor: 'Engedélyezheti a kétlépcsős hitelesítést'
     settings:
+      generate_app_backups: 'Alkalmazás biztonsági mentési kódjainak előállítása'
       generate_backups: 'Biztonsági tartalékkódok előállítása.'
   forum:
     invalid_twofa_code: 'Érvénytelen kétlépcsős kód.'
@@ -15,6 +16,42 @@ nearata-twofactor:
       otp_placeholder: 'Kétlépcsős jelkód'
       submit_button: Bejelentkezés
       title: 'Kétlépcsős hitelesítés'
+    login:
+      app:
+        invalid_passcode: 'Érvénytelen jelkód.'
+        passcode_placeholder: '6 számjegyű jelkód'
+      auth_buttons:
+        app: 'Hitelesítő alkalmazás'
+      placeholder_label: 'Válasszon kétlépcsős hitelesítési módot…'
+      submit_button_label: Bejelentkezés
+      title: 'Kétlépcsős hitelesítés'
+    settings:
+      app:
+        button_help: 'A hozzáférési kódokat a hitelesítő alkalmazáson keresztül fogadja.'
+        button_label: 'Hitelesítő alkalmazás'
+        setup:
+          close_button_label: Bezárás
+          disable:
+            button_label: Letiltás
+            enter_code_disable: 'Adja meg a kódot a kétlépcsős hitelesítő alkalmazás letiltásához.'
+            success: 'A hitelesítő alkalmazás letiltva.'
+          enable:
+            backups:
+              copy_button_label: Másolás
+              download_button_label: Letöltés
+              download_file_format: "{website_title} | {website_url}\n\nTartsa ezeket a biztonsági mentési kódokat biztonságos, de elérhető helyen.\n\nA KÓDOK LISTÁJA\n\n{codes}\n\n* Minden biztonsági kódot csak egyszer használhat.\n* Ezeket a kódokat a megadott sorrendben KELL használni.\n* A kódok ekkor lettek előállítva: {date}.\n"
+              message: "Tartsa ezeket a helyreállítási kódokat biztonságos helyen. Ha elveszíti az engedélyezett eszközét, akkor ezekkel az egyszer használatos kódokkal léphet be a fiókjába (ebben a sorrendben).\n"
+            button_label: Engedélyezés
+            enter_code_manually: 'Jelszó megadása kézzel'
+            scan_qr: 'Olvassa le ezt a QR-kódot a kétlépcsős hitelesítő eszközével a fiókja beállításához.'
+            success: 'A hitelesítő alkalmazás engedélyezve.'
+          invalid_passcode: 'A jelszó vagy jelkód érvénytelen.'
+          passcode_placeholder: '6 számjegyű jelkód'
+          password_placeholder: Jelszó
+          title: 'Hitelesítő alkalmazás beállítása'
+      configured: Beállítva
+      not_configured: 'Nincs beállítva'
+      section_title: 'Kétlépcsős hitelesítés'
     setup_button: 'Kétlépcsős hitelesítés'
     setup_modal:
       backups:
@@ -34,3 +71,10 @@ nearata-twofactor:
         disable: Letiltás
         enable: Engedélyezés
       title: 'Kétlépcsős hitelesítés'
+  lib:
+    edit_user:
+      app:
+        label: 'Hitelesítő alkalmazás'
+      disable_confirmation: 'Biztos benne? Arra készül, hogy letiltsa a felhasználó ezen hitelesítési módját.'
+      placeholder_text: 'Nincs mit letiltani'
+      section_title: 'Kétlépcsős hitelesítés'
