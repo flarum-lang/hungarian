@@ -5,7 +5,7 @@
 gpx-preview:
   admin:
     settings:
-      gkey: 'Google API-kulcs, amely eléri a Maps API-t'
+      gkey: 'Google API-kulcs, amely eléri a Maps API-t.'
     templates:
       gpx: GPX-útvonalelőnézet
       gpx.file_description: 'Beágyaz egy Google térképet, és fölé helyezi a feltöltött GPX-fájlt.'
