@@ -35,7 +35,8 @@ fof-doorman:
         key: Kulcs
         max_uses: 'Használati korlát'
         title: Meghívókódok
-        used_times: '{remaining, plural, one {{remaining} használat maradt} other {{remaining} használat maradt}}'
+        total_uses: '{totalUses} alkalommal használva'
+        used_times: '{remaining, plural, =0 {Végtelen használat} one {{remaining} használat maradt} other {{remaining} használat maradt}}'
         warning: 'Ez a meghívókód elérti a felhasználási korlátját.'
       title: Ajtónálló
   forum:

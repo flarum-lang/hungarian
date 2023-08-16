@@ -15,6 +15,8 @@ fof-polls:
     settings:
       allow_option_image: 'Képre hivatkozó webcím engedélyezése minden egyes szavazási lehetőségnél'
       max_options: 'A lehetőségek legnagyobb száma szavazásonként'
+      options_color_blend: 'Színkeverés használata a szavazási lehetőségek szövegénél'
+      options_color_blend_help: 'Használja ezt, hogy a színkeveréssel olvashatóbbá tegye a szavazási lehetőségeket. Tiltsa le ezt a funkciót, ha problémákat okoz a fórum megjelenésében, csökkentve az olvashatóságot.'
   forum:
     composer_discussion:
       add_poll: '=> fof-polls.forum.moderation.add'
@@ -25,6 +27,7 @@ fof-polls:
     modal:
       add_option_label: 'Lehetőség hozzáadása'
       add_title: 'Szavazás hozzáadása'
+      allow_change_vote_label: 'Engedélyezés, hogy a felhasználók módosítsák a szavazatukat'
       allow_multiple_votes_label: 'Az emberek több lehetőségre is szavazhatnak'
       date_placeholder: 'Szavazás vége (nem kötelező)'
       edit_title: 'Szavazás szerkesztése'
@@ -47,6 +50,9 @@ fof-polls:
       delete_confirm: 'Valóban törli a szavazást?'
       edit: 'Szavazás szerkesztése'
     no_permission: 'Nincs joga szavazni'
+    poll:
+      cannot_change_vote: 'A szavazat leadása után nem módosíthatja a szavazatát.'
+      submit_button: Szavazás
     poll_ended: 'A szavazás véget ért.'
     public_poll: 'Szavazók megtekintése'
     tooltip:

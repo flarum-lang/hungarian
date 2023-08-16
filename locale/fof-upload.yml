@@ -111,9 +111,17 @@ fof-upload:
       qiniu: QiNiu
   api:
     upload_errors:
+      cannot_write_to_disk: 'Nem lehet a lemezre írni.'
       could_not_detect_mime: 'A fájl MIME-típusa nem észlelhető, próbálja újra.'
       forbidden_type: 'Az ilyen típusú fájlok feltöltése nem engedélyezett.'
+      max_upload_file_size_form: 'Az űrlap legnagyobb fájlfeltöltési korlátja elérve.'
+      max_upload_file_size_ini: 'A php.ini-ben szereplő legnagyobb fájlfeltöltési korlát elérve.'
+      no_file_uploaded: 'Nincs fájl feltöltve.'
+      no_files_made_it_to_upload: 'Legfeljebb {max} kB-os fájlokat töltsön fel.'
+      no_upload_tmp_folder: 'Nincs tmp mappa a fájlok feltöltéséhez.'
+      partial_upload: 'Részleges feltöltés.'
       unsupported_type: 'A feltöltési adapter nem támogatja a megadott MIME-típust: {mime}.'
+      upload_blocked_by_php_extension: 'Egy PHP-kiterjesztés blokkolta a feltöltést.'
   forum:
     buttons:
       attach: Csatolás
