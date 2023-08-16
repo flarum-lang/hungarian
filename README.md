@@ -334,9 +334,14 @@ php flarum cache:clear
 | [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum/hu/v17development-blog/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-blog/hu/) |
 | [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum/hu/v17development-seo/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-seo/hu/) |
 | [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum/hu/v17development-user-badges/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-user-badges/hu/) |
+| [`webbinaro/flarum-affiliator`](https://github.com/eddiewebb/flarum-affiliator) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum/hu/webbinaro-affiliator/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/webbinaro-affiliator/hu/) |
+| [`webbinaro/flarum-age-check`](https://github.com/eddiewebb/flarum-age-check) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum/hu/webbinaro-age-check/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/webbinaro-age-check/hu/) |
 | [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum/hu/webbinaro-calendar/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/webbinaro-calendar/hu/) |
+| [`webbinaro/gpx-preview`](https://github.com/eddiewebb/flarum-gpx-preview) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum/hu/webbinaro-gpx-preview/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/webbinaro-gpx-preview/hu/) |
+| [`widayn/flarum-avatar-cropper`](https://github.com/WiDayn/flarum-avatar-cropper) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum/hu/widayn-avatar-cropper/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/widayn-avatar-cropper/hu/) |
 | [`xelson/flarum-ext-chat`](https://github.com/Xelson/flarum-ext-chat) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum/hu/xelson-chat/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/xelson-chat/hu/) |
 | [`ziiven/flarum-post-number`](https://github.com/Ziiven/flarum-post-number) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum/hu/ziiven-post-number/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-post-number/hu/) |
+| [`ziiven/view-history`](https://github.com/Ziiven/view-history) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum/hu/ziiven-view-history/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-view-history/hu/) |
 
 <!-- various-extensions-list-stop -->
 
