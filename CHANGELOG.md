@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-2.6.0 (XXXX-XX-XX)
+2.6.0 (2023-08-16)
 ------------------
 
 **Új bővítmények támogatása hozzáadva**:
