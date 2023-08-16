@@ -7,10 +7,18 @@ CHANGELOG
 
 **Új bővítmények támogatása hozzáadva**:
 
+* [`justoverclock/composer-autocomplete`](https://github.com/justoverclockl/composer-autocomplete)
+* [`justoverclock/discussion-tags`](https://extiverse.com/extension/justoverclock/discussion-tags)
+* [`kyrne/evergreen`](https://github.com/KyrneDev/Evergreen)
+* [`sycho/flarum-github-milestone`](https://github.com/SychO9/flarum-github-milestone)
+* [`the-turk/flarum-quiet-edits`](https://github.com/the-turk/flarum-quiet-edits)
+* [`tohsakarat/save-and-load-draft-automatically`](https://github.com/tohsakrat/save-and-load-draft-automatically)
+* [`tohsakarat/tags-filter`](https://github.com/tohsakrat/flarum-tags-filter)
 * [`webbinaro/flarum-affiliator`](https://github.com/eddiewebb/flarum-affiliator)
 * [`webbinaro/flarum-age-check`](https://github.com/eddiewebb/flarum-age-check)
 * [`webbinaro/gpx-preview`](https://github.com/eddiewebb/flarum-gpx-preview)
 * [`widayn/flarum-avatar-cropper`](https://github.com/WiDayn/flarum-avatar-cropper)
+* [`xrh0905/oauth-microsoft`](https://github.com/xrh0905/flarum-ext-oauth-microsoft)
 * [`ziiven/view-history`](https://github.com/Ziiven/view-history)
 
 
