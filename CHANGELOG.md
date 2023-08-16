@@ -2,6 +2,30 @@ CHANGELOG
 =========
 
 
+2.6.0 (XXXX-XX-XX)
+------------------
+
+**Új bővítmények támogatása hozzáadva**:
+
+* [`webbinaro/flarum-affiliator`](https://github.com/eddiewebb/flarum-affiliator)
+* [`webbinaro/flarum-age-check`](https://github.com/eddiewebb/flarum-age-check)
+* [`webbinaro/gpx-preview`](https://github.com/eddiewebb/flarum-gpx-preview)
+* [`widayn/flarum-avatar-cropper`](https://github.com/WiDayn/flarum-avatar-cropper)
+* [`ziiven/view-history`](https://github.com/Ziiven/view-history)
+
+
+**Bővítményfordítások frissítve**:
+
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+
+
+Összes változás: [v2.5.2...v2.6.0](https://github.com/flarum-lang/hungarian/compare/v2.5.2...v2.6.0).
+
+
 2.5.2 (2023-07-17)
 ------------------
 
