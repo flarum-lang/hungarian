@@ -2,6 +2,21 @@ CHANGELOG
 =========
 
 
+2.7.0 (XXXX-XX-XX)
+------------------
+
+**Új bővítmények támogatása hozzáadva**:
+
+* [`blomstra/oauth-apple`](https://github.com/blomstra/flarum-ext-oauth-apple)
+* [`ianm/oauth-line`](https://github.com/imorland/flarum-ext-oauth-line)
+* [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit)
+* [`ianm/oauth-twitch`](https://github.com/imorland/flarum-ext-oauth-twitch)
+* [`justoverclock/be-active-user-indicator`](https://github.com/justoverclockl/active-user-indicator)
+
+
+Összes változás: [v2.6.0...v2.7.0](https://github.com/flarum-lang/hungarian/compare/v2.6.0...v2.7.0).
+
+
 2.6.0 (2023-08-16)
 ------------------
 
