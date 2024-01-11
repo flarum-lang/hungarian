@@ -5,6 +5,8 @@
 fof-reactions:
   admin:
     page:
+      cdn:
+        title: CDN
       convert:
         button: 'Régi reakciók átalakítása'
         converted: 'A(z) {number} kedvelés sikeresen át lett alakítva'
