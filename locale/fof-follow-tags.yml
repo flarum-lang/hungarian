@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-follow-tags/hu/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+blomstra-gdpr:
+  lib:
+    data:
+      tagsubscription:
+        anonymize_description: 'Eltávolítja a felhasználó címkefeliratkozását.'
+        export_description: 'Exportálja a címke feliratkozási szintjének részleteit, ha az létezik.'
 fof-follow-tags:
   admin:
     settings:
@@ -39,6 +45,7 @@ fof-follow-tags:
       follow_button: '=> fof-follow-tags.ref.follow'
       following_button: '=> fof-follow-tags.ref.following'
       following_text: 'Értesítsen minden új témáról.'
+      header: 'Feliratkozás erre: {tagName}'
       hiding_button: '=> fof-follow-tags.ref.hiding'
       hiding_text: 'Témák elrejtése az Összes téma oldalról.'
       ignoring_button: '=> fof-follow-tags.ref.ignoring'
@@ -49,6 +56,8 @@ fof-follow-tags:
       not_following_text: 'Csak akkor értesítsen, ha megemlíttettek.'
       notify_alert_tooltip: 'Értesítést kaphatsz a fórumon, ha új hozzászólások vagy témák jelennek meg'
       notify_email_tooltip: 'E-mail küldése, ha új témák vagy hozzászólások vannak'
+      submit_button: 'Feliratkozás megerősítése'
+      subscription_label: 'Válassza ki a feliratkozási szintjét ehhez: {tagName}'
     user:
       settings:
         filter_label: 'Mi jelenjen meg alapértelmezés szerint a Követés oldalon'

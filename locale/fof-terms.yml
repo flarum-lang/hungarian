@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-terms/hu/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+blomstra-gdpr:
+  lib:
+    data:
+      userpolicydata:
+        delete_description: 'Eltávolítja a jelzőt, hogy a felhasználó elfogta a feltételeket'
+        export_description: 'Részletek arról, hogy a felhasználó elfogadta-e a feltételeket'
 fof-terms:
   admin:
     buttons:

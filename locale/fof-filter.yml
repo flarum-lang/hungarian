@@ -10,7 +10,7 @@ fof-filter:
     countLabel: 'Cenzor küszöbszintje'
     email:
       default_subject: 'A friss bejegyzésével kapcsolatosan'
-      default_text: "Köszönjük a bejegyzést! Sajnos a bejegyzése eltávolításra került, mert olyasmit tartalmaz, amit nem szeretnénk a fórumunkon látni.\n\nHa azt gondolja, hogy ez tévedés, akkor szerencséje van, a moderátorok az összes eltávolított bejegyzést átnézik. Ha úgy találják, hogy hibásan lett eltávolítva, akkor vissza fogják állítani.                \n\nKöszönjük a megértését."
+      default_text: "Köszönjük a bejegyzést! Sajnos a bejegyzése eltávolításra került, mert olyasmit tartalmaz, amit nem szeretnénk a fórumunkon látni.\n\nHa azt gondolja, hogy ez tévedés, akkor szerencséje van, a moderátorok az összes eltávolított bejegyzést átnézik. Ha úgy találják, hogy hibásan lett eltávolítva, akkor vissza fogják állítani.                \n\nKöszönjük a megértését.\n"
     email_help: 'A megjelölésről szóló e-mail törzse. HTML-t és egyszerű szöveget fogad el.'
     filter_label: 'Szűrendő szövegek'
     help2: 'A percben megadott időköz, mialatt az egy felhasználó által egy témában közzétett bejegyzések automatikusan összevonásra kerülnek.'
@@ -21,6 +21,7 @@ fof-filter:
       filter_title: 'Szűrendő szövegek'
       placeholder: 'Szűrendő szövegek'
       switch:
+        delete: 'Kiszűrt bejegyzések automatikus törlése'
         email: 'E-mail küldése a felhasználónak, ha a bejegyzése szűrésre kerül'
         merge: 'Ismételt bejegyzések automatikus összevonása'
     nav:

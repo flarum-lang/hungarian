@@ -32,3 +32,6 @@ fof-discussion-language:
       change_language_button: 'Nyelv beállítása'
     index_language:
       any: 'Bármely nyelv'
+    sub_controls:
+      subscription_language_help: 'Ha itt kiválaszt egy nyelvet, akkor csak az ilyen nyelvű tevékenységekről fog értesítést kapni.'
+      subscription_language_label: 'Téma nyelve'
