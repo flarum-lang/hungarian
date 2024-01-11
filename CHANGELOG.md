@@ -21,6 +21,7 @@ CHANGELOG
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
 * [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`fof/split`](https://github.com/FriendsOfFlarum/split)
 * [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
