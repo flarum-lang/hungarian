@@ -14,6 +14,12 @@ CHANGELOG
 * [`justoverclock/be-active-user-indicator`](https://github.com/justoverclockl/active-user-indicator)
 
 
+**Bővítményfordítások frissítve**:
+
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+
+
 Összes változás: [v2.6.0...v2.7.0](https://github.com/flarum-lang/hungarian/compare/v2.6.0...v2.7.0).
 
 
