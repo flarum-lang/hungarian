@@ -37,5 +37,5 @@ flarum-subscriptions:
       notify_email_tooltip: 'E-mail fogadása, ha új bejegyzések vannak'
   ref:
     follow: Követés
-    following: 'Követett témák'
+    following: Követve
     ignoring: Mellőzés
