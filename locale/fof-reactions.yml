@@ -6,6 +6,9 @@ fof-reactions:
   admin:
     page:
       cdn:
+        default-url: 'Alapértelmezett: {url}'
+        help: "Alapértelmezés szerint a reakciók tartalmait a Cloudflare CDN-jének segítségével szolgáljuk ki. Igény szerint tetszőleges más \nCDN címét is megadhatja. A <code>[codepoint]</code> az emodzsi kódpontjára lesz cserélve.\n\nPéldául a Noto Emoji jsdelivr segítségével történő használatához ezt adná meg: <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>. Ez a mező SOSEM lehet üres.\n"
+        label: Webcím
         title: CDN
       convert:
         button: 'Régi reakciók átalakítása'
@@ -36,7 +39,7 @@ fof-reactions:
             legend: Kedvelések
           warning: 'Ugyanazon reakció <strong>nem</strong> alakítható át kedveléssé <strong>és</strong> felszavazássá'
         react_own_posts_help: 'Ha be van kapcsolva, akkor jogosultság alapján, a felhasználók reagálhatnak a saját bejegyzéseikre a fórumban. Ha ezt meg akarja akadályozni, akkor kapcsolja ki ezt a beállítást.'
-        react_own_posts_label: 'A felhasználók reagálhatnak a saját bejegyzésükre'
+        react_own_posts_label: 'A felhasználók reagálhatnak a saját bejegyzéseikre,'
         save_settings: 'Beállítások mentése'
     permissions:
       react_posts_label: 'Reagálás a bejegyzésekre'
