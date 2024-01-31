@@ -17,6 +17,7 @@ CHANGELOG
 **Bővítményfordítások frissítve**:
 
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`clarkwinkelmann/flarum-ext-passwordless`](https://github.com/clarkwinkelmann/flarum-ext-passwordless)
 * [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
 * [`datlechin/flarum-more-discussions`](https://github.com/datlechin/flarum-more-discussions)
 * [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
