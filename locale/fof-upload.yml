@@ -195,6 +195,13 @@ fof-upload:
       hide_shared_file:
         btn_a11y_label_hide: 'A(z) „{fileName}” priváttá tétele (nem lesz nyilvános webcíme)'
         btn_a11y_label_show: 'A(z) „{fileName}” nyilvánossá tétele (nyilvános webcíme lesz)'
+        hide_confirmation: 'Biztos, hogy priváttá teszi a(z) „{fileName}” fájlt? A fájl priváttá tétele eltávolítja a nyilvános webcímét, de nincs hatással a meglévő bejegyzésekre. Többé nem lesz látható a médiakezelőben az arra nem jogosult felhasználóknál.'
+        hide_fail: 'A(z) „{fileName}” nem tehető priváttá'
+        hide_success: 'A fájl priváttá téve'
+        loading: 'A fájl priváttá tétele…'
+        show_confirmation: 'Biztos, hogy nyilvánossá teszi a(z) „{fileName}” fájlt? A fájl nyilvánossá tétele bárki számára elérhetővé teszi egy nyilvános webcímmel, és bárki megoszthatja a médiakezelő használatával.'
+        show_fail: 'A(z) „{fileName}” nem tehető nyilvánossá'
+        show_success: 'A fájl nyilvánossá téve'
       load_more_files_btn: 'További fájlok betöltése'
       loading: 'Fájlok betöltése…'
       modal_empty_desktop: 'A fájllista üres. Kattintson a gombra, vagy húzza ide a fájlt a feltöltéshez.'
