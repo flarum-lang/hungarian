@@ -4,12 +4,20 @@
 
 signature:
   admin:
+    permissions:
+      allow_signature: 'Lehet aláírása'
+      edit_signature_others: 'Más felhasználók aláírásának szerkesztése'
     settings:
+      allow_inline_editing:
+        description: 'Aláírás helyi szerkesztése.'
+        help: 'Ha be van kapcsolva, akkor a felhasználók szerkeszthetik az aláírásuk egy bejegyzésük megtekintésekor.'
       maximum_char_limit:
-        description: 'Az aláírás legnagyobb karakterkorlátja (karakterek száma, nem veszi figyelembe a HTML-címkéket)'
+        description: 'Az aláírás karakterszámkorlátja.'
+        help: 'Ha egy felhasználó túllépi az aláírásában a karakterkorlátot, akkor a mentés addig meg lesz akadályozva, amíg ki nem javítja.'
         placeholder: '1000 (alapértelmezett)'
       maximum_image_count:
         description: 'A beillesztett képek legnagyobb száma.'
+        help: 'Ha egy felhasználó túllépi az aláírásában szereplő képek legnagyobb számát, akkor a mentés addig meg lesz akadályozva, amíg ki nem javítja.'
         placeholder: '5 (alapértelmezett)'
       maximum_image_height:
         description: 'A beillesztett képek legnagyobb összmagassága a szerkesztőben.'
@@ -20,6 +28,7 @@ signature:
     title: Aláírás
   forum:
     buttons:
+      edit: 'Aláírás szerkesztése'
       save: 'Aláírás mentése'
       signature: Aláírás
     errors:
@@ -34,3 +43,5 @@ signature:
       loading:
         content: 'Kis türelmet…'
         title: Mentés
+    profile:
+      click: 'Kattintson az aláírása megírásához'

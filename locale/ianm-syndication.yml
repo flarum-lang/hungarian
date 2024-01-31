@@ -25,9 +25,13 @@ ianm-syndication:
       forum_new_discussions: 'A fórum új témái'
       tag_activity: 'A(z) {tag} új tevékenységei'
       tag_new_discussions: 'A(z) {tag} új témái'
+      user_last_posts: 'E felhasználó bejegyzései és hozzászólásai'
     discussion:
       feed_link: Hírcsatorna
     feeds:
+      entries:
+        user_posts:
+          title_reply: 'Válasz ebben: {discussion}'
       titles:
         discussion_subtitle: 'A téma legutóbbi üzenetei'
         discussion_title: '{discussion_name}'
@@ -39,3 +43,5 @@ ianm-syndication:
         tag_d_title: 'A(z) {tag} új témái'
         tag_subtitle: 'A(z) {tag} címke legutóbbi bejegyzései'
         tag_title: 'A(z) {tag} tevékenységei'
+        user_subtitle: 'E felhasználó legfrissebb bejegyzései és hozzászólásai.'
+        user_title: '{username}'

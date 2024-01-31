@@ -9,6 +9,7 @@ fof-links:
       delete_link_confirmation: 'Valóban törli a hivatkozást?'
       everyone-label: Mindenki
       guests-label: Vendégek
+      icon_additional_text: 'Ha inkább egy márkaikont használna, akkor az előtag: <code>fab fa-</code>.'
       icon_label: '=> core.ref.icon'
       icon_text: '=> core.ref.icon_text'
       internal_link: 'Ez egy belső hivatkozás?'
@@ -21,6 +22,7 @@ fof-links:
       url_description: 'Hagyja üresen a címkeként történő megjelenítéséhez.'
       url_label: '=> fof-links.ref.url'
       url_placeholder: '=> fof-links.ref.url'
+      use_rel_me: 'A <code>rel="me"</code> attribútum hozzáadása a más oldalakon történő személyazonosság-ellenőrzés lehetővé tételéhez'
       visibility: 'Hivatkozás láthatósága'
     links:
       create_button: '=> fof-links.ref.create_link'

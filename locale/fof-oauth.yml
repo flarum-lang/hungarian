@@ -6,7 +6,17 @@ fof-oauth:
   admin:
     configure_button_label: 'Beállítás a FoF OAuth használatával'
     settings:
+      advanced:
+        heading: Speciális
+        log-oauth-errors-help: 'Ha be van kapcsolva, akkor az OAuth hibák naplózva lesznek a Flarum naplójában. Ez segíthet az OAuth-tal kapcsolatos problémák megoldásában, de bizalmas információkat is tartalmazhat.'
+        log-oauth-errors-label: 'OAuth hibák naplózása'
+      fullscreen_popup_help: 'Ha be van kapcsolva, akkor az OAuth-ot használó bejelentkezés teljes képernyős felugró ablakban nyílik meg. Ha be van kapcsolva, akkor a szélesség és magasság beállítása figyelmen kívül lesz hagyva.'
+      fullscreen_popup_label: 'Teljes képernyős felugró ablak használata az OAuth-hoz'
       only_icons_label: 'Csak az ikonok megjelenítése (alternatív elrendezés)'
+      popup_height_help: 'Az OAuth felugró ablakának magasságának beállítása. Ez a beállítás figyelmen kívül lesz hagyva, ha a „Teljes képernyős felugró ablak használata az OAuth-hoz” beállítás be van kapcsolva.'
+      popup_height_label: 'OAuth felugró ablakának magassága'
+      popup_width_help: 'Az OAuth felugró ablakának szélességének beállítása. Ez a beállítás figyelmen kívül lesz hagyva, ha a „Teljes képernyős felugró ablak használata az OAuth-hoz” beállítás be van kapcsolva.'
+      popup_width_label: 'OAuth felugró ablakának szélessége'
       providers:
         callback_url_text: 'Ha szükséges, akkor állítsa a visszahívási URL-t erre: {url}.'
         discord:
@@ -30,6 +40,7 @@ fof-oauth:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
           description: 'Hozzon létre egy alkalmazást itt: {link}.'
+          hosted_domain_label: 'Kiszolgált domain (G suite/Google Apps for Business, nem kötelező)'
         linkedin:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'

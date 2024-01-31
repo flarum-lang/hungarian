@@ -21,11 +21,11 @@ datlechin-birthdays:
     invalid_dob_message: 'Érvénytelen születési dátum'
   forum:
     change_dob:
-      date_of_birth_text: 'Születési dátum'
+      date_of_birth_text: '=> datlechin-birthdays.ref.date_of_birth'
       submit_button: '=> core.ref.save_changes'
       title: 'Születési dátum szerkesztése'
     edit_user:
-      dob_heading: 'Születési dátum'
+      dob_heading: '=> datlechin-birthdays.ref.date_of_birth'
     header:
       edit_dob_button: 'Születési dátum szerkesztése'
     nav:
@@ -35,10 +35,14 @@ datlechin-birthdays:
       post_count: '{count, plural, one {Bejegyzés: #} other {Bejegyzés: #}}'
     settings:
       change_dob_label: 'Születési dátum szerkesztése'
-      dob_heading: 'Születési dátum'
+      dob_heading: '=> datlechin-birthdays.ref.date_of_birth'
       show_dob_date_label: 'A nap és hónap megjelenítése'
       show_dob_year_help: 'Ez megengedi a felhasználóknak, hogy láthassák hány éves.'
       show_dob_year_label: 'Az év megjelenítése'
+    sign_up:
+      dob_placeholder: '=> datlechin-birthdays.ref.date_of_birth'
     user:
       age_text: 'Életkor: {age}'
       birthday_text: 'Születésnap: {date}'
+  ref:
+    date_of_birth: 'Születési dátum'
