@@ -9,7 +9,7 @@ datlechin-more-discussions:
       block_name_label: 'Blokk neve'
       discussion_limit_help: 'A megjelenítendő témák száma (alapértelmezett: <code>5</code>)'
       discussion_limit_label: Témakorlát
-      discussion_related_help: 'Kapcsolódó találatok keresése a témacím alapján. <b>Figyelmeztetés:</b> ez hatással lehet a webhely teljesítményére, különöse akkor, ha az nagy méretű. Ennek elkerülése érdekében, ezt a beállítást a <b>clarkwinkelmann/flarum-ext-scout</b> bővítménnyel együtt használja.'
+      discussion_related_help: 'Kapcsolódó találatok keresése a témacím alapján. <b>Figyelmeztetés:</b> ez hatással lehet a webhely teljesítményére, különösen akkor, ha az nagy méretű. Ennek elkerülése érdekében, ezt a beállítást a <b>clarkwinkelmann/flarum-ext-scout</b> bővítménnyel együtt használja.'
       discussion_related_label: 'Kapcsolódó találatok'
       filter_by_help: 'Témák szűrése (alapértelezett: <code>legfrissebb</code>)'
       filter_by_label: Szűrés
