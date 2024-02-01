@@ -7,19 +7,37 @@ CHANGELOG
 
 **Új bővítmények támogatása hozzáadva**:
 
+* [`blomstra/s3-assets`](https://extiverse.com/extension/blomstra/s3-assets)
 * [`clarkwinkelmann/flarum-ext-meilisearch-dashboard`](https://github.com/clarkwinkelmann/flarum-ext-meilisearch-dashboard)
+* [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed)
+* [`club-1/flarum-ext-server-side-highlight`](https://github.com/club-1/flarum-ext-server-side-highlight)
+* [`datlechin/flarum-birthdays-widget`](https://github.com/datlechin/flarum-birthdays-widget)
+* [`datlechin/flarum-oauth-envato`](https://github.com/datlechin/flarum-oauth-envato)
+* [`foskym/nickname-group-formatter`](https://github.com/FoskyM/flarum-nickname-group-formatter)
+* [`gbcl/userip`](https://github.com/GBCLStudio/userip)
 * [`justoverclock/export-post-to-pdf`](https://extiverse.com/extension/justoverclock/export-post-to-pdf)
 * [`justoverclock/imdb-api`](https://extiverse.com/extension/justoverclock/imdb-api)
 * [`justoverclock/popular-tags`](https://github.com/justoverclockl/popular-tags)
 * [`justoverclock/flarum-ext-realtimecode`](https://github.com/justoverclockl/flarum-ext-realtimecode)
 * [`justoverclock/theaudiodb-api`](https://extiverse.com/extension/justoverclock/theaudiodb-api)
 * [`justoverclock/users-map-location`](https://github.com/justoverclockl/users-map-location)
+* [`litalino/flarum-top-bar`](https://github.com/Litalino/flarum-top-bar)
 * [`littlecxm/flarum-reply-to-see`](https://github.com/littlecxm/flarum-reply-to-see)
 * [`marchccc/flarum-ext-mentions-group-users`](https://github.com/Marchccc/flarum-ext-mentions-group-users)
 * [`matteociaroni/flarum-old-content`](https://github.com/matteociaroni/flarum-old-content)
 * [`matteociaroni/flarum-public-suspensions`](https://github.com/matteociaroni/flarum-public-suspensions)
+* [`nearata/flarum-ext-password-strength-enforcer`](https://github.com/Nearata/flarum-ext-password-strength-enforcer)
 * [`nodeloc/flarum-ignore-hidden-tags`](https://github.com/nodeloc/flarum-ignore-hidden-tags)
 * [`peruguitar/flarum-ext-user-portrait`](https://github.com/Anexsoft/peruguitar-flarum-ext-user-portrait)
+* [`rehiy/flarum-reply-to-see`](https://github.com/rehiy/flarum-reply-to-see)
+* [`swaggymacro/only-starter`](https://github.com/SwaggyMacro/OnlyStarter)
+* [`the-turk/flarum-pallet-theme`](https://github.com/the-turk/flarum-pallet-theme)
+* [`tokenjenny/flarum-ext-web3`](https://github.com/tokenjenny/flarum-ext-web3)
+
+
+**Bővítményfordítások frissítve**:
+
+* [`nosun/reply-to-see`](https://github.com/nosun/flarum-ext-reply2see)
 
 
 Összes változás: [v2.7.0...v2.8.0](https://github.com/flarum-lang/hungarian/compare/v2.7.0...v2.8.0).
