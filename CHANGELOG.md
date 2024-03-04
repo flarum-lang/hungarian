@@ -39,7 +39,13 @@ CHANGELOG
 
 **Bővítményfordítások frissítve**:
 
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
 * [`nosun/reply-to-see`](https://github.com/nosun/flarum-ext-reply2see)
 
 
