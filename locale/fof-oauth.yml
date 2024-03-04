@@ -5,6 +5,8 @@
 fof-oauth:
   admin:
     configure_button_label: 'Beállítás a FoF OAuth használatával'
+    permissions:
+      moderate_user_providers: 'Felhasználók összekapcsolt fiókjainak moderálása'
     settings:
       advanced:
         heading: Speciális
