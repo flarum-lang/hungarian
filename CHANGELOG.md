@@ -39,6 +39,7 @@ CHANGELOG
 
 **Bővítményfordítások frissítve**:
 
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
 * [`nosun/reply-to-see`](https://github.com/nosun/flarum-ext-reply2see)
 
 
