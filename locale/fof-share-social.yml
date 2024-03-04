@@ -6,10 +6,13 @@ fof-share-social:
   admin:
     settings:
       canonical-urls: 'Kanonikus webcímek használata a megosztáshoz'
+      default-option: 'Alapértelmezett megosztási lehetőség'
+      default-option-help: "Az alapértelmezett lehetőség legördülő gombbá alakítja a felugró ablakot.\nHa a „Natív megosztás” van kiválasztva, akkor csak akkor jelenik meg, ha a böngésző támogatja, különben visszaáll az eredeti felugró ablakra.\n"
       plain-copy: 'Egyszerű webcímmásolás megjelenítése'
   forum:
     discussion:
       share_button: Megosztás
+      share_dropdown_accessible_label: 'Téma megosztásának legördülő menüje be/ki'
     modal:
       copy_button: Másolás
       title: Megosztás
