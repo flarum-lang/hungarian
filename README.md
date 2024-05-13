@@ -53,6 +53,7 @@ php flarum cache:clear
 | [`flarum/approval`](https://github.com/flarum/approval) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum/hu/flarum-approval/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-approval/hu/) |
 | [`flarum/bbcode`](https://github.com/flarum/bbcode) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum/hu/flarum-bbcode/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-bbcode/hu/) |
 | [`flarum/emoji`](https://github.com/flarum/emoji) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum/hu/flarum-emoji/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-emoji/hu/) |
+| [`flarum/extension-manager`](https://github.com/flarum/extension-manager) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum/hu/flarum-extension-manager/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-extension-manager/hu/) |
 | [`flarum/flags`](https://github.com/flarum/flags) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum/hu/flarum-flags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-flags/hu/) |
 | [`flarum/likes`](https://github.com/flarum/likes) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum/hu/flarum-likes/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-likes/hu/) |
 | [`flarum/lock`](https://github.com/flarum/lock) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum/hu/flarum-lock/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-lock/hu/) |
