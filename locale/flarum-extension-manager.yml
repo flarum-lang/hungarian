@@ -66,3 +66,78 @@ flarum-extension-manager:
     extensions:
       check_why_it_failed_updating: 'Mutassa meg, miért nem frissült a legújabb verzióra.'
       install: 'Új bővítmény telepítése'
+      install_help: "A folytatáshoz adja meg a bővítmény csomagjának nevét. Megadhat <semantic_link>szemantikus verziót</semantic_link> a következő formátumban<code>vendor/package-name:version</code>. Látogassa meg az {extiverse} oldalt a bővítmények böngészéséhez.\n"
+      proceed: Tovább
+      remove: Eltávolítás
+      successful_install: '{extension} sikeresen telepítve, átirányítás..'
+      successful_remove: 'Bővítmény sikeresen törölve.'
+      successful_update: '{extension} sikeresen frissítve, átirányítás..'
+      update: Frissítés
+      update_hard_label: Frissítés
+      update_soft_label: Frissítés
+    file_permissions: "A bővítménykezelő a következő fájlok és könyvtárak olvasási és írási jogosultságait igényli: composer.json, composer.lock, vendor, storage, storage/.composer.\n"
+    major_updater:
+      description: "A nagyobb Flarum-frissítések nem kompatibilisek visszafelé, ami azt jelenti, hogy a jelenleg telepített bővítmények és kézzel végzett módosítások egy része nem feltétlenül működik az új verzióval. Kérjük, a folytatás előtt készítsen biztonsági mentést az adatbázisáról és a fájljairól.\n"
+      dry_run: Próbaüzem
+      dry_run_help: 'A próbaüzem emulálja a frissítést, hogy lássa a jelenlegi beállítások biztonságosan frissíthetők-e. Ez nem jelenti azt, hogy a kézzel készített egyéni módosítások működni fognak az újabb verzióban.'
+      failure:
+        desc: 'A legutóbbi nagy frissítés nem sikerült, néhány telepített bővítmény nem kompatibilis az új nagy kiadással.'
+        why: 'Tudjon meg többet'
+      title: 'Flarum {version} főverzió frissítés elérhető'
+      update: Frissítés
+    minor_update_confirmation:
+      content: 'Ez minden más bővítményt/csomagot is frissít a rendelkezésre álló frissítésekkel.'
+    sections:
+      control:
+        title: Kezelő
+      queue:
+        columns:
+          details: Részletek
+          elapsed_time: Befejeződött
+          operation: Művelet
+          package: Csomag
+          peak_memory_used: 'Csúcs memóriahasználat'
+          status: Állapot
+        none: 'Még nincsenek feladatok.'
+        operations:
+          extension_install: 'Bővítmény telepítés'
+          extension_remove: 'Bővítmény törlés'
+          extension_update: 'Bővítmény frissítés'
+          update_check: 'Frissítés keresése'
+          update_global: 'Minden csomag frissítése'
+          update_major: 'Főverzió frissítés'
+          update_minor: 'Kisebb frissítés'
+          why_not: 'Elemezze, hogy a csomag miért nem frissíthető'
+        output_modal:
+          cause_unknown: Ismeretlen
+          command: 'Composer parancs'
+          guessed_cause: Okozat
+          output: Kimenet
+        refresh: 'Feladatok listájának frissítése'
+        statuses:
+          failure: Sikertelen
+          pending: Függőben
+          running: Folyamatban
+          success: Sikeres
+        task_just_started: 'A feladat csak most indult el'
+        title: Várólista
+    settings:
+      access_warning: 'Kérjük, legyen óvatos azzal, hogy kinek ad hozzáférést az admin területhez, a kiterjesztéskezelővel a rossz emberek visszaélhetnek, hogy olyan csomagokat telepítsenek, amelyek a biztonság megsértéséhez vezethetnek.'
+      debug_mode_warning: 'Ön hibakeresési módban fut, a bővítménykezelő nem tudja megfelelően telepíteni és frissíteni a helyi fejlesztői csomagokat. Kérjük, használja inkább a parancssori felületet ilyen célokra.'
+      queue_jobs: 'Műveletek futtatása a háttérben lévő várólistán'
+      queue_jobs_help: "Olvassa el a <a href='{basic_impl_link}'>várólista alapok</a> implementációt vagy a <a href='{adv_impl_link}'>haladóknak</a> doksit. Győződjön meg róla, hogy a várólistához használt PHP verziója {php_version}, illetve a <a href='{folder_perms_link}'>mappa jogosultságok</a> megfelelően vannak konfigurálva.\n"
+      task_retention_days: 'Feladatmegőrzési napok'
+      task_retention_days_help: "A befejezett feladatok adatbázisban való tárolásának napjainak száma. Az ennél régebbi feladatok törlésre kerülnek. 0 értékre állítva az összes feladatot megtartja.\n"
+      title: '=> core.ref.settings'
+    update_successful: 'Flarum sikeresen frissítve.'
+    updater:
+      check_for_updates: 'Frissítések keresése'
+      flarum: 'Flarum Core'
+      global_update_successful: 'Minden csomag sikeresen frissítve.'
+      last_update_checked_at: 'Utolsó frissítés ellenőrizve: '
+      run_global_update: 'Globális frissítés futtatása'
+      up_to_date: 'Minden naprakész!'
+      updater_help: 'Ellenőrzi az új bővítmények és Flarum frissítéseket.'
+      updater_title: Frissítések
+    why_not_modal:
+      title: 'Miért nem frissül?'
