@@ -30,7 +30,7 @@ CHANGELOG
 * [`matteociaroni/flarum-old-content`](https://github.com/matteociaroni/flarum-old-content)
 * [`matteociaroni/flarum-public-suspensions`](https://github.com/matteociaroni/flarum-public-suspensions)
 * [`nearata/flarum-ext-password-strength-enforcer`](https://github.com/Nearata/flarum-ext-password-strength-enforcer)
-* [`nodeloc/flarum-ignore-hidden-tags`](https://github.com/nodeloc/flarum-ignore-hidden-tags)
+* `nodeloc-ignore-hidden-tags`
 * [`peruguitar/flarum-ext-user-portrait`](https://github.com/Anexsoft/peruguitar-flarum-ext-user-portrait)
 * [`rehiy/flarum-reply-to-see`](https://github.com/rehiy/flarum-reply-to-see)
 * [`swaggymacro/only-starter`](https://github.com/SwaggyMacro/OnlyStarter)
