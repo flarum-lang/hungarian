@@ -45,6 +45,7 @@ CHANGELOG
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
