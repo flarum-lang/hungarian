@@ -14,6 +14,7 @@ fof-polls:
       vote: 'Részvétel a szavazásokban'
     settings:
       allow_option_image: 'Képre hivatkozó webcím engedélyezése minden egyes szavazási lehetőségnél'
+      enable_global_polls: 'Globális szavazások engedélyezése'
       max_options: 'A lehetőségek legnagyobb száma szavazásonként'
       options_color_blend: 'Színkeverés használata a szavazási lehetőségek szövegénél'
       options_color_blend_help: 'Használja ezt, hogy a színkeveréssel olvashatóbbá tegye a szavazási lehetőségeket. Tiltsa le ezt a funkciót, ha problémákat okoz a fórum megjelenésében, csökkentve az olvashatóságot.'
