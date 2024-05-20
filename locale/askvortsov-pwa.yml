@@ -22,6 +22,8 @@ askvortsov-pwa:
         heading: Színek
         theme_color_label: 'Téma színe'
         theme_color_text: 'Ezt a színt néha használják az eszközök az alkalmazás megjelenítésekor, például az Android a feladatváltójában a webhelyet körülvevő színként használja.'
+      firebase_config:
+        heading: Firebase
       heading: 'Progresszív webalkalmazás beállításai'
       logo_heading: 'Logók és ikonok'
       logo_size_text: 'Töltsön fel egy logót, amely {size}×{size} képpontosra lesz méretezve.'
