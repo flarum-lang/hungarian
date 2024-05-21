@@ -11,6 +11,7 @@ fof-polls:
       self_post_edit: 'Az *összes* saját bejegyzésben lévő szavazás szerkesztése (bejegyzésszerkesztési engedély szükséges)'
       start: 'Szavazás indítása'
       start_global: 'Globális szavazás indítása'
+      upload_images: 'Engedélyezés, hogy a felhasználók képeket töltsenek fel a szavazásaikhoz'
       view_results_without_voting: 'Eredmény megtekintése szavazás nélkül'
       vote: 'Részvétel a szavazásokban'
     settings:
@@ -18,11 +19,14 @@ fof-polls:
       allow_image_uploads_help: 'Ha engedélyezve van, a felhasználók képeket tölthetnek fel, valamint képre mutató webcímet adhatnak meg (ha engedélyezve van a lehetőségeknél, magánál a szavazásnál mindig engedélyezve van).'
       allow_option_image: 'Képre hivatkozó webcím engedélyezése minden egyes szavazási lehetőségnél'
       enable_global_polls: 'Globális szavazások engedélyezése'
+      enable_global_polls_help: 'A globális szavazások nem kötődnek egy adott bejegyzéshez, és egy dedikált szavazási oldalon érhetők el.'
+      image_height: 'Kép magasságának átméretezése'
       image_width: 'Kép szélességének átméretezése'
       max_options: 'A lehetőségek legnagyobb száma szavazásonként'
       options_color_blend: 'Színkeverés használata a szavazási lehetőségek szövegénél'
       options_color_blend_help: 'Használja ezt, hogy a színkeveréssel olvashatóbbá tegye a szavazási lehetőségeket. Tiltsa le ezt a funkciót, ha problémákat okoz a fórum megjelenésében, csökkentve az olvashatóságot.'
   forum:
+    answers: Válaszok
     composer_discussion:
       add_poll: '=> fof-polls.forum.moderation.add'
       edit_poll: '=> fof-polls.forum.moderation.edit'
@@ -57,8 +61,24 @@ fof-polls:
     no_permission: 'Nincs joga szavazni'
     poll:
       cannot_change_vote: 'A szavazat leadása után nem módosíthatja a szavazatát.'
+      cannot_start_poll_button: 'A szavazás nem indítható el'
+      start_poll_button: 'Globális szavazás indítása'
       submit_button: Szavazás
+    poll_controls:
+      delete_confirmation: 'Biztos, hogy törli ezt a szavazást?'
+      delete_error_message: 'Hiba történt a szavazás törlése során.'
+      delete_label: '=> core.ref.delete'
+      delete_success_message: 'A szavazás sikeresen törölve.'
+      edit_label: '=> core.ref.edit'
+      view_label: '=> core.ref.view'
     poll_ended: 'A szavazás véget ért.'
+    poll_form:
+      delete: 'Szavazás törlése'
+      error: 'Hiba történt a szavazás mentése során, lépjen kapcsolatba a rendszergazdával.'
+    poll_never_ends: 'A szavazás sosem ér véget'
+    polls_count: '{count, plural, one { {count} szavazat} other {{count} szavazat}}'
+    polls_page:
+      title: Szavazások
     public_poll: 'Szavazók megtekintése'
     tooltip:
       badge: Szavazás
