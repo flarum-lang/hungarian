@@ -10,6 +10,7 @@ fof-polls:
       self_edit: 'Létrehozott szavazások szerkesztése (bejegyzésszerkesztési engedély szükséges)'
       self_post_edit: 'Az *összes* saját bejegyzésben lévő szavazás szerkesztése (bejegyzésszerkesztési engedély szükséges)'
       start: 'Szavazás indítása'
+      start_global: 'Globális szavazás indítása'
       view_results_without_voting: 'Eredmény megtekintése szavazás nélkül'
       vote: 'Részvétel a szavazásokban'
     settings:
@@ -17,6 +18,7 @@ fof-polls:
       allow_image_uploads_help: 'Ha engedélyezve van, a felhasználók képeket tölthetnek fel, valamint képre mutató webcímet adhatnak meg (ha engedélyezve van a lehetőségeknél, magánál a szavazásnál mindig engedélyezve van).'
       allow_option_image: 'Képre hivatkozó webcím engedélyezése minden egyes szavazási lehetőségnél'
       enable_global_polls: 'Globális szavazások engedélyezése'
+      image_width: 'Kép szélességének átméretezése'
       max_options: 'A lehetőségek legnagyobb száma szavazásonként'
       options_color_blend: 'Színkeverés használata a szavazási lehetőségek szövegénél'
       options_color_blend_help: 'Használja ezt, hogy a színkeveréssel olvashatóbbá tegye a szavazási lehetőségeket. Tiltsa le ezt a funkciót, ha problémákat okoz a fórum megjelenésében, csökkentve az olvashatóságot.'
