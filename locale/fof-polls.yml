@@ -27,6 +27,13 @@ fof-polls:
       options_color_blend_help: 'Használja ezt, hogy a színkeveréssel olvashatóbbá tegye a szavazási lehetőségeket. Tiltsa le ezt a funkciót, ha problémákat okoz a fórum megjelenésében, csökkentve az olvashatóságot.'
   forum:
     answers: Válaszok
+    compose:
+      add_title: 'Szavazás hozzáadása'
+      continue_editing: 'Szerkesztés folytatása'
+      edit_title: 'Szavazás szerkesztése'
+      polls_manager: 'Szavazások kezelése'
+      polls_preview: 'Szavazás megtekintése'
+      success: 'Szavazás mentése sikeres.'
     composer_discussion:
       add_poll: '=> fof-polls.forum.moderation.add'
       edit_poll: '=> fof-polls.forum.moderation.edit'
@@ -77,6 +84,9 @@ fof-polls:
       error: 'Hiba történt a szavazás mentése során, lépjen kapcsolatba a rendszergazdával.'
     poll_never_ends: 'A szavazás sosem ér véget'
     polls_count: '{count, plural, one { {count} szavazat} other {{count} szavazat}}'
+    polls_list:
+      empty_text: 'Úgy tűnik, hogy itt nincsenek közösségi szintű szavazások.'
+      load_more_button: '=> core.ref.load_more'
     polls_page:
       title: Szavazások
     public_poll: 'Szavazók megtekintése'
