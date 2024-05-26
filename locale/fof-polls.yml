@@ -46,7 +46,9 @@ fof-polls:
       allow_change_vote_label: 'Engedélyezés, hogy a felhasználók módosítsák a szavazatukat'
       allow_multiple_votes_label: 'Az emberek több lehetőségre is szavazhatnak'
       date_placeholder: 'Szavazás vége (nem kötelező)'
+      delete: '=> core.ref.delete'
       edit_title: 'Szavazás szerkesztése'
+      error: '=> core.lib.error.generic_message'
       hide_votes_label: 'Szavazatok elrejtése a szavazás végéig'
       image_option_placeholder: 'Kép webcíme (nem kötelező)'
       include_question: 'Lennie kell egy kérdésnek'
@@ -57,15 +59,30 @@ fof-polls:
       no_voters: 'Nincs szavazat'
       option_placeholder: Válasz
       options_label: Válaszok
+      poll_image:
+        alt_help_text: 'Szükség van a szöveg megadására, mert ez fog megjelenni, amennyiben a kép betöltése sikertelen.'
+        alt_label: 'Kép Alt szövege'
+        help: 'Töltsön fel egy képet, amely a szavazás mellett jelenik meg (opcionális).'
+        label: 'Szavazás képe'
+        later_help: 'Szavazás létrehozása után tölthet fel képet.'
+      poll_option_image:
+        help: 'Töltsön fel egy képet, amely a szavazásra adott válasz mellett jelenik meg (opcionális).'
+        label: 'Szavazás válasz képe'
       public_poll_label: 'A felhasználók megnézhetik ki szavazott'
       question_placeholder: Kérdés
       submit: Beküldés
+      subtitle_placeholder: 'Felirat/Leírás (opcionális)'
+      tooltip:
+        options:
+          add-button: 'Válasz hozzáadása'
     moderation:
       add: 'Szavazás hozzáadása'
       delete: 'Szavazás eltávolítása'
       delete_confirm: 'Valóban törli a szavazást?'
       edit: 'Szavazás szerkesztése'
     no_permission: 'Nincs joga szavazni'
+    page:
+      nav: Szavazások
     poll:
       cannot_change_vote: 'A szavazat leadása után nem módosíthatja a szavazatát.'
       cannot_start_poll_button: 'A szavazás nem indítható el'
