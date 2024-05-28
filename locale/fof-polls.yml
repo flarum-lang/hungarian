@@ -33,7 +33,7 @@ fof-polls:
       edit_title: 'Szavazás szerkesztése'
       polls_manager: 'Szavazások kezelése'
       polls_preview: 'Szavazás megtekintése'
-      success: 'Szavazás mentése sikeres.'
+      success: 'Szavazás sikeresen mentve.'
     composer_discussion:
       add_poll: '=> fof-polls.forum.moderation.add'
       edit_poll: '=> fof-polls.forum.moderation.edit'
@@ -60,18 +60,18 @@ fof-polls:
       option_placeholder: Válasz
       options_label: Válaszok
       poll_image:
-        alt_help_text: 'Szükség van a szöveg megadására, mert ez fog megjelenni, amennyiben a kép betöltése sikertelen.'
-        alt_label: 'Kép Alt szövege'
-        help: 'Töltsön fel egy képet, amely a szavazás mellett jelenik meg (opcionális).'
+        alt_help_text: 'Ez a szöveg kép megadása esetén szükséges, ez fog megjelenni, ha a kép betöltése sikertelen.'
+        alt_label: 'Kép alternatív szövege'
+        help: 'Töltsön fel egy képet, amely a szavazás mellett jelenik meg (nem kötelező).'
         label: 'Szavazás képe'
         later_help: 'Szavazás létrehozása után tölthet fel képet.'
       poll_option_image:
-        help: 'Töltsön fel egy képet, amely a szavazásra adott válasz mellett jelenik meg (opcionális).'
-        label: 'Szavazás válasz képe'
+        help: 'Töltsön fel egy képet, amely a szavazásra adott válasz mellett jelenik meg (nem kötelező).'
+        label: 'Szavazás válaszának képe'
       public_poll_label: 'A felhasználók megnézhetik ki szavazott'
       question_placeholder: Kérdés
       submit: Beküldés
-      subtitle_placeholder: 'Felirat/Leírás (opcionális)'
+      subtitle_placeholder: 'Felirat/leírás (nem kötelező)'
       tooltip:
         options:
           add-button: 'Válasz hozzáadása'
@@ -83,6 +83,7 @@ fof-polls:
     no_permission: 'Nincs joga szavazni'
     page:
       nav: Szavazások
+      nav-all: 'Összes globális szavazás'
     poll:
       cannot_change_vote: 'A szavazat leadása után nem módosíthatja a szavazatát.'
       cannot_start_poll_button: 'A szavazás nem indítható el'
@@ -107,8 +108,16 @@ fof-polls:
     polls_page:
       title: Szavazások
     public_poll: 'Szavazók megtekintése'
+    showcase:
+      active-polls: 'Aktív szavazások'
+      ended-polls: 'Befejeződött szavazások'
+      no-active-polls: 'Jelenleg nincs aktív szavazás.'
+      no-recent-polls: 'Jelenleg nincs nemrég befejeződött szavazás.'
     tooltip:
       badge: Szavazás
       votes: '{count} szavazat'
+    upload_image:
+      remove_button: 'Kép törlése'
+      upload_button: 'Kép feltöltése'
     votes_modal:
       title: Szavazók

@@ -24,6 +24,10 @@ askvortsov-pwa:
         theme_color_text: 'Ezt a színt néha használják az eszközök az alkalmazás megjelenítésekor, például az Android a feladatváltójában a webhelyet körülvevő színként használja.'
       firebase_config:
         heading: Firebase
+        help_text: 'Hogy támogassa a leküldéses értesítéseket, ha közzéteszi az alkalmazását az Apple alkalmazásboltjában, a Firebase-t kell használnia. Állítsa elő a Firebase szolgáltatás konfigurációját, és töltse fel itt.'
+        see_documentation_here: 'Nézze meg a dokumentációt itt'
+        upload_file: 'Fájl feltöltése'
+        upload_successful: 'A Firebase konfigurációja sikeresen fel lett töltve'
       heading: 'Progresszív webalkalmazás beállításai'
       logo_heading: 'Logók és ikonok'
       logo_size_text: 'Töltsön fel egy logót, amely {size}×{size} képpontosra lesz méretezve.'
