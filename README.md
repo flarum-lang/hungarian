@@ -77,6 +77,7 @@ php flarum cache:clear
 | Bővítmény | Állapot |
 | --- | --- |
 | [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum/hu/fof-analytics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-analytics/hu/) |
+| [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum/hu/fof-anti-spam/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-anti-spam/hu/) |
 | [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum/hu/fof-ban-ips/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-ban-ips/hu/) |
 | [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum/hu/fof-best-answer/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-best-answer/hu/) |
 | [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum/hu/fof-byobu/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-byobu/hu/) |
