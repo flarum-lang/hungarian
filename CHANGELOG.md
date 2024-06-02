@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.9.0 (XXXX-XX-XX)
+------------------
+
+**Új bővítmények támogatása hozzáadva**:
+
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+
+
+Összes változás: [v2.8.0...v2.9.0](https://github.com/flarum-lang/hungarian/compare/v2.8.0...v2.9.0).
+
+
 2.8.0 (2024-05-30)
 ------------------
 
