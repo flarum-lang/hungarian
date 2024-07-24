@@ -13,6 +13,8 @@ fof-best-answer:
     settings:
       allow_select_own_post: 'Saját bejegyzés kiválasztása'
       allow_select_own_post_help: 'Engedélyezés, hogy a felhasználók a saját bejegyzésüket válasszák a téma legjobb válaszaként'
+      discussion_sidebar_jump_button: 'A legjobb válaszhoz ugrás gomb megjelenítése a téma oldalsávjában'
+      discussion_sidebar_jump_button_help: 'Hozzáad egy gombot a téma oldalsávjához, mellyel oda lehet ugrani a bejegyzések közé, a legjobb válaszhoz.'
       documentation: Dokumentáció
       enable_all_tags_button: 'A legjobb válasz bekapcsolása az összes címkénél'
       enable_all_tags_reminder_button: 'A legjobb válasz emlékeztető bekapcsolása az összes címkénél'
@@ -62,6 +64,8 @@ fof-best-answer:
     best_answer_label: '<a>{username}</a> állította be {time_set}'
     composer:
       titlePlaceholder: 'Kérdés címe'
+    discussion:
+      jump_to_best_answer_button: 'Legjobb válasz megtekintése'
     errors:
       mismatch: 'A kiválasztott bejegyzés nem létezik ebben a témában.'
     filter:

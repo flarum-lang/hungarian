@@ -14,5 +14,10 @@ fof-user-bio:
       bioLimit: 'Bemutatkozás karakterkorlátja'
       maxLines: 'Az egyszerre megjelenítendő sorok legnagyobb száma'
   forum:
+    profile:
+      cancel_button: Mégse
+      cancel_confirm: 'Biztos, hogy megszakítja a bemutatkozása szerkesztését? El fogja veszíteni a változtatásokat.'
+      edit_bio_label: 'Bemutatkozás szerkesztése'
+      save_button: Mentés
     userbioPlaceholder: 'Írjon valamit magáról'
     userbioPlaceholderOtherUser: 'Írjon bemutatkozást {username} számára'
