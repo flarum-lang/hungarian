@@ -12,6 +12,13 @@ CHANGELOG
 * [`madeyedeer/flarum-pallet-theme`](https://github.com/MadEyeDeer/flarum-pallet-theme)
 
 
+**Bővítményfordítások frissítve**:
+
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
+
+
 Összes változás: [v2.8.0...v2.9.0](https://github.com/flarum-lang/hungarian/compare/v2.8.0...v2.9.0).
 
 
