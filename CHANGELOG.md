@@ -10,6 +10,7 @@ CHANGELOG
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`litalino/flarum-blog-article-series`](https://github.com/Litalino/flarum-blog-article-series)
 * [`madeyedeer/flarum-pallet-theme`](https://github.com/MadEyeDeer/flarum-pallet-theme)
+* `nodeloc-my-emoji`
 
 
 **Bővítményfordítások frissítve**:
