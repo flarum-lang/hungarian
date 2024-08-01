@@ -14,6 +14,7 @@ fof-upload:
     help_texts:
       client_extension: "Alapértelmezés szerinte a Feltöltés a MIME-típus alapján választ egy biztonságos fájlkiterjesztést.\nEgyes ZIP vagy bináris adatokat tartalmazó fájltípusoknál ez általános fájlkiterjesztéseket eredményezhet a várt helyett.\nItt megadhatja a fájlkiterjesztések vesszőkkel elválasztott listáját, amelyeknél az eredeti formában marad meg a kiterjesztés.\n"
       composer_buttons: "Alapértelmezetten a médiakezelő és a feltöltés gomb is látható. Választhat, hogy csak az egyik gomb jelenjen meg.\n"
+      custom_s3_url: "Akkor használja ezt a beállítást, ha olyan S3-mal kompatibilis szolgáltatást használ (például a Backblaze B2), amelyhez adott webcímformátum szükséges; vagy ha problémákat tapasztal az alapértelmezett webcímformátummal. Ez a beállítás a legtöbb szolgáltatás esetén nem szükséges. Győződjön meg arról, hogy a webcím tartalmazza a protokollt (https://), és hogy helyesen van formázva. Például: https://sajat-tarolo.s3.sajat-regio.backblazeb2.com\n"
       disable-download-logging: "A fórum felhasználóinak letöltéseinek naplózásának letiltása. Az engedélyezve tartás lehetővé teszi, hogy a közeljövőben megtekintse a letöltések számát, és más metrikákat.\n"
       disable-hotlink-protection: "A hivatkozásvédelem megakadályozza a más oldalakon lévő letöltések megnyitását. A jelenlegi módszer CSRF tokent és bejegyzésazonosítót igényel.\n"
       download_templates: "A letöltési sablonok kezelik, hogy a feltöltések hogyan jelennek meg a fórumban, például milyen előnézet vagy gombok jelennek meg. Jelenleg elérhető:\n"
@@ -40,6 +41,7 @@ fof-upload:
         acl: 'Hozzáférés-vezérlési lista (ACL)'
         advanced_title: 'Speciális S3 tárolóbeállítások'
         bucket: Tároló
+        custom_url: 'Egyéni S3 webcím'
         endpoint: Végpont
         key: Kulcs
         region: Régió
