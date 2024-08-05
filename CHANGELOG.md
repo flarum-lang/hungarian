@@ -9,9 +9,12 @@ CHANGELOG
 
 * [`blomstra/gdpr`](https://github.com/blomstra/flarum-ext-gdpr)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars)
 * [`litalino/flarum-blog-article-series`](https://github.com/Litalino/flarum-blog-article-series)
 * [`madeyedeer/flarum-pallet-theme`](https://github.com/MadEyeDeer/flarum-pallet-theme)
+* [`nearata/flarum-ext-maintenance-mode`](https://github.com/Nearata/flarum-ext-maintenance-mode)
 * `nodeloc-my-emoji`
+* [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade)
 
 
 **Bővítményfordítások frissítve**:
