@@ -8,9 +8,13 @@ CHANGELOG
 **Új bővítmények támogatása hozzáadva**:
 
 * [`blomstra/gdpr`](https://github.com/blomstra/flarum-ext-gdpr)
+* [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
+* [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors)
 * [`foskym/flarum-custom-levels`](https://github.com/FoskyM/flarum-custom-levels)
 * [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
 * [`litalino/flarum-blog-article-series`](https://github.com/Litalino/flarum-blog-article-series)
 * [`madeyedeer/flarum-pallet-theme`](https://github.com/MadEyeDeer/flarum-pallet-theme)
 * [`nearata/flarum-ext-maintenance-mode`](https://github.com/Nearata/flarum-ext-maintenance-mode)
