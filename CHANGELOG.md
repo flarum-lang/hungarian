@@ -2,6 +2,40 @@ CHANGELOG
 =========
 
 
+2.9.0 (XXXX-XX-XX)
+------------------
+
+**Új bővítmények támogatása hozzáadva**:
+
+* [`blomstra/gdpr`](https://github.com/blomstra/flarum-ext-gdpr)
+* [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
+* [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
+* [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors)
+* [`foskym/flarum-custom-levels`](https://github.com/FoskyM/flarum-custom-levels)
+* [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+* [`litalino/flarum-blog-article-series`](https://github.com/Litalino/flarum-blog-article-series)
+* [`madeyedeer/flarum-pallet-theme`](https://github.com/MadEyeDeer/flarum-pallet-theme)
+* [`nearata/flarum-ext-maintenance-mode`](https://github.com/Nearata/flarum-ext-maintenance-mode)
+* `nodeloc-my-emoji`
+* [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade)
+* [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in)
+
+
+**Bővítményfordítások frissítve**:
+
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
+* [`gbcl/userip`](https://github.com/GBCLStudio/userip)
+
+
+Összes változás: [v2.8.0...v2.9.0](https://github.com/flarum-lang/hungarian/compare/v2.8.0...v2.9.0).
+
+
 2.8.0 (2024-05-30)
 ------------------
 
