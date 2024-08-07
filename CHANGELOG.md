@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`blomstra/gdpr`](https://github.com/blomstra/flarum-ext-gdpr)
 * [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
+* [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
 * [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors)
@@ -20,6 +21,7 @@ CHANGELOG
 * [`nearata/flarum-ext-maintenance-mode`](https://github.com/Nearata/flarum-ext-maintenance-mode)
 * `nodeloc-my-emoji`
 * [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade)
+* [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in)
 
 
 **Bővítményfordítások frissítve**:
