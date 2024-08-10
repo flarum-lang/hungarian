@@ -19,7 +19,7 @@ CHANGELOG
 * [`litalino/flarum-blog-article-series`](https://github.com/Litalino/flarum-blog-article-series)
 * [`madeyedeer/flarum-pallet-theme`](https://github.com/MadEyeDeer/flarum-pallet-theme)
 * [`nearata/flarum-ext-maintenance-mode`](https://github.com/Nearata/flarum-ext-maintenance-mode)
-* `nodeloc-my-emoji`
+* [`nodeloc/flarum-ext-my-emoji`](https://github.com/nodeloc/flarum-ext-my-emoji)
 * [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade)
 * [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in)
 
