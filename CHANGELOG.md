@@ -18,6 +18,7 @@ CHANGELOG
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
 * [`litalino/flarum-blog-article-series`](https://github.com/Litalino/flarum-blog-article-series)
 * [`madeyedeer/flarum-pallet-theme`](https://github.com/MadEyeDeer/flarum-pallet-theme)
+* [`mattoid/flarum-ext-store`](https://github.com/Mattoids/flarum-ext-store)
 * [`nearata/flarum-ext-maintenance-mode`](https://github.com/Nearata/flarum-ext-maintenance-mode)
 * [`nodeloc/flarum-ext-my-emoji`](https://github.com/nodeloc/flarum-ext-my-emoji)
 * [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade)
