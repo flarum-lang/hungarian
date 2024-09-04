@@ -15,7 +15,7 @@ askvortsov-article-series:
     article_series_modal:
       order_label: 'Sorrend (növekvő sorrend)'
       submit_button: Beküldés
-      tag_id_label: 'Cikksorozat Címkék'
-      title: 'Cikksorozat Beállítások'
+      tag_id_label: 'Cikksorozat címkéje'
+      title: 'Cikksorozat beállításai'
     discussion_controls:
-      article_series_button: 'Cikksorozat Beállítások'
+      article_series_button: 'Cikksorozat beállításai'
