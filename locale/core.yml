@@ -269,6 +269,8 @@ core:
             title: Csoportok
           join_time:
             title: Csatlakozott
+          user_actions:
+            title: Műveletek
           user_id:
             title: Azonosító
           username:
@@ -553,6 +555,9 @@ core:
       hidden_tooltip: Rejtett
     data_segment:
       label: '{label}:'
+    datetime_formats:
+      humanTimeShort: 'MMM d.'
+      scrubber: 'YYYY. MMMM'
     debug_button: Hibakeresés
     dropdown:
       toggle_dropdown_accessible_label: 'Legördülő menü be/ki'

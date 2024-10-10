@@ -82,6 +82,7 @@ fof-oauth:
       settings:
         linked-account:
           help: 'Ezek a kapcsolt fiókok lehetővé teszik, hogy más szolgáltatókkal jelentkezzen be a fórumba.'
+          identification-label: '{provider}-azonosító'
           identifier-label: '{provider}-azonosító'
           label: 'Kapcsolt fiókok'
           last-used-label: 'Utoljára használt'
