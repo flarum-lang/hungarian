@@ -5,8 +5,11 @@
 fof-open-collective:
   admin:
     settings:
-      api_key_label: 'API kulcs'
-      desc: 'Kérjen egy API kulcsot innen: <a>https://opencollective.com/applications</a>.'
+      api_key_label: 'API alkalmazáskulcsa (elavult)'
+      desc: "Szerezze be a személyes tokenjét a <a>https://opencollective.com/dashboard</a> oldalon, a Beállítások > Fejlesztőknek rész alatt. Ne válasszon ki további hatóköröket – tartsa meg az alapértelmezett üres kiválasztást.\n"
       group_label: 'Hozzárendelendő csoport'
+      personal_token_label: 'Személyes token'
       slug_label: 'Collective keresőbarát URL'
       title: 'FriendsOfFlarum Open Collective'
+      use_legacy_api_key_help: "Ha örökölt API-kulcsa van, akkor továbbra is használhatja, de ajánlatos a személyes tokenre váltás. Jelenleg úgy tűnik, hogy a személyes tokenek csak API-kulcs módban (azaz „API-Key” fejléccel) működnek, de ez nincs dokumentálva.\n"
+      use_legacy_api_key_label: 'API örökölt alkalmazáskulcsának használata'
