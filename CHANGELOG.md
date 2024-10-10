@@ -5,6 +5,11 @@ CHANGELOG
 2.9.0 (XXXX-XX-XX)
 ------------------
 
+**Általános változások**:
+
+* Flarum core fordítások frissítve.
+
+
 **Új bővítmények támogatása hozzáadva**:
 
 * [`blomstra/gdpr`](https://github.com/flarum/gdpr)
@@ -29,6 +34,8 @@ CHANGELOG
 
 * [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
 * [`gbcl/userip`](https://github.com/GBCLStudio/userip)
