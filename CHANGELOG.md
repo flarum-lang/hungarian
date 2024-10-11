@@ -25,8 +25,10 @@ CHANGELOG
 * [`madeyedeer/flarum-pallet-theme`](https://github.com/MadEyeDeer/flarum-pallet-theme)
 * [`mattoid/flarum-ext-store`](https://github.com/Mattoids/flarum-ext-store)
 * [`nearata/flarum-ext-maintenance-mode`](https://github.com/Nearata/flarum-ext-maintenance-mode)
+* [`neoncube/flarum-private-messages`](https://github.com/neoncube2/flarum-private-messages)
 * [`nodeloc/flarum-ext-my-emoji`](https://github.com/nodeloc/flarum-ext-my-emoji)
 * [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade)
+* [`xypp/store`](https://github.com/zxy19/store)
 * [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in)
 
 
