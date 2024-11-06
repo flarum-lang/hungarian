@@ -15,6 +15,7 @@ CHANGELOG
 * [`blomstra/gdpr`](https://github.com/flarum/gdpr)
 * [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
 * [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
 * [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors)
