@@ -20,6 +20,7 @@ CHANGELOG
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors)
 * [`foskym/flarum-custom-levels`](https://github.com/FoskyM/flarum-custom-levels)
+* [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
 * [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars)
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
 * [`litalino/flarum-blog-article-series`](https://github.com/Litalino/flarum-blog-article-series)
