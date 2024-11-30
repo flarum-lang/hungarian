@@ -90,6 +90,7 @@ gtdxyz-flarum-badges:
       select_limit: '{limit, plural, one {<b>Egy jelvényt</b>} other {<b># jelvényt</b>}} választhat ki, hogy látható legyen a felhasználói kártyáján.'
       title: 'Felhasználói kártyán lévő jelvények'
     give_badge: 'Jelvény adása'
+    hidden_badges: 'A felhasználó még nem jelenít meg jelvényeket.'
     moderation:
       give_badge: 'Jelvény megadása'
       remove_badge: 'Jelvény eltávolítása a felhasználótól'

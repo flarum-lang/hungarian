@@ -33,6 +33,8 @@ fof-best-answer:
       remind_tag_ids: 'Ha bizonyos címkékre szeretnéd korlátozni az emlékeztetőket, írd be a címkéket (vesszővel elválasztva)'
       remind_tags_help: 'Válassza ki, hogy mely címkéknél legyenek értesítések küldve. Csak az ilyen címkéjű témák fognak értesítéseket küldeni.'
       remind_tags_label: 'Emlékeztető címkék'
+      remove_solutions_from_main_search: 'Megoldások eltávolítása a fő keresésből'
+      remove_solutions_from_main_search_help: 'A legjobb válasszal rendelkező témák eltávolítása az „összes téma” keresés találataiból'
       schedule_log_output: 'Az ütemező kimenetének hozzáfűzése a naplótárhoz'
       schedule_on_one_server: 'Az „onOneServer()” direktíva használata a feladatütemezőhöz'
       schedule_on_one_server_help: 'Redis/Memcache szükséges'

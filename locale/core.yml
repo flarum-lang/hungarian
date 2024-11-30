@@ -556,6 +556,7 @@ core:
     data_segment:
       label: '{label}:'
     datetime_formats:
+      humanTimeLong: ll
       humanTimeShort: 'MMM d.'
       scrubber: 'YYYY. MMMM'
     debug_button: Hibakeresés
