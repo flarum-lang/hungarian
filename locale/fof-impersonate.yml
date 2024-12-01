@@ -19,3 +19,6 @@ fof-impersonate:
       title: 'Bejelentkezés másik felhasználóként'
     user_controls:
       impersonate_button: 'Bejelentkezés felhasználóként'
+  lib:
+    modal:
+      title: 'Bejelentkezés másik felhasználóként'

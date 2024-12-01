@@ -12,6 +12,7 @@ mattoid-store:
       decorationStoreTimezone: időzóna
       decorationStoreTimezone-requirement: 'Állítsa be az időzónát. Alapértelmezett beállítás: „Ázsia/Sanghaj”.'
       edit-store-goods: 'Áruk szerkesztése'
+      goods-auto-deduction: 'Automatikus kitalálás'
       goods-code: Kód
       goods-delete: Törlés
       goods-desc: Leírás
@@ -19,6 +20,7 @@ mattoid-store:
       goods-discount-limit: Kedvezménykorlát
       goods-discount-limit-unit: Egység
       goods-edit: Szerkesztés
+      goods-hide: 'Nincs jogosultsága, hogy korlátozott ideig elrejtse a termékeket'
       goods-icon: Ikon
       goods-item-delete: 'Biztos, hogy törli ezt az elemet?'
       goods-item-status-0: 'Biztos, hogy felsorolja ezt az elemet?'
@@ -36,13 +38,16 @@ mattoid-store:
       store-timezone: Időzóna
       store-timezone-requirement: 'Időzóna beállítása. Alapértelmezett: „Ázsia/Sanghaj”.'
   forum:
+    auto-deduction: 'Termékek költségeinek automatikus kitalálása: {title}'
     button: Vásárlás
+    buy-goods-fail: 'Termékvisszatérítés: {title}'
     cart: kosár
     ckeck-goods-outtime: 'Ellenőrizze a termék lejárati dátumát'
     days: nap
     error:
       automatic-renewal: 'Az automatikus megújítás nincs engedélyezve'
       automatic-renewal-fail: 'Az automatikus megújítás sikertelen [{message}]'
+      cannot-Goods-repeatedly: 'Az ismételt termékek nem engedélyezettek az érvényességi időszakon belül'
       cart-no-use: 'Ennek az árunak nincs funkcionalitása'
       cart-use-fail: 'Az áru használata sikertelen'
       file-exist: 'a fájl már létezik'
@@ -79,8 +84,10 @@ mattoid-store:
     item-price: Ár
     item-status: 'Áru állapota'
     item-status-0: 'Eltávolítás a polcokról'
+    item-status-1: Kitéve
     item-status-all: 'Az összes áru állapota'
-    item-status-up: Felsorolás
+    item-status-down: Leszedve
+    item-status-up: Kitéve
     item-stock: Árukészlet
     item-title: 'Áru típusa'
     item-type: 'Áru típusa'
