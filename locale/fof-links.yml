@@ -24,6 +24,7 @@ fof-links:
       url_placeholder: '=> fof-links.ref.url'
       use_rel_me: 'A <code>rel="me"</code> attribútum hozzáadása a más oldalakon történő személyazonosság-ellenőrzés lehetővé tételéhez'
       visibility: 'Hivatkozás láthatósága'
+      visibility.guest-only.help: 'Csak {guest} láthatja ezt a hivatkozást. A fenti jogosultságot erre kellene állítani: „{everyone}”.'
       visibility.guest-only.label: 'Csak {guest}?'
       visibility.help: 'A hivatkozások alapértelmezetten csak <code>{admin}</code> felhasználók számára láthatók Módosítsa ezeket a jogosultságokat, hogy megadja, ki láthassa ezt a hivatkozást.'
       visibility.help-disabled: 'Mentse a hivatkozást mielőtt módosítja a láthatósági beállításokat.'
