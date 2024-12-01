@@ -141,3 +141,22 @@ flarum-extension-manager:
       updater_title: Frissítések
     why_not_modal:
       title: 'Miért nem frissül?'
+  validation:
+    attributes:
+      bearer: 'HTTP Bearer'
+      'bearer.*': 'HTTP Bearer'
+      extension_id: bővítményazonosító
+      github_oauth: 'GitHub OAuth'
+      'github_oauth.*': 'GitHub OAuth'
+      gitlab_oauth: 'GitLab OAuth'
+      'gitlab_oauth.*': 'GitLab OAuth'
+      gitlab_token: 'GitLab token'
+      'gitlab_token.*': 'GitLab token'
+      minimum_stability: 'minimális stabilitás'
+      package: csomag
+      repositories: tárolók
+      'repositories.*': tárolók
+      'repositories.*.type': 'tároló típusa'
+      'repositories.*.url': 'tároló webcíme'
+      update_mode: 'frissítési mód'
+      version: verzió

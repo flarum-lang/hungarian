@@ -12,6 +12,7 @@ flarum-gdpr:
   lib:
     data:
       twofactordata:
+        delete_description: 'Törli az összes 2FA-val kapcsolatos adatot.'
         export_description: 'Exportálja a 2FA állapotát, és a titkosított tartalék biztonsági kódokat.'
 ianm-twofactor:
   admin:

@@ -20,6 +20,7 @@ fof-moderator-notes:
       created_text: '{username} létrehozta ezt a bejegyzést ekkor: {date}'
       delete: Törlés
       dismiss_button: Rendben
+      filter_by_me: 'Csak a saját bejegyzései'
       input_heading: 'Írja be a megjegyzéseit <strong>{username}</strong> számára, (a markdown támogatott)'
       noNotes: 'Itt nincsenek jegyzetek.'
       submit_button: Mentés

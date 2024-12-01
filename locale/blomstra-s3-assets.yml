@@ -19,7 +19,7 @@ blomstra-s3-assets:
         help: 'S3 végpont'
         label: Végpont
       s3key:
-        help: 'S3 hozzáférési kulcs'
+        help: súgó
         label: Kulcs
       s3path-style-endpoint:
         help: 'Útvonal stílusú végpontra váltás'

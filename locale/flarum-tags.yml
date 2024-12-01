@@ -41,6 +41,7 @@ flarum-tags:
       create_primary_tag_button: 'Elsődleges címke létrehozása'
       create_secondary_tag_button: 'Másodlagos címke létrehozása'
       create_tag_button: '=> flarum-tags.ref.create_tag'
+      edit_tag_label: 'Az) {tag} címke szerkesztése'
       primary_heading: 'Elsődleges címkék'
       secondary_heading: 'Másodlagos címkék'
       settings_button: Beállítások
@@ -88,3 +89,12 @@ flarum-tags:
     create_tag: 'Tag létrehozása'
     name: Név
     tags: Címkék
+  validation:
+    attributes:
+      color: szín
+      description: leírás
+      is_hidden: elrejtés
+      name: név
+      slug: 'keresőbarát webcím'
+      tag_count_primary: '=> validation.attributes.tag_count_primary'
+      tag_count_secondary: '=> validation.attributes.tag_count_secondary'

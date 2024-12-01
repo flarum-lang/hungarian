@@ -8,6 +8,12 @@ blomstra-gdpr:
       tagsubscription:
         anonymize_description: 'Eltávolítja a felhasználó címkefeliratkozását.'
         export_description: 'Exportálja a címke feliratkozási szintjének részleteit, ha az létezik.'
+flarum-gdpr:
+  lib:
+    data:
+      tagsubscription:
+        anonymize_description: 'Eltávolítja a felhasználó feliratkozását a címkétől.'
+        export_description: 'Exportálja a címkéhez tartozó feliratkozási szint részleteit, ha az létezik.'
 fof-follow-tags:
   admin:
     settings:

@@ -19,8 +19,14 @@ fof-byobu:
       delete_on_last_recipient_left_help: 'Ha be van kapcsolva, akkor a privát témák véglegesen törlődnek az adatbázisból, ha az utolsó felhasználó kilép. Különben a privát téma el lesz rejtve.'
       enable-make-public-option: 'Engedélyezi a „nyilvánossá tétel” lehetőséget'
       enable-make-public-option-help: 'Lehetőséget ad az összes résztvevő eltávolítására, új címke hozzárendelésére, és arra, hogy nyilvánosan láthatóvá váljon a téma (a kiválasztott címke beállításai alapján).'
+      general:
+        heading: 'Általános beállítások'
+        help: 'Ezek a beállítások vezérlik a byobu alapvető funkcióit.'
       hide_from_all_discussions_page: 'Privát témák elrejtése az „Összes téma” oldalon'
       hide_from_all_discussions_page_help: 'A privát témák csak a „Privát témák” oldalon vagy a felhasználói profilon lesznek elérhetők'
+      icon:
+        heading: Ikonbeállítások
+        help: 'Ezek a beállítások vezérlik a byobu által használt ikonokat a fórumban.'
       post-event-icon: 'Byobu bejegyzésesemények'
   email:
     body:

@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-drafts/hu/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-gdpr:
+  lib:
+    data:
+      drafts:
+        delete_description: 'A felhasználó által létrehozott összes vázlat törlése.'
+        export_description: 'A felhasználó által létrehozott összes vázlat.'
 fof-drafts:
   admin:
     permissions:

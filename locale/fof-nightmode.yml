@@ -12,10 +12,14 @@ fof-default-user-preferences:
 fof-nightmode:
   admin:
     settings:
+      general:
+        heading: 'Általános beállítások'
+        help: 'Ezek a beállítások vezérlik a bővítmény alapvető funkcióit.'
       modal:
         always_show_theme_toggle_on_header: 'Mindig jelenjen meg a témaválasztógomb a fórumfejlécben'
         default_theme: 'Alapértelmezett fórumtéma'
         default_theme_helper: 'Az alapértelmezett téma automatikusan megjelenik a vendégeknek, új felhasználóknak.'
+        show_theme_toggle_in_solid: 'Témaikon megjelenítése a tömör ikonban'
         theme_auto: '=> fof-nightmode.ref.auto'
         theme_dark: '=> fof-nightmode.ref.dark'
         theme_light: '=> fof-nightmode.ref.light'

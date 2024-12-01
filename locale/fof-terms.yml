@@ -8,6 +8,12 @@ blomstra-gdpr:
       userpolicydata:
         delete_description: 'Eltávolítja a jelzőt, hogy a felhasználó elfogta a feltételeket'
         export_description: 'Részletek arról, hogy a felhasználó elfogadta-e a feltételeket'
+flarum-gdpr:
+  lib:
+    data:
+      userpolicydata:
+        delete_description: 'Eltávolítja, hogy a felhasználó elfogadta-e a feltételeket'
+        export_description: 'Részletek arról, hogy a felhasználó elfogadta-e a feltételeket'
 fof-terms:
   admin:
     buttons:
