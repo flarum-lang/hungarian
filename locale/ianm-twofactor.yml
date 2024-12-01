@@ -8,6 +8,11 @@ blomstra-gdpr:
       twofactordata:
         delete_description: 'Törli az összes, 2FA-val kapcsolatos adatot.'
         export_description: 'Exportálja a 2FA állapotát és a titkosított biztonsági kódokat.'
+flarum-gdpr:
+  lib:
+    data:
+      twofactordata:
+        export_description: 'Exportálja a 2FA állapotát, és a titkosított tartalék biztonsági kódokat.'
 ianm-twofactor:
   admin:
     edit_group:
