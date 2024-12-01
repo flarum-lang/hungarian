@@ -37,15 +37,28 @@ CHANGELOG
 **Bővítményfordítások frissítve**:
 
 * [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`blomstra/s3-assets`](https://github.com/blomstra/flarum-ext-s3-assets)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`flarum/suspend`](https://github.com/flarum/suspend)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
 * [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
 * [`gbcl/userip`](https://github.com/GBCLStudio/userip)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`justoverclock/flarum-ext-purify`](https://github.com/justoverclockl/flarum-ext-purify)
+* [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo)
 
 
 Összes változás: [v2.8.0...v2.9.0](https://github.com/flarum-lang/hungarian/compare/v2.8.0...v2.9.0).
