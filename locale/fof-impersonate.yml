@@ -21,4 +21,5 @@ fof-impersonate:
       impersonate_button: 'Bejelentkezés felhasználóként'
   lib:
     modal:
+      label: 'A hatalom felelősséggel jár. A folytatással kijelentkezésig {username} felhasználóvá válik.'
       title: 'Bejelentkezés másik felhasználóként'
