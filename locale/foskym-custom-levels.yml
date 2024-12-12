@@ -2,22 +2,114 @@
 # Use https://weblate.rob006.net/projects/flarum/foskym-custom-levels/hu/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+fof-user-directory:
+  lib:
+    sort:
+      least_exp: '=> foskym-custom-levels.lib.integrations.user-directory.least_exp'
+      most_exp: '=> foskym-custom-levels.lib.integrations.user-directory.most_exp'
 foskym-custom-levels:
   admin:
+    auto_remove:
+      - 'Sosem távolít el TP-t'
+      - 'Ha egy bejegyzés/válasz elrejtésre vagy törlésre kerül (alapértelmezett)'
+      - 'Ha egy bejegyzés végleges törlésre kerül'
+    go_to_forum_quests: 'További beállítások a fórumküldetésekben'
+    levels:
+      add_button: 'Szint hozzáadása'
+      delete_confirmation: 'Valóban törli ezt a szintet?'
+      edit_level: 'Szint szerkesztése'
+      min_exp_required: 'Szükséges TP'
+      name: 'Szint neve'
+    pages:
+      index: Kezdőlap
+      levels: Szintek
+    permissions:
+      edit_exp: 'Felhasználó TP-jének szerkesztése'
+    preview: Előnézet
     settings:
-      expDesc: 'Elérhető változók: [expTotal]'
+      autoRemove: 'TP automatikus eltávolítása'
+      cascadeRemove: 'Ha egy téma eltávolításra kerül, a hozzászólásokért kapott TP eltávolítása'
+      discussionMaxTimes: 'A naponta készíthető témák legnagyobb száma, a 0 azt jelenti, hogy nincs korlát.'
+      expDesc: 'Elérhető változók: [expTotal] [expPercent] [nextLevel] [expToNextLevel]'
+      expForDiscussion: 'A témánként kapott TP'
+      expForDiscussionDesc: 'Csak szám, tizedesjegy nélkül. Vagy tartomány, például az「[1, 10]」1 és 10 közti véletlenszerű számot jelent.'
+      expForLike: 'A kedvelésenként kapott TP'
+      expForLikeDesc: 'A flarum/likes bővítmény szükséges hozzá. Csak szám, tizedesjegy nélkül. Vagy tartomány, például az「[1, 10]」1 és 10 közti véletlenszerű számot jelent.'
+      expForPost: 'A bejegyzésenként kapott TP'
+      expForPostDesc: 'Csak szám, tizedesjegy nélkül. Vagy tartomány, például az「[1, 10]」1 és 10 közti véletlenszerű számot jelent.'
       expFormula: 'Adja meg a tapasztalat képletét (például „[discussionCount] * 40 + [commentCount] / 20”)'
       expFormulaDesc1: 'Ezeket a változókat használhatja：'
       expFormulaDesc2: 'Alapvető ([discussionCount] [commentCount]）'
       expFormulaDesc3: 'Bővítményekkel ([money] [likesReceived] [bestAnswerCount])'
-      expText: 'Adja meg a tapasztalathoz megjelenítendő szöveget (például „[expTotal] TP”）'
+      expText: 'Adja meg a TP-hez megjelenítendő szöveget (például „[expTotal] TP”）'
       levelDesc: 'Elérhető változók: [level]'
       levelFormula: 'Adja meg a szint képletét (például „[expTotal] / (100 + 5 * [level])”)'
       levelFormulaDesc: 'Ezeket a változókat használhatja: [expTotal] [level]'
       levelText: 'Adja meg a szintekhez megjelenítendő szöveget (például rang, szint)'
+      postMaxTimes: 'A naponta készíthető bejegyzések legnagyobb száma, a 0 azt jelenti, hogy nincs korlát.'
+      postMinLength: 'A bejegyzés legkisebb hossza, a 0 azt jelenti, hogy nincs korlát'
+  forum:
+    label:
+      exp_logs: 'TP naplók'
+    log:
+      exp: TP-változás
+      load_more: 'Továbbiak betöltése'
+      no_more: 'Nincs több'
+      no_records: 'Nincsenek bejegyzések'
+      reason: Ok
+      time: Idő
+      type:
+        admin_edit: 'Admin által szerkesztve'
+        automoderator: 'Automatikus moderátor'
+        comment_deleted_in_deleted_discussion: 'Bejegyzés törölve egy törölt témában'
+        discussion_deleted: 'Téma törölve. {title}'
+        discussion_hidden: 'Téma elrejtve. {title}'
+        discussion_restored: 'Téma helyreállítva. {title}'
+        discussion_started: 'Téma indítva. {title}'
+        forum_quests: 'Fórumküldetések: {name} teljesítve'
+        post_deleted: 'Bejegyzés törölve'
+        post_hidden: 'Bejegyzés elrejtve'
+        post_liked: 'Bejegyzés kedvelve'
+        post_posted: 'Bejegyzés közzétéve'
+        post_restored: 'Bejegyzés helyreállítva'
+        post_unliked: 'Bejegyzés kedvelése visszavonva'
+        store_purchase: 'Boltban megvásárolva'
+        system_clear: Rendszertörlés
+        system_refresh: Rendszerfrissítés
+      view: Megtekintés
+    modal:
+      current: Jelenlegi
+      submit_button: Mentés
+      title: 'TP szerkesztése'
+    notifications:
+      level_updated: 'Gratulálunk. Elérte a(z) {level}. szintet.'
+    settings:
+      notify_level_updated: 'Értesítés, ha a szint megváltozik'
+    user_controls:
+      edit_exp_button: 'TP szerkesztése'
   lib:
     defaults:
       exp: '[expTotal] TP'
       expFormula: '[discussionCount] * 40 + [commentCount] / 20'
       level: 'Szint:'
       levelFormula: '[expTotal] / (100 * [level])'
+    error:
+      calculation: 'A TP-szint kiszámítása hibás.'
+    integrations:
+      automoderator:
+        action_name: 'TP adása'
+        metric_name: TP
+      forum-quests:
+        reward_name: TP
+      store:
+        item_name: TP
+        provider_data:
+          same_as_use_cnt: 'Használat számával megegyező'
+      user-directory:
+        least_exp: 'Legkevesebb TP'
+        most_exp: 'Legtöbb TP'
+nodeloc-leaderboard:
+  lib:
+    sort:
+      least_exp: '=> foskym-custom-levels.lib.integrations.user-directory.least_exp'
+      most_exp: '=> foskym-custom-levels.lib.integrations.user-directory.most_exp'
