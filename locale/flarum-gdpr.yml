@@ -49,20 +49,20 @@ flarum-gdpr:
           export: '{username} adatainak exportálása'
   email:
     confirm_erasure:
-      body: "Kedves {display_name}!\n\nValaki (remélhetőleg Ön) a(z) `{display_name}` fiókja törlését kérte.\n\nA művelet megerősítéséhez kövesse a következő hivatkozást, majd ezután fel fogja dolgozni a csapatunk.\n\n{erasure_confirm_url}\n"
+      body: "Valaki (remélhetőleg Ön) a(z) `{display_name}` fiókja törlését kérte.\n\nA művelet megerősítéséhez kövesse a következő hivatkozást, majd ezután fel fogja dolgozni a csapatunk.\n\n{erasure_confirm_url}\n"
       subject: 'Erősítse meg a fióktörlési kérését'
     erasure_cancelled:
-      body: "Kedves {display_name}!\n\nEz agy automatikus értesítés arról, hogy a fióktörlési kérésének lemondása feldolgozásra került.\n\nA fiókja nem lesz törölve.\n"
+      body: "Ez agy automatikus értesítés arról, hogy a fióktörlési kérésének lemondása feldolgozásra került.\n\nA fiókja nem lesz törölve.\n"
       subject: 'A fióktörlési kérés lemondva'
     erasure_completed:
       anonymization:
-        body: "Kedves {display_name}!\n\nEz egy automatikus, végső értesítés arról, hogy a fiókja anonimizálásra került.\n"
+        body: "Ez egy automatikus, végső értesítés arról, hogy a fiókja anonimizálásra került.\n"
         subject: 'A fiók anonimizálása befejeződött'
       deletion:
-        body: "Kedves {display_name}!\n\nEz egy automatikus, végső értesítés arról, hogy a fiókja törlésre került.\n"
+        body: "Ez egy automatikus, végső értesítés arról, hogy a fiókja törlésre került.\n"
         subject: 'A fiók törlése befejeződött'
     export_available:
-      body: "Kedves {display_name}!\n\nA(z) {username} fiók exportálását kérte. Az export sikeresen előállításra került, és itt érhető el:\n\n{url}\n\nEz az export eddig érhető el: {destroys_at}.\n"
+      body: "A(z) {username} fiók exportálását kérte. Az export sikeresen előállításra került, és itt érhető el:\n\n{url}\n\nEz az export eddig érhető el: {destroys_at}.\n"
       subject: 'Az adatexport elérhető'
   forum:
     badges:

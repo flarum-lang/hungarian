@@ -3,6 +3,10 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 flarum-emoji:
+  admin:
+    settings:
+      cdn_help: 'Például https://cdn.jsdelivr.net/gh/twitter/twemoji@[version]/assets/, A jelenlegi verzió: {version}'
+      cdn_label: 'CDN tükör címe'
   forum:
     composer:
       emoji_tooltip: 'Emodzsi beszúrása'

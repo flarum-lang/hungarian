@@ -69,7 +69,11 @@ fof-terms:
       title: '{username} feltételelfogadási állapota'
     update-alert:
       can-accept-message: 'Nemrég frissítettük a feltételeket. A weboldal használatához el kell fogadnia őket.'
+      can-accept-optional-message: 'Nemrég frissítettük a feltételeket. Áttekintheti őket, amikor csak szeretné.'
+      close: Bezárás
       must-accept-message: 'Ideiglenesen korlátoztuk a hozzáférését a fiókjához, amíg nem nézi meg az új feltételeket.'
       review: 'Kattintson ide az új feltételek áttekintéséhez és elfogadásához'
     user_controls:
       state_button: 'Feltételek elfogadási állapota'
+    user_settings:
+      optional_policies_label: Házirendek

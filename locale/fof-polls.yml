@@ -59,6 +59,7 @@ fof-polls:
       edit_title: 'Szavazás szerkesztése'
       error: '=> core.lib.error.generic_message'
       hide_votes_label: 'Szavazatok elrejtése a szavazás végéig'
+      hide_votes_label_help: 'A szavazást indító felhasználó számára mindig látszódni fognak a szavazatok.'
       image_option_placeholder: 'Kép webcíme (nem kötelező)'
       include_question: 'Lennie kell egy kérdésnek'
       max: 'Legfeljebb {max} válasz lehet'

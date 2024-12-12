@@ -8,11 +8,17 @@ neoncube-private-messages:
       allow_users_to_receive_email_notifications: 'Engedélyezés, hogy a felhasználók e-mail-értesítéseket kapjanak a privát üzenetekről'
       start_label: 'Privát beszélgetések indítása'
     settings:
+      message_recipient_background_color: 'Egyéni szín a címzett üzenetéhez'
+      message_recipient_background_color_help: .
       return_key: 'Az Enter gomb elküldi az üzenetet'
+      return_key_help: 'Beállítás, hogy az Enter gomb elküldje az üzenetet. Ha ez ki van kapcsolva, akkor az Enter gomb új sort kezd, az üzenet elküldéséhez pedig az „Üzenet elküldése” gombra kell kattintania a felhasználónak.'
+      show_read_receipts: 'Olvasási visszajelzés megjelenítése'
+      show_read_receipts_help: 'Jelölőmező megjelenítése az üzenet mellett, jelezve ha a címzett elolvasta azt.'
   forum:
     chat:
       cant_start: 'Nem kezdhető el a beszélgetés'
       chat_with: 'Csevegés vele: {username}'
+      message_read: 'Üzenet elolvasva'
       messages_multiple: 'összesen {count} üzenet'
       messages_single: 'Új beszélgetés'
       read: Olvasás
