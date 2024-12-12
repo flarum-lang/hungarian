@@ -40,7 +40,13 @@ CHANGELOG
 
 * [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
 * [`blomstra/s3-assets`](https://github.com/blomstra/flarum-ext-s3-assets)
+* [`flarum/emoji`](https://github.com/flarum/emoji)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
 * [`flarum/suspend`](https://github.com/flarum/suspend)
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
