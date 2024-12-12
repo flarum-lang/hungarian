@@ -36,7 +36,7 @@ foskym-custom-levels:
       expForLike: 'A kedvelésenként kapott TP'
       expForLikeDesc: 'A flarum/likes bővítmény szükséges hozzá. Csak szám, tizedesjegy nélkül. Vagy tartomány, például az「[1, 10]」1 és 10 közti véletlenszerű számot jelent.'
       expForPost: 'A bejegyzésenként kapott TP'
-      expForPostDesc: 'Csak szám, tizedesjegy nélkül. Vagy tartomány, például az「[1, 10]」1 és 10 közti véletlenszerű számot jelent.'
+      expForPostDesc: 'Csak szám, tizedesjegy nélkül. Vagy tartomány, például az „[1, 10]” 1 és 10 közti véletlenszerű számot jelent.'
       expFormula: 'Adja meg a tapasztalat képletét (például „[discussionCount] * 40 + [commentCount] / 20”)'
       expFormulaDesc1: 'Ezeket a változókat használhatja：'
       expFormulaDesc2: 'Alapvető ([discussionCount] [commentCount]）'
