@@ -38,6 +38,7 @@ CHANGELOG
 
 **Bővítményfordítások frissítve**:
 
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
 * [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
 * [`blomstra/s3-assets`](https://github.com/blomstra/flarum-ext-s3-assets)
 * [`flarum/emoji`](https://github.com/flarum/emoji)
@@ -66,6 +67,7 @@ CHANGELOG
 * [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
 * [`gbcl/userip`](https://github.com/GBCLStudio/userip)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
 * [`justoverclock/flarum-ext-purify`](https://github.com/justoverclockl/flarum-ext-purify)
