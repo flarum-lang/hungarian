@@ -88,6 +88,8 @@ fof-webhooks:
         group_label: Csoport
         max_post_content_length_help: 'Adjon meg egy számot, amely korlátozza a bejegyzéstartalmat az összes bejegyzéssel kapcsolatos eseménynél. Módosítsa 0-ra vagy üresre, hogy eltávolítsa a korlátot.'
         max_post_content_length_label: 'Bejegyzéstartalom legnagyobb hossza'
+        name_help: 'A webhook neve. Ez olyan dolgokhoz lesz használva, mint a Discord felhasználóv, Slack bot neve, stb.'
+        name_label: Név
         title: Webhookbeállítások
         use_plain_text_label: 'A formázás mennyiségének csökkentése a bejegyzéstartalomban'
       services:
