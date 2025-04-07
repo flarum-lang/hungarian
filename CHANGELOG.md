@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.10.0 (XXXX-XX-XX)
+-------------------
+
+**Új bővítmények támogatása hozzáadva**:
+
+* [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
+
+
+Összes változás: [v2.9.0...v2.10.0](https://github.com/flarum-lang/hungarian/compare/v2.9.0...v2.10.0).
+
+
 2.9.0 (2024-12-31)
 ------------------
 
