@@ -8,6 +8,7 @@ CHANGELOG
 **Új bővítmények támogatása hozzáadva**:
 
 * [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
+* [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
 
 
 Összes változás: [v2.9.0...v2.10.0](https://github.com/flarum-lang/hungarian/compare/v2.9.0...v2.10.0).
