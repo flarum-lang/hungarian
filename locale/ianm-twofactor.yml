@@ -61,20 +61,30 @@ ianm-twofactor:
       cancel_button: Mégse
       cannot_disable: 'A jelenlegi konfiguráció azt diktálja, hogy nem kapcsolhatja ki a kétlépcsős hitelesítést.'
       cannot_disable_tooltip: 'A 2FA nem kapcsolható ki'
+      change_device_button: 'Eszköz módosítása'
+      change_device_description: '2FA áthelyezése új eszközre'
+      change_device_heading: 'Hitelesítési eszköz módosítása'
+      change_device_title: 'Eszköz módosítása'
       confirm_disable_2fa_text: 'Biztos, hogy kikapcsolja a kétlépcsős hitelesítést?'
       confirm_disable_2fa_text_other_user: 'Biztos, hogy kikapcsolja a kétlépcsős hitelesítést {username} számára? Ez eltávolítja a biztonsági kódokat, és kikapcsolja a 2FA-t a fiókjához.'
       confirm_disable_2fa_title: 'Kétlépcsős hitelesítés kikapcsolásának megerősítése'
+      continue_button: Folytatás
+      device_changed_confirmation: 'A hitelesítési eszköze sikeresen megváltozott.'
       disable_2fa_button: '2FA kikapcsolása'
       enable_2fa_button: '2FA bekapcsolása'
       enable_2fa_modal_text: 'Olvassa le a lenti QR-kódot a hitelesítő alkalmazásával, majd adja meg a kapott tokent a kétlépcsős hitelesítés bekapcsolásához.'
+      enter_current_token: 'Adjon meg egy tokent a jelenlegi eszközéről'
+      enter_new_token: 'Adjon meg egy tokent az új eszközéről'
       enter_token: 'Adja meg a tokent'
       loading_qr: 'QR-kód betöltése…'
       manual_entry_instruction: 'Írja be a kapott kódot a hitelesítő alkalmazásában, majd adja meg a kapott tokent a kétlépcsős hitelesítés bekapcsolásához.'
       manual_tab: 'Kézi beállítás'
+      new_backup_codes: 'Új tartalék biztonsági kódok'
       ok_button: Ok
       qr_code_alt: 'QR-kód a kétlépcsős hitelesítéshez'
       qr_tab: 'QR-kód leolvasása'
       saved_backup_codes_button: 'Elmentettem a kódokat'
+      scan_new_device_qr: 'Olvassa le ezt a QR-kódot a jelenlegi hitelesítési eszközén.'
       scan_qr_instruction: 'Olvassa le a fenti QR-kódot a hitelesítő alkalmazásával, majd adja meg a kapott tokent a kétlépcsős hitelesítés bekapcsolásához.'
       two_factor_apps: 'Számos ingyenesen elérhető alkalmazás létezik, például a {google}, az {authy}, a {microsoft} és még sok más.'
       two_factor_disabled: 'A 2FA ki van kapcsolva ennél a fióknál.'
@@ -84,6 +94,8 @@ ianm-twofactor:
       two_factor_help: 'A kétlépcsős hitelesítés (2FA) további biztonsági réteget biztosít a fiókjának. Ha engedélyezi, akkor a jelszava mellett egy hitelesítő alkalmazásból származó tokent is meg kell adnia bejelentkezéskor, vagy egyes más műveletek esetén. Ez biztosítja, hogy a fiókja biztonságos maradjon, még akkor is, ha a jelszava kompromittálódik, hiszen a támadóknak a (30 másodpercenként változó) kódjára is szükségük volna, hogy hozzáférjenek a fiókjához.'
       two_factor_title: 'Állapot:'
       verify_button: Ellenőrzés
+      verify_current_device_message: 'Adjon meg egy tokent a jelenlegi hitelesítési eszközéről, hogy megerősítse a személyazonosságát.'
+      verify_new_device_message: 'Most adjon meg egy tokent az új eszközéről, hogy befejezze a módosítást.'
     user_2fa:
       alert_message: 'A fiókja eléréséhez engedélyeznie kell a 2FA-t.'
   views:

@@ -99,6 +99,7 @@ fof-polls:
       cannot_start_poll_button: 'A szavazás nem indítható el'
       start_poll_button: 'Globális szavazás indítása'
       submit_button: Szavazás
+      total_votes: '{count, plural, one {# szavazat lett leadva} other {# szavazat lett leadva}}'
     poll_controls:
       delete_confirmation: 'Biztos, hogy törli ezt a szavazást?'
       delete_error_message: 'Hiba történt a szavazás törlése során.'

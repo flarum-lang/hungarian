@@ -56,6 +56,8 @@ fof-byobu:
       title_placeholder: 'Privát téma címe'
     confirm:
       make_public: 'Valóban eltávolítja a résztvevőket és mindenki számára láthatóvá teszi a témát, akik láthatják a hozzárendelt címkét?'
+    hero:
+      title: '=> fof-byobu.forum.nav.nav_item'
     input:
       search_recipients: 'Keressen címzettet az első három karakter beírásával…'
     labels:

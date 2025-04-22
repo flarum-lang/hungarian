@@ -9,7 +9,8 @@ fof-socialprofile:
       editOwn: 'Saját közösségi profil szerkesztése'
       view: 'Közösségi profil megtekintése'
     settings:
-      allow_external_favicons_label: 'Külső webhelyikonok engedélyezése (a DuckDuckGo favikon API-ját használja)'
+      allow_external_favicons_label: 'Külső webhelyikonok engedélyezése (külső szolgáltató favikon API-ját használja)'
+      favicon_provider_label: 'Külső favikonszolgáltató'
   forum:
     edit:
       add: 'Gombok hozzáadása a közösségi médiáihoz'
@@ -18,7 +19,7 @@ fof-socialprofile:
       edit: 'Saját közösségimédia-gombok szerkesztése'
       favicon: Favikon
       grey_favicon: 'Szürke favikon'
-      headtitle: 'Szerkesztés gombok'
+      headtitle: 'Gombok szerkesztése'
       save_disabled_fetching_favicons: 'Egy vagy több ikon beolvasása folyamatban van. Kis türelmet.'
       submit: Mentés
       title: Cím

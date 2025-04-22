@@ -86,6 +86,7 @@ fof-webhooks:
         extra_text_label: 'További szöveg'
         group_help: 'A csoport által látható erőforrások elküldése'
         group_label: Csoport
+        include_matching_tags_label: 'Megfelelő címkék belevétele -- az adott címkékre korlátozott webhookok esetén az esemény megfelelő címkéinek megjelenítése'
         max_post_content_length_help: 'Adjon meg egy számot, amely korlátozza a bejegyzéstartalmat az összes bejegyzéssel kapcsolatos eseménynél. Módosítsa 0-ra vagy üresre, hogy eltávolítsa a korlátot.'
         max_post_content_length_label: 'Bejegyzéstartalom legnagyobb hossza'
         name_help: 'A webhook neve. Ez olyan dolgokhoz lesz használva, mint a Discord felhasználóv, Slack bot neve, stb.'

@@ -5,6 +5,7 @@
 clarkwinkelmann-emojionearea:
   admin:
     settings:
+      closeOnPick: 'Választó bezárása egy emodzsi kiválasztásakor'
       enableRecent: 'Nemrég használtak engedélyezése'
       enableSearch: 'Keresés engedélyezése'
       enableTones: 'Tónusok engedélyezése'
@@ -12,5 +13,16 @@ clarkwinkelmann-emojionearea:
       hideFlarumButton: 'A Flarum emodzsiválasztó-gombjának elrejtése'
       searchPosition: 'A keresés és a tónusok áthelyezése alulra'
   forum:
+    filters:
+      activity: Tevékenység
+      animals_nature: 'Állatok és természet'
+      flags: Zászlók
+      food_drink: 'Étel és ital'
+      objects: Objektumok
+      recent: Legutóbbiak
+      smileys_people: 'Mosolyok és emberek'
+      symbols: Szimbólumok
+      tones: Sokszínűség
+      travel_places: 'Utazás és helyek'
     picker_button: Emodzsiválasztó
     search_placeholder: Keresés…
