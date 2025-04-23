@@ -13,6 +13,7 @@ CHANGELOG
 
 **Bővítményfordítások frissítve**:
 
+* [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget)
 * [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
