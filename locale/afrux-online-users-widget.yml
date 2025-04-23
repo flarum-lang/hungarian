@@ -4,6 +4,8 @@
 
 afrux-online-users-widget:
   admin:
+    permissions:
+      view_online_users_widget: 'Online felhasználók moduljának megtekintése'
     settings:
       cache_ttl: 'Felhasználólista gyorsítótárazási ideje (másodpercben)'
       max_users: 'Megjelenítendő felhasználók legnagyobb száma'
