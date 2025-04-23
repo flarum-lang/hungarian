@@ -5,7 +5,7 @@
 afrux-online-users-widget:
   admin:
     settings:
-      cache_ttl: 'Felhasználólista gyorsítótározási ideje (másodpercben)'
+      cache_ttl: 'Felhasználólista gyorsítótárazási ideje (másodpercben)'
       max_users: 'Megjelenítendő felhasználók legnagyobb száma'
   forum:
     widget:
