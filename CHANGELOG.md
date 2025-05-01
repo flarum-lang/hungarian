@@ -2,6 +2,36 @@ CHANGELOG
 =========
 
 
+2.10.0 (2025-05-01)
+-------------------
+
+**Új bővítmények támogatása hozzáadva**:
+
+* [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
+* [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
+
+
+**Bővítményfordítások frissítve**:
+
+* [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget)
+* [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+* [`neoncube/flarum-private-messages`](https://github.com/neoncube2/flarum-private-messages)
+
+
+Összes változás: [v2.9.0...v2.10.0](https://github.com/flarum-lang/hungarian/compare/v2.9.0...v2.10.0).
+
+
 2.9.0 (2024-12-31)
 ------------------
 
