@@ -8,6 +8,7 @@ afrux-online-users-widget:
       view_online_users_widget: 'Online felhasználók moduljának megtekintése'
     settings:
       cache_ttl: 'Felhasználólista gyorsítótárazási ideje (másodpercben)'
+      last_seen_interval: 'A felhasználó online állapotúnak tekintésének időköze (percben)'
       max_users: 'Megjelenítendő felhasználók legnagyobb száma'
   forum:
     widget:

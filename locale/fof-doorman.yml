@@ -6,6 +6,32 @@ fof-doorman:
   admin:
     doorkey_required: 'Meg kell adnia egy meghívókódot'
     invalid_doorkey: 'A megadott meghívókód érvénytelen.'
+    list:
+      columns:
+        activates_user: '=> fof-doorman.admin.ref.fields.activates_user.label'
+        created_by: 'Létrehozta:'
+        group: '=> fof-doorman.admin.ref.fields.group.label'
+        id: Azonosító
+        key: '=> fof-doorman.admin.ref.fields.key.label'
+        manage: Kezelés
+        max_uses: '=> fof-doorman.admin.ref.fields.max_uses.label'
+        uses: Használatok
+      content:
+        delete: 'Biztos, hogy törli a(z) „{key}” meghívókódot?'
+        invalid_column: '=> core.admin.users.grid.invalid_column_content'
+        no_created_by: 'Ismeretlen felhasználó'
+        no_group: '=> core.admin.users.grid.columns.group_badges.no_badges'
+        uses:
+          total_uses: '{totalUses, plural, one {{totalUses} alkalommal használva} other {{totalUses} alkalommal használva}}'
+          used_times: '{remaining, plural, =0 {Korlátlan használat} one {{remainingUses} használat maradt} other {{remainingUses} használat maradt}}'
+        warning: 'Ezt a meghívókódot már teljesen felhasználták.'
+      pagination:
+        back_button: '=> core.admin.users.pagination.back_button'
+        first_page_button: '=> core.admin.users.pagination.first_page_button'
+        go_to_page_textbox_a11y_label: '=> core.admin.users.pagination.go_to_page_textbox_a11y_label'
+        last_page_button: '=> core.admin.users.pagination.last_page_button'
+        next_button: '=> core.admin.users.pagination.next_button'
+        page_counter: '=> core.admin.users.pagination.page_counter'
     modal:
       group: 'Meghívók küldése a(z) {group} csoportnak'
       help: 'Vesszővel, szóközzel vagy vessző-szóközzel elválasztott listát fogad el. Írjon be egy e-mail-címet, vagy illesszen be egy listát, majd nyomjon szóközt a hozzáadáshoz.'
@@ -15,6 +41,47 @@ fof-doorman:
       send: 'E-mailek elküldése'
       success: 'Az e-mailek sikeresen elküldve'
       title: 'Meghívókódok küldése'
+    modals:
+      create_doorkey:
+        activates_user:
+          help: '=> fof-doorman.admin.ref.fields.activates_user.help'
+          label: '=> fof-doorman.admin.ref.fields.activates_user.label'
+        group:
+          help: '=> fof-doorman.admin.ref.fields.group.help'
+          label: '=> fof-doorman.admin.ref.fields.group.label'
+        key:
+          help: '=> fof-doorman.admin.ref.fields.key.help'
+          label: '=> fof-doorman.admin.ref.fields.key.label'
+        max_uses:
+          help: '=> fof-doorman.admin.ref.fields.max_uses.help'
+          label: '=> fof-doorman.admin.ref.fields.max_uses.label'
+        submit_and_create_another_button: 'Létrehozás és még egy hozzáadása'
+        submit_button: 'Meghívókód létrehozása'
+        title: 'Új meghívókód létrehozása'
+      edit_doorkey:
+        activates_user:
+          help: '=> fof-doorman.admin.ref.fields.activates_user.help'
+          label: '=> fof-doorman.admin.ref.fields.activates_user.label'
+        group:
+          help: '=> fof-doorman.admin.ref.fields.group.help'
+          label: '=> fof-doorman.admin.ref.fields.group.label'
+        key:
+          help: '=> fof-doorman.admin.ref.fields.key.help'
+          label: '=> fof-doorman.admin.ref.fields.key.label'
+        max_uses:
+          help: '=> fof-doorman.admin.ref.fields.max_uses.help'
+          label: '=> fof-doorman.admin.ref.fields.max_uses.label'
+        submit_button: 'Változtatások mentése'
+        title: 'Meghívókód szerkesztése'
+      send_invites:
+        group: 'Meghívók küldése a(z) {group} csoportnak'
+        help: 'Vesszővel, szóközzel vagy mindkettővel elválasztott listát fogad el. Írjon be egy e-mail-címet, vagy illesszen be egy listát, majd nyomjon szóközt a hozzáadásukhoz.'
+        invalid_emails: 'A következő e-mail-címek érvénytelenek: {emails}'
+        max_use_conflict: 'Az e-mail-címek száma meghaladja a kód használati korlátját.'
+        placeholder: 'Itt adja meg az e-mail-címeket'
+        send: 'E-mailek elküldése'
+        success: 'Az e-mailek sikeresen elküldve'
+        title: 'Meghívókódok elküldése'
     nav:
       desc: 'Meghívókódok létrehozása a felhasználók számára, hogy regisztrálhassanak és csoporthoz legyenek rendelve'
     page:
@@ -39,6 +106,28 @@ fof-doorman:
         used_times: '{remaining, plural, =0 {Végtelen használat} one {{remaining} használat maradt} other {{remaining} használat maradt}}'
         warning: 'Ez a meghívókód elérti a felhasználási korlátját.'
       title: Ajtónálló
+    ref:
+      fields:
+        activates_user:
+          help: 'Automatikusan aktiválja a felhasználót, amikor regisztrál.'
+          label: 'Aktiválja a felhasználót'
+        group:
+          help: 'A csoport, melyhez a felhasználó hozzá lesz rendelve, ha a meghívókóddal regisztrál.'
+          label: Csoport
+        key:
+          help: 'A kód, melyet a felhasználó a regisztrációkor ad meg.'
+          label: Kulcs
+        max_uses:
+          help: 'Legfeljebb hányszor használható a kód. Állítsa 0-ra a korlátlan számú használathoz.'
+          label: 'Használati korlát'
+    settings:
+      create_doorkey_button: 'Meghívókód létrehozása'
+      optional_usage: 'A meghívókód választhatóvá tétele a regisztrációkor'
+      search: 'Ajtókulcsok keresése'
+      total_doorkeys: 'Összes ajtókulcs: {count}'
+  email:
+    body: "Üdv,\n\nMeghívták, hogy csatlakozzon ehhez a fórumhoz: {forum}.\n\nHa készen áll, hogy létrehozza a fiókját, csak kattintson a következő hivatkozásra, és adja meg a kódot a regisztráció során:\n\nWebcím: {url}\nMeghívókód: {code}\n\nHa tévedésből kapta ezt a levelet, hagyja figyelmen kívül.\n"
+    subject: 'Meghívás, hogy csatlakozzon'
   forum:
     email:
       body: "Üdv!\n\nMeghívták, hogy csatlakozzon a következőhöz: {forum}.\n\nHa készen áll arra, hogy létrehozzon egy fiókot, csak kattintson a következő hivatkozásra, és adja meg a kódot a csatlakozáshoz:\n\nWebcím: {url}\nMeghívókód: {code}\n\nHa tévedésből kapta ezt a levelet, akkor tekintse figyelmen kívül.\n"
