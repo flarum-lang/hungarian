@@ -7,6 +7,7 @@ CHANGELOG
 
 **Új bővítmények támogatása hozzáadva**:
 
+* [`blazite/flarum-turnstile`](https://github.com/blazite/flarum-ext-turnstile)
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
 
 
