@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+2.11.0 (XXXX-XX-XX)
+-------------------
+
+**Új bővítmények támogatása hozzáadva**:
+
+* [`blazite/flarum-turnstile`](https://github.com/blazite/flarum-ext-turnstile)
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
+
+
+Összes változás: [v2.10.0...v2.11.0](https://github.com/flarum-lang/hungarian/compare/v2.10.0...v2.11.0).
+
+
 2.10.0 (2025-05-01)
 -------------------
 
