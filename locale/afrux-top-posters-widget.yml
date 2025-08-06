@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 afrux-top-posters-widget:
+  admin:
+    settings:
+      info: 'A kiválasztott csoportok felhasználói ki lesznek hagyva a modul találataiból.'
   forum:
     widget:
       title: 'Legtöbbet hozzászólók a hónapban'

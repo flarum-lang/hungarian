@@ -12,10 +12,13 @@ antoinefr-money:
       - 'Ha egy téma/bejegyzés elrejtésre vagy helyreállításra kerül (alapértelmezett)'
       - 'Ha egy téma/bejegyzés törlésre kerül'
     permissions:
+      disable_money_label: 'Pénz letiltása'
       edit_money_label: 'Pénz szerkesztése'
     settings:
       autoremove: 'Pénz automatikus frissítése'
+      cascaderemove: 'Bejegyzésekhez tartozó pénz eltávolítása, ha a téma törlésre kerül'
       helpextensionlikes: 'A <code>flarum/likes</code> bővítmény szükséges hozzá'
+      ignore_notifying_users: 'A válaszok szószámának ellenőrzésekor fókuszálás csak a tartalmi szakaszra'
       moneyfordiscussion: 'Új témáért adott pénz'
       moneyforlike: 'Az adott pénz, ha egy bejegyzést kedvelik'
       moneyforpost: 'Új bejegyzésért adott pénz'
