@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`blazite/flarum-turnstile`](https://github.com/blazite/flarum-ext-turnstile)
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
+* [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
 
 
 **Bővítményfordítások frissítve**:
