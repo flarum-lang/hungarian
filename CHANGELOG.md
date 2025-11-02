@@ -14,8 +14,16 @@ CHANGELOG
 **Új bővítmények támogatása hozzáadva**:
 
 * [`blazite/flarum-turnstile`](https://github.com/blazite/flarum-ext-turnstile)
+* [`club-1/flarum-ext-content-permissions`](https://github.com/club-1/flarum-ext-content-permissions)
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
+* [`huseyinfiliz/flagify`](https://github.com/huseyinfiliz/flagify)
 * [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
+* [`huseyinfiliz/sort-changer`](https://github.com/huseyinfiliz/sort-changer)
+* [`kk14569/flarum-anti-gmail-alias`](https://github.com/kk14569/flarum-anti-gmail-alias)
+* [`madeyedeer/avatar-tools`](https://github.com/MadEyeDeer/avatar-tools)
+* [`shebaoting/repost`](https://github.com/shebaoting/Repost)
+* [`tohsakarat/post-camera`](https://github.com/tohsakrat/post-camera)
+* [`tohsakarat/table-of-content`](https://github.com/tohsakrat/flarum-table-of-content)
 
 
 **Bővítményfordítások frissítve**:
