@@ -12,6 +12,8 @@ fof-oauth:
         heading: Speciális
         log-oauth-errors-help: 'Ha be van kapcsolva, akkor az OAuth hibák naplózva lesznek a Flarum naplójában. Ez segíthet az OAuth-tal kapcsolatos problémák megoldásában, de bizalmas információkat is tartalmazhat.'
         log-oauth-errors-label: 'OAuth hibák naplózása'
+      disable_avatars_help: "Ha engedélyezve van, akkor a felhasználó profilképe nem lesz frissítve, hogy regisztrációkor megegyezzen a szolgáltatóval tárolttal. Ez csak a jövőbeli regisztrációkat érinti, a meglévő felhasználók profilképén nem változtat.\n"
+      disable_avatars_label: 'Szolgáltatótól származó profilképek letiltása'
       fullscreen_popup_help: 'Ha be van kapcsolva, akkor az OAuth-ot használó bejelentkezés teljes képernyős felugró ablakban nyílik meg. Ha be van kapcsolva, akkor a szélesség és magasság beállítása figyelmen kívül lesz hagyva.'
       fullscreen_popup_label: 'Teljes képernyős felugró ablak használata az OAuth-hoz'
       only_icons_label: 'Csak az ikonok megjelenítése (alternatív elrendezés)'

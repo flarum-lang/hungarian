@@ -6,6 +6,8 @@ fof-sitemap:
   admin:
     settings:
       advanced_options_label: 'Speciális beállítások'
+      exclude_tags: 'Az összes címkeoldal kihagyása az oldaltérképből'
+      exclude_tags_help: 'Alapértelmezetten az összes vendégek számára látható címke oldala indexelve lesz'
       exclude_users: 'Az összes felhasználói profil eltávolítása az oldaltérképből'
       exclude_users_help: 'Alapértelmezetten minden vendégek számára látható felhasználó indexelve lesz'
       frequency:
@@ -13,6 +15,10 @@ fof-sitemap:
         hourly: Óránként
         twice_daily: 'Naponta kétszer'
       frequency_label: 'Milyen gyakran építse újra az ütemező a gyorsítótárazott oldaltérképet?'
+      include_changefreq: 'Változási gyakoriság értékeinek beletevése az oldaltérképbe'
+      include_changefreq_help: 'A Google figyelmen kívül hagyja a változási gyakorisági értékeket, de más keresőmotorok használhatják őket a keresőbotok ütemezéséhez'
+      include_priority: 'Prioritásértékek beletevése az oldaltérképbe'
+      include_priority_help: 'A Google figyelmen kívül hagyja a prioritásértékeket, de más keresőmotorok, mint a Bing és a Yandex, használhatják őket'
       mode_help: 'A fóruma számára helyes működési mód kiválasztása alapvető fontosságú.'
       mode_help_cache_disk: 'Kis vagy közepes fórumokhoz, melyek a legnagyobb valószínűség szerint cronjobok és a Flarum ütemezőjének (lásd lent) futtatását engedélyező környezeteken futnak, és ahol a bejegyzések, felhasználók, címkék és lapok darabszáma 50 000 elemnél kevesebb.'
       mode_help_cache_disk_label: 'Gyorsítótár- vagy lemezalapú mód'

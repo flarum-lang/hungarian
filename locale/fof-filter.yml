@@ -10,12 +10,13 @@ fof-filter:
     countLabel: 'Cenzor küszöbszintje'
     email:
       default_subject: 'A friss bejegyzésével kapcsolatosan'
-      default_text: "Köszönjük a bejegyzést! Sajnos a bejegyzése eltávolításra került, mert olyasmit tartalmaz, amit nem szeretnénk a fórumunkon látni.\n\nHa azt gondolja, hogy ez tévedés, akkor szerencséje van, a moderátorok az összes eltávolított bejegyzést átnézik. Ha úgy találják, hogy hibásan lett eltávolítva, akkor vissza fogják állítani.                \n\nKöszönjük a megértését.\n"
-    email_help: 'A megjelölésről szóló e-mail törzse. HTML-t és egyszerű szöveget fogad el.'
+      default_text: "Köszönjük a bejegyzést! Sajnos a bejegyzése eltávolításra került, mert olyasmit tartalmaz, amit nem szeretnénk a fórumunkon látni.\n\nHa azt gondolja, hogy ez tévedés, akkor szerencséje van, a moderátorok az összes eltávolított bejegyzést átnézik. Ha úgy találják, hogy hibásan lett eltávolítva, akkor vissza fogják állítani.\n\nKöszönjük a megértését.\n"
+    email_help: "A megjelölésről szóló e-mail törzse. HTML-t és egyszerű szöveget fogad el. A %USERNAME% változóval szúrhatja be a megjelölt bejegyzést beküldő felhasználó nevét.\n"
     filter_label: 'Szűrendő szövegek'
     help2: 'A percben megadott időköz, mialatt az egy felhasználó által egy témában közzétett bejegyzések automatikusan összevonásra kerülnek.'
     input:
       email_body: Törzs
+      email_help: 'Hagyja üresen, hogy engedélyezze a fordítások használatát. A levél lefordításához használhatja a FoF Linguist bővítményt.'
       email_label: E-mail-beállítások
       email_subject: Tárgy
       filter_title: 'Szűrendő szövegek'

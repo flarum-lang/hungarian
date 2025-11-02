@@ -91,6 +91,11 @@ fof-upload:
         max_width: 'Legnagyobb képszélesség és magasság'
         title: 'Kép átméretezése'
         toggle: 'Képek átméretezése'
+      svg-sanitizer:
+        allow_animate: 'SVG animációk engedélyezése'
+        allow_animate_help: 'Az SVG animációk biztonsági sérülékenységeket okozhatnak, mert az animált SVG-k kártékony kódot tartalmazhatnak. A saját felelősségére kapcsolja be ezt a beállítást, és csak akkor, ha megbízik a felhasználókban.'
+        help: 'Beállítja az SVG-fájlok feldolgozását és megtisztítását a feltöltés során. Az SVG-fájlok káros parancsfájlokat tartalmazhatnak, így óvatosan kell velük bánni. A feltöltött SVG-k feltöltéskor megtisztításra kerülnek: a káros parancsfájlok és címkék el lesznek távolítva.'
+        title: 'SVG tisztító'
       watermark:
         file: 'Töltse fel a vízjelképet'
         position: 'Vízjel helyzete'

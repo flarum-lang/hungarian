@@ -29,6 +29,8 @@ fof-geoip:
       service_ipapi_label: 'IP Api'
       service_ipdata_description: 'Használja a <b>https://ipdata.co</b> szolgáltatást, hogy napi 1500 lekérést indítson ingyenesen. A fizetős csomagokkal nagyobb használati korlátok is elérhetők.'
       service_ipdata_label: IPData
+      service_ipinfo-lite_description: 'A <b>https://ipinfo.io</b> használata az IP információk korlátozásmentes lekéréséhez. Az ingyenes API-kulcs regisztrációt igényel.'
+      service_ipinfo-lite_label: 'IPInfo Lite'
       service_iplocation_description: 'A <b>https://www.iplocation.net/</b> használata az ország- és ISP-adatok lekéréséhez. A lekérések forgalomkorlátja nem ismert.'
       service_iplocation_label: 'IP-cím helye'
       service_ipsevenex_description: 'A <b>https://7x.ax/</b> használata egy ingyenes API-kulcs szerzéséhez, mellyel percenként legfeljebb 20 kérés indítható. Magasabb használati korlátokkal rendelkező, fizetős csomagok is elérhetők.'
