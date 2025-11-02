@@ -29,11 +29,11 @@ huseyinfiliz-modern-footer:
       link: Hivatkozás
       manage_footer_sections: 'Láblécszakaszok kezelése'
       mobile_tab_height: 'Mobilos lap magassága'
-      mobile_tab_height_help: 'Ha a Mobilos lap kiegészítő telepítve van, akkor használhatja értékként: var(--mobile-tab-height)'
+      mobile_tab_height_help: 'Ha a Mobile Tab bővítmény telepítve van, akkor használhatja értékként: var(--mobile-tab-height)'
       show_to_everyone: 'Megjelenítés mindenkinek'
       show_to_guests_only: 'Megjelenítés csak a vendégeknek'
       show_to_members_only: 'Megjelenítés csak a tagoknak'
-      social_link: 'Közösségi hivatkozás'
+      social_link: Közösségimédia-hivatkozás
       social_media_button: Közösségimédia-gomb
       text: Szöveg
       title: Cím
