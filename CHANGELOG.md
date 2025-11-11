@@ -13,7 +13,7 @@ CHANGELOG
 
 **Új bővítmények támogatása hozzáadva**:
 
-* [`blazite/flarum-turnstile`](https://github.com/blazite/flarum-ext-turnstile)
+* [`blazite/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
 * [`club-1/flarum-ext-content-permissions`](https://github.com/club-1/flarum-ext-content-permissions)
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
 * [`huseyinfiliz/flagify`](https://github.com/huseyinfiliz/flagify)
