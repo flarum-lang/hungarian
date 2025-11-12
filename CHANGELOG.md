@@ -15,6 +15,7 @@ CHANGELOG
 
 * [`blazite/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
 * [`club-1/flarum-ext-content-permissions`](https://github.com/club-1/flarum-ext-content-permissions)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
 * [`huseyinfiliz/flagify`](https://github.com/huseyinfiliz/flagify)
 * [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
