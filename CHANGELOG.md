@@ -2,6 +2,48 @@ CHANGELOG
 =========
 
 
+2.11.0 (XXXX-XX-XX)
+-------------------
+
+**Általános változások**:
+
+* Flarum core fordítások frissítve.
+* Ellenőrzési fordítások frissítve.
+
+
+**Új bővítmények támogatása hozzáadva**:
+
+* [`blazite/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+* [`club-1/flarum-ext-content-permissions`](https://github.com/club-1/flarum-ext-content-permissions)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
+* [`huseyinfiliz/flagify`](https://github.com/huseyinfiliz/flagify)
+* [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
+* [`huseyinfiliz/sort-changer`](https://github.com/huseyinfiliz/sort-changer)
+* [`kk14569/flarum-anti-gmail-alias`](https://github.com/kk14569/flarum-anti-gmail-alias)
+* [`madeyedeer/avatar-tools`](https://github.com/MadEyeDeer/avatar-tools)
+* [`shebaoting/repost`](https://github.com/shebaoting/Repost)
+* [`tohsakarat/post-camera`](https://github.com/tohsakrat/post-camera)
+* [`tohsakarat/table-of-content`](https://github.com/tohsakrat/flarum-table-of-content)
+
+
+**Bővítményfordítások frissítve**:
+
+* [`afrux/top-posters-widget`](https://github.com/afrux/top-posters-widget)
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+
+
+Összes változás: [v2.10.0...v2.11.0](https://github.com/flarum-lang/hungarian/compare/v2.10.0...v2.11.0).
+
+
 2.10.0 (2025-05-01)
 -------------------
 
