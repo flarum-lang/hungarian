@@ -23,10 +23,12 @@ fof-horizon:
       auto_refresh: 'Automatikus frissítés'
       data:
         failed-last-seconds: 'Sikertelen feladatok az elmúlt néhány másodpercben'
+        failure-rate: Hibaarány
         jobs-past-hour: 'Feladatok száma óránként'
         jobs-per-minute: 'Feladatok száma percenként'
         max-runtime: 'Leghosszabb futásidő'
         max-throughput: 'Legnagyobb áteresztőképesség'
+        max-wait-queue: 'Sor: {queue}'
         max-wait-time: 'Leghosszabb várakozási idő'
         redis-blocked-clients: 'Blokkolt kliensek'
         redis-connected-clients: 'Kapcsolódott kliensek'
@@ -35,14 +37,27 @@ fof-horizon:
         redis-max-memory: 'A gyorsítótár memóriakorlátja'
         redis-memory-policy: 'A gyorsítótár memória-házirendje'
         redis-memory-policy-tooltip: "A memória-házirend dönti el, hogy a gyorsítótár minek az eltávolítását választja,\nha eléri a memóriakorlátot. Az alapértelmezett a `noeviction`: Az új értékek\nnem lesznek mentve. Kattintson a dokumentáció megtekintéséhez.\n"
+        redis-memory-usage: 'A gyorsítótár memóriahasználata'
         redis-ops-per-sec: 'Műveletek száma másodpercenként'
         redis-peak-memory: 'A gyorsítótár legnagyobb memóriahasználata'
-        redis-used-memory: 'A gyorsítótár memóriahasználata'
+        redis-used-memory: 'A gyorsítótár által használt memória'
         status:
           inactive: Tétlen
           label: Állapot
           running: Fut
+        success-rate: 'Sikerességi arány'
         total-processes: 'Összes folyamat'
+      error:
+        fetch_failed: 'A Horizon statisztikák nem kérhetők le. Ellenőrizze a Redis konfigurációt.'
+        setup_docs: 'Redis telepítési dokumentáció megtekintése'
+        title: 'Kapcsolódási hiba'
       full_dashboard: 'Horizon vezérlőpult'
       heading: 'Feladatsor áttekintése'
+      health:
+        critical: Kritikus
+        excellent: Kiváló
+        good: Jó
+        poor: Gyenge
+        tooltip: 'Rendszer egészségi pontszáma: {score}/100'
+      last_refresh: 'Frissítve: {time}'
       refresh: Frissítés
