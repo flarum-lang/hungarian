@@ -5,19 +5,21 @@
 datlechin-link-preview:
   admin:
     settings:
-      blacklist_help: 'Adja meg a domainek vagy webcímek vesszővel elválasztott listáját, hogy kizárja azokat a hivatkozás-előnézetből.'
-      blacklist_label: Tiltólista
-      blacklist_placeholder: 'például facebook.com,https://example.com/útvonal'
+      blacklist_help: 'Adja meg azokat a domaineket vagy webcímeket, melyek nem állítanak elő hivatkozás-előnézeteket. Használjon vesszőket a bejegyzések elválasztásához.'
+      blacklist_label: 'Domain tiltólista'
+      blacklist_placeholder: 'Példák: facebook.com, twitter.com/adott-oldal'
       cache_time_help: 'A percek száma, amíg a felkeresett hivatkozások gyorsítótárazva lesznek az újbóli elérésükig. Állítsa 0-ra, hogy ezt kikapcsolja. Ha nincs beállítva, akkor az alapértelmezés 60 perc.'
       cache_time_label: 'Gyorsítótárazás ideje'
-      convert_media_urls_help: 'Ha be van kapcsolva, akkor az összes médiawebcímet hivatkozás-előnézetté alakítja.'
-      convert_media_urls_label: 'Médiawebcímek átalakítása'
+      convert_media_urls_help: 'Előnézetek előállítása az médiafájlokra (képek, videók, stb.) mutató webcímek esetén.'
+      convert_media_urls_label: 'Médiawebcímek előnézete'
+      enable_batch_requests_help: 'A teljesítmény növelése több hivatkozás-előnézet egyidejű feldolgozásával. Ha ki van kapcsolva, akkor a hivatkozásokat egyesével dolgozza fel.'
+      enable_batch_requests_label: 'Kötegelt feldolgozás engedélyezése'
       open_links_in_new_tab_help: 'Ha be van kapcsolva, akkor a hivatkozások új lapon nyílnak meg.'
       open_links_in_new_tab_label: 'Hivatkozások megnyitása új lapon'
       use_google_favicons_help: 'Ha be van kapcsolva, akkor a Google szolgáltatását fogja használni a megfelelő oldal faviconjának lekéréséhez.'
-      use_google_favicons_label: 'Google Favicon API használata'
-      whitelist_help: 'Adja meg a domainek vagy webcímek vesszővel elválasztott listáját, melyeknél engedélyezett a hivatkozás-előnézet.'
-      whitelist_label: Fehérlista
-      whitelist_placeholder: 'például facebook.com,https://domain.com/path'
+      use_google_favicons_label: 'Oldalikonok megjelenítése'
+      whitelist_help: 'Előnézetek előállítása csak ezeknél a domaineknél vagy webcímeknél. Az összes nem tiltott domain engedélyezéséhez hagyja üresen.'
+      whitelist_label: 'Domain engedélyezési lista'
+      whitelist_placeholder: 'Példák: megbizhato-oldal.com, konkret-domain.org/utvonal'
   forum:
     site_cannot_be_reached: 'Ez az oldal nem érhető el.'

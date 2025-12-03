@@ -63,6 +63,7 @@ fof-upload:
           media-btn: 'Csak médiakezelő gomb'
           upload-btn: 'Csak feltöltési gomb'
         title: Szerkesztőgombok
+      configured_by_environment: 'A tárolóbeállításai környezeti változók használatával előre be lettek állítva.'
       disable-download-logging:
         title: 'Letöltések naplózásának letiltása'
         toggle: Letiltás

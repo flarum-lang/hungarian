@@ -5,10 +5,14 @@
 fof-default-user-preferences:
   admin:
     settings:
+      discloseOnline: 'Online állapot megosztása'
+      discloseOnline-help: 'Ha engedélyezve van, akkor az új felhasználók megjelenítik másoknak az online állapotukat. Az adminisztrátorok és a jogosultsággal rendelkező más felhasználók ettől a beállítástól függetlenül láthatják az online állapotukat.'
       followAfterReply: 'Követés válasz után'
       followAfterReply-help: 'Ha be van kapcsolva, az új felhasználók automatikusan követik a témákat, amelyekhez hozzászólnak.'
       groupMentioned: 'Csoport megemlítési e-mail'
-      groupMentioned-help: 'Ha engedélyezett, az új felhasználók automatikusan e-mail-értesítést kapnak ha egy olyan csoportot említenek meg, melynek tagjai.'
+      groupMentioned-help: 'Ha engedélyezve van, akkor az új felhasználók automatikusan e-mail-értesítést kapnak, ha egy olyan csoportot említenek meg, melynek tagjai.'
+      indexProfile: 'Profil indexelése'
+      indexProfile-help: 'Ha engedélyezve van, akkor az új felhasználók megengedik a keresőbotoknak, hogy indexeljék a profiloldalukat, hacsak más oldal- vagy kiegészítőbeállítás nem akadályozza ezt meg.'
       postMentioned: 'Bejegyzés megemlítési e-mail'
       postMentioned-help: 'Ha be van kapcsolva, akkor az új felhasználók automatikusan e-mail-értesítést kapnak, ha az egyik bejegyzésüket megemlítik.'
       userMentioned: 'Felhasználó megemlítési e-mail'

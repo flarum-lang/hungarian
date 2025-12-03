@@ -147,6 +147,13 @@ fof-polls:
     polls_list:
       empty_text: 'Úgy tűnik, hogy itt nincsenek közösségi szintű szavazások.'
       load_more_button: '=> core.ref.load_more'
+      sort_dropdown:
+        least_voted: 'Legkevesebb szavazat'
+        most_voted: 'Legtöbb szavazat'
+        newest: Legújabb
+        oldest: Legrégebbi
+        sort_dropdown:
+          default: '=> fof-polls.forum.polls_list.sort_dropdown.newest'
     polls_page:
       title: Szavazások
     public_poll: 'Szavazók megtekintése'
