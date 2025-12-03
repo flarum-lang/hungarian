@@ -29,6 +29,7 @@ CHANGELOG
 
 **Bővítményfordítások frissítve**:
 
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
 * [`afrux/top-posters-widget`](https://github.com/afrux/top-posters-widget)
 * [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
 * [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
@@ -36,6 +37,7 @@ CHANGELOG
 * [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
 * [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping)
