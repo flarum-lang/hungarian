@@ -20,6 +20,7 @@ CHANGELOG
 * [`huseyinfiliz/flagify`](https://github.com/huseyinfiliz/flagify)
 * [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
 * [`huseyinfiliz/sort-changer`](https://github.com/huseyinfiliz/sort-changer)
+* [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer)
 * `kk14569-anti-gmail-alias`
 * [`madeyedeer/avatar-tools`](https://github.com/MadEyeDeer/avatar-tools)
 * [`shebaoting/repost`](https://github.com/shebaoting/Repost)
