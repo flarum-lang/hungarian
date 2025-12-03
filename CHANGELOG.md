@@ -20,7 +20,7 @@ CHANGELOG
 * [`huseyinfiliz/flagify`](https://github.com/huseyinfiliz/flagify)
 * [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
 * [`huseyinfiliz/sort-changer`](https://github.com/huseyinfiliz/sort-changer)
-* [`kk14569/flarum-anti-gmail-alias`](https://github.com/kk14569/flarum-anti-gmail-alias)
+* `kk14569-anti-gmail-alias`
 * [`madeyedeer/avatar-tools`](https://github.com/MadEyeDeer/avatar-tools)
 * [`shebaoting/repost`](https://github.com/shebaoting/Repost)
 * [`tohsakarat/post-camera`](https://github.com/tohsakrat/post-camera)
