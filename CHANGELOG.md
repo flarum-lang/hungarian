@@ -22,6 +22,7 @@ CHANGELOG
 * [`huseyinfiliz/sort-changer`](https://github.com/huseyinfiliz/sort-changer)
 * [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer)
 * `kk14569-anti-gmail-alias`
+* [`litalino/flarum-auto-post-count-badge`](https://github.com/Litalino/flarum-auto-post-count-badge)
 * [`madeyedeer/avatar-tools`](https://github.com/MadEyeDeer/avatar-tools)
 * [`shebaoting/repost`](https://github.com/shebaoting/Repost)
 * [`tohsakarat/post-camera`](https://github.com/tohsakrat/post-camera)
