@@ -17,6 +17,7 @@ CHANGELOG
 * [`club-1/flarum-ext-content-permissions`](https://github.com/club-1/flarum-ext-content-permissions)
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
 * [`huseyinfiliz/flagify`](https://github.com/huseyinfiliz/flagify)
 * [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
 * [`huseyinfiliz/sort-changer`](https://github.com/huseyinfiliz/sort-changer)
