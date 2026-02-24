@@ -65,6 +65,12 @@ core:
     dashboard:
       clear_cache_button: 'Gyorsítótár törlése'
       description: 'Fórum összefoglalása.'
+      info_button: Rendszer-információk
+      info_modal:
+        copy_button: 'Másolás a vágólapra'
+        copy_error: 'Nem sikerült a vágólapra másolás'
+        copy_success: 'Rendszer-információk vágólapra másolva'
+        title: Rendszer-információk
       io_error_message: 'Nem sikerült a fájlrendszerre írni. Ellenőrizze a fájlrendszer jogosultságait, és próbálja újra. Vagy futtassa a parancssorból.'
       status:
         headers:
@@ -136,9 +142,12 @@ core:
       text: 'Állítsd be a megfelelő driver-t, a beállításokat és a címeket, hogy a fórumod emaileket tudjon küldeni.'
       title: '=> core.ref.email'
     extension:
+      abandoned_no_replacement: 'A bővítmény már nincs karban tartva, és lehet, hogy nem fog frissítéseket kapni.'
+      abandoned_with_replacement: 'A bővítményt a következő váltja: {replacement}. Fontolja meg, hogy helyette erre a cserecsomagra vált.'
       configure_scopes: 'Célok beállítása'
       confirm_purge: 'A tisztítás eltávolítja az összes, a bővítményhez tartozó adatbázis-bejegyzést és erőforrást. Nem távolítja el a bővítményt; azt a Composer segítségével kell megtenni. Valóban folytatja?'
       confirm_uninstall: 'A bővítmény eltávolítása törli az összes bővítménnyel kapcsolatos adatbázis-bejegyzést és beállítást. Valóban folytatja?'
+      deprecated: Elavult
       disabled: Tiltva
       enable_to_see: 'Engedélyezze a bővítményt, hogy hozzáférjen a beállításaihoz.'
       enabled: Engedélyezve
@@ -158,6 +167,7 @@ core:
         button_label: README
         no_readme: 'Úgy tűnik, hogy ehhez a bővítményhez nem tartozik README fájl'
         title: '{extName} dokumentáció'
+      replaced: Leváltották
       uninstall_button: Eltávolítás
     extensions:
       add_button: 'Kiegészítő hozzáadása'
