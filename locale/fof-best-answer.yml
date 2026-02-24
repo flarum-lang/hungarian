@@ -8,6 +8,7 @@ fof-best-answer:
       qna_label: 'Legjobb válasz bekapcsolása ennél a címkénél'
       reminders: 'Emlékeztető bekapcsolása ennél a címkénél'
     permissions:
+      allow_select_own_post: 'Saját válasz kiválasztása legjobb válaszként'
       best_answer: 'Legjobb válasz kiválasztása (saját téma)'
       best_answer_not_own_discussion: 'Legjobb válasz kiválasztása (nem saját téma)'
     settings:
