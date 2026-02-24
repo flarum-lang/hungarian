@@ -5,13 +5,19 @@
 ianm-log-viewer:
   admin:
     permissions:
-      access_logfile_api: 'Naplófájladatok elérése az API-n keresztül'
+      access_logfile_api: 'Naplófájlok megtekintése és kezelése'
     settings:
+      max-file-size: 'Naplófájl maximális mérete (MB)'
+      max-file-size-help: 'Ha egy naplófájl ennél nagyobb, akkor több részbe lesz osztva. Állítsa 0-ra a felosztás letiltásához. Az alapértelmezés 1 MB. A legnagyobb megengedett méret 150 MB.'
       purge-days: 'Naplófájlok törlése adott nap után'
       purge-days-help: 'A Flarum ütemezőjének működésére támaszkodik. 0 a kikapcsoláshoz.'
     viewer:
       available_logs_heading: 'Elérhető fájlok'
+      confirm_delete: 'Biztos, hogy törli ezt a naplófájlt? A művelet nem vonható vissza.'
+      delete_log: 'Naplófájl törlése'
+      download_log: 'Naplófájl letöltése'
       file_contents_heading: Fájltartalmak
       file_size: 'Méret (bájtban): {size}'
       last_updated: 'Legutóbb frissítve: {updated}'
       no_file_selected: 'Válasszon egy naplófájlt a tartalmának megtekintéséhez.'
+      view_log: 'Naplófájl megtekintése'
