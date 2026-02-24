@@ -2,6 +2,21 @@ CHANGELOG
 =========
 
 
+2.10.2 (XXXX-XX-XX)
+-------------------
+
+**Bővítményfordítások frissítve**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors)
+* [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer)
+
+
+Összes változás: [v2.10.1...v2.10.2](https://github.com/flarum-lang/hungarian/compare/v2.10.1...v2.10.2).
+
+
 2.10.1 (2026-02-24)
 -------------------
 
