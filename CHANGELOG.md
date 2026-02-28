@@ -10,6 +10,7 @@ CHANGELOG
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
 * [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors)
 * [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
 * [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
 * [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
 * [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer)
