@@ -5,6 +5,11 @@ CHANGELOG
 2.10.2 (XXXX-XX-XX)
 -------------------
 
+**Új bővítmények támogatása hozzáadva**:
+
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
+
+
 **Bővítményfordítások frissítve**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
