@@ -12,9 +12,9 @@ flectar-turnstile:
       signup: '=> core.forum.sign_up.title'
       site_key: 'Webhely kulcsa'
   forum:
-    error: 'Hiba történt az emberi mivolta ellenőrzése során. Próbálja újra.'
+    error: 'Hiba történt annak a megállapítása során, hogy ember-e. Próbálja újra.'
     not_loaded_error: 'A Cloudflare Turnstile betöltése nem sikerült. Frissítse az oldalt, és ellenőrizze a reklámblokkolóját.'
     validation_error: 'Fejezze be a Turnstile kihívást.'
 validation:
   required: 'Fejezze be a Turnstile kihívást.'
-  turnstile: 'Nem tudtuk megállapítani, hogy Ön robot vagy sem. Frissítse az oldalt, és próbálja újra.'
+  turnstile: 'Nem tudtuk megállapítani, hogy Ön robot-e vagy sem. Frissítse az oldalt, és próbálja újra.'
