@@ -10,6 +10,7 @@ fof-sitemap:
       build_button_help: 'Az összes oldaltérképfájl azonnali újbóli összeállítását váltja ki. Ha be van állítva, akkor a feladat a sorba lesz állítva, egyébként azonnal le fog futni.'
       build_error: 'Az oldaltérkép újbóli összeállításának sorba állítása sikertelen. Ellenőrizze a naplófájlokat és a sor konfigurációját.'
       build_success: 'Az oldaltérkép újbóli összeállítása sikeresen sorba lett állítva. A folyamat követéséhez nézze meg a naplófájlokat.'
+      column_pruning: 'Oszlopok szűrésének engedélyezése'
       exclude_tags: 'Az összes címkeoldal kihagyása az oldaltérképből'
       exclude_tags_help: 'Alapértelmezetten az összes vendégek számára látható címke oldala indexelve lesz'
       exclude_users: 'Az összes felhasználói profil eltávolítása az oldaltérképből'
