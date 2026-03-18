@@ -5,6 +5,11 @@ CHANGELOG
 2.10.2 (XXXX-XX-XX)
 -------------------
 
+**Általános változások**:
+
+* Flarum core fordítások frissítve.
+
+
 **Új bővítmények támogatása hozzáadva**:
 
 * [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
@@ -13,6 +18,8 @@ CHANGELOG
 **Bővítményfordítások frissítve**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
 * [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors)
 * [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective)
 * [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
