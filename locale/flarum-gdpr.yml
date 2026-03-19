@@ -20,8 +20,18 @@ flarum-gdpr:
         heading: 'GDPR beállítások'
         help_text: 'A GDPR beállításokat keresi? A bővítmény oldalán találhatók.'
       user_table_data:
+        column: Oszlop
+        extension: Bővítmény
         help_text: "A legtöbb esetben a <code>user</code> táblához adott oszlopok automatikusan kezelve lesznek, az adatok exportálása és törlése esetén is.\nViszont vannak speciális esetek, amelyeket alább soroltunk fel.\n"
+        'no': Nem
+        nullable: 'Lehet null'
+        pii: PII
+        pii_tooltip: 'Ez az oszlop személyazonosításra alkalmas információnak (PII) van tekintve, és anonimizált környezetekben vissza lesz tartva (például anonimizált eseménytartalmakban).'
+        redacted_on_export: 'Exportáláskor visszatartva'
+        redacted_on_export_tooltip: 'Ennek az oszlopnak az értéke ki lesz ürítve (nullra lesz állítva) a felhasználói adatexport előállítása során. Az oszlop megjelenik az exportban, de null értékkel.'
         title: 'Felhasználói adatok táblája'
+        type: Típus
+        'yes': Igen
     nav:
       gdpr_button: 'GDPR integrációk'
     permissions:
@@ -85,7 +95,10 @@ flarum-gdpr:
       anonymization_button: 'Felhasználó anonimizálása'
       comments_label: 'Hozzászólások (nem kötelező)'
       confirm: 'Biztos, hogy törli {name} fiókját „{mode}” mód szerint?'
+      confirmed_at: 'Megerősítve: {date}'
       deletion_button: 'Felhasználó törlése'
+      eligible_at: 'Automatikus feldolgozásra jogosult: {date}'
+      requested_at: 'Kérve: {date}'
       text: '{name} a fiókja törlését kérte.'
       title: 'Törlési kérés feldolgozása'
     request_erasure:
@@ -111,6 +124,7 @@ flarum-gdpr:
       avatar:
         delete_description: 'Törli a felhasználó profilképét a fájlrendszerről.'
         export_description: 'Lekéri a felhasználó profilképét a fájlrendszerről, és beleteszi az exportálásba.'
+      default_user_action: 'Nincs művelet, az alapértelmezett felhasználói táblakezelés vonatkozik rá.'
       discussions:
         export_description: 'Exportálja az összes, a felhasználó által indított témát. Az adatok a címre és a létrehozás idejére vannak korlátozva.'
       forum:

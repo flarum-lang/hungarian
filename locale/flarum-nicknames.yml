@@ -14,6 +14,7 @@ flarum-nicknames:
       min_label: 'A becenév minimális hossza'
       random_username_help: 'Ez elrejti a „felhasználónév” beviteli mezőt a regisztráció során, és véletlenszerű számot használ helyette. Emellett kötelezővé teszi a „becenév” mezőt. Ez csak akkor lép életbe, ha a „Becenevek beállításának engedélyezése regisztrációkor” engedélyezve van.'
       random_username_label: 'Véletlenszerű felhasználónevek'
+      regex_help: 'A következő karakterek mindig tiltva vannak a becenevekben: [ ] ( ) < >'
       regex_label: 'Reguláris kifejezés az ellenőrzéshez'
       set_on_registration_label: 'Becenevek beállításának engedélyezése a regisztráció során'
       unique_label: 'Egyedi becenevek megkövetése'

@@ -11,6 +11,7 @@ fof-sitemap:
       build_error: 'Az oldaltérkép újbóli összeállításának sorba állítása sikertelen. Ellenőrizze a naplófájlokat és a sor konfigurációját.'
       build_success: 'Az oldaltérkép újbóli összeállítása sikeresen sorba lett állítva. A folyamat követéséhez nézze meg a naplófájlokat.'
       column_pruning: 'Oszlopok szűrésének engedélyezése'
+      column_pruning_help: 'SELECT * helyett csak a webcímek előállításához szükséges oszlopokat kéri le (például azonosító, keresőbarát webcím, felhasználónév, dátumok). Jelentősen csökkenti a modellenkénti memóriahasználatot a nagy fórumokon. Alapértelmezetten engedélyezve van – csak akkor tiltsa le, ha a keresőbarát webcímek egyéni illesztőprogramja vagy a láthatósági hatókör olyan oszlopokat igényel, amelyek nem szerepelnek az alapértelmezett kiválasztásban.'
       exclude_tags: 'Az összes címkeoldal kihagyása az oldaltérképből'
       exclude_tags_help: 'Alapértelmezetten az összes vendégek számára látható címke oldala indexelve lesz'
       exclude_users: 'Az összes felhasználói profil eltávolítása az oldaltérképből'
