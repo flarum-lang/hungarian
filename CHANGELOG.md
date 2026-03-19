@@ -19,6 +19,8 @@ CHANGELOG
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
 * [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors)
 * [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective)
