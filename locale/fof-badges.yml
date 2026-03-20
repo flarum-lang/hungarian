@@ -4,13 +4,117 @@
 
 fof-badges:
   admin:
+    actions: 'Műveletek egy jelvény megszerzésekor'
+    active: Aktív
+    add_to_group: 'Felhasználó csoporthoz adása'
+    add_to_group_help: 'A felhasználó automatikus hozzáadás ehhez a csoporthoz, ha megkapja a jelvényt.'
+    appearance: Megjelenés
+    assign: Hozzárendelés
+    assign_badge: 'Kiosztás: {badge}'
+    assign_reason: 'Ok (nem kötelező)'
+    assign_reason_help: 'Az ok látható lesz a felhasználó jelvényén.'
+    assign_reason_placeholder: 'Miért kapja meg ezt a jelvényt?'
+    automatic: Automatikus
+    background_color: Háttérszín
+    badge_assigned: 'A(z) „{badge}” jelvény megadva {username} felhasználónak!'
+    badge_category: Kategória
+    badge_count: '{count, plural, one {# jelvény} other {# jelvény}}'
+    badge_description: Leírás
+    badge_description_placeholder: 'Írja le hogyan kell megszerezni a jelvényt…'
+    badge_name: Név
+    badge_name_placeholder: 'például „100 bejegyzés”'
+    badge_revoked: 'A(z) „{badge}” jelvény vissza lett vonva {username} felhasználótól.'
+    badge_slug: 'Keresőbarát webcím'
+    badge_slug_help: 'Webcímbarát azonosító. Ha üresen marad, automatikusan elő lesz állítva a névből.'
+    badge_slug_placeholder: 'például „100-bejegyzes”'
+    cancel: Mégse
+    category_description: Leírás
+    category_description_placeholder: 'Írja le ezt a jelvénykategóriát…'
+    category_enabled: Engedélyezve
+    category_enabled_help: 'A letiltott kategóriák és a jelvényeik nem fognak megjelenni a jelvénylistában.'
+    category_name: Név
+    category_name_placeholder: 'például „Teljesítményjelvények”'
+    category_slug: 'Keresőbarát webcím'
+    category_slug_help: 'Webcímbarát azonosító a kategóriához.'
+    category_slug_placeholder: 'például „teljesitmenyek”'
+    clear_selection: 'Kiválasztás törlése'
     create_badge: 'Jelvény létrehozása'
     create_category: 'Kategória létrehozása'
+    delete: Törlés
+    delete_badge_confirm: 'Biztos, hogy törli a(z) „{name}” jelvényt? Ez eltávolítja az összes felhasználótól is, akik megszerezték.'
+    delete_category_confirm: 'Biztos, hogy törli a(z) „{name}” kategóriát?'
+    delete_category_confirm_with_badges: 'Biztos, hogy törli a(z) „{name}” kategóriát? {count, plural, one {# jelvény} other {# jelvény}} nem kategorizálttá fog válni.'
+    disabled: Letiltva
+    earned_count: '{count} megszerezve'
+    edit: Szerkesztés
+    edit_badge: 'Jelvény szerkesztése'
+    edit_category: 'Kategória szerkesztése'
+    enabled: Engedélyezve
+    granted_by_system: Rendszer
+    headers:
+      badges: Jelvények
+      description: Leírás
+      earned: Megszerezve
+      icon: Ikon
+      name: Név
+      order: Sorrend
+      rarity: Ritkaság
+      status: Állapot
+      type: Típus
+    icon_color: Ikonszín
+    icon_picker:
+      collapse: 'Ikonválasztó elrejtése'
+      expand: 'Ikonválasztó megjelenítése'
+      hint: 'Kattintson egy ikonra a kiválasztásához, vagy írjon be fent egy Font Awesome osztálynevet.'
+    inactive: Inaktív
+    install_defaults: 'Alapértelmezett jelvények telepítése'
+    install_defaults_error: 'Nem sikerült az alapértelmezett jelvények telepítése.'
+    install_defaults_success: 'Az alapértelmezett jelvények sikeresen telepítve!'
+    is_active: Aktív
+    is_active_help: 'Az inaktív jelvények nem lesznek automatikusan megadva a felhasználóknak.'
+    is_visible: 'Látható a jelvénylistában'
+    is_visible_help: 'A rejtett jelvények nem jelennek meg a nyilvános jelvénylistában, de a felhasználók megszerezhetik őket.'
+    manual: Kézi
+    metrics:
+      best_answers_received: 'Legjobb válasz adva'
+      discussion_count: 'Elkezdett témák'
+      downvotes_given: 'Lepontozások adva'
+      downvotes_received: 'Lepontozások kapva'
+      edit_count: 'Bejegyzések szerkesztve'
+      files_uploaded: 'Fájlok feltöltve'
+      has_avatar: 'Van profilképe'
+      has_bio: 'Van bemutatkozása'
+      has_nickname: 'Van beceneve'
+      likes_given: 'Adott kedvelések'
+      likes_received: 'Kapott kedvelések'
+      member_days: 'Napok tagként'
+      polls_created: 'Szavazások létrehozva'
+      polls_voted: 'Szavazatok leadva'
+      post_count: Bejegyzésszám
+      private_discussions_created: 'Privát témák létrehozva'
+      reactions_given: 'Reakciók adva'
+      reactions_received: 'Reakciók kapva'
+      tag_posts: 'Bejegyzések egy címkében'
+      upvotes_given: 'Felpontozások adva'
+      upvotes_received: 'Felpontozások kapva'
+    move_down: 'Lentebb helyezés'
+    move_up: 'Feljebb helyezés'
+    next: Következő
+    no_badges: 'Még nincsenek jelvények. Hozza létre az első jelvényét!'
+    no_categories: 'Még nincsenek kategóriák. Hozza létre az első kategóriáját!'
+    no_category: 'Nincs kategória'
+    no_group: 'Ne adja csoporthoz'
+    no_holders: 'Még senki sem szerezte meg ezt a jelvényt.'
+    no_holders_found: 'Nem található birtokos a kereséshez.'
+    no_users_found: 'Nem található felhasználó'
     permissions:
       give_manually: 'Jelvények kézi kiosztása'
       moderate: 'Jelvények kezelése'
       view_list: 'Jelvénylista megtekintése'
       view_user_badges: 'Felhasználói jelvények megtekintése'
+    preview: Előnézet
+    previous: Előző
+    rarity: 'Ritkaság: {percent}%'
     recalculate: Újraszámítás
     recalculate_confirm: 'Ez újraszámítja az összes automatikus jelvényt az összes felhasználónál. A folyamat a háttérben fog futni. Folytatja?'
     recalculate_error: 'Nem sikerült a jelvények újraszámítása. Próbálja újra.'
@@ -19,11 +123,28 @@ fof-badges:
       all_badges: 'Összes automatikus jelvény'
       badge_help: 'Válasszon egy konkrét jelvényt, vagy számítsa újra az összes automatikus jelvényt.'
       badge_label: 'Újraszámítandó jelvények'
+      badges_to_check: 'Ellenőrizendő jelvények'
       chunk_size_help: 'A feladatonként feldolgozandó felhasználók száma. A kisebb részletek megbízhatóbbak, de általánosságban tovább tartanak.'
       chunk_size_label: Részletméret
       default: alapértelmezett
+      estimated_chunks: 'Becsült darabok'
       info: 'Az újraszámítás részletekben dolgozza fel a felhasználókat, hogy elkerülje az időtúllépéseket. Minden részlet külön háttérfeladatként fut.'
+      jobs_empty: 'Még nincsenek újraszámítási feladatok.'
+      jobs_title: Feladatelőzmények
+      no_automatic_badges: 'Nincs automatikus jelvény beállítva. Először hozzon létre egy aktiválási feltétellel rendelkező jelvényt.'
+      no_revoke_help: 'Ha be van kapcsolva, akkor a feltételnek már nem megfelelő felhasználók megtartják a jelvényeiket.'
+      no_revoke_label: 'Ne vonja vissza a meglévő jelvényeket'
+      reapply_actions_help: 'Ha be van kapcsolva, a jelvényműveletek (mint a csoporthoz adás) újból alkalmazva lesz azokra a felhasználókra, akiknek már megvan a jelvény. Hasznos, ha új műveleteket adott hozzá a meglévő jelvényhez.'
+      reapply_actions_label: 'Műveletek újbóli alkalmazása a meglévő jelvénytulajdonosokon'
+      show_more: '{count} további megjelenítése'
+      start: 'Újraszámítás indítása'
+      sync_counts: 'Jelvényszámok szinkronizálása'
+      sync_counts_error: 'Nem sikerült a jelvényszámok szinkronizálása.'
+      sync_counts_info: 'Az összes jelvény „megszerzési számának” újraszámítása a tényleges user_badges rekordod alapján. Akkor használja, ha a számok helytelenek lesznek egy újraszámítás után.'
+      sync_counts_success: 'Jelvényszámok szinkronizálva! {corrected} / {total} jelvény lett kijavítva.'
+      sync_counts_title: 'Jelvényszámok szinkronizálása'
       title: 'Újraszámítás elkezdése'
+      total_users: 'Összes felhasználó'
     recalculation:
       already_running: 'A jelvények újraszámítása már folyamatban van.'
       auto_refresh_off: 'Automatikus frissítés'
@@ -41,6 +162,34 @@ fof-badges:
       running: 'Jelvények újraszámítása…'
       started: 'A jelvények újraszámítása elkezdődött. Ez a háttérben fog futni.'
       stats: 'Megadva: {awarded} | Visszavonva: {revoked}'
+    recalculation_jobs:
+      button: Feladatok
+      cancel: Megszakítás
+      cancel_error: 'Nem sikerült a feladat megszakítása.'
+      cancelled: 'Feladat sikeresen megszakítva.'
+      empty: 'Nem található újraszámítási feladatok.'
+      force_cancel: 'Kényszerített megszakítás'
+      mark_failed: 'Megjelölés sikertelenként'
+      mark_failed_error: 'Nem sikerült a feladat sikertelenként való megjelölése.'
+      marked_failed: 'Feladat megjelölve sikertelenként.'
+      results: 'Megadva: {awarded} | Visszavonva: {revoked}'
+      status:
+        cancelled: Megszakítva
+        completed: Befejezve
+        failed: Sikertelen
+        pending: Függőben
+        running: Fut
+      stuck: Elakadva
+      title: 'Újraszámítási feladatok'
+      users: '{processed} / {total} kiértékelés'
+    revoke: Visszavonás
+    revoke_confirm: 'Biztos, hogy visszavonja a(z) „{badge}” jelvényt {username} felhasználótól?'
+    revoke_error: 'Nem sikerült a jelvény visszavonása.'
+    save: Mentés
+    search_holders_placeholder: 'Birtokosok keresése…'
+    search_user_placeholder: 'Keresés felhasználónév vagy megjelenítendő név alapján…'
+    select_user: 'Felhasználó választása'
+    send_notification: 'Értesítés küldése a felhasználónak'
     settings:
       display_title: 'Megjelenítési beállítások'
       integrations_help: 'A jelvénymetrikák más bővítményekre támaszkodnak. A megfelelő metrikák feloldásához telepítse a bővítményt.'
@@ -59,8 +208,106 @@ fof-badges:
       saved: 'A beállítások sikeresen mentve.'
       show_badges_on_user_card: 'Jelvények megjelenítése a felhasználói kártyán'
       show_badges_on_user_card_help: 'A felhasználó kedvenc vagy legritkább jelvényének megjelenítése a profiloldalakon.'
+    showing_holders: '{from}-{to}. / {total} megjelenítése'
+    status: Állapot
+    tab_assign: Megadás
+    tab_holders: 'Birtokosok ({count})'
     tabs:
       badges: Jelvények
       categories: Kategóriák
       recalculation: Újraszámítás
       settings: Beállítások
+    trigger_builder:
+      add_condition: 'Feltétel hozzáadása'
+      and: 'MINDNEK teljesülnie kell (ÉS)'
+      and_help: 'A felhasználónak egyszerre meg kell felülnie az összes feltételnek, hogy megszerezze ezt a jelvényt.'
+      date_end: 'Befejezési idő'
+      date_range_help: 'Csak a dátumtartományon belül vegye figyelembe a tevékenységet. Eseményjelvények esetén hasznos.'
+      date_start: 'Kezdési idő'
+      loading_tags: 'Címkék betöltése…'
+      logic: 'Több feltétel esetén'
+      no_conditions_info: 'Még nincsenek feltételek. Ezt a jelvényt csak kézileg adhatják meg a moderátorok.'
+      or: 'EGYNEK kell teljesülnie (VAGY)'
+      or_help: 'A felhasználónak legalább egy feltételnek meg kell felelnie, hogy megszerezze ezt a jelvényt.'
+      remove_condition: 'Feltétel eltávolítása'
+      select_tag: 'Válasszon egy címkét…'
+      tag_filter: Címkeszűrő
+      tag_filter_help: 'A „Bejegyzések a címkében” metrika használata esetén kötelező.'
+      use_date_range: 'Dátumtartományra korlátozás'
+    trigger_config: 'Automatikus aktiválás'
+    trigger_config_help: 'Feltételek beállítása az automatikus jelvénymegadáshoz. Hagyja üresen a csak kézi megadású jelvényekhez.'
+    uncategorized: 'Nem kategorizált'
+    validation:
+      tag_required: 'Választani kell egy címkét, ha a „Bejegyzések a címkében” metrikát használja.'
+  forum:
+    all_badges: 'Összes jelvény'
+    badges_subtitle: 'Szerezzen jelvényeket a közösségben való részvétellel!'
+    badges_title: Jelvények
+    earned_by: '{count, plural, one {# felhasználó} other {# felhasználó}}'
+    earned_users: 'Megszerezte:'
+    loading: Betöltés…
+    more_users_earned: 'És további felhasználók…'
+    my_badges: 'Saját jelvények'
+    nav:
+      badges: Jelvények
+    new_tag: ÚJ
+    no_badges: 'Még nincsenek elérhető jelvények.'
+    no_users_earned: 'Még senki sem szerezte meg ezt a jelvényt. Legyen az első!'
+    notification:
+      a_badge: 'egy jelvény'
+      badge_earned: 'Megszerezte: {badge}'
+    other_badges: 'Más jelvények'
+    owned_badge: 'Megszerezte ezt a jelvényt'
+    toggle_category_dropdown: 'Kategóriák legördülője be/ki'
+    user:
+      assign_badge: 'Jelvény kiosztása'
+      assign_badge_title: 'Jelvény kiosztása {username} számára'
+      assign_button: 'Jelvény kiosztása'
+      assign_reason: 'Ok (nem kötelező)'
+      assign_reason_help: 'Az ok látható lesz a felhasználó jelvényén.'
+      assign_reason_placeholder: 'Miért kapja meg ezt a jelvényt?'
+      badge_actions: Jelvényműveletek
+      badge_assigned: 'A(z) „{badge}” jelvény megadva {username} felhasználónak!'
+      badge_revoked: 'A(z) „{badge}” jelvény vissza lett vonva.'
+      badges_count: '{count, plural, one {# jelvény} other {# jelvény}}'
+      badges_tab: Jelvények
+      badges_title: '{username} jelvényei'
+      cancel: Mégse
+      earned_on: 'Megszerezve: {date}'
+      favorite_badge: 'Kedvenc jelvény'
+      hidden_badge: 'Elrejtve a profilról'
+      hide_badge: 'Elrejtés a profilról'
+      load_more: 'Továbbiak betöltése'
+      manually_awarded: 'Kézileg megadva'
+      no_badges: 'Ez a felhasználó még nem szerzett meg egy jelvényt sem.'
+      no_badges_available: 'Nincs elérhető jelvény.'
+      recalculate: 'Jelvények újraszámítása'
+      recalculate_error: 'Nem sikerült a jelvények újraszámítása. Próbálja újra.'
+      recalculate_modal:
+        all_badges: 'Összes automatikus jelvény'
+        badge_label: 'Újraszámítandó jelvények'
+        manual: kézi
+        no_revoke_help: 'Ha be van kapcsolva, a felhasználó megtartja a jelvényeit még akkor is, ha már nem felel meg a feltételeknek.'
+        no_revoke_label: 'Ne vonja vissza a meglévő jelvényeket'
+        reapply_actions_help: 'Jelvényműveletek újbóli alkalmazása (például csoporthoz adása), akkor is, ha a felhasználónak már megvan a jelvény.'
+        reapply_actions_label: 'Műveletek újbóli alkalmazása a meglévő jelvényeken'
+        submit: Újraszámítás
+        title: 'Jelvények újraszámítása'
+      recalculate_reapplied: 'Műveletek {reapplied} jelvény esetén újra alkalmazva'
+      recalculate_success: 'Jelvények újraszámítva! Megadva: {awarded}, visszavonva: {revoked}, újra alkalmazva: {reapplied}'
+      remove_favorite: 'Eltávolítás a kedvencekből'
+      revoke_badge: 'Jelvény visszavonása'
+      revoke_confirm: 'Biztos, hogy visszavonja a(z) „{badge}” jelvényt ettől a felhasználótól?'
+      revoke_error: 'Nem sikerült a jelvény visszavonása.'
+      select_badge: 'Válasszon jelvényt…'
+      select_badge_label: 'Jelvény kiválasztása'
+      set_favorite: 'Beállítás kedvencként'
+      show_badge: 'Megjelenítés a profilon'
+      view_all_badges: 'Összes jelvény megtekintése'
+  lib:
+    rarity_common: Gyakori
+    rarity_epic: 'Nagyon ritka'
+    rarity_explain: 'A felhasználók {percent}%-a rendelkezik ezzel a jelvénnyel'
+    rarity_legendary: Legendás
+    rarity_rare: Ritka
+    rarity_uncommon: 'Nem gyakori'
