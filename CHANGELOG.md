@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+2.10.3 (XXXX-XX-XX)
+-------------------
+
+**Új bővítmények támogatása hozzáadva**:
+
+* [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue)
+* [`fof/categories`](https://github.com/FriendsOfFlarum/categories)
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+
+
+Összes változás: [v2.10.2...v2.10.3](https://github.com/flarum-lang/hungarian/compare/v2.10.2...v2.10.3).
+
+
 2.10.2 (2026-03-20)
 -------------------
 
