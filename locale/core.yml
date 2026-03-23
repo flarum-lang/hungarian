@@ -621,6 +621,7 @@ core:
       csrf_token_mismatch: 'Túl sokáig volt inaktív.'
       csrf_token_mismatch_return_link: 'Menjen vissza, és próbálja meg újra'
       invalid_confirmation_token: 'Ez a megerősítő hivatkozás már fel lett használva vagy érvénytelen.'
+      method_not_allowed: 'Ez az oldal nem támogatja azt a kérési módot.'
       not_authenticated: 'Nem rendelkezik megfelelő engedéllyel az oldal megtekintéséhez. Próbálja meg újra bejelentkezés után.'
       not_found: 'A keresett oldal nem található.'
       not_found_return_link: 'Visszatérés a(z) {forum} oldalra'
