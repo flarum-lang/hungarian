@@ -10,6 +10,7 @@ CHANGELOG
 * [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue)
 * [`fof/categories`](https://github.com/FriendsOfFlarum/categories)
 * [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+* [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
 
 
 Összes változás: [v2.10.2...v2.10.3](https://github.com/flarum-lang/hungarian/compare/v2.10.2...v2.10.3).
