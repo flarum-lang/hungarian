@@ -26,5 +26,6 @@ huseyinfiliz-sticky-title:
         never: 'Soha ne cserélje le'
       scrubber_replace_original_help: 'Válassza ki, hol jelenjen meg a beszélgetés címe az „Eredeti bejegyzés” helyett'
       scrubber_replace_original_label: 'Az „Eredeti bejegyzés” lecserélése a téma címére'
+      scrubber_section_title: 'Navigációs csúszka beállításai'
       title: 'Ragadós cím beállításai'
       web_section_title: 'Asztali beállítások'
