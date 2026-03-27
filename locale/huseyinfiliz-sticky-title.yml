@@ -28,4 +28,6 @@ huseyinfiliz-sticky-title:
       scrubber_replace_original_label: 'Az „Eredeti bejegyzés” lecserélése a téma címére'
       scrubber_section_title: 'Navigációs csúszka beállításai'
       title: 'Ragadós cím beállításai'
+      web_scrubber_title_help: 'Asztali nézetben megjeleníti a téma címét a navigációs csúszka felett'
+      web_scrubber_title_label: 'Cím megjelenítése a navigációs csúszka felett'
       web_section_title: 'Asztali beállítások'
