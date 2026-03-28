@@ -13,6 +13,8 @@ CHANGELOG
 * [`convo-extensions/flarum-ext-guest-posting`](https://github.com/convo-extensions/flarum-ext-guest-posting)
 * [`fof/categories`](https://github.com/FriendsOfFlarum/categories)
 * [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text)
+* [`huseyinfiliz/custom-profile-page`](https://github.com/huseyinfiliz/custom-profile-page)
+* [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff)
 * [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard)
 * [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
 * [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest)
