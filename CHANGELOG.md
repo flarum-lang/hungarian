@@ -8,6 +8,7 @@ CHANGELOG
 **Új bővítmények támogatása hozzáadva**:
 
 * [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue)
+* [`clarkwinkelmann/flarum-ext-composer-page`](https://github.com/clarkwinkelmann/flarum-ext-composer-page)
 * [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search)
 * [`convo-extensions/flarum-ext-guest-posting`](https://github.com/convo-extensions/flarum-ext-guest-posting)
 * [`fof/categories`](https://github.com/FriendsOfFlarum/categories)
@@ -20,6 +21,7 @@ CHANGELOG
 * [`nearata/flarum-ext-related-discussions`](https://github.com/Nearata/flarum-ext-related-discussions)
 * [`ramon/colored`](https://github.com/ram0ng1/colored)
 * [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
+* [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification)
 * [`zhihe/primary-posts`](https://github.com/echolocked/zhihe-primary-posts)
 
 
