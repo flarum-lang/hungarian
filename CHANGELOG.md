@@ -2,6 +2,37 @@ CHANGELOG
 =========
 
 
+2.10.3 (2026-03-29)
+-------------------
+
+**Új bővítmények támogatása hozzáadva**:
+
+* [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue)
+* [`clarkwinkelmann/flarum-ext-composer-page`](https://github.com/clarkwinkelmann/flarum-ext-composer-page)
+* [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search)
+* [`convo-extensions/flarum-ext-guest-posting`](https://github.com/convo-extensions/flarum-ext-guest-posting)
+* [`fof/categories`](https://github.com/FriendsOfFlarum/categories)
+* [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text)
+* [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
+* [`huseyinfiliz/custom-profile-page`](https://github.com/huseyinfiliz/custom-profile-page)
+* [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff)
+* [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard)
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+* [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest)
+* [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
+* [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
+* [`litalino/flarum-more-bbcode`](https://github.com/Litalino/flarum-more-bbcode)
+* [`nearata/flarum-ext-related-discussions`](https://github.com/Nearata/flarum-ext-related-discussions)
+* [`ramon/colored`](https://github.com/ram0ng1/colored)
+* [`resofire/menu-control`](https://github.com/ResofireV2/menu-control)
+* [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
+* [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification)
+* [`zhihe/primary-posts`](https://github.com/echolocked/zhihe-primary-posts)
+
+
+Összes változás: [v2.10.2...v2.10.3](https://github.com/flarum-lang/hungarian/compare/v2.10.2...v2.10.3).
+
+
 2.10.2 (2026-03-20)
 -------------------
 
