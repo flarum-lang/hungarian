@@ -24,6 +24,7 @@ CHANGELOG
 * [`litalino/flarum-more-bbcode`](https://github.com/Litalino/flarum-more-bbcode)
 * [`nearata/flarum-ext-related-discussions`](https://github.com/Nearata/flarum-ext-related-discussions)
 * [`ramon/colored`](https://github.com/ram0ng1/colored)
+* [`resofire/menu-control`](https://github.com/ResofireV2/menu-control)
 * [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
 * [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification)
 * [`zhihe/primary-posts`](https://github.com/echolocked/zhihe-primary-posts)
