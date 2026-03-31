@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.10.4 (XXXX-XX-XX)
+-------------------
+
+**Új bővítmények támogatása hozzáadva**:
+
+* [`resofire/discussion-participants`](https://github.com/ResofireV2/discussion-participants)
+
+
+Összes változás: [v2.10.3...v2.10.4](https://github.com/flarum-lang/hungarian/compare/v2.10.3...v2.10.4).
+
+
 2.10.3 (2026-03-29)
 -------------------
 
