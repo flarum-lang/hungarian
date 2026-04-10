@@ -7,7 +7,15 @@ CHANGELOG
 
 **Új bővítmények támogatása hozzáadva**:
 
+* [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
+* [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards)
 * [`resofire/discussion-participants`](https://github.com/ResofireV2/discussion-participants)
+
+
+**Bővítményfordítások frissítve**:
+
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
 
 
 Összes változás: [v2.10.3...v2.10.4](https://github.com/flarum-lang/hungarian/compare/v2.10.3...v2.10.4).
