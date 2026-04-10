@@ -17,6 +17,7 @@ fof-masquerade:
       edit-field: 'Módosítások mentése'
     fields:
       add: '{field} mező hozzáadása'
+      delete-confirmation: 'Biztos, hogy törli a(z) {field} mezőt? Ez nem vonható vissza.'
       description: 'Mező leírása'
       description-help: "Esetleges leírás a mező használatának/szükségének magyarázatához.\n"
       edit: '{field} mező szerkesztése'

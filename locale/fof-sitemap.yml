@@ -42,8 +42,8 @@ fof-sitemap:
         cache_disk: Lemezalapú
         multi_file: 'Több fájlos'
         runtime: Futásidejű
-      risky_performance_improvements: 'Kockázatos teljesítménybeli fejlesztések engedélyezése'
-      risky_performance_improvements_help: 'Ezek a fejlesztések gyorsabbá teszik a CRON feladat futtatását a millió soros adatkészletek esetén, de elronthatják a kompatibilitást bizonyos bővítményekkel.'
+      risky_performance_improvements: 'Nagy darabméret engedélyezése (kockázatos)'
+      risky_performance_improvements_help: 'Az adatbázis-lekérések darabméretét 75 000-ről 150 000 sorra növeli. Ez felgyorsítja az előállítást a millió soros adatkészletek esetén, de megduplázza az Eloquent modell darabonkénti RAM-fogyasztását. Csak akkor engedélyezze, ha ellenőrizte, hogy elegendő a kiszolgáló memóriája. Aktiválja az oszlopok levágását is (lásd fent).'
       soft_404:
         heading: 'Hamis 404-es oldal megakadályozása'
         help: 'Ha egy modellnek nincs, vagy kevés releváns tartalma van, akkor a Google és egyéb keresőrobotok „hamis 404-es” oldalnak jelölhetik ezeket. Hogy ezt elkerülje, állítson be egy minimálisan szükséges elemszámot az összes megfelelő elemhez.'
