@@ -5,6 +5,11 @@ CHANGELOG
 2.10.4 (XXXX-XX-XX)
 -------------------
 
+**Általános változások**:
+
+* Flarum core fordítások frissítve.
+
+
 **Új bővítmények támogatása hozzáadva**:
 
 * [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
