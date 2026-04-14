@@ -4,6 +4,19 @@
 
 core:
   admin:
+    announcements:
+      about: 'A discuss.flarum.org címen lévő hivatalos Flarum közösségétől lekért legfrissebb hírek és bejelentések.'
+      comments_label: '{count, plural, one {# hozzászólás} other {# hozzászólás}}'
+      description: 'Legfrissebb hírek és bejelentések a Flarum csapatától.'
+      empty: 'Nem találhatók bejelentések.'
+      hide: 'Bejelentések elrejtése'
+      load_error: 'Nem sikerült betölteni a bejelentéséket. Próbálja újra később.'
+      read_more: Továbbolvasás
+      refresh: 'Bejelentések frissítése'
+      retry: Újrapróbálkozás
+      show: 'Bejelentések megjelenítése'
+      title: Bejelentések
+      view_all: 'Összes megtekintése itt: discuss.flarum.org'
     appearance:
       colored_header_label: 'Színes fejléc'
       colors_heading: Színek
