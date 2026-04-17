@@ -2,6 +2,37 @@ CHANGELOG
 =========
 
 
+2.10.4 (2026-04-17)
+-------------------
+
+**Általános változások**:
+
+* Flarum core fordítások frissítve.
+
+
+**Új bővítmények támogatása hozzáadva**:
+
+* [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
+* [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards)
+* [`resofire/discussion-participants`](https://github.com/ResofireV2/discussion-participants)
+
+
+**Bővítményfordítások frissítve**:
+
+* [`blomstra/search`](https://github.com/blomstra/flarum-ext-search)
+* [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`foskym/flarum-custom-levels`](https://github.com/FoskyM/flarum-custom-levels)
+* [`justoverclock/frontend-blog`](https://flarum.org/extension/justoverclock/frontend-blog)
+* [`mattoid/flarum-ext-store`](https://github.com/Mattoids/flarum-ext-store)
+* [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha)
+* [`xrh0905/oauth-microsoft`](https://github.com/xrh0905/flarum-ext-oauth-microsoft)
+
+
+Összes változás: [v2.10.3...v2.10.4](https://github.com/flarum-lang/hungarian/compare/v2.10.3...v2.10.4).
+
+
 2.10.3 (2026-03-29)
 -------------------
 
