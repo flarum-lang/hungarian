@@ -20,7 +20,7 @@ justoverclock-frontend-blog:
     linkToDiscussion: ' Hivatkozás a témához'
     loginButton: Bejelentkezés
     menuButton: Menü
-    post: '{count} BEJEGYZÉS'
+    post: '{count, plural, one {# BEJEGYZÉS} other {# BEJEGYZÉS}}'
     postedOn: ' Közzétéve: '
     readMore: Továbbolvasás
     recentDiscussions: 'Legfrissebb témák:'

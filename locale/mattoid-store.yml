@@ -6,6 +6,7 @@ mattoid-store:
   admin:
     error:
       invalid-product: 'Érvénytelen termék'
+      validate-fail: 'Nem sikerült betölteni a terméket'
     settings:
       add-store-goods: 'Áruk hozzáadása'
       days: nap
@@ -25,11 +26,13 @@ mattoid-store:
       goods-item-delete: 'Biztos, hogy törli ezt az elemet?'
       goods-item-status-0: 'Biztos, hogy felsorolja ezt az elemet?'
       goods-item-status-1: 'Biztos, hogy eltávolítja ezt az elemet a polcokról?'
+      goods-outtime: Időtúllépés
       goods-price: Ár
       goods-repeat: 'Ismételt áruk engedélyezése'
       goods-status: Állapot
       goods-stock: Árukészlet
       goods-title: Cím
+      goods-type: 'Vásárlás típusa'
       goods-upload-button: Feltöltés
       group-view: 'Felhasználói csoportok hozzáférésének engedélyezése az áruházhoz'
       show-icon-button: Galéria
@@ -40,6 +43,7 @@ mattoid-store:
   forum:
     auto-deduction: 'Termékek költségeinek automatikus kitalálása: {title}'
     button: Vásárlás
+    buy-goods: 'Termék: {title}'
     buy-goods-fail: 'Termékvisszatérítés: {title}'
     cart: kosár
     ckeck-goods-outtime: 'Ellenőrizze a termék lejárati dátumát'
@@ -47,14 +51,18 @@ mattoid-store:
     error:
       automatic-renewal: 'Az automatikus megújítás nincs engedélyezve'
       automatic-renewal-fail: 'Az automatikus megújítás sikertelen [{message}]'
+      buy-goods-fail: 'Az áru nem vásárolható meg [{title}]'
       cannot-Goods-repeatedly: 'Az ismételt termékek nem engedélyezettek az érvényességi időszakon belül'
       cart-no-use: 'Ennek az árunak nincs funkcionalitása'
       cart-use-fail: 'Az áru használata sikertelen'
       file-exist: 'a fájl már létezik'
+      goods-invalid-event-fail: 'Nem sikerült az áru sikertelenségi eseményének leküldése [{message}]'
+      goods-invalid-fail: 'Nem sikerült az áru sikertelenségi logikájának végrehajtása [{message}]'
       insufficient-inventory: 'Elégtelen raktárkészlet'
       invalid-product: 'Érvénytelen termék'
       store-goods-non-existent: 'A termék nem létezik, vagy el lett távolítva'
       user-balance-low: 'Elégtelen egyenleg'
+      validate-fail: 'Nem sikerült betölteni a terméket'
     free: Ingyenes
     infinite: Végtelen
     tital: Áruház
