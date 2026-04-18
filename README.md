@@ -14,7 +14,7 @@ This language pack contains Hungarian translations for Flarum (compatible with `
 You can install language pack using [Composer](https://getcomposer.org/):
 
 ```console
-composer require flarum-lang/hungarian
+composer require "flarum-lang/hungarian:*"
 ```
 
 Then enable extension in admin panel of your Flarum.
