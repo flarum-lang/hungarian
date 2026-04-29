@@ -17,6 +17,7 @@ datlechin-birthdays:
       required_label: 'A születésnap megadásának megkövetelése'
       set_on_registration_label: 'Születésnap beállításának engedélyezése regisztrációkor'
   api:
+    birthday_required_message: 'A születési dátum kötelező.'
     invalid_age_message: 'Legalább {minAge} évesnek kell lennie.'
     invalid_dob_message: 'Érvénytelen születési dátum'
   forum:

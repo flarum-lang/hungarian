@@ -57,4 +57,5 @@ fof-horizon:
         good: Jó
         poor: Gyenge
         tooltip: 'Rendszer egészségi pontszáma: {score}/100'
+      last_refresh: 'Legutóbbi frissítés: {time}'
       refresh: Frissítés

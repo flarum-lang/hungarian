@@ -82,6 +82,10 @@ fof-best-answer:
     this_best_answer: 'Legjobb válasz kiválasztása'
     user:
       best-answer-count: '{count, plural, one { {count} legjobb válasz} other {{count} legjobb válasz}}'
+  lib:
+    gambits:
+      solved-discussions:
+        key: megoldva
 fof-user-directory:
   lib:
     sort:

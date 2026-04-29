@@ -70,6 +70,11 @@ flarum-tags:
       meta_description_text: 'Az összes téma a(z) {tag} címkével'
   lib:
     deleted_tag_text: Törölve
+    gambits:
+      discussions:
+        tag:
+          hint: 'címke neve, címkenevek vesszővel elválasztott listája, vagy „untagged”'
+          key: címke
     tag_selection_modal:
       bypass_requirements: 'Címke követelményeinek megkerülése'
       choose_primary_placeholder: '{count, plural, one {Válasszon egy elsődleges címkét} other {Válasszon # elsődleges címkét}}'

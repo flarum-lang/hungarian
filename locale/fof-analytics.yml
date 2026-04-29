@@ -8,17 +8,17 @@ fof-analytics:
       title: Matomo
     popup:
       field:
-        googleGTMCode: 'GTM kód azonosítója (nem kötelező)'
+        googleGTMCode: 'GTM-kód azonosítója (nem kötelező)'
         googleTrackingCode: 'Követő kód azonosítója'
         optTrackingCode: 'Követő kód optimizálása (nem kötelező)'
-        piwikAliasUrl: 'Alias URL'
+        piwikAliasUrl: 'Alias webcíme'
         piwikAuthToken: 'Hitelesítési token'
         piwikHideAliasUrl: 'A „Kimenő hivatkozások” jelentésben rejtse el az ismert alias URL-ek kattintásait'
         piwikPrependDomain: 'Az oldal domén megjelenik az oldal címe előtt'
         piwikSiteId: Oldalazonosító
-        piwikTrackAccounts: 'Egyéni felhasználó fiók követése'
+        piwikTrackAccounts: 'Egyéni felhasználói fiókok követése'
         piwikTrackSubdomain: 'Látogatók követése az összes aldoménen'
-        piwikUrl: 'Matomo domén vagy URL'
+        piwikUrl: 'Matomo domén vagy webcím'
         statusGoogle: 'Google Analytics (UA/GA4) bekapcsolása'
         statusPiwik: 'Matomo bekapcsolása'
       placeholder:

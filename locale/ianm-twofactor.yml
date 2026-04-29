@@ -40,6 +40,7 @@ ianm-twofactor:
     body:
       status_changed: "Kedves {recipient_display_name}!\n\nA kétlépcsős hitelesítés {type} a fiókjához: {forum_url}.\n\nHa ezt kérte, akkor nincs további teendője. Ha nem járult hozzá ehhez a változáshoz, akkor azonnal lépjen kapcsolatba a fórum adminisztrátoraival.\n"
     status_type:
+      device_changed: 'az eszköz megváltozott'
       disabled: 'ki lett kapcsolva'
       enabled: 'be lett kapcsolva'
     subject:
@@ -96,5 +97,6 @@ ianm-twofactor:
     reset_password:
       two_factor_token_label: '2FA token'
     two_factor_token:
+      oauth_session_expired: 'Az OAuth-munkamenet lejárt. Próbáljon meg újra bejelentkezni.'
       submit_button: 'Token beküldése'
       title: 'Kétlépcsős hitelesítés'
