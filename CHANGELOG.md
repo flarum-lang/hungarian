@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.10.5 (XXXX-XX-XX)
+-------------------
+
+**Általános változások**:
+
+* Flarum core fordítások frissítve.
+
+
+Összes változás: [v2.10.4...v2.10.5](https://github.com/flarum-lang/hungarian/compare/v2.10.4...v2.10.5).
+
+
 2.10.4 (2026-04-17)
 -------------------
 
