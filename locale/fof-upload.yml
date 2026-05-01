@@ -18,10 +18,12 @@ fof-upload:
       disable-download-logging: "A fórum felhasználóinak letöltéseinek naplózásának letiltása. Az engedélyezve tartás lehetővé teszi, hogy a közeljövőben megtekintse a letöltések számát, és más metrikákat.\n"
       disable-hotlink-protection: "A hivatkozásvédelem megakadályozza a más oldalakon lévő letöltések megnyitását. A jelenlegi módszer CSRF tokent és bejegyzésazonosítót igényel.\n"
       download_templates: "A letöltési sablonok kezelik, hogy a feltöltések hogyan jelennek meg a fórumban, például milyen előnézet vagy gombok jelennek meg. Jelenleg elérhető:\n"
+      mime_types: "Itt állítsa be a hozzárendeléseit. Minden egyes MIME-típus reguláris kifejezését egy konkrét feltöltési adapter és letöltési sablon fogja kezelni.\nMinden egyes bejegyzéshez engedélycímke (például „Képek”, „Videók”) adható, melyek dedikált engedélyt adnak az engedélyrácshoz.\nEzzel csoportokra korlátozhatók az egyes fájltípusok feltöltése – az alapvető „Fájlok feltöltése” engedély mindig szükséges.\n"
       resize: "Válassza ki, hogy átméretezi-e a képeket a feltöltésük előtt. Képpontokban megadhat egy szélesség- és magasságkorlátot. Az átméretezési folyamat megtartja a képek képarányát.\n"
       s3_acl: "A feltöltött objektumra alkalmazandó ACL (alapértelmezett: privát). A lehetséges értékekhez lásd: https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n"
       s3_compatible_storage: "A következő beállítások csak akkor szükségesek, ha S3-mal kompatibilis tárolót használ. Ha AWS-t használt, akkor üresen hagyhatja.\n"
       s3_instance_profile: "Hagyja a kulcsot és a titkot üresen, hogy a példány profiljában lévő hitelesítő adatokat használja.\n"
+      thumbnails: "Kis méretű bélyegképek létrehozása a képekhez a feltöltés idején. A bélyegkép jelenik meg soron belül;\nrákattintással nyitható meg új lapon a teljes felbontású kép. A bélyegképek jelentősen\ncsökkentik a sok nagy képpel rendelkező fórumok forgalmát és lapméretét.\n"
       watermark: "Válasszon, hogy a képek vízjelet kapjanak-e feltöltéskor. A vízjelek a nem GIF képekhez lesznek adva, a lenti beállítások alapján.\n"
     inspect-mime:
       description: "A FoF Feltöltés a <a>PHP Mime Detector</a> programkönyvtárat használja a gyakori MIME-típusokhoz, tartaléknak pedig a PHP Fileinfót.\nA Fileinfo által visszaadott MIME-érték különbözhet a különböző kiszolgálók esetén!\n"
@@ -72,6 +74,9 @@ fof-upload:
         title: 'Helyi tároló beállításai'
       preferences:
         max_file_size: 'Legnagyobb fájlméret (kilobájtban)'
+        mime_type_permission_placeholder: 'Engedélycímke (nem kötelező, például Képek)'
+        mime_type_regex_invalid: 'Érvénytelen regex (például üres alternatívák, mint a ||)'
+        mime_type_regex_placeholder: 'például ^image/(jpeg|png|gif)$'
         mime_types: 'Állítsa be a MIME-típust, és a feltöltési adapter hozzárendelését'
         php_ini_values: 'A <code>php.ini</code> fájlban a <code>post_max_size={post}</code> és <code>upload_max_filesize={upload}</code> van beállítva. Győződjön meg róla, hogy az itt beállított értékek ezeknél kisebb, vagy állítsa be őket megfelelően. Ha <code>Nginx</code>-et használ, akkor győződjön meg arról is, hogy a <code>client_max_body_size</code> elégséges méretű a választott felső korláthoz képest.'
         title: 'Általános beállítások'
@@ -89,9 +94,17 @@ fof-upload:
         allow_animate_help: 'Az SVG animációk biztonsági sérülékenységeket okozhatnak, mert az animált SVG-k kártékony kódot tartalmazhatnak. A saját felelősségére kapcsolja be ezt a beállítást, és csak akkor, ha megbízik a felhasználókban.'
         help: 'Beállítja az SVG-fájlok feldolgozását és megtisztítását a feltöltés során. Az SVG-fájlok káros parancsfájlokat tartalmazhatnak, így óvatosan kell velük bánni. A feltöltött SVG-k feltöltéskor megtisztításra kerülnek: a káros parancsfájlok és címkék el lesznek távolítva.'
         title: 'SVG tisztító'
+      thumbnails:
+        max_width: 'Bélyegképek legnagyobb szélessége (px)'
+        title: Bélyegképek
+        toggle: 'Bélyegképek előállítása feltöltés során'
+        webp_toggle: 'Bélyegképek kódolása WebP-ként (javasolt, ~30%-kal kisebb)'
       watermark:
         file: 'Töltse fel a vízjelképet'
+        opacity: 'Vízjel átlátszatlansága (0-100)'
+        padding: 'Kitöltés a szélétől (px)'
         position: 'Vízjel helyzete'
+        size_percent: 'Vízjel mérete (a kép szélességének %-ában)'
         title: 'Képek vízjelezése'
         toggle: 'Képek vízjelezése'
     nav:
@@ -103,6 +116,8 @@ fof-upload:
       access_shared_label: 'Megosztott fájlok elérése a médiakezelőben'
       delete_uploads_of_others_label: 'Felhasználói feltöltések törlése'
       download_label: 'Fájlok letöltése'
+      upload_label: 'Fájlok feltöltése (alapvető engedély, az összes feltöltéshez szükséges)'
+      upload_mime_label: '{label} feltöltése'
       upload_shared_label: 'Megosztott fájlok feltöltése'
       view_user_uploads_label: 'Felhasználói feltöltések megtekintése'
     shared-uploads:
@@ -121,7 +136,7 @@ fof-upload:
       image-preview_description: "Soron belül jeleníti meg a teljes képet. Nincs letöltési funkció, nincs statisztikagyűjtés, és a hivatkozásvédelem figyelmen kívül lesz hagyva.\n"
       image_description: "Megjeleníti a kép bélyegképét, és PHP-n keresztül proxyzza. Lehetővé teszi a statisztikagyűjtést és a hivatkozásvédelmet.\n"
       just-url: 'Csak a webcím'
-      just-url_description: "Csak az URL-t illeszti be. A megjelenítést más, automatikus hivatkozásra képes kiegészítők kezelhetik. Nincs letöltési funkció, és statisztika sem keletkezik, valamint a hivatkozásvédelem is figyelmen kívül lesz hagyva.\n"
+      just-url_description: "Csak a webcímet illeszti be. A megjelenítést más, automatikus hivatkozásra képes kiegészítők kezelhetik. Nincs letöltési funkció, és statisztika sem keletkezik, valamint a hivatkozásvédelem is figyelmen kívül lesz hagyva.\n"
       markdown-image: 'Markdown képsablon'
       markdown-image_description: "A teljes kép megjelenítése soron belül, Markdown használatával. <strong>A működéséhez telepíteni kell a flarum/markdown csomagot, és engedélyeznie kell azt.</strong> Nincs letöltési funkció, nincs statisztikagyűjtés, és a hivatkozásvédelem figyelmen kívül lesz hagyva.\n"
       text-preview: 'Szöveg előnézete'
@@ -132,6 +147,8 @@ fof-upload:
       local: Helyi
       ovh-svfs: 'OVH SVFS'
       qiniu: QiNiu
+    warnings:
+      fileinfo_missing: "A PHP <strong>fileinfo</strong> kiterjesztés nincs betöltve ezen a kiszolgálón. A FoF Upload továbbra is fog működni, de a MIME-típusok keresztellenőrzése ki van kapcsova, ez csökkenti a meghamisított fájltípusok elleni védelmet. A legjobb biztonság érdekében kapcsolja be a kiterjesztést a PHP beállításaiban.\n"
   api:
     upload_errors:
       cannot_write_to_disk: 'Nem lehet a lemezre írni.'
@@ -139,6 +156,7 @@ fof-upload:
       forbidden_type: 'Az ilyen típusú fájlok feltöltése nem engedélyezett.'
       max_upload_file_size_form: 'Az űrlap legnagyobb fájlfeltöltési korlátja elérve.'
       max_upload_file_size_ini: 'A php.ini-ben szereplő legnagyobb fájlfeltöltési korlát elérve.'
+      mime_permission_denied: 'Nincs engedélye, hogy ilyen típusú fájlt töltsön fel.'
       no_file_uploaded: 'Nincs fájl feltöltve.'
       no_files_made_it_to_upload: 'Legfeljebb {max} kB-os fájlokat töltsön fel.'
       no_upload_tmp_folder: 'Nincs tmp mappa a fájlok feltöltéséhez.'
@@ -161,6 +179,7 @@ fof-upload:
       unauthorized: 'Nem tölthet le fájlokat'
     text_preview:
       collapse: 'Előnézet összecsukása'
+      download: 'Fájl letöltése'
       error: "Hiba a fájl előnézetekor. Lehet hogy törölték, vagy a megadott fájlazonosító érvénytelen.\n"
       expand: 'Előnézet kibontása'
       no_snippet: '<nem érhető el előnézeti kódrészlet>'

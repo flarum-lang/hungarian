@@ -19,3 +19,8 @@ flarum-lock:
       discussion_unlocked_text: '{username} {time} újranyitotta a témát.'
     settings:
       notify_discussion_locked_label: 'Valaki lezárta a témámat'
+  lib:
+    gambits:
+      discussions:
+        locked:
+          key: lezárva

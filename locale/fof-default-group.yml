@@ -6,3 +6,4 @@ fof-default-group:
   admin:
     settings:
       info: 'Alább kiválaszthatja azt a csoportot, amelyet hozzárendel a felhasználókhoz, amikor aktiválják a fiókjukat.'
+      label: 'Alapértelmezett csoport'
