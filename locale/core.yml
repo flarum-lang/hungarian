@@ -48,6 +48,12 @@ core:
       submit_button: '=> core.ref.save_changes'
       title: Megjelenés
     basics:
+      abandoned_extensions_heading: 'Elhagyatott bővítmények'
+      abandoned_extensions_notify_admins_label: 'E-mailt küld az adminisztrátoroknak, ha egy új elhagyatott bővítmény jelenik meg a heti ellenőrzés során'
+      abandoned_extensions_sync_button: 'Ellenőrzés most'
+      abandoned_extensions_sync_error: 'Nem sikerült az elhagyatott bővítmények listájának lekérése. Próbálja újra később.'
+      abandoned_extensions_sync_success: 'Az elhagyott bővítmények listája frissítve. {count} egyező telepített bővítmény található.'
+      abandoned_extensions_text: 'A Flarum karbantart egy <a>közösségi listát az elhagyatott bővítményekről</a>. Ha egy bővítmény megjelenik a listán, akkor meg lesz jelölve az adminisztrátori panelen.'
       all_discussions_label: '=> core.ref.all_discussions'
       default_language_heading: 'Alapértelmezett nyelv'
       description: 'Állítsa be a fórum címét, nyelvét és más alapbeállításait.'
@@ -204,6 +210,7 @@ core:
         discussion: Téma
         feature: Tulajdonságok
         formatting: Formázás
+        forum-widget: Fórummodulok
         language: Nyelvek
         moderation: Moderálás
         other: 'Más bővítmények'
@@ -318,6 +325,11 @@ core:
       must_not_be_multidimensional_array_message: 'A(z) {filter} szűrőnek többdimenziós tömbnek kell lennie.'
     invalid_username_message: 'A felhasználónév csak betűket, számokat és kötőjeleket tartalmazhat.'
   email:
+    abandoned_extensions:
+      body: "Kedves {username}!\n\nA következő kiegészítők elhagyatottnak lettek jelölve:\n\n{extensions}\n\nTekintse át a bővítményeket, és fontolja meg az alternatívákra való áttérést, ha az lehetséges.\n"
+      line_no_replacement: '- {package} (nem érhető el csere)'
+      line_with_replacement: '- {package} (javasolt csere: {replacement})'
+      subject: 'Művelet szükséges: elhagyatott bővítmény észlelve'
     activate_account:
       body: "Kedves {username}!\n\nValaki (remélhetőleg Ön) regisztrált a(z) {forum} fórumra ezzel az e-mail-címmel.\n\nHa Ön volt az, akkor csak kattintson az alábbi hivatkozásra, és a fiókja aktiválva lesz:\n{url}\n\nHa mégsem Ön regisztrált, akkor hagyja figyelmen kívül ezt a levelet.\n"
       subject: 'Aktiválja az új fiókját'
