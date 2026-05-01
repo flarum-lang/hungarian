@@ -41,6 +41,12 @@ core:
       logo_text: 'Kép feltöltése, mely a fórumcím helyett fog megjelenni.'
       title: Megjelenés
     basics:
+      abandoned_extensions_heading: 'Elhagyatott bővítmények'
+      abandoned_extensions_notify_admins_label: 'E-mailt küld az adminisztrátoroknak, ha egy új elhagyatott bővítmény jelenik meg a heti ellenőrzés során'
+      abandoned_extensions_sync_button: 'Ellenőrzés most'
+      abandoned_extensions_sync_error: 'Nem sikerült az elhagyatott bővítmények listájának lekérése. Próbálja újra később.'
+      abandoned_extensions_sync_success: 'Az elhagyott bővítmények listája frissítve. {count} egyező telepített bővítmény található.'
+      abandoned_extensions_text: 'A Flarum karbantart egy <a>közösségi listát az elhagyatott bővítményekről</a>. Ha egy bővítmény megjelenik a listán, akkor meg lesz jelölve az adminisztrátori panelen.'
       all_discussions_label: '=> core.ref.all_discussions'
       default_language_heading: 'Alapértelmezett nyelv'
       description: 'Állítsa be a fórum címét, nyelvét és más alapbeállításait.'
@@ -178,6 +184,7 @@ core:
         discussion: Téma
         feature: Tulajdonságok
         formatting: Formázás
+        forum-widget: Fórummodulok
         language: Nyelvek
         moderation: Moderálás
         other: 'Más bővítmények'
@@ -273,6 +280,8 @@ core:
       must_not_be_array_message: 'A(z) {filter} szűrőnek tömbnek kell lennie.'
       must_not_be_multidimensional_array_message: 'A(z) {filter} szűrőnek többdimenziós tömbnek kell lennie.'
   email:
+    abandoned_extensions:
+      subject: 'Művelet szükséges: elhagyatott bővítmény észlelve'
     activate_account:
       subject: 'Aktiválja az új fiókját'
     confirm_email:

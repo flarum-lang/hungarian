@@ -8,6 +8,11 @@ flarum-gdpr:
       drafts:
         delete_description: 'A felhasználó által létrehozott összes vázlat törlése.'
         export_description: 'A felhasználó által létrehozott összes vázlat.'
+fof-default-user-preferences:
+  admin:
+    settings:
+      draftAutosaveEnable: 'Vázlatok automatikus mentések engedélyezése alapértelmezés szerint'
+      draftAutosaveInterval: 'Alapértelmezett automatikus mentés időköze (másodpercben)'
 fof-drafts:
   admin:
     permissions:
@@ -19,6 +24,7 @@ fof-drafts:
       schedule_on_one_server: 'Az „onOneServer()” direktíva használata a feladatütemezőhöz (Redis/Memcache szükséges)'
       title: 'FoF vázlatok'
   console:
+    no_title_error: 'Vázlat kihagyva: a téma címe hiányzik.'
     scheduled_drafts_disabled: 'Jelenleg az időzítés ki van kapcsolva a beállításokban.'
   forum:
     composer:
@@ -39,6 +45,7 @@ fof-drafts:
       title: Vázlatok
       tooltip: '=> fof-drafts.forum.dropdown.title'
     schedule_draft_modal:
+      no_title_error: 'A téma címének megadása kötelező az ütemezés előtt.'
       reschedule_button: 'Időzítés módosítása'
       schedule_button: Időzítés
       schedule_time_preview: 'Ez a vázlat ekkor automatikusan közzé lesz téve: <b>{datetime}</b>.'

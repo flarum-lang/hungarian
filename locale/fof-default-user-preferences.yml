@@ -10,6 +10,7 @@ fof-default-user-preferences:
       followAfterReply: 'Követés válasz után'
       followAfterReply-help: 'Ha be van kapcsolva, az új felhasználók automatikusan követik a témákat, amelyekhez hozzászólnak.'
       groupMentioned: 'Csoport megemlítési e-mail'
+      groupMentioned-help: 'Ha be van kapcsolva, akkor az új felhasználók automatikusan kérik az e-mail-értesítést, ha egy csoportjukat megemlítik.'
       indexProfile: 'Profil indexelése'
       indexProfile-help: 'Ha engedélyezve van, akkor az új felhasználók megengedik a keresőbotoknak, hogy indexeljék a profiloldalukat, hacsak más oldal- vagy kiegészítőbeállítás nem akadályozza ezt meg.'
       postMentioned: 'Bejegyzés megemlítési e-mail'

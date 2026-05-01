@@ -26,6 +26,8 @@ fof-moderator-warnings:
       warning_button: 'Felhasználó figyelmeztetése'
     settings:
       warning_notification_label: 'Egy moderátor figyelmeztetett'
+    user:
+      warnings: Figyelmeztetések
     validation:
       invalid_strike_count: 'A büntetőpontok számának 0 és 5 között kell lennie.'
       public_comment_required: 'Nyilvános megjegyzést kell tennie.'
@@ -40,6 +42,8 @@ fof-moderator-warnings:
       warnings_no_strikes: 'Moderátori figyelmeztetések: nincsenek büntetőpontok'
     warning_list_item:
       linked_post: 'Hozzákapcsolt bejegyzés'
+      list_item_heading: '{strikes, plural, one {# büntetőpont, {time}} other {# büntetőpont, {time}}}'
+      list_item_heading_hidden: '{strikes, plural, one {# büntetőpont, {time} (eltávolítva)} other {# büntetőpont, {time} (eltávolítva)}}'
       private_comment: 'Moderátorok számára látható megjegyzések'
       public_comment: Figyelmeztetés
     warning_modal:

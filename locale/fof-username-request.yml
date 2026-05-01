@@ -10,7 +10,9 @@ fof-username-request:
       request_username: 'Felhasználónév-módosítás kérése'
   email:
     body:
+      approved: "A kérését, hogy a felhasználóneve „{new_username}” legyen, {actor_display_name} jóváhagyta.\n\nMost már bejelentkezhet az új felhasználónevével: {login_url}\n"
       noReasonProvided: 'Nincs ok megadva.'
+      rejected: "A kérését, hogy a felhasználóneve „{old_username}” helyett „{requested_username}” legyen, {actor_display_name} elutasította.\n\nOk: {reason}\n"
     subject:
       approved: '{display_name} engedélyezte a kérését, hogy a következő legyen a felhasználóneve: „{requested_username}”'
       rejected: '{display_name} elutasította a kérését, hogy a következő legyen a felhasználóneve: „{requested_username}”'

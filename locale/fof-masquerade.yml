@@ -17,11 +17,13 @@ fof-masquerade:
       edit-field: 'Módosítások mentése'
     fields:
       add: '{field} mező hozzáadása'
+      create: 'Mező létrehozása'
       delete-confirmation: 'Biztos, hogy törli a(z) {field} mezőt? Ez nem vonható vissza.'
       description: 'Mező leírása'
       description-help: "Esetleges leírás a mező használatának/szükségének magyarázatához.\n"
       edit: '{field} mező szerkesztése'
       force-user-to-completion: 'Felhasználó kötelezése hogy kitöltse a profil adatokat'
+      hide-empty-fields: 'Üres mezők elrejtése'
       icon: Ikon
       icon-help: "Egy ikont jelenít meg a felhasználó által megadott értékek előtt. Az elérhető ikonok referenciájához nézze meg a <a>Fontawesome weboldalát</a>. A „fa-” előtagú ikonneveket használja, például „fas fa-info”.\n"
       name: 'Mező neve'
@@ -61,3 +63,7 @@ fof-masquerade:
       select:
         none-optional: 'Nincs kiválasztva lehetőség (nem kötelező)'
         none-required: 'Válasszon egy lehetőséget (kötelező)'
+  lib:
+    gambits:
+      answer:
+        key: válasz

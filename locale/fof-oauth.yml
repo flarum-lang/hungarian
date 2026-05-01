@@ -60,7 +60,12 @@ fof-oauth:
       update_email_from_provider_label: 'E-mail-cím frissítése a szolgáltató által'
     settings_accessibility_label: '{name} beállításai'
   forum:
+    account_linked:
+      body: 'A(z) <strong>{username}</strong> {forum}-fiókja most már össze van kötve ezzel: {provider}. Most már a fórumjelszavával és a(z) {provider} segítségével is bejelentkezhet.'
+      dismiss_button: Rendben
+      title: 'Fiók hozzákötve'
     error:
+      already_linked: 'Ez a fiók már hozzá van kapcsolva egy másik felhasználóhoz.'
       bad_verification_code: 'Hibás vagy lejárt ellenőrzőtoken. Próbálja újra.'
       invalid_state: 'Érvénytelen állapot. Próbálja újra.'
     log_in:
@@ -95,6 +100,10 @@ fof-oauth:
           orphaned-account: 'Eddig ezen a szolgáltatón keresztül jelentkezett be, de a fórum azóta letiltotta ezt a bejelentkezési módot.'
           unlink-confirm: 'Biztos, hogy eltávolítja a(z) {provider} összekapcsolását? Többé nem fog tudni ezzel bejelentkezni a fórumra, hacsak nem hitelesít vele újra a jövőben.'
   lib:
+    gambits:
+      sso:
+        hint: 'egy bejelentkezési szolgáltató'
+        key: sso
     providers:
       discord: Discord
       facebook: Facebook

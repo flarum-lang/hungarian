@@ -34,6 +34,7 @@ flarum-gdpr:
         'yes': Igen
     nav:
       gdpr_button: 'GDPR integrációk'
+      gdpr_title: '=> flarum-gdpr.admin.gdpr_page.description'
     permissions:
       process_erasure: 'Törlési kérések feldolgozása'
       process_export_for_others: 'Adatexportálás kérése és fogadása más felhasználókhoz'
@@ -53,17 +54,28 @@ flarum-gdpr:
       gdpr_page:
         help_text: 'Mielőtt eldönti, hogy milyen műveletet választ a fórumhoz, létfontosságú, hogy értse, mely adatok vannak integrálva, és azok hogyan lesznek kezelve az anonimizálás és törlés során. Keresse fel a GDPR áttekintést, hogy megértse az adatok kezelését, és hogy milyen választható bővítmények lettek regisztrálva a kezelendő adatokhoz.'
         title: 'Adatintegráció és műveletek'
+    userlist:
+      columns:
+        user_actions:
+          data_export:
+            button: Exportálás
+            tooltip: '{username} adatainak exportálása'
   email:
     confirm_erasure:
+      body: "Valaki (remélhetőleg Ön) a(z) `{display_name}` fiók törlését kérte.\n\nA művelet megerősítéséhez kövesse a következő hivatkozást, ezután a kérést fel fogja dolgozni a csapatunk.\n\n{erasure_confirm_url}\n"
       subject: 'Erősítse meg a fióktörlési kérését'
     erasure_cancelled:
+      body: "Ez egy automatikus, végső értesítés arról, hogy a fióktörlési kérése visszavonását feldolgozták.\n\nA fiókja már nem lesz törölve.\n"
       subject: 'A fióktörlési kérés lemondva'
     erasure_completed:
       anonymization:
+        body: "Ez egy automatikus, végső értesítés arról, hogy a fiókját anonimizálták.\n"
         subject: 'A fiók anonimizálása befejeződött'
       deletion:
+        body: "Ez egy automatikus, végső értesítés arról, hogy a fiókját törölték.\n"
         subject: 'A fiók törlése befejeződött'
     export_available:
+      body: "{username} fiókadatainak exportálását kérte. Az export elő lett állítva, és most már elérhető:\n\n{url}\n\nEz az export eddig marad elérhető: {destroys_at}.\n"
       subject: 'Az adatexport elérhető'
   forum:
     badges:

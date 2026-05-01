@@ -13,7 +13,7 @@ fof-open-collective:
       onetime_group_label: 'Egyszeri támogatók csoportja (nem kötelező)'
       personal_token_help: 'Hozzon létre egy személyes tokent itt: <a>https://opencollective.com/applications</a>. Ez a token az Open Collective támogatói információinak lekérésére lesz használva.'
       personal_token_label: 'Személyes token'
-      slug_help: 'Adja meg az Open Collective kollektíva keresőbarát nevét (az opencollective.com/ utáni részt a webcímből).'
+      slug_help: 'Adja meg az Open Collective kollektíva keresőbarát címét (az opencollective.com/ utáni részt a webcímből).'
       slug_label: 'Kollektíva keresőbarát webcíme'
       title: 'FriendsOfFlarum Open Collective'
       use_legacy_api_key_help: "Ha örökölt API-kulcsa van, akkor továbbra is használhatja, de ajánlatos a személyes tokenre váltás. Jelenleg úgy tűnik, hogy a személyes tokenek csak API-kulcs módban (azaz „API-Key” fejléccel) működnek, de ez nincs dokumentálva.\n"

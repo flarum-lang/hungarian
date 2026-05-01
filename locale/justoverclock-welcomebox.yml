@@ -13,6 +13,7 @@ flarum-ext-welcomebox:
     discussion: '=> core.ref.discussions'
     goToProfile: Profil
     lastSeen: 'Utolsó látogatás'
+    neverSeen: 'Sosem látva'
     notregistered: 'Jelenleg nincs regisztrálva a fórumra.'
     npost: '=> core.ref.posts'
     tooltipDisclist: 'Saját témák'

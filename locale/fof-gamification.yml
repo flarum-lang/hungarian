@@ -16,6 +16,7 @@ fof-gamification:
         button: 'Kedvelések átalakítása felszavazásokká'
         converted: 'Mind a(z) {number} kedvelés sikeresen átalakítva'
         converting: 'A kedvelései most kerülnek átalakításra. Frissítse az oldalt pár perc múlva, hogy lássa a folyamat végét. (Az átalakítás eltarthat egy ideig, az összes kedvelés számától függően)'
+        help: 'A flarum/likes bővítményből származó kedvelések átalakítása felszavazásokká, valamint az összes jelenlegi téma felkapottságának kiszámítása.'
       groups:
         add: 'Új szabály hozzáadása'
         column:
@@ -55,6 +56,8 @@ fof-gamification:
         first_post_only: 'A fel- és leszavazás engedélyezése csak a téma első bejegyzésénél'
         icon_help: 'Adja meg bármelyik Font-Awesome ikont, amelyik -up és -down utótaggal rendelkezik. Példák: arrow, thumbs, chevron.'
         icon_name: 'Fel- és leszavazási ikon'
+        icon_preview_downvote: Leszavazás
+        icon_preview_upvote: Felszavazás
         points_placeholder: 'Pontok: '
         points_title: 'Pontok helykitöltője'
         rate_limit: 'Szavazási sebesség korlátozásának betartatása (10 másodperc)'
@@ -104,3 +107,7 @@ fof-gamification:
       label_none: 'Nincsenek szavazók'
       none: 'Még nincsenek szavazók'
     votes: Szavazatok
+lib:
+  gambits:
+    hot:
+      key: felkapott

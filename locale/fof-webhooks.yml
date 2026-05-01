@@ -78,6 +78,11 @@ fof-webhooks:
         tags: 'A webhookokat adott címkékre lehet korlátozni. Ha kiválaszt címkéket, akkor a webhook csak akkor fog aktiválódni, ha az esemény egy olyan erőforráson történt, amelyre a kiválasztott címkék vonatkoznak.'
         url: 'A webhook végrehajtandó végpontja'
       item:
+        create_button: Létrehozás
+        delete_confirm_alert: 'Biztos, hogy törli ezt a webhookot: {service}?'
+        delete_tooltip: 'Webhook törlése'
+        edit_tags_button: 'Címkék szerkesztése'
+        edit_tooltip: 'Webhook beállításainak szerkesztése'
         tag_any_label: 'Bármely címke'
       modal:
         description: 'Itt módosíthatja, hogy mely eseményekre aktiválódik a webhook.'
