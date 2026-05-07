@@ -24,6 +24,7 @@ CHANGELOG
 * [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest)
 * [`resofire/discussion-participants`](https://github.com/ResofireV2/discussion-participants)
 * [`resofire/menu-control`](https://github.com/ResofireV2/menu-control)
+* [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
 
 
 **Elavult bővítményfordítások frissítve vagy eltávolítva**:
