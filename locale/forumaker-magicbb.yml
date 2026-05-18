@@ -30,6 +30,7 @@ forumaker-magicbb:
       audio_button: 'Hang hozzáadása'
       center_button: 'Középre igazítás'
       color_button: 'Szín hozzáadása'
+      image_button: 'Kép hozzáadása'
       info_button: 'Riasztás hozzáadása'
       justify_button: Sorkizárás
       more_button: Továbbiak
