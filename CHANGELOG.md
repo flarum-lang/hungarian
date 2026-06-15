@@ -398,7 +398,7 @@ CHANGELOG
 * [`tohsakarat/table-of-content`](https://github.com/tohsakrat/flarum-table-of-content)
 * `tohsakarat-tags-filter`
 * [`tokenjenny/flarum-ext-web3`](https://github.com/tokenjenny/flarum-ext-web3)
-* [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
+* [`v17development/flarum-blog`](https://github.com/FriendsOfFlarum/blog)
 * [`v17development/flarum-seo`](https://github.com/FriendsOfFlarum/seo)
 * `v17development-support`
 * [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
