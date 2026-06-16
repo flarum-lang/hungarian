@@ -10,6 +10,11 @@ CHANGELOG
 * Flarum core fordítások frissítve.
 
 
+**Új bővítmények támogatása hozzáadva**:
+
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+
+
 Összes változás: [v2.10.4...v2.10.5](https://github.com/flarum-lang/hungarian/compare/v2.10.4...v2.10.5).
 
 
