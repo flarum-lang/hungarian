@@ -24,7 +24,7 @@ CHANGELOG
 * [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest)
 * [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
 * [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
-* [`resofire/discussion-participants`](https://github.com/ResofireV2/discussion-participants)
+* `resofire-discussion-participants`
 * [`resofire/menu-control`](https://github.com/ResofireV2/menu-control)
 * [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
 
