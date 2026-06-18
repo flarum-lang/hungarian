@@ -30,9 +30,17 @@ huseyinfiliz-notificationhub:
     title:
       page_title: Értesítéstípusok
   api:
+    field_too_long: 'Ez a mező túl hosszú.'
+    invalid_url: 'Érvénytelen webcímprotokoll észlelve.'
+    invalid_url_scheme: 'Érvénytelen webcímséma. Csak a HTTP, HTTPS, mailto, tel vagy relatív hivatkozások támogatottak.'
     message_required: 'Az üzenet megadása kötelező.'
+    message_too_long: 'Az üzenet nem lehet 5000 karakternél hosszabb.'
+    name_required: 'Az értesítés típusának neve kötelező.'
+    name_too_long: 'A név nem lehet 255 karakternél hosszabb.'
     no_valid_recipients: 'Nem található érvényes címzett.'
+    sort_order_invalid: 'A rendezési sorrendnek nemnegatív számnak kell lennie.'
     subject_id_required: 'Az értesítés típusának megadása kötelező.'
+    url_too_long: 'A webcím nem lehet 2048 karakternél hosszabb.'
     user_ids_required: 'A felhasználóazonosítók megadása kötelező.'
   forum:
     links:
@@ -43,6 +51,7 @@ huseyinfiliz-notificationhub:
       no_notification_types: 'Még nincsenek aktív értesítéstípusok.'
       notification_sent_message: 'Értesítések kiküldve {recipientsCount} felhasználónak!'
       notification_type_label: Értesítéstípus
+      preview_all_members: 'Összes tag'
       preview_message_placeholder: 'Értesítési üzenet…'
       preview_title: 'Értesítés előnézete'
       recipients_label: Címzettek
