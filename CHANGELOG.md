@@ -2,6 +2,31 @@ CHANGELOG
 =========
 
 
+2.10.5 (2026-06-18)
+-------------------
+
+**Általános változások**:
+
+* Flarum core fordítások frissítve.
+
+
+**Új bővítmények támogatása hozzáadva**:
+
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+
+
+**Bővítményfordítások frissítve**:
+
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+* [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
+
+
+Összes változás: [v2.10.4...v2.10.5](https://github.com/flarum-lang/hungarian/compare/v2.10.4...v2.10.5).
+
+
 2.10.4 (2026-04-17)
 -------------------
 
