@@ -96,6 +96,8 @@ fof-polls:
     poll:
       cannot_change_vote: 'A szavazat leadása után nem módosíthatja a szavazatát.'
       cannot_start_poll_button: 'A szavazás nem indítható el'
+      draft_label: Vázlat
+      scheduled_label: 'Ütemezve: {date}'
       start_poll_button: 'Globális szavazás indítása'
       submit_button: Szavazás
       total_votes: '{count, plural, one {# szavazat lett leadva} other {# szavazat lett leadva}}'
