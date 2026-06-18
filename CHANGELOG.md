@@ -18,6 +18,8 @@ CHANGELOG
 **Bővítményfordítások frissítve**:
 
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+* [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
 
 
 Összes változás: [v2.10.4...v2.10.5](https://github.com/flarum-lang/hungarian/compare/v2.10.4...v2.10.5).
