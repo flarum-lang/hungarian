@@ -27,6 +27,12 @@ huseyinfiliz-sticky-title:
       scrubber_replace_original_help: 'Válassza ki, hol jelenjen meg a beszélgetés címe az „Eredeti bejegyzés” helyett'
       scrubber_replace_original_label: 'Az „Eredeti bejegyzés” lecserélése a téma címére'
       scrubber_section_title: 'Navigációs csúszka beállításai'
+      tag_color_style_help: 'Válasszon, hogy a címkeszínek hogyan jelenjenek meg az oldalsávpanelen'
+      tag_color_style_label: 'Címkeszínek stílusa'
+      tag_color_style_options:
+        background: 'Háttérszín (alapértelmezett)'
+        border: 'Csak szegélyszín'
+        text: 'Csak szövegszín'
       title: 'Ragadós cím beállításai'
       web_scrubber_title_help: 'Asztali nézetben megjeleníti a téma címét a navigációs csúszka felett'
       web_scrubber_title_label: 'Cím megjelenítése a navigációs csúszka felett'

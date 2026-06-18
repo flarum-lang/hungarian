@@ -38,10 +38,20 @@ fof-polls:
     compose:
       add_title: 'Szavazás hozzáadása'
       continue_editing: 'Szerkesztés folytatása'
+      draft_saved: 'Vázlat mentve'
       edit_title: 'Szavazás szerkesztése'
       polls_manager: 'Szavazások kezelése'
       polls_preview: 'Szavazás megtekintése'
+      publish: Közzététel
+      save_as_draft: 'Mentés vázlatként'
+      schedule: Ütemezés
+      schedule_datetime_label: 'Közzététel ideje:'
+      schedule_publication: 'Közzététel ütemezése'
+      schedule_publication_edit: 'Ütemezett közzététel szerkesztése'
+      schedule_submit: Ütemezés
+      submit: Beküldés
       success: 'Szavazás sikeresen mentve.'
+      update_draft: 'Vázlat frissítése'
     composer_discussion:
       add_poll: '=> fof-polls.forum.moderation.add'
       edit_poll: '=> fof-polls.forum.moderation.edit'
@@ -56,6 +66,7 @@ fof-polls:
       date_placeholder: 'Szavazás vége (nem kötelező)'
       delete: '=> core.ref.delete'
       edit_title: 'Szavazás szerkesztése'
+      empty_answers: '{count, plural, one {# válasz üres – töltse ki vagy távolítsa el.} other {# válasz üres – töltse ki vagy távolítsa el őket.}}'
       error: '=> core.lib.error.generic_message'
       hide_votes_label: 'Szavazatok elrejtése a szavazás végéig'
       hide_votes_label_help: 'A szavazást indító felhasználó számára mindig látszódni fognak a szavazatok.'
@@ -97,16 +108,27 @@ fof-polls:
       cannot_change_vote: 'A szavazat leadása után nem módosíthatja a szavazatát.'
       cannot_start_poll_button: 'A szavazás nem indítható el'
       draft_label: Vázlat
+      scheduled_error_tooltip: 'Az ütemezett publikálás sikertelen. Nyissa meg a szavazást, hogy lássa miért.'
       scheduled_label: 'Ütemezve: {date}'
       start_poll_button: 'Globális szavazás indítása'
       submit_button: Szavazás
       total_votes: '{count, plural, one {# szavazat lett leadva} other {# szavazat lett leadva}}'
     poll_controls:
+      cancel_schedule_label: 'Ütemezett közzététel megszakítása'
+      cancel_schedule_success: 'Ütemezett közzététel megszakítva.'
       delete_confirmation: 'Biztos, hogy törli ezt a szavazást?'
       delete_error_message: 'Hiba történt a szavazás törlése során.'
       delete_label: '=> core.ref.delete'
       delete_success_message: 'A szavazás sikeresen törölve.'
       edit_label: '=> core.ref.edit'
+      edit_schedule_publish_label: 'Ütemezett közzététel szerkesztése'
+      publish_label: 'Közzététel most'
+      publish_success: 'Szavazás közzétéve.'
+      schedule_publish_label: 'Közzététel ütemezése'
+      unpublish_confirmation: 'Visszaállítja a szavazást vázlattá? El fogja tüntetni a kiemelésből.'
+      unpublish_error_has_votes: 'A közzététel nem vonható vissza – a szavazáson már vannak szavazatok. Helyette törölje.'
+      unpublish_label: 'Visszaállítás vázlattá'
+      unpublish_success: 'Szavazás visszaállítva vázlattá.'
       view_label: '=> core.ref.view'
     poll_ended: 'A szavazás véget ért.'
     poll_form:
@@ -149,6 +171,10 @@ fof-polls:
         oldest: Legrégebbi
         sort_dropdown:
           default: '=> fof-polls.forum.polls_list.sort_dropdown.newest'
+      status_filter:
+        all: Összes
+        draft: Vázlatok
+        published: Közzétéve
     polls_page:
       title: Szavazások
     public_poll: 'Szavazók megtekintése'
