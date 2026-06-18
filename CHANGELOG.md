@@ -17,7 +17,9 @@ CHANGELOG
 
 **Bővítményfordítások frissítve**:
 
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
 * [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
 * [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
 
