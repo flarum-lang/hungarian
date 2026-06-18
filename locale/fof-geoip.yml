@@ -13,6 +13,7 @@ fof-geoip:
       see_country: 'Az IP-cím országának megjelenítése mindig'
     settings:
       access_key_label: 'Hozzáférési kulcs'
+      allow_custom_flag_help: 'Ha be van kapcsolva, akkor a felhasználók kiválaszthatják a bejegyzéseiknél megjelenített országzászlót a profilbeállításaikban. A felhasználó által kiválasztott zászló mindenki számára megjelenik, és előnyt élvez az IP-cím alapján megállapítotthoz képest.'
       allow_custom_flag_label: 'Engedélyezés a felhasználóknak, hogy egyéni országzászlót állítsanak be'
       error_code_prefix: 'Kód:'
       error_prefix: 'Hiba:'
@@ -88,4 +89,26 @@ fof-geoip:
       zip_code: Irányítószám
     user:
       settings:
+        custom_flag_help: 'Válassza ki a bejegyzéseinél megjelenítendő országzászlót. A zászló mindenki számára látható, és ez jelenik meg az IP-cím alapján megállapított helyett.'
+        custom_flag_label: 'Egyéni országzászló'
         ip_country: 'Az ország zászlajának megjelenítése, ahonnan a bejegyzést közzéteszi (IP-cím alapján)'
+  lib:
+    alerts:
+      ip_copied: 'IP-cím lemásolva'
+    copy_ip_label: 'IP-cím vágólapra másolása'
+    custom_flag:
+      none: 'Nincs egyéni zászló'
+    map_button_label: IP-információ
+    map_modal:
+      as: ASN
+      country_code: Országkód
+      error: Hiba
+      ip_address: IP-cím
+      isp: ISP
+      mobile: Mobilhálózat
+      not_enough_data: 'Nincs elég adat a térkép rajzolásához'
+      organization: Szervezet
+      threat_level: 'Fenyegetési szint'
+      threat_types: Fenyegetéstípusok
+      title: IP-információ
+      zip_code: Irányítószám
