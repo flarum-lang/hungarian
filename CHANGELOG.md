@@ -15,6 +15,11 @@ CHANGELOG
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
 
 
+**Bővítményfordítások frissítve**:
+
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+
+
 Összes változás: [v2.10.4...v2.10.5](https://github.com/flarum-lang/hungarian/compare/v2.10.4...v2.10.5).
 
 
