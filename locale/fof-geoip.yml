@@ -13,6 +13,7 @@ fof-geoip:
       see_country: 'Az IP-cím országának megjelenítése mindig'
     settings:
       access_key_label: 'Hozzáférési kulcs'
+      allow_custom_flag_label: 'Engedélyezés a felhasználóknak, hogy egyéni országzászlót állítsanak be'
       error_code_prefix: 'Kód:'
       error_prefix: 'Hiba:'
       general:
