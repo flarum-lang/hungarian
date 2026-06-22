@@ -92,6 +92,7 @@ fof-geoip:
     copy_ip_label: 'IP-cím vágólapra másolása'
     custom_flag:
       none: 'Nincs egyéni zászló'
+      placeholder: 'Ország keresése…'
     map_button_label: IP-információ
     map_modal:
       as: ASN

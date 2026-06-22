@@ -2,6 +2,16 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-gdpr/hu/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      user:
+        gdpr_anonymized: '{username} adatai anonimizálva'
+        gdpr_deleted: '{username} adatai törölve'
+        gdpr_erasure_cancelled: '{username} adatainak törlése megszakítva'
+        gdpr_erasure_confirmed: '{username} adatainak törlése megerősítve'
+        gdpr_erasure_requested: '{username} adatainak törlése kérve'
+        gdpr_exported: '{username} adatai exportálva'
 flarum-gdpr:
   admin:
     gdpr_page:

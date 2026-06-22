@@ -2,6 +2,11 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-nicknames/hu/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      user:
+        nickname_changed: '{username} beceneve megváltoztatva erről: {old_nickname}, erre: {new_nickname}'
 flarum-nicknames:
   admin:
     basics:
@@ -17,7 +22,7 @@ flarum-nicknames:
       regex_label: 'Reguláris kifejezés az ellenőrzéshez'
       set_on_registration_label: 'Becenevek beállításának engedélyezése a regisztráció során'
       unique_label: 'Egyedi becenevek megkövetése'
-    wrong_driver: 'A bővítmény életbe léptetéséhez a „becenevet” kell választania a megjelenítendő név meghajtójaként az <a><strong>Alapok oldalon</strong></a>.'
+    wrong_driver: 'A bővítmény életbe léptetéséhez a „becenevet” kell választania a megjelenítendő név illesztőprogramjaként az <a><strong>Alapok oldalon</strong></a>.'
   api:
     invalid_nickname_message: 'A becenév érvénytelen. Lépjen kapcsolatban a fórum rendszergazdájával, hogy megtudja a becenevek szabályait.'
   forum:

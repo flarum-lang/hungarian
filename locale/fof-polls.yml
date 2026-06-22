@@ -18,6 +18,11 @@ fof-polls:
       view_results_without_voting: 'Eredmény megtekintése szavazás nélkül'
       vote: 'Részvétel a szavazásokban'
     settings:
+      discussion_polls:
+        heading: 'Szavazási bejegyzések'
+        help: 'Ezek a beállítások a hozzászólásokhoz csatolt szavazásokat szabályozzák.'
+      enable_discussion_polls: 'Szavazási bejegyzések engedélyezése'
+      enable_discussion_polls_help: 'Ha engedélyezve van, a felhasználók szavazásokat hozhatnak létre a fórumhozzászólásokon belül. Kapcsolja ki ezt a beállítást, ha kizárólag globális szavazásokat használna.'
       enable_global_polls: 'Globális szavazások engedélyezése'
       enable_global_polls_help: 'A globális szavazások nem kötődnek egy adott bejegyzéshez, és egy dedikált szavazási oldalon érhetők el.'
       enabled_poll_groups: 'Szavazáscsoportok engedélyezése'
@@ -30,6 +35,12 @@ fof-polls:
         help: 'Ezek a beállítások vezérlik a globális szavazási funkciót.'
       image:
         heading: Képbeállítások
+        help: 'Képfeltöltési korlátok és méretek beállítása. A képeket a rendszer automatikusan WebP formátumba alakítja át, és reszponzív változatokat állít elő.'
+      image_dimensions_help: 'A tárolt képek alapvető mérete. A HiDPI változatok (@2x, @3x) automatikusan elő lesznek állítva, ha a forráskép elég nagy.'
+      image_height: 'Kép magasságának átméretezése (px)'
+      image_width: 'Kép szélességének átméretezése (px)'
+      max_image_upload_size: 'A feltölthető képek legnagyobb mérete (kB)'
+      max_image_upload_size_help: 'A feltölthető képek legnagyobb mérete kilobájtban. A képek a feltöltés után automatikusan WebP formátumra lesznek alakítva, és át lesznek méretezve, így a végső tárolási méret általában jóval kisebb lesz. Az alapértelmezett érték 10240 kB (10 MB).'
       max_options: 'A lehetőségek legnagyobb száma szavazásonként'
       options_color_blend: 'Színkeverés használata a szavazási lehetőségek szövegénél'
       options_color_blend_help: 'Használja ezt, hogy a színkeveréssel olvashatóbbá tegye a szavazási lehetőségeket. Tiltsa le ezt a funkciót, ha problémákat okoz a fórum megjelenésében, csökkentve az olvashatóságot.'
@@ -63,6 +74,7 @@ fof-polls:
       add_title: 'Szavazás hozzáadása'
       allow_change_vote_label: 'Engedélyezés, hogy a felhasználók módosítsák a szavazatukat'
       allow_multiple_votes_label: 'Az emberek több lehetőségre is szavazhatnak'
+      date_clear: 'Befejezési időpont törlése'
       date_placeholder: 'Szavazás vége (nem kötelező)'
       delete: '=> core.ref.delete'
       edit_title: 'Szavazás szerkesztése'
@@ -84,6 +96,7 @@ fof-polls:
         alt_label: 'Kép alternatív szövege'
         help: 'Töltsön fel egy képet, amely a szavazás mellett jelenik meg (nem kötelező).'
         label: 'Szavazás képe'
+        url_deprecated: 'Egy a bejegyzés külső képwebcímet használ. A külső webcímek elavultak, és el lesznek távolítva a jövőbeli verziókból. Töltse fel újra a képet a feltöltés gomb használatával.'
       poll_option_image:
         help: 'Töltsön fel egy képet, amely a szavazásra adott válasz mellett jelenik meg (nem kötelező).'
         label: 'Szavazás válaszának képe'
@@ -94,6 +107,7 @@ fof-polls:
       tooltip:
         options:
           add-button: 'Válasz hozzáadása'
+          remove-button: 'Válasz eltávolítása'
     moderation:
       add: 'Szavazás hozzáadása'
       delete: 'Szavazás eltávolítása'
@@ -125,6 +139,7 @@ fof-polls:
       publish_label: 'Közzététel most'
       publish_success: 'Szavazás közzétéve.'
       schedule_publish_label: 'Közzététel ütemezése'
+      toggle_dropdown_accessible_label: 'Szavazásvezérlők menüje be/ki'
       unpublish_confirmation: 'Visszaállítja a szavazást vázlattá? El fogja tüntetni a kiemelésből.'
       unpublish_error_has_votes: 'A közzététel nem vonható vissza – a szavazáson már vannak szavazatok. Helyette törölje.'
       unpublish_label: 'Visszaállítás vázlattá'
