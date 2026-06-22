@@ -14,6 +14,25 @@ fof-follow-tags:
       following_none_label: '=> fof-follow-tags.ref.filtering_options.none'
       following_page_default_label: 'Alapértelmezett követett oldal szűrése'
       following_tags_label: '=> fof-follow-tags.ref.filtering_options.tags'
+  email:
+    newDiscussionInTag:
+      html:
+        body: "{actor_display_name} témát indított egy címkében, melyet követ: [{discussion_title}]({discussion_url})\n"
+      plain:
+        body: "{actor_display_name} témát indított egy címkében, melyet követ: {discussion_title}\n\nA téma megtekintéséhez kövesse a következő hivatkozást:\n{discussion_url}\n\n---\n\n{content}\n"
+      subject: '[Címke | Új téma] {title}'
+    newDiscussionTag:
+      html:
+        body: "{actor_display_name} olyan címkére változtatta {author_display_name} témáját, melyet követ: [{discussion_title}]({discussion_url})\n"
+      plain:
+        body: "{actor_display_name} olyan címkére változtatta {author_display_name} témáját, melyet követ: {discussion_title}\n\nA téma megtekintéséhez kövesse a következő hivatkozást:\n{post_url}\n\n---\n\n{content}\n"
+      subject: '[Címke | Címke megváltoztatva] {title}'
+    newPostInTag:
+      html:
+        body: "{actor_display_name} bejegyzést tett közzé egy olyan címke témájában, melyet követ: [{discussion_title}]({post_url})\n"
+      plain:
+        body: "{actor_display_name} bejegyzést tett közzé egy olyan címke témájában, melyet követ: {discussion_title}\n\nA téma megtekintéséhez kövesse a következő hivatkozást:\n{post_url}\n\n---\n\n{content}\n"
+      subject: '[Címke | Új bejegyzés] {title}'
   forum:
     badge:
       following_tag_tooltip: Követés

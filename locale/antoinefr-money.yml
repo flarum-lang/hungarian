@@ -18,11 +18,15 @@ antoinefr-money:
       autoremove: 'Pénz automatikus frissítése'
       cascaderemove: 'Bejegyzésekhez tartozó pénz eltávolítása, ha a téma törlésre kerül'
       helpextensionlikes: 'A <code>flarum/likes</code> bővítmény szükséges hozzá'
+      helpmoneyname: 'Használja a <code>[money]</code> szöveget az érték megjelenítéséhez'
+      helppostminimumlength: 'Adjon meg 0-t a kikapcsolásához'
       ignore_notifying_users: 'A válaszok szószámának ellenőrzésekor fókuszálás csak a tartalmi szakaszra'
       moneyfordiscussion: 'Új témáért adott pénz'
       moneyforlike: 'Az adott pénz, ha egy bejegyzést kedvelik'
       moneyforpost: 'Új bejegyzésért adott pénz'
+      moneyname: 'A pénz neve'
       noshowzero: 'Ne jelenítse meg, ha az érték nulla'
+      postminimumlength: 'A pénz megkapásához szükséges legkisebb bejegyzéshossz'
       title: Beállítások
   forum:
     modal:

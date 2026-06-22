@@ -5,6 +5,10 @@
 flarum-subscriptions:
   email:
     new_post:
+      html:
+        body: "{poster_display_name} egy bejegyzést tett közzé egy követett témájában: [{title}]({url}).\n\nNem fog új értesítést kapni erről a témáról, amíg nem lesz naprakész.\n"
+      plain:
+        body: "{poster_display_name} egy bejegyzést tett közzé egy követett témájában: {title}.\n\nAz új tevékenység megtekintéséhez kövesse a következő hivatkozást:\n{url}\n\n---\n\n{content}\n\n---\n\nNem fog új értesítést kapni erről a témáról, amíg nem lesz naprakész.\n"
       subject: '[Új bejegyzés] {title}'
   forum:
     badge:
@@ -21,7 +25,8 @@ flarum-subscriptions:
     notifications:
       new_post_text: '{username} bejegyzést tett közzé'
     settings:
-      follow_after_reply_label: 'Azon témák automatikusan követése, amelyekhez hozzászóltam'
+      follow_after_create_label: 'Azon témák automatikus követése, amelyeket létrehoztam'
+      follow_after_reply_label: 'Azon témák automatikus követése, amelyekhez hozzászóltam'
       notify_for_all_posts_label: 'Értesítés minden egyes bejegyzésről, nem csak a téma utolsó bejegyzéséről'
       notify_new_post_label: 'Valaki bejegyzést tesz közzé az általam követett témában'
     sub_controls:
@@ -34,6 +39,12 @@ flarum-subscriptions:
       not_following_text: 'Értesítés, csak ha megemlítik.'
       notify_alert_tooltip: 'Fórumértesítés, ha új bejegyzések vannak'
       notify_email_tooltip: 'E-mail fogadása, ha új bejegyzések vannak'
+  lib:
+    gambits:
+      discussions:
+        subscription:
+          following_key: követve
+          ignoring_key: mellőzve
   ref:
     follow: Követés
     following: Követve
