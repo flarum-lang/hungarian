@@ -17,6 +17,8 @@ ianm-boring-avatars:
       color3: '3. szín'
       color4: '4. szín'
       color5: '5. szín'
+      driver_not_active_warning: 'Nem az „Unalmas profilképek” az aktív profilkép-illesztőprogram.'
+      driver_not_active_warning_link: 'Ugorjon a Beállítások > Alapok részhez, hogy aktiválja.'
       identifier: Azonosító
       identifier_display_name: 'Megjelenítendő név'
       identifier_email: E-mail

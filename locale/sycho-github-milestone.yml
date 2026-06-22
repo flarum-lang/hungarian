@@ -13,6 +13,8 @@ sycho-github-milestone:
   forum:
     all: '=> sycho-github-milestone.ref.all'
     closed: '=> sycho-github-milestone.ref.closed'
+    complete: '<strong>{progress}%-ban</strong> kész'
+    empty_list: 'Még nincsenek megjeleníthető jegyek vagy beolvasztási kérések'
     last_updated: 'Legutóbb frissítve: {time}'
     load_more: '=> core.forum.discussion_list.load_more_button'
     open: '=> sycho-github-milestone.ref.open'
