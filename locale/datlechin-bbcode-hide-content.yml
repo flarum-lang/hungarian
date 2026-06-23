@@ -8,6 +8,10 @@ datlechin-bbcode-hide-content:
       bypass_like_label: 'Kedvelési követelmény megkerülése'
       bypass_reply_label: 'Válaszolási követelmény megkerülése'
   forum:
+    composer:
+      hide_like_tooltip: 'Elrejtés, amíg nem kedvelik'
+      hide_login_tooltip: 'Elrejtés a vendégek elől'
+      hide_reply_tooltip: 'Elrejtés, amíg nem válaszolnak rá'
     must_be_logged_in: 'Be kell jelentkeznie a tartalom megtekintéséhez'
     must_liked: 'Kedvelnie kell a tartalom megtekintéséhez'
     must_replied: 'Válaszolnia kell a tartalom megtekintéséhez'

@@ -7,7 +7,7 @@ fof-reactions:
     page:
       cdn:
         default-url: 'Alapértelmezett: {url}'
-        help: "Alapértelmezés szerint a reakciók tartalmait a Cloudflare CDN-jének segítségével szolgáljuk ki. Igény szerint tetszőleges más\nCDN címét is megadhatja. A <code>[codepoint]</code> az emodzsi kódpontjára lesz cserélve.\n\nPéldául a Noto Emoji jsdelivr segítségével történő használatához ezt adná meg: <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>. Ez a mező SOSEM lehet üres.\n"
+        help: "Alapértelmezés szerint a reakciók tartalmait a Cloudflare CDN-jének segítségével szolgáljuk ki. Igény szerint tetszőleges más\nCDN címét is megadhatja. A <code>[codepoint]</code> az emodzsi kódpontjára lesz cserélve.\n\nPéldául a Noto Emoji jsdelivr segítségével történő használatához ezt adná meg: <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code>.\n\nA CDN-jének támogatnia kell Emoji/Unicode {emojibase} vagy későbbi szabványt. Használja a [twemoji] értéket a Twemoji verzióra való cseréhez.\n"
         label: Webcím
         title: CDN
       convert:
@@ -17,12 +17,22 @@ fof-reactions:
         help: 'Ha most frissítette a bővítményt, akkor a át kell alakítani a reakcióit. Ha most telepítette a bővítményt, akkor biztonságosan figyelmen kívül hagyhatja ezt az üzenetet.'
       reactions:
         Helptext: 'Adja meg az emodzsi vagy a font-awesome ikon nevét (azonosítóját), és válasszon hogy melyiket szeretné.'
+        add_reaction_button: 'Reakció hozzáadása'
+        add_reaction_label: 'Új reakció hozzáadása'
         delete_confirmation: 'Biztos, hogy törli ezt a reakciót? Ez a művelet nem vonható vissza.'
+        delete_reaction_button: 'Reakció törlése'
+        header:
+          action: Művelet
+          display: 'Szöveg megjelenítése'
+          enabled: Engedélyezve
+          identifier: Ikon/emodzsiazonosító
+          preview: Előnézet
+          type: Típus
         help:
           display: Megjelenítés
           identifier: Azonosító
         reactions: 'Jelenlegi reakciók'
-        title: 'Egyéni reakciók'
+        title: Reakciók
       settings:
         allow-anonymous: 'Névtelen (vendég) reakciók engedélyezése'
         allow-anonymous-help: 'Ha engedélyezve van, akkor a vendég- és névtelen felhasználók reagálhatnak a bejegyzésekre. Vegye figyelembe, hogy a névtelen reakciók nem lesznek felhasználói profilhoz rendelve, és csoportosítva lesznek a reakciólistában.'
@@ -51,11 +61,20 @@ fof-reactions:
     mod_item: 'Reakciók megtekintése'
     modal:
       anonymous_count: '{count} névtelen felhasználó'
+      confirm_remove_all_reaction_type: 'Biztos, hogy eltávolítja mind a(z) {reaction} reakciót erről a bejegyzésről? Ez a művelet nem vonható vissza.'
+      confirm_remove_user_reaction: 'Biztos, hogy eltávolítja {username} {reaction} reakcióját a bejegyzésről? Ez a művelet nem vonható vissza.'
+      load_more: 'Továbbiak betöltése'
       no_reactions: 'Még nincsenek reakciók'
+      others_count: '+ {count, plural, one {# további} other {# további}}'
+      remove_all_reaction_type: 'Mind a(z) {reaction} reakció eltávolítása'
+      remove_user_reaction: 'Reakció eltávolítása'
       title: Reakciók
     notification: '{username} a következővel reagált a bejegyzésére: {reaction}'
     react_button_label: Reagálás
+    reacted_with_label: '{count, plural, one {{reaction} (# reakció)} other {{reaction} (# reakció)}}'
     reacting-own-post: 'Nem reagálhat a saját bejegyzésére'
+    reaction_button_label: 'Reagálás ezzel: {reaction}'
     settings:
       notify_post_reacted_label: 'Valaki reagált az egyik bejegyzésére'
+    unreact_button_label: 'Reakció eltávolítása'
     warning: 'A reakciója át lett alakítva'
