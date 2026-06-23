@@ -17,3 +17,10 @@ flarum-approval:
       approve_button: Jóváhagyás
   ref:
     awaiting_approval: 'Jóváhagyásra vár'
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        approved: '{discussion} jóváhagyva'
+      post:
+        approved: '{postuser} „{post}” bejegyzése jóváhagyva itt: {discussion}'

@@ -20,4 +20,7 @@ ianm-log-viewer:
       file_size: 'Méret (bájtban): {size}'
       last_updated: 'Legutóbb frissítve: {updated}'
       no_file_selected: 'Válasszon egy naplófájlt a tartalmának megtekintéséhez.'
+      no_log_files: 'Nem található naplófájl.'
+      scroll_to_bottom: 'Görgetés az aljára'
+      scroll_to_top: 'Görgetés a tetejére'
       view_log: 'Naplófájl megtekintése'

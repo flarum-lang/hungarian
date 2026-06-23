@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-suspend/hu/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      user:
+        suspended: '{username} felfüggesztve eddig: {until}'
+        unsuspended: '{username} felfüggesztése feloldva'
 flarum-suspend:
   admin:
     permissions:
@@ -9,8 +15,16 @@ flarum-suspend:
   email:
     no_reason_given: 'Nem lett megadva a felfüggesztés oka.'
     suspended:
+      html:
+        body: 'A következő okból felfüggesztették a(z) {forumTitle} fórumban:'
+      plain:
+        body: "A következő okból felfüggesztették:\n\n---\n{suspension_message}\n---\n"
       subject: 'A fiókját felfüggesztették'
     unsuspended:
+      html:
+        body: 'A felfüggesztését feloldották. Ha készen áll, visszatérhet a(z) [{forumTitle}]({forum_url}) fórumhoz.'
+      plain:
+        body: "A felfüggesztését feloldották. A következő hivatkozással visszatérhet a fórumhoz:\n\n{forum_url}\n"
       subject: 'A fiókja felfüggesztését visszavonták'
   forum:
     notifications:
@@ -37,3 +51,8 @@ flarum-suspend:
       suspended_tooltip: Felfüggesztve
     user_controls:
       suspend_button: Felfüggesztés
+  lib:
+    gambits:
+      users:
+        suspended:
+          key: felfüggesztve
