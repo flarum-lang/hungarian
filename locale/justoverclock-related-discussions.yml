@@ -14,7 +14,11 @@ justoverclock-related-discussions:
   forum:
     avatarTooltip: 'létrehozta a bejegyzést ekkor:'
     deleted: Törölve
-    hasBestAnswer: Megoldott
+    hasBestAnswer: Megoldva
     hasBestAnswer-title: 'Ez a téma megoldottnak van jelölve'
+    noRelatedFound: 'Nem található kapcsolódó téma…'
+    participants: résztvevők
     postedOn: 'ekkor:'
+    postnumber: válasszám
     reldiscussion: 'Javasolt témák:'
+    repliedOn: 'legutóbbi válasz'
