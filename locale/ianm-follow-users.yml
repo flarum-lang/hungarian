@@ -16,6 +16,25 @@ ianm-follow-users:
     settings:
       button-on-profile-label: 'A Követés gomb megjelenítése közvetlenül a felhasználó profiljának fejlécében'
       stats-on-profile-label: 'Követők és követések számának megjelenítése a felhasználói profilokon'
+  email:
+    new_discussion_by_user:
+      html:
+        body: '{user_display_name} új témát indított: [{discussion_title}]({discussion_url}).'
+      plain:
+        body: "{user_display_name} új témát indított: {discussion_title}\n\n{discussion_url}\n\n---\n\n{post_content}\n"
+      subject: '{user_display_name} témát indított'
+    new_follower:
+      html:
+        body: '{follower_display_name} követni kezdte, így értesítést fog kapni, ha új témát indít.'
+      plain:
+        body: "{follower_display_name} követni kezdte, így értesítést fog kapni, ha új témát indít.\n\n{profile_url}\n"
+      subject: '{follower_display_name} követi Önt'
+    new_post:
+      html:
+        body: '{user_display_name} közzétett ebben: [{discussion_title}]({post_url}).'
+      plain:
+        body: "{user_display_name} közzétett ebben: {discussion_title}.\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nAddig nem fog több értesítést kapni erről a témáról, amíg naprakész nem lesz.\n"
+      subject: '{user_display_name} közzétett ebben: {discussion_title}'
   forum:
     badge:
       label:
@@ -72,4 +91,7 @@ ianm-follow-users:
         description: "Ne értesítsen <em>{username}</em> tevékenységéről.\n"
         name: 'Nem követem'
     following_link: 'Követett felhasználók'
+    gambits:
+      followeduser:
+        key: követett
     unfollow: 'Követés megszüntetése'

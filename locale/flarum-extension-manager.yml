@@ -8,6 +8,7 @@ flarum-extension-manager:
       add_label: 'Új hitelesítési módszer'
       add_modal:
         host_label: Kiszolgáló
+        host_placeholder: 'példa: bearer.flarum.org'
         submit_button: Beküldés
         token_label: Token
         type_label: Típus
@@ -84,7 +85,29 @@ flarum-extension-manager:
         why: 'Tudjon meg többet'
       title: 'Flarum {version} főverzió-frissítés érhető el'
       update: Frissítés
+    minor_update_confirmation:
+      content: 'Ez minden más bővítményt/csomagot is frissít a rendelkezésre álló frissítésekkel.'
+    required_php_functions: "A bővítménykezelőhöz a következő PHP függvények engedélyezése szükséges: <code>{functions}</code>. Ha nincs hozzáférése a PHP konfigurációhoz, akkor lépjen kapcsolatba a kiszolgáló üzemeltetőjével.\n"
     sections:
+      discover:
+        description: 'Új funkciók és integrációk hozzáadása a Flarum fórumhoz bővítményekkel.'
+        empty_results: 'Úgy tűnik, hogy nem érhetők el bővítmények.'
+        extension:
+          badges:
+            abandoned: Abbahagyva
+            flarum: Flarum
+            fof: 'Friends Of Flarum'
+          downloads: '{count, plural, one {{formattedCount} letöltés} other {{formattedCount} letöltés}}'
+        search: Keresés…
+        server_error: 'A szolgáltatás jelenleg nem érhető el, próbálja újra később.'
+        sort:
+          top: 'Legtöbbször letöltve'
+        tabs:
+          discover: Felfedezés
+          extensions: Bővítmények
+          languages: Nyelvek
+          themes: Témák
+        title: Bővítmények
       queue:
         columns:
           details: Részletek
@@ -116,10 +139,14 @@ flarum-extension-manager:
           success: Sikeres
         task_just_started: 'A feladat épp most indult el'
         title: Várólista
+      settings:
+        description: 'A bővítménykezelő beállítása és a várólistában lévő műveletek ellenőrzése.'
+        title: 'Beállítások és várólista'
     settings:
       access_warning: 'Legyen óvatos, hogy kinek ad hozzáférést az admin területhez, a bővítménykezelővel visszaélhetnek, és olyan csomagokat telepíthetnek, melyek biztonsági incidensekhez vezethetnek.'
       debug_mode_warning: 'Hibakeresési módban futtatja, a bővítménykezelő nem tudja megfelelően telepíteni és frissíteni a helyi fejlesztői csomagokat. Ilyen célokra használja inkább a parancssoros felületet.'
       queue_jobs: 'Műveletek futtatása a háttérben lévő várólistán'
+      queue_jobs_help: "Olvashat az <basic_impl_link>alapvető</basic_impl_link> vagy a <adv_impl_link>fejlettebb</adv_impl_link> várólista-megvalósításról. Győződjön meg róla, hogy a várólista ezt a PHP-verziót használja: {php_version}. Biztosítsa, hogy a <folder_perms_link>mappajogosultságok</folder_perms_link> helyesen vannak beállítva.\n"
       task_retention_days: 'Feladatok megőrzési napjai'
       task_retention_days_help: "A befejezett feladatok adatbázisban való tárolásának napjainak száma. Az ennél régebbi feladatok törlésre kerülnek. 0 értékre állítva az összes feladatot megtartja.\n"
       title: '=> core.ref.settings'
@@ -130,6 +157,7 @@ flarum-extension-manager:
       global_update_successful: 'Minden csomag sikeresen frissítve.'
       last_update_checked_at: 'A legutóbbi frissítéskeresés: '
       run_global_update: 'Globális frissítés futtatása'
+      up_to_date: 'Nincs függőben lévő frissítés.'
       updater_help: 'Ellenőrzi az új bővítmény- és Flarum frissítéseket.'
       updater_title: Frissítések
     why_not_modal:
