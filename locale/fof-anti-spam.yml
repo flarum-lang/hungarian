@@ -2,6 +2,13 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-anti-spam/hu/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      registration:
+        blocked: '{username} ({email}) regisztrációja a következő címről blokkolva: {ip}'
+      user:
+        marked_as_spammer: '{username} kéretlen tartalmat küldőnek jelölve'
 fof-anti-spam:
   admin:
     blocked_registrations:
@@ -21,6 +28,45 @@ fof-anti-spam:
       spamblock_users_label: 'Felhasználó megjelölése kéretlen tartalmat küldőként'
     settings:
       button: Beállítások
+      content-filter:
+        actions_heading: 'Automatikus műveletek'
+        advanced_block_patterns_help: 'Egyéni reguláris kifejezésminták haladó felhasználók számára. Óvatosan használja – az érvénytelen mintákat a rendszer átugorja. A formátumnak egy JSON-tömbnek kell lennie, amely „pattern” és nem kötelező „description” kulcsokat tartalmazó objektumokat tartalmaz.'
+        advanced_block_patterns_label: 'Speciális minták (regex)'
+        advanced_patterns_heading: 'Speciális blokkolási minták'
+        allowed_domains_help: 'Az ezeket a domaineket tartalmazó webcímek nem lesznek jelentve. Soronként egy domaint adjon meg. A fórum domainje automatikusan engedélyezve lesz.'
+        allowed_domains_label: 'Engedélyezett domainek'
+        allowlist_heading: 'Domainek engedélyezési listája'
+        auto_flag_help: 'Ha be van kapcsolva, akkor azon tartalmak, amelyek elérik a kéretlen tartalmi korlátot, automatikusan jelentve lesznek, hogy a moderátorok ellenőrizzék (ehhez a flarum/flags bővítmény szükséges). A jelentés oka részleteket fog tartalmazni arról, hogy a tartalom miért lett kéretlenként észlelve.'
+        auto_flag_label: 'Kéretlen tartalom automatikus jelentése'
+        auto_unapprove_help: 'Ha be van kapcsolva, akkor azon tartalmak, amelyek elérik a kéretlen tartalmi korlátot, a jóváhagyási sorba kerülnek (ehhez a flarum/approval bővítmény szükséges). A moderátoroknak jóvá kell hagyniuk, mielőtt látható válik.'
+        auto_unapprove_label: 'Kéretlen tartalom jóváhagyásának elutasítása'
+        blocked_words_heading: 'Blokkolt szavak és kifejezések'
+        blocked_words_help: 'Olyan szavak vagy kifejezések, amelyeket kéretlen tartalomként kell blokkolni. Soronként egyet írjon be. A rendszer nem különbözteti meg a kis- és nagybetűket, és csak teljes szavakat ismer fel. Például a „viagra” kifejezés a „viagra” szóra illeszkedik, de a „niagara” szóra nem.'
+        blocked_words_label: 'Blokkolt szavak vagy kifejezések'
+        detect_emails_help: 'E-mail-címeket tartalmazó tartalom jelentése.'
+        detect_emails_label: 'E-mail-címek észlelése'
+        detect_phones_help: 'Nemzetközi formátumú telefonszámokat tartalmazó tartalom jelentése.'
+        detect_phones_label: 'Telefonszámok észlelése'
+        detect_urls_help: 'Engedélyezési listában nem szereplő webcímeket tartalmazó tartalom jelentése.'
+        detect_urls_label: 'Webcímek észlelése'
+        detectors_heading: 'Észlelési módszerek'
+        enabled_help: 'Ha be van kapcsolva, a felhasználók bejegyzései és témái elemezve lesznek, hogy nem kéretlen tartalomról van-e szó.'
+        enabled_label: 'Tartalomszűrés engedélyezése'
+        flag_threshold_help: 'Azon tartalmak, amelyek kéretlen tartalmi pontszáma eléri vagy meghaladja ezt az értéket, jelentésre kerülnek (ehhez a flarum/flags bővítmény szükséges).'
+        flag_threshold_label: 'Jelentési korlát (0-100)'
+        heading: Tartalomszűrő
+        introduction: 'Az új felhasználók által közzétett kéretlen tartalmak automatikus felismerése és jelentése. A rendszer figyelemmel kíséri a nemrég regisztrált felhasználók hozzászólásait és témáit, és olyan gyakori kéretlen tartalom utaló jeleket keres, mint a telefonszámok, e-mail-címek és gyanús webcímek.'
+        monitor_hours_old_help: 'Csak azon felhasználók tartalmának elemzése, akik fiókja ennyi óránál újabb. Állítsa 0-ra, hogy letiltsa a kor ellenőrzését.'
+        monitor_hours_old_label: 'Felhasználók követése adott számú óráig'
+        monitor_post_count_help: 'Csak azon felhasználók tartalmának elemzése, akik ennél kevesebb bejegyzést tettek közzé. Állítsa 0-ra, hogy letiltsa a bejegyzések számának ellenőrzését.'
+        monitor_post_count_label: 'Felhasználók követése egy adott bejegyzésszámig'
+        no_action_extensions: 'Telepítse a flarum/approval vagy a flarum/flags bővítményeket az automatikus moderálási műveletek engedélyezéséhez. Az észlelt kéretlen tartalmak a Flarum beépített jóváhagyási sorával és a jelentési rendszerével lesznek kezelve.'
+        spam_threshold_help: 'Azon tartalmak jóváhagyása, amelyek kéretlen tartalmi pontszáma eléri vagy meghaladja ezt az értéket, automatikusan el lesz utasítva (ehhez a flarum/approvals bővítmény szükséges).'
+        spam_threshold_label: 'Kéretlen tartalmi korlát (0-100)'
+        system_user_id_help: 'A felhasználóazonosító, amely az automatikus jelentések létrehozójaként hozzá lesz rendelve. Ez jellemzően egy adminisztrátori vagy egy rendszerfiók. Ha nincs beállítva, alapértelmezés szerint az 1-es felhasználóazonosító lesz.'
+        system_user_id_label: 'Rendszer felhasználóazonosítója a jelentésekhez'
+        thresholds_heading: 'Kéretlen tartalmi pontszám korlátai'
+        user_targeting_heading: 'Felhasználók célzása'
       default-actions:
         delete_discussions_help: 'Ez végleg törli a felhasználó által indított összes témát. Ha ki van kapcsolva, akkor a témák csak logikailag lesznek törölve.'
         delete_discussions_label: 'Témák törlése'
@@ -36,6 +82,8 @@ fof-anti-spam:
         api_key_instructions_text: '<register>Regisztráljon a StopForumSpamen</register>. Ezután egy <key>API-kulcsot kell szereznie</key>.'
         api_key_label: API-kulcs
         api_key_text: 'Jelentheti a kéretlen tartalmat küldőket a StopForumSpamnek, hogy a nagyobb közösség is kéretlen tartalmaktól mentes lehessen.'
+        block_tor_exit_nodes_help: 'Ha be van kapcsolva, akkor az ismert Tor kilépési csomópontokról érkező regisztrációkat a rendszer automatikusan blokkolja. Ez segíthet megelőzni a névtelen, kéretlen tartalmakat küldő regisztrációkat, de egyúttal megakadályozhatja azoknak a jogos felhasználóknak a hozzáférését is, akik adatvédelmi okokból használják a Tort.'
+        block_tor_exit_nodes_label: 'Tor kilépési csomópontok blokkolása'
         confidence_help: 'A megbízhatósági pontszám meglehetősen jó mérőszáma annak, hogy a tesztelt mező kéretlen tevékenységet eredményezne. Százalékként állítsa be. Ha a mező ennél az értéknél nagyobb, vagy vele egyenlő, akkor a regisztráció meg lesz akadályozva, függetlenül a fenti „gyakorisági” teszttől.'
         confidence_label: Megbízhatóság
         email_hash_help: 'Az e-mail-cím MD5 ujjlenyomatának átadása, ha nem akarja magát az e-mail-címet átadni. Ez a módszer megkerüli az összes feketelistázást, normalizálási és obfuszkációmegkerülési ellenőrzést.'
@@ -59,6 +107,8 @@ fof-anti-spam:
     message:
       stopforumspam:
         blocked: 'A regisztráció részletei megtalálhatók a kéretlen tartalmakat megelőző adatbázisban, így a regisztráció meg lett akadályozva.'
+    post:
+      flagged_as_spam_text: 'Kéretlen tartalom automatikus észlelése – pontszám: {score}'
     spammer_modal:
       hard_delete_discussions_help: 'Ez végleg törli a felhasználó által létrehozott összes témát. Ha le van tiltva, akkor a témák csak el lesznek rejtve.'
       hard_delete_discussions_label: 'Témák törlése'

@@ -4,6 +4,15 @@
 
 datlechin-link-preview:
   admin:
+    sections:
+      external_api_description: 'Külső szolgáltatás használata, ha a közvetlen lekérés sikertelen (például bottal védett oldalak esetén).'
+      external_api_label: 'Tartalék külső API'
+      general_description: 'Alapvető megjelenítési beállítások a hivatkozás-előnézetekhez.'
+      general_label: Általános
+      performance_description: 'Hivatkozás-előnézetek lekérésének és gyorsítótárazásának optimalizálása.'
+      performance_label: Teljesítmény
+      url_filtering_description: 'Adja meg, hogy mely webcímekhez készüljön hivatkozás-előnézet.'
+      url_filtering_label: Webcímszűrés
     settings:
       blacklist_help: 'Adja meg azokat a domaineket vagy webcímeket, melyek nem állítanak elő hivatkozás-előnézeteket. Használjon vesszőket a bejegyzések elválasztásához.'
       blacklist_label: 'Domain tiltólista'
@@ -14,6 +23,10 @@ datlechin-link-preview:
       convert_media_urls_label: 'Médiawebcímek előnézete'
       enable_batch_requests_help: 'A teljesítmény növelése több hivatkozás-előnézet egyidejű feldolgozásával. Ha ki van kapcsolva, akkor a hivatkozásokat egyesével dolgozza fel.'
       enable_batch_requests_label: 'Kötegelt feldolgozás engedélyezése'
+      external_api_fallback_help: 'Ha a közvetlen lekérés sikertelen (például bottal védett oldalak esetén, mint a Reuters), külső oEmbed API használata a hivatkozás metaadatainak lekéréséhez.'
+      external_api_fallback_label: 'Tartalék külső API'
+      external_api_url_help: 'Egyéni oEmbed API végpont. Hagyja üresen az alapértelmezett használatához (Iframely nyílt API). A webcím lekérdezési paraméterként lesz hozzáfűzve.'
+      external_api_url_label: 'Külső API webcíme'
       open_links_in_new_tab_help: 'Előnézettel rendelkező hivatkozások megnyitása mindig új böngészőlapon.'
       open_links_in_new_tab_label: 'Hivatkozások megnyitása új lapon'
       use_google_favicons_help: 'Webhelyek faviconjainak megjelenítése a Google Favicon szolgáltatásának használatával, a jobb vizuális felismerés érdekében.'

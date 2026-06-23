@@ -5,6 +5,7 @@
 fof-rich-text:
   admin:
     settings:
+      force_compact_paragraphs: 'Kompakt bekezdések kényszerítése az összes felhasználónál (Az Enter sortörést hoz létre bekezdéstörés helyett)'
       toggle_on_editor: 'Formázott szöveges mód kapcsolójának megjelenítése a szerkesztőben?'
   forum:
     settings:
@@ -14,7 +15,10 @@ fof-rich-text:
   lib:
     composer:
       additional_items_tooltip: 'További vezérlők'
+      bold_tooltip: 'Félkövér szöveg ({modifierKey}-b)'
       code_block_tooltip: 'Kódblokk beszúrása'
+      code_tooltip: 'Soron belüli kód ({modifierKey}-`)'
+      header_tooltip: 'Beállítás {level}. szintű címsorként ({modifierKey}-shift-{level})'
       horizontal_rule_tooltip: 'Vízszintes vonal beszúrása'
       image_tooltip: 'Kép hozzáadása'
       insert_button: Beszúrás
@@ -26,7 +30,16 @@ fof-rich-text:
         remove_button: Eltávolítás
         text_placeholder: Szöveg
         title_placeholder: 'Cím (ráhúzáskor jelenik meg)'
+      italic_tooltip: 'Dőlt szöveg ({modifierKey}-i)'
       link_tooltip: 'Hivatkozás hozzáadása'
+      ordered_list_tooltip: 'Számozott lista ({modifierKey}-shift-9)'
+      paragraph_tooltip: 'Beállítás bekezdésnek ({modifierKey}-shift-0)'
+      quote_tooltip: 'Idézet beszúrása ({modifierKey}-q)'
       spoiler_block_tooltip: 'Rejtett szöveg/legördülő'
+      spoiler_inline_tooltip: 'Rejtett szöveg ({modifierKey}-;)'
+      strike_tooltip: 'Áthúzott szöveg (alt-shift-5)'
+      sub_tooltip: 'Alsó index ({modifierKey}-,)'
+      sup_tooltip: 'Felső index ({modifierKey}-.)'
       text_type_tooltip: 'Válasszon szövegtípust'
       toggle_button: 'Formázott szöveges mód be/ki'
+      unordered_list_tooltip: 'Felsorolás (shift-{modifierKey}-8)'
