@@ -2,10 +2,20 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-sticky/hu/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        stickied: '„{discussion}” téma kitűzve'
+        unstickied: '„{discussion}” téma kitűzése megszüntetve'
 flarum-sticky:
   admin:
     permissions:
       sticky_discussions_label: 'Témák kitűzése'
+    settings:
+      enable_display_excerpt: 'Kivonat megjelenítése az első bejegyzésből, ha egy kitűzött téma olvasatlan'
+      only_sticky_unread_discussions_help: 'Az Összes téma oldalon csak az olvasatlan kitűzött témák maradnak a tetején, az olvasott témák a szokásos sorrendet követik.'
+      only_sticky_unread_discussions_label: 'Csak az olvasatlan témák kitűzése'
   forum:
     badge:
       sticky_tooltip: '=> flarum-sticky.ref.sticky'
@@ -14,6 +24,11 @@ flarum-sticky:
       unsticky_button: 'Kitűzés eltávolítása'
     post_stream:
       discussion_stickied_text: '{username} {time} kitűzte a témát.'
-      discussion_unstickied_text: '{username} {time} eltávolította a kitűzést.'
+      discussion_unstickied_text: '{username} {time} megszüntette a téma kitűzését.'
+  lib:
+    gambits:
+      discussions:
+        sticky:
+          key: kitűzve
   ref:
     sticky: Kitűzés

@@ -4,16 +4,24 @@
 
 fof-recaptcha:
   admin:
+    maintenance_mode_warning: 'A reCAPTCHA le van tiltva a bejelentkezési oldalon, ha a fórum karbantartási módban van.'
     permissions:
       post_without_captcha: 'Téma és hozzászólás létrehozása captcha nélkül'
     settings:
       forgot: '=> core.forum.forgot_password.title'
-      help_text: 'Szerezze meg a Google reCAPTCHA hitelesítő adatait <a>itt</a>.'
+      help_text: 'Szerezze be a Google reCAPTCHA hitelesítő adatait <a>itt</a>.'
       secret_key_label: 'Titkos kulcs'
       signin: '=> core.forum.log_in.title'
       signup: '=> core.forum.sign_up.title'
       site_key_label: 'Oldal kulcsa'
+      type_help: 'A kiválasztott típusnak meg kell felelnie a reCAPTCHA hitelesítő adatainak. A Jelölőmező és a Láthatatlan a reCAPTCHA v2 lehetősége; a v3 pontszámalapú, és a háttérben fut.'
       type_label: 'A reCAPTCHA típusa'
+      type_options:
+        checkbox: 'v2 – Jelölőmező'
+        invisible: 'v2 – Láthatatlan'
+        v3: 'v3 (pontszám-alapú)'
+      v3_threshold_help: 'Az ennél a pontszámnál (0.0 = valószínűleg bot, 1.0 = valószínűleg ember) kisebb beküldések el lesznek utasítva. A Google kezdésnek 0.5-ös értéket javasol. Csak akkor használatos, ha a típus v3-ra van állítva.'
+      v3_threshold_label: 'reCAPTCHA v3 pontszámkorlát'
     test:
       help_text: "Ez a teszt a fent megadott értékeket fogja használni. Győződjön meg róla, hogy újratöltötte az oldalt a beállítások módosítása után, és ne felejtse el menteni, ha átmegy a teszten.\nA lentiek nem biztos, hogy a mentett beállításokat tükrözik.\n"
       load_test_button: Betöltés
@@ -21,6 +29,13 @@ fof-recaptcha:
       submit_button: Elküldés
       success_message: 'Sikeres! A reCAPTCHA helyesen van beállítva.'
       title: 'A reCAPTCHA tesztelése'
+  lib:
+    error: 'Hiba történt a reCAPTCHA beküldésekor. Próbálja újra.'
+    not_completed: 'A folytatás előtt befejezze be a reCAPTCHA ellenőrzést.'
+    rejected: 'A reCAPTCHA-ellenőrzés sikertelen. Próbálja újra.'
+    unknown_error: 'Ismeretlen hiba történt. Próbálja újra.'
 validation:
+  attributes:
+    g-recaptcha-response: reCAPTCHA
   recaptcha: 'reCAPTCHA ellenőrzési hiba.'
   recaptcha-unknown: 'Ismeretlen hiba történt a reCAPTCHA ellenőrzése során ({errors}).'

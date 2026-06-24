@@ -4,5 +4,18 @@
 
 core:
   forum:
+    badge:
+      frontpage_tooltip: 'Kezdőoldaliként megjelölve'
     index_sort:
-      front_button: Főoldal
+      front_button: Kezdőoldal
+    post_controls:
+      pull_from_front_button: 'Visszavétel a kezdőoldalról'
+      push_to_front_button: 'Kiküldés a kezdőoldalra'
+fof-frontpage:
+  admin:
+    permissions:
+      can_push_to_frontpage_label: 'Kiküldhet a kezdőoldalra'
+  lib:
+    gambits:
+      frontpage:
+        key: kezdőoldal
