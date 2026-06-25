@@ -4,6 +4,85 @@
 
 core:
   admin:
+    advanced:
+      description: 'Speciális beállítások megadása a fórumhoz.'
+      fontawesome:
+        cdn_url_help: 'A CDN-en lévő FontAwesome CSS-fájl teljes webcíme'
+        cdn_url_label: 'CDN webcíme'
+        config_override:
+          help: 'A FontAwesome beállításai jelenleg a config.php fájlban vannak megadva, és innen nem változtathatók meg.'
+          label: 'Konfiguráció felülbírálása'
+        kit_url_help: 'A FontAwesome Kit parancsfájljának webcíme (a kit.fontawesome.com webhelyről)'
+        kit_url_label: 'Kit webcíme'
+        preview:
+          button: 'Ikonok előnézete'
+          fa5_fa6_label: 'FA5/FA6 álnevek'
+          fa7_label: 'FA7 osztályok'
+          help: 'Ellenőrizze a FontAwesome-beállításait. A megjelenített ikon azt jelenti, hogy ez a szint elérhető; ha hibás, akkor nem töltődött be.'
+          label: Ikonelőnézet
+          pro_label: 'Csak Pro kiadásban'
+        section_label: 'FontAwesome ikonok'
+        source_cdn: CDN
+        source_help: 'Válassza ki a FontAwesome ikonok betöltési módját. A helyi csomagolt betűkészleteket használ, a CDN CDN-ről tölti be, a Kit pedig FontAwesome Kit csomagokat használ egyéni ikonokkal.'
+        source_kit: 'FontAwesome Kit'
+        source_label: Ikonforrás
+        source_local: 'Helyi (csomagolt)'
+      maintenance:
+        bisect:
+          begin_button_text: 'Felező hibakeresés elkezdése'
+          continue_button_text: 'Felező hibakeresés folytatása'
+          help: 'Segít azonosítani, hogy egy bővítmény okozza-e a tapasztalt problémákat. Ez a folyamat végéig automatikusan (alacsony) karbantartási módba teszi a fórumot.'
+          label: 'Bővítmények felező hibakeresése'
+        bisect_modal:
+          description: "A folyamat végéig automatikusan (alacsony) karbantartási módba teszi a fórumot. Az összes lépésnél egyes bővítmények le lesznek tiltva, amíg meg nem találja, hogy melyik okozza a problémát. Így ne lepődjön meg, ha hiányzó funkciókat vagy eltérő témadizájnt lát. Hagyja nyitva ezt a lapot, és minden lépésnél külön lapon próbálja reprodukálni a problémát. Bármikor visszatérhet ehhez a laphoz, ha véletlenül bezárta volna.\n"
+          end_button: 'Bezárás és ugrás a bővítmény oldalára'
+          issue_question: 'A probléma továbbra is fennáll?'
+          issue_question_help: 'Próbálja reprodukálni a problémát egy külön lapon, és válaszoljon az eredmény alapján.'
+          no_button: Nem
+          result_description: "A fórum már nincs karbantartási módban. A bővítmények felező hibakeresése véget ért. Az egyes lépéseknél adott válaszok alapján a probléma oka a következő bővítmény:\n"
+          start_button: 'Felező hibakeresés elkezdése'
+          steps_left: 'Hátralévő lépések: {steps}'
+          stop_button: 'Felező hibakeresés leállítása'
+          title: 'Bővítmények felező hibakeresése'
+          total_steps: 'Ez körülbelül {steps} lépés lesz.'
+          yes_button: Igen
+        config_override:
+          help: 'Továbbra is megváltoztathatja itt a beállításokat, de addig nem lépnek érvénybe, amíg az <code>offline</code> értéket nem állítja <code>0</code>-ra a <code>config.php</code> fájljában.'
+          label: 'A <code>config.php</code> fájlja felülbírálja ezeket a beállításokat.'
+        help: 'Tegye karbantartási módba a fórumot, hogy a felhasználók ne érjék el.'
+        options:
+          high: 'Magas karbantartási mód. Senki sem érheti el a fórumot (csak a config.php fájlból engedélyezhető)'
+          low: 'Alacsony karbantartási mód. Csak az adminisztrátorok érhetik el a fórumot.'
+          none: 'Nincs karbantartás.'
+          safe: 'Biztonságos mód. Csak az adminisztrátorok érik el a fórumot, és nincs betöltve bővítmény.'
+        safe_mode_extensions: 'A bővítmények elindulhatnak a biztonságos mód során'
+        safe_mode_extensions_override_help: 'Ezt a beállítást felülbírálja a <code>safe_mode_extensions</code> kulcs a <code>config.php</code> fájlban. (<b>{extensions}</b>)'
+        section_label: Karbantartás
+      pgsql:
+        search_configuration: 'Használandó konfiguráció keresése'
+      queue:
+        backoff_help: 'Sikertelen feladat újrapróbálkozása előtti várakozás. Alapértelmezés szerint 0 másodperc.'
+        backoff_label: 'Elhalasztás (másodperc)'
+        custom_driver: 'A fórum a(z) {driver} várólista-illesztőprogramot használja, melyet egy bővítmény szolgáltat.'
+        memory_help: 'A legtöbb memória, melyet a várólista-feldolgozó az újraindítása előtt használhat. Alapértelmezés szerint 128 MB.'
+        memory_label: 'Memóriakorlát (MB)'
+        rest_help: 'A feladatok feldolgozása közti idő. Alapértelmezés szerint 0 másodperc.'
+        rest_label: 'Pihenőidő (másodperc)'
+        retries_help: 'Legalább hányszor próbáljon meg futtatni egy feladatot, mielőtt sikertelennek jelöli. Alapértelmezés szerint 1.'
+        retries_label: 'Feladatok újrapróbálkozása'
+        section_label: Várólista
+        sync_help: 'A jobb teljesítmény és felhasználói élmény érdekében fontolja meg az adatbázist használó várólista-illesztőprogram használatát. További információk a dokumentációban.'
+        sync_info: 'A fórum a szinkron várólista-illesztőprogramot használja. A feladatok azonnal feldolgozásra kerülnek a fő folyamatszálban.'
+        timeout_help: 'Az idő, ameddig egy feladat időtúllépés nélkül futhat. Alapértelmezés szerint 60 másodperc.'
+        timeout_label: 'Feladat időkorlátja (másodperc)'
+      search:
+        driver_heading: 'Illesztőprogram keresése: {model}'
+        driver_options:
+          default: 'Alapértelmezett adatbázis-keresés'
+        driver_text: 'Válassza ki a használandó illesztőprogramot a modell kereséséhez.'
+        no_other_drivers: 'Még nincs elérhető keresési illesztőprogram. Telepítsen egy keresési illesztőprogramot biztosító bővítményt, hogy beállíthassa.'
+        section_label: 'Illesztőprogramok keresése'
+      title: Speciális
     announcements:
       about: 'A discuss.flarum.org címen lévő hivatalos Flarum közösségétől lekért legfrissebb hírek és bejelentések.'
       comments_label: '{count, plural, one {# hozzászólás} other {# hozzászólás}}'
@@ -18,6 +97,14 @@ core:
       title: Bejelentések
       view_all: 'Összes megtekintése itt: discuss.flarum.org'
     appearance:
+      allow_user_color_scheme_label: 'Engedélyezés a felhasználók számára, hogy kiválasszák a saját színsémájukat'
+      color_scheme_label: 'Színséma (alapértelmezett)'
+      color_schemes:
+        auto_mode_label: 'Felhasználó rendszerszintű vagy megadott beállítása'
+        dark_hc_mode_label: '=> core.ref.dark_hc_mode_label'
+        dark_mode_label: '=> core.ref.dark_mode_label'
+        light_hc_mode_label: '=> core.ref.light_hc_mode_label'
+        light_mode_label: '=> core.ref.light_mode_label'
       colored_header_label: 'Színes fejléc'
       colors_heading: Színek
       colors_primary_label: 'Elsődleges szín'
@@ -37,6 +124,8 @@ core:
       enter_hex_message: 'Adjon meg egy hexadecimális színkódot.'
       favicon_heading: Favikon
       favicon_text: 'Töltse fel a fórum favikonjaként megjelenítendő képet.'
+      logo_dark_mode_heading: 'Sötét módú logó'
+      logo_dark_mode_text: 'Töltsön fel egy alternatív logót, amely a sötét mód engedélyezése esetén jelenik meg.'
       logo_heading: Logó
       logo_text: 'Kép feltöltése, mely a fórumcím helyett fog megjelenni.'
       title: Megjelenés
@@ -48,17 +137,31 @@ core:
       abandoned_extensions_sync_success: 'Az elhagyott bővítmények listája frissítve. {count} egyező telepített bővítmény található.'
       abandoned_extensions_text: 'A Flarum karbantart egy <a>közösségi listát az elhagyatott bővítményekről</a>. Ha egy bővítmény megjelenik a listán, akkor meg lesz jelölve az adminisztrátori panelen.'
       all_discussions_label: '=> core.ref.all_discussions'
+      avatar_driver_heading: 'Felhasználói profilkép'
+      avatar_driver_options:
+        default: Alapértelmezett
+      avatar_driver_text: 'Válasszon illesztőprogramot, amely a felhasználók profilképéhez lesz használva, ha nem érhető el felhasználó által feltöltött profilkép. Alapértelmezés szerint nem fog profilkép megjelenni, ha a felhasználó nem töltött fel.'
       default_language_heading: 'Alapértelmezett nyelv'
       description: 'Állítsa be a fórum címét, nyelvét és más alapbeállításait.'
+      display_name_driver_options:
+        username: Felhasználónév
       display_name_heading: 'Felhasználó megjelenítendő neve'
       display_name_text: 'Válasszon, hogy mi legyen használva a felhasználók megjelenítési neveként. Alapértelmezés szerint a felhasználónév jelenik meg.'
       forum_description_heading: 'Fórum leírása'
-      forum_description_text: 'Írjon pár mondatot, amely leírja a közösséget. Ez fog megjelenni a meta címkében és a keresőszolgáltatásokban.'
+      forum_description_text: 'Írjon pár mondatot, amely leírja a fórumát. Ez fog megjelenni a meta címkében és a keresőszolgáltatásokban.'
       forum_title_heading: Fórumcím
       home_page_heading: Kezdőlap
       home_page_text: 'Válassza ki a fórum látogatói által először látott oldalt.'
       show_language_selector_label: 'Nyelvválasztó megjelenítése'
       slug_driver_heading: 'Keresőbarát webcímek illesztőprogramja: {model}'
+      slug_driver_options:
+        discussions:
+          default: 'Azonosító keresőbarát webcímmel'
+          utf8: 'Azonosító UTF-8 keresőbarát webcímmel'
+        users:
+          default: Felhasználónév
+          id: Azonosító
+          id_with_display_name: 'Azonosító megjelenítési névvel'
       slug_driver_text: 'Válasszon egy illesztőprogramot, amelyet a modell keresőbarát webcímeihez használ.'
       title: Alapok
       welcome_banner_heading: 'Üdvözlő banner'
@@ -92,7 +195,11 @@ core:
           inactive: Inaktív
           never-run: 'Sosem fut'
       title: Vezérlőpult
+      toggle_advanced_page_button: 'Speciális oldal be/ki'
       tools_button: Eszközök
+    database-driver-mismatch-warning:
+      detail: "A <code>config.php</code> fájl úgy van beállítva, hogy a(z) <code>{configured}</code> adatbázis-illesztőprogramot használja, de a Flarum azt észlelte, hogy az adatbázis-kiszolgáló valójában <code>{actual}</code>.\n\nA hibás illesztőprogram használata rejtett, nehezen diagnosztizálható hibákat okozhat. Állítsa be a következőt a <code>config.php</code> fájl <code>database</code> szakaszában: <code>'driver' => ''{actual}''</code>. További információkért lásd a <link>Flarum dokumentációját</link>.\n"
+      label: 'Eltérő adatbázis-illesztőprogram'
     debug-warning:
       detail: "Ha a <code>hibakeresési</code> mód aktív, a Flarum újraépíti a <code>JavaScript</code> és <code>CSS</code> erőforrásait minden egyes kérésnél, és lehetséges, hogy egyéb információkat fog szivárogtatni, például adatbázistitkokat, környezeti változókat stb.\n\nÉles üzemben nagyon ajánlott kikapcsolni a <code>hibakeresést</code> a <code>config.php</code> fájlban. További információért lásd a <link>Flarum dokumentációját</link>.\n"
       label: 'A hibakeresési mód aktív'
@@ -125,21 +232,37 @@ core:
       description: 'Állítsa be a meghajtót, és a fórum által használt e-mail-küldéshez szükséges beállításokat és címeket.'
       driver_heading: 'Válasszon meghajtót'
       driver_label: Meghajtó
+      format:
+        html_option: HTML
+        multipart_option: 'Több részes (javasolt)'
+        plain_option: 'Egyszerű szöveg'
+      format_heading: 'Kimenő e-mail formátuma'
+      format_help: 'Válassa ki a kimenő e-mailek formátumát. A javasolt lehetőség a <code>multipart</code>, mivel ez lehetővé teszi, hogy a felhasználó e-mail-kliense döntsön a legmegfelelőbb megjelenítési formátumról.'
       from_label: Küldő
       mail_encryption_label: Titkosítás
+      mail_encryption_none_help: 'Nincs titkosítás. Éles használathoz nem javasolt.'
+      mail_encryption_ssl_help: 'A kapcsolat a kezdettől fogva titkosítva van (implicit TLS). Jellemzően a 465-ös porttal használatos.'
+      mail_encryption_tls_help: 'A kapcsolat titkosítás nélkül indul, és TLS-re frissít (STARTTLS). Jellemzően az 587-es vagy a 25-ös portokkal használatos.'
       mail_host_label: Kiszolgáló
-      mail_mailgun_domain_label: Domén
+      mail_mailgun_domain_label: Domain
       mail_mailgun_region_label: Régió
       mail_mailgun_secret_label: 'Titkos kulcs'
       mail_password_label: '=> core.ref.password'
       mail_port_label: Port
+      mail_postmark_message_stream_label: Üzenetfolyam
+      mail_postmark_token_label: Kiszolgálótoken
+      mail_smtp_verify_peer_help: 'A kiszolgáló SSL-tanúsítványának ellenőrzése TSL vagy SSL-titkosítás használatakor. Csak akkor tiltsa le, ha a levelezési kiszolgáló önaláírt tanúsítványt használ.'
+      mail_smtp_verify_peer_label: 'SSL-tanúsítvány ellenőrzése'
       mail_username_label: '=> core.ref.username'
       mailgun_heading: 'Mailgun beállítások'
       not_sending_message: 'A Flarum jelenleg nem küld ki e-maileket. Ennek oka lehet a kiválasztott meghajtó, vagy a rosszul megadott beállítások.'
+      postmark_description: 'E-mail küldése a Postmark HTTP API-jával. Megadhat egy üzenetfolyamot is, ha az alapértelmezettől eltérőt használna.'
+      postmark_heading: 'Postmark beállítások'
       send_test_mail_button: Küldés
       send_test_mail_heading: 'Tesztlevél küldése'
-      send_test_mail_success: 'A teszt levél sikeresen elküldve.'
+      send_test_mail_success: 'A teszt levél sikeresen elküldve!'
       send_test_mail_text: 'Ez egy levelet fog küldeni a fenti beállításokkal az e-mail-címére: {email}.'
+      smtp_description: 'Az SMTP kapcsolati beállításainak megadása. Gyakori konfigurációk: 587-es port TLS-sel, vagy 465-ös port SSL-lel.'
       smtp_heading: 'SMTP beállítások'
       title: '=> core.ref.email'
     extension:
@@ -147,8 +270,9 @@ core:
       abandoned_with_replacement: 'A bővítményt a következő váltja: {replacement}. Fontolja meg, hogy helyette erre a cserecsomagra vált.'
       configure_scopes: 'Célok beállítása'
       confirm_purge: 'A tisztítás eltávolítja az összes, a bővítményhez tartozó adatbázis-bejegyzést és erőforrást. Nem távolítja el a bővítményt; azt a Composer segítségével kell megtenni. Valóban folytatja?'
+      database_driver_mismatch: 'Ez a bővítmény nem támogatja a beállított adatbázis-illesztőprogramot.'
       deprecated: Elavult
-      disabled: Tiltva
+      disabled: Letiltva
       enable_to_see: 'Engedélyezze a bővítményt, hogy hozzáférjen a beállításaihoz.'
       enabled: Engedélyezve
       info_links:
@@ -167,24 +291,57 @@ core:
         button_label: README
         no_readme: 'Úgy tűnik, hogy ehhez a bővítményhez nem tartozik README fájl'
         title: '{extName} dokumentáció'
-      replaced: Leváltották
+      replaced: Leváltva
+      reset_settings:
+        button: 'Beállítások alaphelyzetbe állítása'
+        cancel_button: Mégse
+        confirm_button: 'Alaphelyzetbe állítás'
+        title: 'Beállítások alaphelyzetbe állítása'
+        title_extension: 'A(z) {extensionTitle} beállításainak alaphelyzetbe állítása'
+        warning: 'Ez a művelet nem vonható vissza. A lenti beállítások véglegesen törölve lesznek az adatbázisból, és vissza lesznek állítva az alapértelmezett értékekre. A bővítmény adatait ez nem fogja érinteni.'
+      safe_mode_warning: 'A biztonságos mód jelenleg engedélyezve van. A bővítmények nincsenek elindítva, így a beállításaik nem érhetők el.'
+    extensions-health-widget:
+      abandoned_no_replacement: 'Nem érhető el csere'
+      abandoned_with_replacement: 'Felváltja: {replacement}'
+      all_healthy: 'Az összes bővítmény egészséges.'
+      section_abandoned_empty: 'Nem található probléma.'
+      section_abandoned_heading: 'Figyelmet igényel'
+      section_abandoned_help: 'Ezek a bővítmények már nincsenek karbantartva és kompatibilitási problémái lehetnek. Fontolja meg a frissítésüket, cseréjük vagy eltávolításukat.'
+      section_disabled_empty: 'Az összes bővítmény engedélyezve van.'
+      section_disabled_heading: Letiltva
+      section_disabled_help: 'Ezek a bővítmények telepítve vannak, de jelenleg nincsenek engedélyezve. Engedélyezze őket a beállítóoldalukról, vagy távolítsa el őket, ha már nincs rájuk szükség.'
+      section_suggested_empty: 'Nincs javaslat.'
+      section_suggested_heading: Javasolva
+      section_suggested_help: 'A Flarum bővítmények további válaszható funkciókat nyújthatnak más bővítmények vagy csomagok megadásával. Ezek további funckiókat vagy integrációkat biztosíthatnak.'
+      suggested_by: 'Javasolja: {extension}'
+      title: 'Bővítmény egészséges'
     header:
       get_help: Segítség
       log_out_button: '=> core.ref.log_out'
+      search_placeholder: Keresés…
+      search_role_label: Keresés
     loading:
       title: 'Kis türelmet…'
+    models:
+      discussions: '=> core.ref.discussions'
+      posts: '=> core.ref.posts'
+      users: '=> core.ref.users'
     nav:
+      advanced_button: '=> core.admin.advanced.title'
+      advanced_title: '=> core.admin.advanced.description'
       appearance_button: '=> core.admin.appearance.title'
       appearance_title: '=> core.admin.appearance.description'
       basics_button: '=> core.admin.basics.title'
       basics_title: '=> core.admin.basics.description'
       categories:
+        analytics: Analitika
         authentication: Hitelesítés
         core: Alapbeállítások
         discussion: Téma
         feature: Tulajdonságok
         formatting: Formázás
         forum-widget: Fórummodulok
+        infrastructure: Infrastruktúra
         language: Nyelvek
         moderation: Moderálás
         other: 'Más bővítmények'
@@ -220,6 +377,7 @@ core:
       participate_heading: Közreműködés
       post_without_throttle_label: 'Válasz küldése több alkalommal várakozás nélkül'
       read_heading: Olvasás
+      remove_scope_confirmation: 'Valóban törli a(z) {scope} hatókört?'
       remove_scope_label: 'A(z) {scope} hatókör eltávolítása'
       rename_discussions_label: 'Téma átnevezése'
       reply_to_discussions_label: 'Válaszolás egy témához'
@@ -234,15 +392,19 @@ core:
     permissions_controls:
       allow_indefinitely_button: 'Korlátlan ideig'
       allow_never_button: '=> core.ref.never'
-      allow_some_minutes_button: '{count} percig'
+      allow_some_minutes_button: '{count, plural, one {# percig} other {# percig}}'
       allow_ten_minutes_button: '10 percig'
       allow_until_reply_button: 'A következő válaszig'
       everyone_button: Mindenki
       members_button: '=> core.group.members'
       signup_closed_button: Zárva
       signup_open_button: Nyitva
+    search_source:
+      general:
+        heading: Általános
     settings:
       saved_message: 'A módosításai mentve lettek.'
+      select_dropdown_custom_label: Egyéni
       submit_button: '=> core.ref.save_changes'
     upload_image:
       remove_button: '=> core.ref.remove'
@@ -262,8 +424,11 @@ core:
             no_badges: Nem
             title: Csoportok
           join_time:
-            title: Csatlakozott
+            title: Csatlakozva
           user_actions:
+            edit_user:
+              button: '=> core.ref.edit'
+              tooltip: '{username} szerkesztése'
             title: Műveletek
           user_id:
             title: Azonosító
@@ -279,17 +444,41 @@ core:
       must_be_numeric_message: 'A(z) {filter} szűrőnek numerikusnak kell lennie.'
       must_not_be_array_message: 'A(z) {filter} szűrőnek tömbnek kell lennie.'
       must_not_be_multidimensional_array_message: 'A(z) {filter} szűrőnek többdimenziós tömbnek kell lennie.'
+    invalid_username_message: 'A felhasználónév csak betűket, számokat és kötőjeleket tartalmazhat. Legalább egy betű szükséges.'
   email:
     abandoned_extensions:
+      body_intro: 'A következő telepített bővítmények elhagyatottnak lettek jelölve:'
+      body_outro: 'Tekintse át ezeket a kiegészítőket, és fontolja meg az alternatívákra váltást, ha elérhető.'
+      line_no_replacement: '{package} (nem érhető el csere)'
+      line_with_replacement: '{package} (javasolt csere: {replacement})'
       subject: 'Művelet szükséges: elhagyatott bővítmény észlelve'
     activate_account:
+      body: "Valaki (remélhetőleg Ön) regisztrált a(z) {forum} fórumra ezzel az e-mail-címmel.\n\nHa Ön volt az, akkor csak kattintson az alábbi hivatkozásra, és a fiókja aktiválva lesz:\n{url}\n\nHa mégsem Ön regisztrált, akkor hagyja figyelmen kívül ezt a levelet.\n"
       subject: 'Aktiválja az új fiókját'
     confirm_email:
+      body: "Valaki (remélhetőleg Ön) megváltoztatta az e-mail-címét a(z) {forum} fórumon erre a címre.\n\nHa Ön volt az, akkor csak kattintson az alábbi hivatkozásra, és az e-mail-címe meg lesz erősítve:\n{url}\n\nHa mégsem Ön volt, akkor hagyja figyelmen kívül ezt a levelet.\n"
       subject: 'Új e-mail-cím megerősítése'
+    greeting: 'Kedves {displayName}!'
+    informational:
+      default_title: Információk
+      footer: 'Ez az e-mail a(z) [{forumTitle}]({forumUrl})-fiókhoz kapcsolódó információs szolgáltatás keretében lett elküldve erre a címre: {userEmail}.'
+      footer_plain: 'Ez az e-mail a(z) {forumTitle}-fiókhoz kapcsolódó információs szolgáltatás keretében lett elküldve erre a címre: {userEmail}.'
+    notification:
+      default_title: Értesítés
+      footer:
+        main_text: 'Ez az e-mail azért lett elküldve a(z) {email} címre, mert feliratkozott a(z) „{type}” értesítésekre itt: [{forumTitle}]({forumUrl}).'
+        main_text_plain: 'Ez az e-mail azért lett elküldve a(z) {email} címre, mert feliratkozott a(z) „{type}” értesítésekre itt: {forumTitle}.'
+        settings_text: 'Itt kezelje az [értesítési beállításait]({settingsLink}).'
+        settings_text_plain: 'Itt kezelje az értesítési beállításait: {settingsLink}'
+        unsubscribe_text: 'Ha már nem szeretne ilyen típusú értesítést kapni, [iratkozzon le itt]({unsubscribeLink}).'
+        unsubscribe_text_plain: 'Ha már nem szeretne ilyen típusú értesítést kapni, iratkozzon le itt: {unsubscribeLink}'
     reset_password:
+      body: "Valaki (remélhetőleg Ön) jelszó-visszaállítást kezdeményezett ezzel a fiókkal a(z) {forum} fórumon.\n\nHa Ön volt az, akkor csak kattintson az alábbi hivatkozásra és visszaállítjuk a jelszavát:\n{url}\n\nHa mégsem szeretné a jelszavát megváltoztatni, akkor csak hagyja figyelmen kívül ezt a levelet.\n"
       subject: '=> core.ref.reset_your_password'
     send_test:
+      body: "Ez egy teszt e-mail, hogy megerősítsük, hogy valóban működnek a Flarum e-mail beállításai.\n\nHa Ön küldte, akkor az e-mail működik!\n\nHa nem Ön küldte, akkor hagyja figyelmen kívül ezt a levelet.\n"
       subject: 'Flarum teszt e-mail'
+    signoff: 'A(z) {forumTitle} csapata'
   forum:
     change_email:
       confirm_password_placeholder: '=> core.ref.confirm_password'
@@ -341,9 +530,10 @@ core:
       empty_text: 'Úgy tűnik, hogy még nincsenek témák.'
       load_more_button: '=> core.ref.load_more'
       replied_text: '{username} válaszolt {ago}'
+      skip_discussion_list_pane: 'Témalista panel kihagyása'
       started_text: '{username} indította {ago}'
       total_replies_a11y_label: '{count} válasz'
-      unread_replies_a11y_label: '{count} olvasatlan válasz. Olvasatlan {count, plural, one {válasz} other {válaszok}} olvasottnak jelölése.'
+      unread_replies_a11y_label: '{count, plural, one {# olvasatlan válasz} other {# olvasatlan válasz}}. Olvasatlan {count, plural, one {válasz} other {válaszok}} olvasottnak jelölése.'
     forgot_password:
       dismiss_button: '=> core.ref.okay'
       email_placeholder: '=> core.ref.email'
@@ -370,19 +560,28 @@ core:
       mark_all_as_read_confirmation: 'Valóban olvasottnak jelöli az összes témát?'
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
       meta_title_text: '=> core.ref.all_discussions'
+      refresh_tooltip: '=> core.ref.refresh'
+      skip_to_main_content: 'Ugrás a fő tartalomhoz'
       start_discussion_button: '=> core.ref.start_a_discussion'
       toggle_sidenav_dropdown_accessible_label: 'Navigációs legördülő menü be/ki'
     index_sort:
       latest_button: Legutóbbi
+      newest_button: '=> core.ref.newest'
+      oldest_button: '=> core.ref.oldest'
+      relevance_button: '=> core.ref.relevance'
       toggle_dropdown_accessible_label: 'Témák rendezésének megváltoztatása'
       top_button: Felkapott
     log_in:
       forgot_password_link: 'Elfelejtette a jelszavát?'
+      invalid_login_message: '=> core.ref.invalid_login_message'
       password_placeholder: '=> core.ref.password'
+      remember_me_label: '=> core.ref.remember_me_label'
       sign_up_text: 'Nincs még fiókja? <a>Regisztráció</a>'
       submit_button: '=> core.ref.log_in'
       title: '=> core.ref.log_in'
+      username_or_email_placeholder: '=> core.ref.username_or_email_placeholder'
     notifications:
+      delete_all_confirm: 'Valóban törli az összes értesítést? Ez a művelet nem vonható vissza.'
       delete_all_tooltip: 'Összes értesítés törlése'
       discussion_renamed_text: '{username} módosította a címet'
       empty_text: 'Nincs új értesítés'
@@ -403,6 +602,10 @@ core:
       hide_confirmation: 'Valóban törli ezt a bejegyzést?'
       restore_button: '=> core.ref.restore'
       toggle_dropdown_accessible_label: 'Bejegyzésvezérlők legördülő menü be/ki'
+    post_list:
+      empty_text: 'Úgy tűnik, hogy még nincsenek bejegyzések.'
+      in_discussion_text: 'Itt: {discussion}'
+      load_more_button: '=> core.ref.load_more'
     post_scrubber:
       now_link: Most
       original_post_link: 'Eredeti bejegyzés'
@@ -414,6 +617,13 @@ core:
       load_more_button: '=> core.ref.load_more'
       reply_placeholder: '=> core.ref.write_a_reply'
       time_lapsed_text: 'Ennyivel később: {period}'
+    posts:
+      meta_title_text: 'Bejegyzéskeresési találatok'
+      refresh_tooltip: '=> core.ref.refresh'
+    posts_sort:
+      newest_button: '=> core.ref.newest'
+      oldest_button: '=> core.ref.oldest'
+      relevance_button: '=> core.ref.relevance'
     rename_discussion:
       submit_button: '=> core.ref.rename'
       title: 'Téma átnevezése'
@@ -453,6 +663,16 @@ core:
       account_heading: Fiók
       change_email_button: '=> core.ref.change_email'
       change_password_button: '=> core.ref.change_password'
+      color_scheme_heading: Színséma
+      color_schemes:
+        auto_mode_label: 'Rendszer beállítása'
+        dark_hc_mode_label: '=> core.ref.dark_hc_mode_label'
+        dark_mode_label: '=> core.ref.dark_mode_label'
+        light_hc_mode_label: '=> core.ref.light_hc_mode_label'
+        light_mode_label: '=> core.ref.light_mode_label'
+      device_heading: Eszköz
+      haptic_feedback_help: 'Csak támogatott mobileszközökön érhető el'
+      haptic_feedback_label: 'Haptikus visszajelzés engedélyezése'
       notification_checkbox_a11y_label_template: '„{description}” értesítések fogadása a következő módon: {method}'
       notifications_heading: '=> core.ref.notifications'
       notify_by_email_heading: '=> core.ref.email'
@@ -509,14 +729,19 @@ core:
   lib:
     alert:
       dismiss_a11y_label: 'Figyelmeztetés eltüntetése'
+    assets_updated:
+      message: 'Az oldal újabb verziója érhető el.'
+      reload_button: Újratöltés
     badge:
       hidden_tooltip: Rejtett
     data_segment:
       label: '{label}:'
     datetime_formats:
+      fullTime: LLLL
       humanTimeLong: ll
       humanTimeShort: 'MMM d.'
       scrubber: 'YYYY. MMMM'
+      userListJoinDate: LLL
     debug_button: Hibakeresés
     dropdown:
       toggle_dropdown_accessible_label: 'Legördülő menü be/ki'
@@ -535,8 +760,10 @@ core:
       username_label: '=> core.ref.username'
     error:
       circular_dependencies_message: 'Körkörös függőségek észlelve. {extensions}. Megszakítás. Tiltsa le az egyik bővítményt, és próbálja újra.'
+      db_error_message: 'Az adatbázis-lekérdezés sikertelen. Ezt a kiegészítő és az adatbázis-illesztőprogram közti inkompatibilitás is okozhatja.'
       dependent_extensions_message: 'Nem tilthatja le a(z) {extension} bővítményt, amíg a következő bővítmények engedélyezettek: {extensions}'
       extension_initialiation_failed_message: 'A(z) {extension} előkészítése sikertelen, további információkért nézze meg a böngészőkonzolt.'
+      extension_runtime_failed_message: 'A(z) {extension} a futása során hibába ütközöttan. További információkért nézze meg a böngészőkonzolt.'
       generic_cross_origin_message: 'Hoppá! Hiba történt a nem egyező eredetű kérésnél. Töltse újra az oldalt, és próbálja újra.'
       generic_message: 'Hoppá! Valami hiba történt. Frissítse az oldalt és próbálja meg újra.'
       missing_dependencies_message: 'Nem engedélyezheti a(z) {extension} bővítményt, amíg a következő bővítmények le vannak tiltva: {extensions}'
@@ -545,6 +772,35 @@ core:
       permission_denied_message: 'Nem rendelkezik a megfelelő engedélyekkel.'
       rate_limit_exceeded_message: 'Túl gyors volt. Próbálja meg újra pár másodperc múlva.'
       render_failed_message: 'Sajnáljuk, hiba történt a tartalom megjelenítése során. Ha Ön felhasználó, akkor próbálja újra később. Ha rendszergazda, akkor további információkért nézze meg a Flarum naplófájljait.'
+    gambits:
+      discussions:
+        author:
+          hint: 'felhasználónév vagy vesszővel elválasztott felhasználónevek'
+          key: szerző
+        created:
+          hint: '2020-12-31 vagy 2020-12-31..2021-09-30'
+          key: létrehozva
+        hidden:
+          key: elrejtve
+        unread:
+          key: olvasatlan
+      group_keys:
+        allows: engedélyezi
+        has: tartalmazza
+        is: ilyen
+      posts:
+        discussion:
+          hint: 'a téma azonosítója'
+          key: téma
+      users:
+        email:
+          hint: example@machine.local
+          key: email
+        group:
+          hint: 'egy vagy több csoportnév'
+          key: csoport
+    input:
+      clear_button: 'Bemenet törlése'
     loading_indicator:
       accessible_label: '=> core.ref.loading'
     meta_titles:
@@ -552,15 +808,54 @@ core:
       without_page_title: '{pageNumber, plural, =1 {{forumName}} other {#. oldal – {forumName}}}'
     modal:
       close: Bezárás
+    multi_select:
+      placeholder: 'Több lehetőség kiválasztása'
     nav:
       drawer_button: 'Navigációs fiók kinyitása'
+    notices:
+      bisecting: 'A bővítmények felező hibakeresési folyamatának futtatása, hogy kiderüljön, melyik bővítmény okoz problémát.'
+      bisecting_continue: 'Felező hibakeresés folytatása'
+      maintenance_mode_low: 'Karbantartás miatt leállítva. Csak az adminisztrátorok érik el a fórumot.'
+      maintenance_mode_safe: 'Karbantartás miatt leállítva biztonságos módban. Csak az adminisztrátorok érik el a fórumot, és nincs betöltve bővítmény.'
     number_suffix:
       kilo_text: e
       mega_text: m
+    pagination:
+      back_button: 'Előző oldal'
+      first_button: 'Ugrás az első oldalra'
+      go_to_page_textbox_a11y_label: 'Ugrás egy oldalszámhoz'
+      last_button: 'Ugrás az utolsó oldalra'
+      next_button: 'Következő oldal'
+      page_counter: '{current}. oldal / {total}'
+    search:
+      gambit_minus_button_a11y_label: 'Negatív szűrő hozzáadása'
+      gambit_plus_button_a11y_label: 'Pozitív szűrő hozzáadása'
+      no_results_text: 'Úgy néz ki, hogy itt nincs találat.'
+      no_search_text: 'Még nem keresett rá semmire.'
+      options_heading: 'Keresési beállítások'
+      placeholder: Keresés…
+      preview_heading: 'Keresés előnézete'
+      search_clear_button_accessible_label: 'Keresési kifejezés törlése'
+      title: Keresés
+    search_source:
+      discussions:
+        all_button: 'Keresés az összes témában: „{query}”'
+        heading: '=> core.ref.discussions'
+      posts:
+        all_button: 'Keresés az összes bejegyzésben: „{query}”'
+        heading: '=> core.ref.posts'
+      users:
+        heading: '=> core.ref.users'
     series:
       glue_text: ', '
       three_text: '{first}, {second} és {third}'
       two_text: '{first} és {second}'
+    user_selection_modal:
+      empty_results: 'Nem található a keresésnek megfelelő felhasználó.'
+      max_items_to_select: '{count, plural, one {Válasszon legfeljebb # felhasználót} other {Válasszon legfeljebb # felhasználót}}'
+      search_placeholder: '=> core.ref.search_users'
+      submit_button: '=> core.ref.okay'
+      title: 'Releváns felhasználók keresése'
     username:
       deleted_text: '[törölve]'
   ref:
@@ -575,6 +870,8 @@ core:
     custom_footer_title: 'Egyéni lábléc szerkesztése'
     custom_header_text: 'Adja meg az oldal legtetején, a Flarum saját fejléce felett megjelenítendő HTML-t.'
     custom_header_title: 'Egyéni fejléc szerkesztése'
+    dark_hc_mode_label: 'Sötét, magas kontrasztú mód'
+    dark_mode_label: 'Sötét mód'
     delete: Törlés
     delete_forever: 'Végleges törlés'
     discussions: Témák
@@ -582,9 +879,12 @@ core:
     edit_user: 'Felhasználó szerkesztése'
     email: E-mail
     extensions: Bővítmények
-    generic_confirmation_message: 'Biztos, hogy folytatja? Ez a művelet nem vonható vissza.'
+    generic_confirmation_message: 'Valóban folytatja? Ez a művelet nem vonható vissza.'
     icon: Ikon
-    icon_text: 'Adja meg egy tetszőleges <a>FontAwesome</a> ikonosztály nevét, <em>beleértve</em> a <code>fas fa-</code> előtagot is.'
+    icon_text: 'Adja meg egy <a>FontAwesome</a> ikonosztály nevét, <em>beleértve</em> előtagot is (például <code>fas fa-flag</code> vagy <code>fa-solid fa-flag</code>).'
+    invalid_login_message: 'A belépési adatai hibásak.'
+    light_hc_mode_label: 'Világos, magas kontrasztú mód'
+    light_mode_label: 'Világos mód'
     load_more: 'Továbbiak betöltése'
     loading: Betöltés…
     log_in: Bejelentkezés
@@ -592,12 +892,17 @@ core:
     mark_all_as_read: 'Összes megjelölése olvasottként'
     never: Soha
     new_token: 'Új token'
+    newest: Legújabb
     next_page: 'Következő oldal'
     notifications: Értesítések
     okay: OK
+    oldest: Legrégebbi
     password: Jelszó
     posts: Bejegyzések
     previous_page: 'Előző oldal'
+    refresh: Frissítés
+    relevance: Fontosság
+    remember_me_label: 'Bejelentkezés megjegyzése'
     remove: Eltávolítás
     rename: Átnevezés
     reply: Válasz
@@ -611,6 +916,7 @@ core:
     some_others: '{count} további'
     start_a_discussion: 'Új téma indítása'
     username: Felhasználónév
+    username_or_email_placeholder: 'Felhasználónév vagy e-mail-cím'
     users: Felhasználók
     view: Megtekintés
     write_a_reply: 'Válasz írása…'
@@ -643,6 +949,9 @@ core:
       csrf_token_mismatch: 'Túl sokáig volt inaktív.'
       csrf_token_mismatch_return_link: 'Menjen vissza, és próbálja meg újra'
       invalid_confirmation_token: 'Ez a megerősítő hivatkozás már fel lett használva vagy érvénytelen.'
+      maintenance_mode_link: 'Adminisztrátori bejelentkezés'
+      maintenance_mode_message: 'Ez a fórum jelenleg karbantartás miatt le van állítva. Jöjjön vissza később.'
+      maintenance_mode_title: Karbantartás
       method_not_allowed: 'Ez az oldal nem támogatja azt a kérési módot.'
       not_authenticated: 'Nem rendelkezik megfelelő engedéllyel az oldal megtekintéséhez. Próbálja meg újra bejelentkezés után.'
       not_found: 'A keresett oldal nem található.'
@@ -653,6 +962,15 @@ core:
       all_discussions_heading: '=> core.ref.all_discussions'
       next_page_button: '=> core.ref.next_page'
       previous_page_button: '=> core.ref.previous_page'
+    layout:
+      skip_to_content: 'Ugrás a tartalomhoz'
+    log_in:
+      invalid_login_message: '=> core.ref.invalid_login_message'
+      password_placeholder: '=> core.ref.password'
+      remember_me_label: '=> core.ref.remember_me_label'
+      submit_button: '=> core.ref.log_in'
+      title: '=> core.ref.log_in'
+      username_or_email_placeholder: '=> core.ref.username_or_email_placeholder'
     log_out:
       log_out_button: '=> core.ref.log_out'
       log_out_confirmation: 'Valóban kijelentkezik a(z) {forum} fórumból?'
@@ -662,3 +980,11 @@ core:
       new_password_label: 'Új jelszó'
       submit_button: '=> core.ref.save_changes'
       title: '=> core.ref.reset_your_password'
+    unsubscribe_email:
+      confirm_button: Megerősítés
+      confirm_message: 'Azt kérte, hogy leiratkozzon a(z) „{type}” e-mail-értesítésekről innen: {forumTitle}.'
+      immediate_helptext: 'Ha megerősíti, akkor azonnal le fog iratkozni.'
+      invalid_message: 'Ez a leiratkozási hivatkozás érvénytelen vagy már fel lett használva. A(z) {forumTitle} e-mail-értesítéseinek megváltoztatásához [nézze meg a beállításait]({settingsLink}).'
+      return_to_forum: 'Vissza ide: {forumTitle}'
+      success_message: 'Sikeresen leiratkozott a(z) „{type}” értesítésekről innen: {forumTitle}. Ha újból meg akarja őket kapni, [frissítse a beállításait]({settingsLink}).'
+      title: 'Leiratkozás megerősítése'
