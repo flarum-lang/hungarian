@@ -5,17 +5,84 @@
 ianm-html-head:
   admin:
     create_button: Létrehozás
+    help:
+      cache: 'Az előállított HTML mentéskor gyorsítótárazásra kerül. A változtatások az oldal teljes gyorsítótárának törlése nélkül, azonnal életbe lépnek.'
+      intro: 'Adjon hozzá egyéni címkéket, melyek be lesznek szúrva a fórum HTML-jébe. Az elemek gyorsítótárba kerülnek, és hatékonyan vannak kiszolgálva – nem igényel adatbázis-lekérdezést oldalbetöltéskor.'
+      location: 'Az elemek a fejlécbe, vagy a törzs végére szúrhatók be.'
+      pages: 'Minden elem a fórum felületét, az adminisztrátori panelt vagy mindkettőt célozhatja.'
+      preconnect: 'A külső eredetre mutató hivatkozás- és parancsfájlcímkék automatikusan preconnect és dns-prefetch tippeket kapnak, még azelőtt felmelegítve a kapcsolatot, hogy a böngészőnek szüksége lenne rá.'
     modal:
-      create_title: 'Új elem létrehozása'
+      create_title: 'Új fejlécelem létrehozása'
+      description_help: 'Egy saját magának szóló címke – nem lesz beszúrva az oldalba.'
       description_label: Leírás
-      edit_title: 'Elem szerkesztése'
+      edit_title: 'Fejlécelem szerkesztése'
       header_label: 'Egyéni fejlécelem'
+      link:
+        as_help: 'Megadja a böngészőnek, hogy milyen típusú erőforrás előtöltése folyik, így a böngésző beállíthatja a megfelelő kérésfejléceket. A rel=preload használatához szükséges.'
+        as_label: 'as=""'
+        crossorigin_help: 'A más domainból betöltött betűkészletek és parancsfájlokhoz szükséges, így a böngésző megoszthatja a kapcsolatot. Akkor engedélyezze, ha az erőforrás más eredetű.'
+        crossorigin_label: 'crossorigin="anonymous" hozzáadása'
+        extras_add: 'Attribútum hozzáadása'
+        extras_label: 'További attribútumok'
+        extras_remove: Eltávolítás
+        fetchpriority_default: 'böngésző alapértelmezése'
+        fetchpriority_help: 'Tipp a böngésző számára az erőforrás relatív fontosságáról. Magas: korai betöltés (például kiemelt kép vagy kritikus stíluslap). Alacsony: későbbi betöltés (például legörgetéskor megjelenő erőforrás). Hagyja üresen, hogy a böngésző döntse el.'
+        fetchpriority_label: 'fetchpriority=""'
+        href_label: 'href="" (webcím)'
+        rel_label: 'rel=""'
+      location:
+        foot: Lábléc
+        head: Fejléc
+      location_help: 'Fejléc: az oldal megjelenítése előtt töltődik be, leginkább stílusokhoz és kritikus metaadatokhoz ajánlott. Lábléc: az oldal tartalma után töltődik be, leginkább nem kritikus parancsfájlokhoz ajánlott.'
+      location_label: 'Beszúrás ide:'
+      meta:
+        content_label: Tartalom
+        name_label: 'name=""'
+        property_label: 'property="" (Open Graph)'
+        variant_label: Változat
+      pages:
+        admin: 'Adminisztrátori panel'
+        forum: Fórum
+      pages_label: 'Alkalmazás erre:'
+      preview_empty: 'Az előnézet megtekintéséhez töltse ki a fenti mezőket.'
+      preview_label: Előnézet
+      raw:
+        content_label: HTML
+        help_text: 'Adjon meg nyers HTML-t. Az itt lévő bármely, különböző eredetű hivatkozás- vagy parancsfájlcímkére automatikusan elő lesznek állítva a preconnect tippek. A rendezés és az aktív kapcsoló a szokásos módon működik, de a típusfüggő funkciók (fetchpriority, defer stb.) nem állnak rendelkezésre — ha ezekre van szüksége, használja a strukturált típust.'
       save_button: Mentés
+      script:
+        async_help: 'A parancsfájl a letöltése után azonnal fut, soron kívül. A független parancsfájlokhoz a legjobb, mint az analitika.'
+        async_label: async
+        crossorigin_help: 'A CORS-hozzáférést igénylő, más domainból betöltött parancsfájlok betöltéséhez szükséges.'
+        crossorigin_label: 'crossorigin="anonymous"'
+        defer_help: 'A parancsfájl az oldal értelmezése után fut, a megjelenítés blokkolása nélkül. A legtöbb parancsfájlhoz megfelelő.'
+        defer_label: defer
+        external_label: 'Külső (src)'
+        inline_content_label: Parancsfájltartalom
+        inline_label: Beágyazott
+        module_help: 'Akkor kapcsolja be, ha a parancsfájl szolgáltatójának dokumentáció azt mondja, hogy használjon type="module" attribútumot. A modulok az oldal után töltődnek be, annak blokkolása nélkül.'
+        module_label: 'type="module"'
+        src_label: 'src="" (webcím)'
+      style:
+        inline_help: 'Az elem által célzott összes oldalra globálisan lesz alkalmazva. A szabályok legyenek kellően specifikusak, hogy elkerülje a nem kívánt mellékhatásokat.'
+        inline_label: CSS-tartalom
       text: 'Győződjön meg róla, hogy a szintaxis helyes, mivel meghibásodhat a fórum, ha helytelen adatokat ad meg a fejlécelemben. Ha elmentette, engedélyezze az új fejlécelemet a megadott kapcsolóval.'
+      type:
+        link: Hivatkozás
+        meta: 'Meta címke'
+        raw: 'Nyers HTML'
+        script: Parancsfájl
+        style: Stílus
+      type_label: Típus
     table:
       active_label: Aktív
       delete_button: Törlés
+      delete_confirm: 'Biztos, hogy törli ezt a tételt?'
       description_label: Leírás
+      drag_handle: 'Húzza az átrendezéshez'
       edit_button: Szerkesztés
-      empty_text: 'Nincs bejegyzés'
+      empty_text: 'Még nincs elem. Kattintson a „Létrehozás” gombra az első fejlécelem létrehozásához.'
       header_label: Fejléc
+      location_label: Hely
+      pages_label: Oldalak
+      type_label: Típus

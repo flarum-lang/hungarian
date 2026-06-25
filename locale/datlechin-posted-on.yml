@@ -3,8 +3,35 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 datlechin-posted-on:
+  admin:
+    settings:
+      display_mode_help: 'Bejegyzésenkénti részletek. A teljes bontás mindig elérhető a buboréksúgóban.'
+      display_mode_label: 'Mi jelenjen meg egy bejegyzés mellett'
+      display_mode_os_browser: 'Operációs rendszer és böngésző (például Windows 11 · Chrome 121)'
+      display_mode_os_only: 'Csak az operációs rendszer (például Windows 11)'
+      skip_guests_help: 'Bekapcsolt állapotban a vendégfiókok által írt bejegyzések nem kapnak platform-metaadatokat.'
+      skip_guests_label: 'Ne készítsen adatokat a vendégekről'
   forum:
+    device_types:
+      camera: Fényképezőgép
+      'car browser': Autó
+      console: Konzol
+      desktop: 'Asztali számítógép'
+      'feature phone': Telefon
+      peripheral: Periféria
+      phablet: Phablet
+      'portable media player': Médialejátszó
+      'smart display': 'Intelligens kijelző'
+      'smart speaker': 'Intelligens hangszóró'
+      smartphone: Telefon
+      tablet: Táblagép
+      tv: TV
+      wearable: 'Viselhető eszköz'
     post:
       posted_on_text: 'Ezen közzétéve: {posted_on}'
+      tooltip:
+        client: Böngésző
+        device: Eszköz
+        os: 'Operációs rendszer'
     settings:
-      privacy_disclose_posted_on_label: 'Mások is láthassák, hogy mely eszközön teszem közzé a bejegyzést'
+      privacy_disclose_posted_on_label: 'Megjelenítés másoknak, hogy mely eszközről teszem közzé a bejegyzést'
