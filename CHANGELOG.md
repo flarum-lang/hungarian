@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+3.0.1 (XXXX-XX-XX)
+------------------
+
+**Új bővítmények támogatása hozzáadva**:
+
+* [`shebaoting/flarum-repost`](https://github.com/shebaoting/flarum-repost)
+
+
+**Bővítményfordítások frissítve**:
+
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
+* [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
+* [`sycho/flarum-github-milestone`](https://github.com/SychO9/flarum-github-milestone)
+
+
+Összes változás: [v3.0.0...v3.0.1](https://github.com/flarum-lang/hungarian/compare/v3.0.0...v3.0.1).
+
+
 3.0.0 (2026-06-25)
 ------------------
 
