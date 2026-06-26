@@ -27,9 +27,9 @@ forumaker-magicbb:
       bb_hide_reply: Válasz
       bb_hide_reply_help: 'A tartalom rejtve van addig, amíg a felhasználó nem válaszol a témában'
       bb_iframe: 'Beágyazott keret'
-      bb_iframe_help: 'Engedélyezi a beágyazott kereteket bármilyen forrásból. Használja óvatosan – a beágyazott tartalom külső parancsfájlokat tartalmazhat. 🧹 A beállítás módosítása után törölje a Flarum gyorsítótárát.'
+      bb_iframe_help: 'Engedélyezi a keretek beágyazását bármilyen forrásból. Használja óvatosan – a beágyazott tartalom külső parancsfájlokat tartalmazhat. 🧹 A beállítás módosítása után törölje a Flarum gyorsítótárát.'
       bb_image: 'Kép igazítása'
-      bb_image_help: 'A képeket és más soron belüli médiát egy igazítási tárolóba helyezi. A középre igazított média automatikusan a bejegyzés szélességének 60%-ára lesz méretezve, az oldalra igazított pedig legfeljebb a 40%-ára.'
+      bb_image_help: 'A képeket és más beágyazott médiát egy igazítási tárolóba helyezi. A középre igazított média automatikusan a bejegyzés szélességének 60%-ára lesz méretezve, az oldalra igazított pedig legfeljebb a 40%-ára.'
       bb_info: Riasztások
       bb_justify: Sorkizárás
       bb_spoiler: 'Rejtett szöveg'

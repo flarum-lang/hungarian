@@ -51,7 +51,7 @@ fof-best-answer:
       ba-set: 'A legjobb választ {display_name} választotta ki'
       select: 'Sikerült választ kapnia a kérdésére?'
   forum:
-    answered_badge: Megválaszolt
+    answered_badge: Megválaszolva
     best_answer_button: 'Legjobb válasz'
     best_answer_label: '<a>{username}</a> állította be {time_set}'
     composer:
@@ -61,7 +61,7 @@ fof-best-answer:
     errors:
       mismatch: 'A kiválasztott bejegyzés nem létezik ebben a témában.'
     filter:
-      accessible_label: 'Megoldva/megoldatlan választó'
+      accessible_label: 'Megoldott/megoldatlan választó'
       all_label: 'Összes kérdés'
       solved_label: 'Megoldott kérdések'
       unsolved_label: 'Megoldatlan kérdések'
