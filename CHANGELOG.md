@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+3.0.1 (XXXX-XX-XX)
+------------------
+
+**Új bővítmények támogatása hozzáadva**:
+
+* [`shebaoting/flarum-repost`](https://github.com/shebaoting/flarum-repost)
+
+
+Összes változás: [v3.0.0...v3.0.1](https://github.com/flarum-lang/hungarian/compare/v3.0.0...v3.0.1).
+
+
 3.0.0 (2026-06-25)
 ------------------
 
