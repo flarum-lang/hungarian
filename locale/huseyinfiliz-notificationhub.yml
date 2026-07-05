@@ -4,9 +4,14 @@
 
 huseyinfiliz-notificationhub:
   admin:
+    modal_notification:
+      recipients_placeholder: '=> huseyinfiliz-notificationhub.forum.modal_notification.recipients_placeholder'
     permissions:
       send_all: 'Értesítések küldése az összes felhasználónak'
       send_user: 'Értesítések küldése egyes felhasználónak'
+    recipient_kinds:
+      group: '=> huseyinfiliz-notificationhub.forum.recipient_kinds.group'
+      user: '=> huseyinfiliz-notificationhub.forum.recipient_kinds.user'
     settings:
       add_button: 'Értesítéstípus hozzáadása'
       add_notification_type: 'Értesítéstípus hozzáadása'
@@ -16,6 +21,7 @@ huseyinfiliz-notificationhub:
         actions: Műveletek
         active: Aktív
         color: 'Értesítéstípus színe'
+        color_invalid: 'A színnek érvényes hexadecimális kódnak kell lennie, például #ff0000 vagy #f00.'
         default_message_key: 'Alapértelmezett üzenet'
         default_recipients: 'Alapértelmezett címzettek'
         default_url: 'Alapértelmezett hivatkozás'
@@ -24,6 +30,10 @@ huseyinfiliz-notificationhub:
         icon: 'Alapértelmezett ikon'
         name: 'Értesítéstípus neve'
         permission: 'Értesítéstípus engedélye'
+        permission_help: 'Válassza ki a tagcsoportokat, akik elküldhetik ezt az értesítést. Ha üresen hagyja, akkor az összes jogosult moderátor/adminisztátor elküldheti.'
+        permission_placeholder: 'Adja meg a csoport nevét…'
+        preview: Előnézet
+        preview_placeholder: 'Értesítéstípus neve'
         sort_order: 'Rendezési sorrend'
       no_data: 'Még nincsenek értesítéstípusok.'
       save: Mentés
@@ -31,10 +41,12 @@ huseyinfiliz-notificationhub:
       page_title: Értesítéstípusok
   api:
     field_too_long: 'Ez a mező túl hosszú.'
+    invalid_color: 'A színnek érvényes hexadecimális kódnak kell lennie (például #ff0000 vagy #f00).'
     invalid_url: 'Érvénytelen webcímprotokoll észlelve.'
     invalid_url_scheme: 'Érvénytelen webcímséma. Csak a HTTP, HTTPS, mailto, tel vagy relatív hivatkozások támogatottak.'
     message_required: 'Az üzenet megadása kötelező.'
     message_too_long: 'Az üzenet nem lehet 5000 karakternél hosszabb.'
+    multiple_recipients_not_allowed: 'Nincs jogosultsága, hogy egyszerre több címzettnek küldje el.'
     name_required: 'Az értesítés típusának neve kötelező.'
     name_too_long: 'A név nem lehet 255 karakternél hosszabb.'
     no_valid_recipients: 'Nem található érvényes címzett.'
