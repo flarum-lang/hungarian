@@ -42,7 +42,9 @@ CHANGELOG
 
 **Bővítményfordítások frissítve**:
 
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
 * [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
