@@ -7,6 +7,7 @@ CHANGELOG
 
 **Új bővítmények támogatása hozzáadva**:
 
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
 * [`shebaoting/flarum-repost`](https://github.com/shebaoting/flarum-repost)
 
 
