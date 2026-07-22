@@ -7,12 +7,14 @@ CHANGELOG
 
 **Új bővítmények támogatása hozzáadva**:
 
+* [`fof/forum-stats-widget`](https://github.com/FriendsOfFlarum/forum-stats-widget)
 * [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
 * [`shebaoting/flarum-repost`](https://github.com/shebaoting/flarum-repost)
 
 
 **Bővítményfordítások frissítve**:
 
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
 * [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
