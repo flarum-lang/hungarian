@@ -739,7 +739,7 @@ core:
     datetime_formats:
       fullTime: LLLL
       humanTimeLong: ll
-      humanTimeShort: 'MMM d.'
+      humanTimeShort: 'MMM D.'
       scrubber: 'YYYY. MMMM'
       userListJoinDate: LLL
     debug_button: Hibakeresés
