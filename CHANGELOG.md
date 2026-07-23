@@ -5,6 +5,11 @@ CHANGELOG
 3.0.1 (XXXX-XX-XX)
 ------------------
 
+**Általános változások**:
+
+* Flarum core fordítások frissítve.
+
+
 **Új bővítmények támogatása hozzáadva**:
 
 * [`fof/forum-stats-widget`](https://github.com/FriendsOfFlarum/forum-stats-widget)
