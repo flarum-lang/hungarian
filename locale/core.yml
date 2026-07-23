@@ -593,7 +593,7 @@ core:
       label: '{label}:'
     datetime_formats:
       humanTimeLong: ll
-      humanTimeShort: 'MMM d.'
+      humanTimeShort: 'MMM D.'
       scrubber: 'YYYY. MMMM'
     debug_button: Hibakeresés
     dropdown:
