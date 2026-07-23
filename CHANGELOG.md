@@ -12,6 +12,7 @@ CHANGELOG
 
 **Új bővítmények támogatása hozzáadva**:
 
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
 * [`fof/forum-stats-widget`](https://github.com/FriendsOfFlarum/forum-stats-widget)
 * [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
 * [`shebaoting/flarum-repost`](https://github.com/shebaoting/flarum-repost)
