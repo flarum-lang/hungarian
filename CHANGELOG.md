@@ -12,6 +12,8 @@ CHANGELOG
 
 **Új bővítmények támogatása hozzáadva**:
 
+* [`ekumanov/flarum-ext-forum-widgets`](https://github.com/ekumanov/flarum-ext-forum-stats-widget)
+* [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar)
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
 * [`fof/forum-stats-widget`](https://github.com/FriendsOfFlarum/forum-stats-widget)
 * [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
