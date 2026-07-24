@@ -12,6 +12,7 @@ CHANGELOG
 
 **Új bővítmények támogatása hozzáadva**:
 
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
 * [`ekumanov/flarum-ext-forum-widgets`](https://github.com/ekumanov/flarum-ext-forum-stats-widget)
 * [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar)
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
