@@ -147,6 +147,7 @@ php flarum cache:clear
 | Bővítmény | Állapot |
 | --- | --- |
 | [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum2/hu/acpl-lscache/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/acpl-lscache/hu/) |
+| [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum2/hu/acpl-mobile-tab/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/acpl-mobile-tab/hu/) |
 | [`acpl/my-tags`](https://github.com/android-com-pl/my-tags) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum2/hu/acpl-my-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/acpl-my-tags/hu/) |
 | [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum2/hu/antoinefr-money/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/antoinefr-money/hu/) |
 | [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum2/hu/datlechin-bbcode-hide-content/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/datlechin-bbcode-hide-content/hu/) |
