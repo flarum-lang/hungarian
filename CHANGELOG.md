@@ -18,6 +18,7 @@ CHANGELOG
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
 * [`fof/forum-stats-widget`](https://github.com/FriendsOfFlarum/forum-stats-widget)
 * [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+* [`huseyinfiliz/simple-dark-mode`](https://github.com/huseyinfiliz/simple-dark-mode)
 * [`shebaoting/flarum-repost`](https://github.com/shebaoting/flarum-repost)
 
 
