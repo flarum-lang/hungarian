@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-merge-discussions/hu/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        merged_away: '{discussion} beolvasztva ebbe: {new_discussion}'
+        merged_into: '{post_count} bejegyzés beolvasztva {original_discussion_ids_count} témából ebbe: {discussion}'
 fof-merge-discussions:
   admin:
     permissions:

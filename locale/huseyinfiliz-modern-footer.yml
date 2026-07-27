@@ -16,8 +16,10 @@ huseyinfiliz-modern-footer:
       bottom_section: 'Alsó szakasz'
       custom: Egyéni
       custom_html: 'Egyéni HTML-kód'
+      custom_html_help: 'Ez a HTML megjelenik az összes látogató számára. Csak megbízható tartalmat adjon hozzá.'
       custom_js: 'Egyéni JS'
       custom_js_code: 'Egyéni JavaScript-kód'
+      custom_js_help: 'Ez a kód közvetlenül fut az összes látogató böngészőjében. Csak megbízható kódot adjon hozzá.'
       display_mode: 'Lábléc megjelenítési módja'
       font_awesome_icon: 'Font Awesome-ikon'
       forum_logo: Fórumlogó

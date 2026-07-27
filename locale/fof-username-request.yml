@@ -2,6 +2,16 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-username-request/hu/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      user:
+        nickname_request_approved: '{username} becenév-módosítása engedélyezve erről: {old_nickname}, erre: {new_nickname}'
+        nickname_request_rejected: '{username} becenév-módosítása elutasítva'
+        nickname_requested: 'Új becenév kérve {username} számára: {new_nickname}'
+        username_request_approved: '{username} felhasználónév-módosítása engedélyezve erről: {old_nickname}, erre: {new_nickname}'
+        username_request_rejected: '{username} felhasználónév-módosítása elutasítva'
+        username_requested: 'Új felhasználónév kérve {username} számára: {new_nickname}'
 fof-username-request:
   admin:
     permissions:

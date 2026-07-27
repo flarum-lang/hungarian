@@ -2,18 +2,30 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-impersonate/hu/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      user:
+        impersonated: '{username} megszemélyesítve'
+        impersonation_ended: 'Visszatérve ehhez: {username}'
 fof-impersonate:
   admin:
     permissions:
       login: 'Bejelentkezés más felhasználókként'
     settings:
-      no_settings_available: 'Jelenleg nem érhetők el beállítások. Próbálja telepíteni a fof/moderator-notes bővítményt.'
+      no_settings_available: 'Jelenleg nem érhetők el beállítások. Próbálja telepíteni a fof/moderator-notes vagy flarum/audit bővítményt.'
       require_reason: 'Indok megkövetelése mielőtt elkezd megszemélyesíteni egy másik felhasználót.'
+      require_reason_help: 'Ez az indok feljegyzésre kerül az auditnaplóban (flarum/audit) és a moderátori jegyzetekben mindkét fióknál (fof/moderator-notes), attól függően, hogy melyik bővítmény van engedélyezve.'
       title: 'FoF Megszemélyesítés'
+  forum:
+    notice:
+      message: 'Jelenleg megszemélyesíti {username} felhasználót.'
+    return:
+      button: 'Visszatérés ehhez: {username}'
   lib:
     modal:
       impersonate_username: 'Bejelentkezés mint {username}'
-      label: 'A hatalom felelősséggel jár. A folytatással kijelentkezésig {username} felhasználóvá válik.'
+      label: 'A hatalom felelősséggel jár. A folytatással a visszaváltásig {username} felhasználóvá válik.'
       placeholder_optional: '(Nem kötelező) Adja meg az erre a felhasználóra való átváltás okát'
       placeholder_required: 'A folytatás előtt meg kell adnia az erre a felhasználóra való átváltás okát'
       title: 'Bejelentkezés másik felhasználóként'

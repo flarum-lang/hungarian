@@ -2,18 +2,24 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-split/hu/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        split_away: '{post_count} bejegyzés leválasztása innen: {discussion}, ide: {new_discussion}'
+        split_into: '{post_count} bejegyzés leválasztása az új témába: {discussion}'
 fof-split:
   admin:
     permissions:
       split_discussion_label: 'Hozzászólások leválasztása a témákról'
   forum:
     modal:
-      new_discussion_label: 'Add meg az új téma címét'
-      submit_button: Szétválasztás
-      title: 'Beszélgetés szétválasztása'
+      new_discussion_label: 'Adja meg az új téma címét'
+      submit_button: Leválasztás
+      title: 'Téma leválasztása'
     post:
-      was_split_from: '{count, plural, one {{count} bejegyzés leválasztásra került ettől: {target}.} other {{count} bejegyzés leválasztásra került ettől: {target}.}}'
-      was_split_to: '{count, plural, one {{count} bejegyzés át lett rendelve ehhez: {target}.} other {{count} bejegyzés át lett rendelve ehhez: {target}.}}'
+      was_split_from: '{count, plural, one {{count}} other {{count}}} bejegyzés leválasztásra került ettől: {target}.'
+      was_split_to: '{count, plural, one {{count}} other {{count}}} bejegyzés át lett rendelve ehhez: {target}.'
     split:
       cancel: 'Leválasztás megszakítása'
       from: 'Leválasztás innen'

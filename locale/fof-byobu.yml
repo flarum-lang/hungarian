@@ -105,8 +105,10 @@ fof-byobu:
   lib:
     gambits:
       allows-pd:
+        hint: igen
         key: pt-engedélyezve
       byobu:
+        hint: 'a címzett felhasználóneve vagy megjelenítendő neve'
         key: byobu
       private:
         key: privát

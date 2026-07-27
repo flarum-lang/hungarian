@@ -2,6 +2,15 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-blog/hu/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      article:
+        approved: 'Blogcikk jóváhagyva: {discussion}'
+        created: 'Blogcikk létrehozva: {discussion}'
+        featured: '{discussion} blogcikk kiemelve'
+        unfeatured: '{discussion} blogcikk kiemelése megszüntetve'
+        updated: '{discussion} blogcikk metaadatainak frissítve'
 fof-blog:
   admin:
     blog: Blog
@@ -18,6 +27,12 @@ fof-blog:
       allow_comments_text: 'Alapértelmezetten hozzá lehet szólni a cikkekhez. Ha ki van kapcsolva, akkor cikkenként lehet beállítani hogy hozzá lehet-e szólni. <b>Megjegyzés:</b> A jelen beállítások nem módosítják a már létező cikkeket.'
       blog_heading: Blog
       categories_heading: Kategóriák
+      categories_modal:
+        close: Bezárás
+        description: 'Válasszon egy vagy több blogcímkének számító címkét.'
+        no_tags: 'Jelenleg nincsenek címkéi.'
+        tag_name_column: Címkenév
+        visit_blog: 'Saját blog felkeresése.'
       default_article_image_label: 'Alapértelmezett cikk-kép'
       default_article_image_text: 'Válassza ki az alapértelmezett képet, amely azoknál a cikkeknél jelenik meg, ahol nincs kép megadva.'
       featured_count_label: 'Kiemelt bejegyzések legnagyobb száma'
@@ -28,6 +43,12 @@ fof-blog:
       hide_tags_in_taglist_text: 'Ha be van kapcsolva, a blogcímkék rejtve lesznek a fórumban.'
       no_categories_selected: 'Nincs kategória kiválasztva'
       redirects_heading: Átirányítások
+      redirects_options:
+        both: 'Cikkek és címkék átirányítása'
+        discussions_only: 'Csak a cikkek átirányítása'
+        none: 'Nincs átirányítás'
+        tags_only: 'Csak a címkék átirányítása'
+      redirects_text: 'Eredeti téma- és címkewebcímek átirányítása a blogos megfelelőjükre.'
       require_review_label: 'A blogbejegyzésekhez jóváhagyás szükséges'
       require_review_text: 'A cikk létrehozásakor az nem lesz közvetlenül látható, csak egy moderátor jóváhagyása után.'
       select_categories_button: 'Válasszon blogkategóriát'
@@ -101,3 +122,7 @@ fof-blog:
         title: 'Átirányítás a blogcikkhez...'
     validation:
       missing_id: 'Hiányzó azonosító'
+  lib:
+    gambits:
+      blog:
+        key: blog
