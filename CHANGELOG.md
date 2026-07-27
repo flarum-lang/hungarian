@@ -25,9 +25,19 @@ CHANGELOG
 **Bővítményfordítások frissítve**:
 
 * [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
+* [`fof/split`](https://github.com/FriendsOfFlarum/split)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
 * [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
+* [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
 * [`sycho/flarum-github-milestone`](https://github.com/SychO9/flarum-github-milestone)
 
 
