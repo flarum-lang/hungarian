@@ -2,6 +2,48 @@ CHANGELOG
 =========
 
 
+3.0.1 (2026-07-27)
+------------------
+
+**Általános változások**:
+
+* Flarum core fordítások frissítve.
+
+
+**Új bővítmények támogatása hozzáadva**:
+
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`ekumanov/flarum-ext-forum-widgets`](https://github.com/ekumanov/flarum-ext-forum-stats-widget)
+* [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar)
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+* [`fof/forum-stats-widget`](https://github.com/FriendsOfFlarum/forum-stats-widget)
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+* [`huseyinfiliz/simple-dark-mode`](https://github.com/huseyinfiliz/simple-dark-mode)
+* [`shebaoting/flarum-repost`](https://github.com/shebaoting/flarum-repost)
+
+
+**Bővítményfordítások frissítve**:
+
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
+* [`fof/split`](https://github.com/FriendsOfFlarum/split)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
+* [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
+* [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
+* [`sycho/flarum-github-milestone`](https://github.com/SychO9/flarum-github-milestone)
+
+
+Összes változás: [v3.0.0...v3.0.1](https://github.com/flarum-lang/hungarian/compare/v3.0.0...v3.0.1).
+
+
 3.0.0 (2026-06-25)
 ------------------
 
