@@ -2,6 +2,13 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-anti-spam/hu/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      registration:
+        blocked: '{username} ({email}) regisztrációja blokkolva erről az IP-ről: {ip}'
+      user:
+        marked_as_spammer: '{username} megjelölve kéretlen tartalmat küldőként'
 fof-anti-spam:
   admin:
     blocked_registrations:

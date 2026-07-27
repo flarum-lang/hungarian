@@ -16,10 +16,25 @@ flarum-gdpr:
         export_description: 'Exportálja a címkéhez tartozó feliratkozási szint részleteit, ha az létezik.'
 fof-follow-tags:
   admin:
+    basics:
+      following_label: '=> flarum-subscriptions.forum.index.following_link'
     settings:
+      all_discussions_on_following_page_for_guests_label: 'Összes téma megjelenítése a vendégek Követve oldalán'
       following_none_label: '=> fof-follow-tags.ref.filtering_options.none'
       following_page_default_label: 'Alapértelmezett követett oldal szűrése'
       following_tags_label: '=> fof-follow-tags.ref.filtering_options.tags'
+      prompt_button_on_following_page_label: 'A „Követendő címkék kiválasztása” gomb megjelenítése a Követve oldalon'
+      prompt_new_users_help: "A felhasználók akik még nem erősítették meg a döntésüket, egy párbeszédablakot fognak látni, amely címkék követésére kéri őket. A párbeszédablak addig jelenik meg, amíg a felhasználók meg nem nyomják a „Tovább a fórumhoz” gombot.\n"
+      prompt_new_users_label: 'Új felhasználók megkérdezése, hogy mely címkéket követik'
+      prompt_tag_ids_label: 'Felajánlandó címkék'
+      prompt_tag_strategy_label: 'Felajánlandó címkék a párbeszédablakon'
+      prompt_tag_strategy_options:
+        all: 'Összes címke'
+        list: 'Alább kiválasztott címkék'
+        primary: 'Első szintű elsődleges címkék'
+        primaryAndChildren: 'Összes elsődleges címke'
+        primaryAndSecondary: 'Első szintű elsődleges és másodlagos címkék'
+        secondary: 'Csak a másodlagos címkék'
   email:
     body:
       newDiscussionInTag: "Kedves {recipient_display_name}!\n\n{actor_display_name} új témát nyitott az Ön által követett címkével: {discussion_title}\n\nHogy megnézze az új témát, kattintson az alábbi hivatkozásra:\n{discussion_url}\n\n---\n\n{post_content}\n"
@@ -45,6 +60,11 @@ fof-follow-tags:
       new_discussion_tag_text: '{username} megváltoztatta a címkét'
       new_discussion_text: '{username} indította'
       new_post_text: '{username} bejegy'
+    prompt:
+      choose_button: 'Követendő címkék kiválasztása'
+      continue_button: 'Tovább a fórumhoz'
+      later_button: 'Emlékeztessen később'
+      modal_title: 'Követendő címkék kiválasztása'
     settings:
       notify_new_discussion_label: 'Valaki témát indított egy általam követett címkével'
       notify_new_discussion_tag_label: 'Valaki megváltoztatta a címkéket egy olyan címkével ellátott témában, amit követek'
