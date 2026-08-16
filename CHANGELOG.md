@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+3.0.2 (XXXX-XX-XX)
+------------------
+
+**Új bővítmények támogatása hozzáadva**:
+
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+
+
+Összes változás: [v3.0.1...v3.0.2](https://github.com/flarum-lang/hungarian/compare/v3.0.1...v3.0.2).
+
+
 3.0.1 (2026-07-27)
 ------------------
 
