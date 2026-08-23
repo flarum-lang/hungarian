@@ -2,6 +2,14 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-moderator-warnings/hu/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      warning:
+        created: '{username} figyelmeztetve'
+        deleted: '{username} figyelmeztetése véglegesen törölve'
+        hidden: '{username} figyelmeztetése eltávolítva'
+        restored: '{username} figyelmeztetése helyreállítva'
 fof-moderator-warnings:
   admin:
     permissions:
@@ -25,7 +33,7 @@ fof-moderator-warnings:
     post_controls:
       warning_button: 'Felhasználó figyelmeztetése'
     settings:
-      warning_notification_label: 'Egy moderátor figyelmeztetett'
+      warning_notification_label: 'Egy moderátor figyelmeztet'
     user:
       warnings: Figyelmeztetések
     validation:
@@ -47,7 +55,7 @@ fof-moderator-warnings:
       private_comment: 'Moderátorok számára látható megjegyzések'
       public_comment: Figyelmeztetés
     warning_modal:
-      confirmation_message: 'A figyelmeztetés mentve. Lehet, hogy újra kell töltenie a lapot, hogy lássa.'
+      confirmation_message: 'A figyelmeztetés mentve.'
       heading: '<strong>{username}</strong> figyelmeztetése'
       private_comment_heading: '<strong>{username}</strong> miért kapja ezeket a figyelmeztetéseket? Ezek a megjegyzések CSAK a többi moderátor számára lesznek láthatók.'
       public_comment_heading: '<strong>{username}</strong> miért kapja ezeket a figyelmeztetéseket? Ezek a megjegyzések láthatók lesznek a felhasználó, és a többi moderátor számára.'

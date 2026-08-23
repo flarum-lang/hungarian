@@ -43,5 +43,7 @@ fof-user-directory:
       newest: Újabbak
       not_specified: 'Flarum alapértelmezésének használata'
       oldest: Régebbiek
+      seen_oldest: 'Leghosszabb távollét'
+      seen_recent: 'Nemrég elérhető'
       username_az: 'Felhasználónév (a-z)'
       username_za: 'Felhasználónév (z-a)'
