@@ -15,6 +15,7 @@ CHANGELOG
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
 * [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
 * [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 
 
