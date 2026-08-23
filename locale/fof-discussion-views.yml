@@ -12,6 +12,8 @@ fof-discussion-views:
     permissions:
       reset_views_label: 'Téma megtekintéseinek beállítása'
     settings:
+      dedupe_ttl: 'Eltelt másodpercek, mely után egy megtekintő újra számít'
+      dedupe_ttl_help: 'Mennyi ideig legyen egy megtekintő megjegyezve egy téma megtekintése után, hogy így a frissítés vagy visszatérés ne számítson újra. Állítsa 0-ra az összes megtekintés számolásához.'
       ignore_crawlers: 'Keresőrobotok figyelmen kívül hagyása'
   forum:
     discussion_controls:
