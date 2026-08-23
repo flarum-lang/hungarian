@@ -10,6 +10,13 @@ CHANGELOG
 * [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
 
 
+**Bővítményfordítások frissítve**:
+
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+* [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+
+
 Összes változás: [v3.0.1...v3.0.2](https://github.com/flarum-lang/hungarian/compare/v3.0.1...v3.0.2).
 
 
