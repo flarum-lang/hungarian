@@ -10,6 +10,8 @@ flarum-sticky:
       enable_display_excerpt: 'Az első bejegyzés kivonatának megjelenítése, ha a kitűzött téma olvasatlan'
       only_sticky_unread_discussions_help: 'Az Összes téma oldalon csak az olvasatlan kitűzött témák jelennek meg felül kitűzve, az olvasott kitűzött témák a szokásos sorrendet követik.'
       only_sticky_unread_discussions_label: 'Csak az olvasatlan témák kitűzése'
+      pin_sticky_on_all_discussions_help: 'Ha be van kapcsolva (alapértelmezett), az olvasatlan kitűzött témák az Összes téma lap tetejére lesznek rögzítve. Ha le van tiltva, a kitűzött témák a legfrissebb tevékenység szerinti, természetes pozíciójukban jelennek meg. A címkék oldalai a beállítástól függetlenül, mindig fentre rögzítik a kitűzött témákat.'
+      pin_sticky_on_all_discussions_label: 'Kitűzött témák rögzítése az Összes téma lapon'
   forum:
     badge:
       sticky_tooltip: '=> flarum-sticky.ref.sticky'
