@@ -5,6 +5,11 @@ CHANGELOG
 3.0.2 (XXXX-XX-XX)
 ------------------
 
+**Általános változások**:
+
+* Flarum core fordítások frissítve.
+
+
 **Új bővítmények támogatása hozzáadva**:
 
 * [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
