@@ -12,6 +12,8 @@ core:
         config_override:
           help: 'A FontAwesome beállításai jelenleg a config.php fájlban vannak megadva, és innen nem változtathatók meg.'
           label: 'Konfiguráció felülbírálása'
+        forced_style_help: 'Minden ikont egy adott FontAwesome stílusra állít, például „fa-duotone fa-light” vagy „fa-regular”. Felülbírálja a rendszermag és a bővítmények által megadott stílust (a márkaikonok sosem változnak). Az ikonforrásnak képesnek kell lennie a stílus biztosítására: a csomagban található ikonok a FontAwesome Free verzióból származnak, amely a tömör stíluson kívül csak néhány száz ikont tartalmaz, így ha más stílust kényszerít, a legtöbb ikon üresen marad. Minden stílus elérhető a FontAwesome Pro CDN-en vagy a Kitben. A funkció kikapcsolásához hagyja üresen.'
+        forced_style_label: 'Kényszerített ikonstílus'
         kit_url_help: 'A FontAwesome Kit parancsfájljának webcíme (a kit.fontawesome.com webhelyről)'
         kit_url_label: 'Kit webcíme'
         preview:
@@ -66,6 +68,10 @@ core:
         custom_driver: 'A fórum a(z) {driver} várólista-illesztőprogramot használja, melyet egy bővítmény szolgáltat.'
         memory_help: 'A legtöbb memória, melyet a várólista-feldolgozó az újraindítása előtt használhat. Alapértelmezés szerint 128 MB.'
         memory_label: 'Memóriakorlát (MB)'
+        pause_all_label: 'Összes várólista szüneteltetése'
+        pause_help: 'A szüneteltetés ideje alatt a feldolgozók nem vesznek fel új feladatokat az érintett várólistákból — a feladatok felhalmozódnak, amíg a feldolgozás újra meg nem kezdődik. A már futó feladatokra ez nincs hatással.'
+        pause_label: 'Feldolgozási sorok felfüggesztése'
+        pause_queue_label: 'A(z) {queue} várólista felfüggesztése'
         rest_help: 'A feladatok feldolgozása közti idő. Alapértelmezés szerint 0 másodperc.'
         rest_label: 'Pihenőidő (másodperc)'
         retries_help: 'Legalább hányszor próbáljon meg futtatni egy feladatot, mielőtt sikertelennek jelöli. Alapértelmezés szerint 1.'
@@ -76,6 +82,8 @@ core:
         timeout_help: 'Az idő, ameddig egy feladat időtúllépés nélkül futhat. Alapértelmezés szerint 60 másodperc.'
         timeout_label: 'Feladat időkorlátja (másodperc)'
       search:
+        cjk_mode_help: 'Kapcsolja be, ha a fóruma elsősorban kínai, japán vagy koreai nyelvű. Az adatbázis szóalapú keresése nem képes a CJK-szövegek részeit megtalálni, ezért ez a beállítás átvált egy olyan részleges szövegegyeztetésre, amely képes erre. Nagyon nagy fórumok esetén ez lassabb, ilyenkor gyorsabb megoldás lehet egy adatbázisszintű CJK-kompatibilis teljes szöveges elemző beállítása (például a MySQL/MariaDB ngram-elemzője).'
+        cjk_mode_label: 'A keresés optimalizálása CJK-nyelvekre'
         driver_heading: 'Illesztőprogram keresése: {model}'
         driver_options:
           default: 'Alapértelmezett adatbázis-keresés'
@@ -128,6 +136,8 @@ core:
       logo_dark_mode_text: 'Töltsön fel egy alternatív logót, amely a sötét mód engedélyezése esetén jelenik meg.'
       logo_heading: Logó
       logo_text: 'Kép feltöltése, mely a fórumcím helyett fog megjelenni.'
+      show_theme_selector_help: 'A felhasználók a fejlécben válthatnak az elérhető színsémák közül.'
+      show_theme_selector_label: 'Témaválasztó megjelenítése'
       title: Megjelenés
     basics:
       abandoned_extensions_heading: 'Elhagyatott bővítmények'
@@ -185,6 +195,9 @@ core:
         copy_success: 'Rendszer-információk vágólapra másolva'
         title: Rendszer-információk
       io_error_message: 'Nem sikerült a fájlrendszerre írni. Ellenőrizze a fájlrendszer jogosultságait, és próbálja újra. Vagy futtassa a parancssorból.'
+      queue_paused_all_warning: 'Az összes várólista-feldolgozás szüneteltetve. A feladatok gyűlni fognak a folytatásig.'
+      queue_paused_manage: Kezelés
+      queue_paused_warning: 'Várólista-feldolgozás szüneteltetve (várólista: {queues}). A feladatok gyűlni fognak a folytatásig.'
       status:
         headers:
           queue-driver: 'Sor illesztőprogramja'
@@ -200,6 +213,9 @@ core:
     database-driver-mismatch-warning:
       detail: "A <code>config.php</code> fájl úgy van beállítva, hogy a(z) <code>{configured}</code> adatbázis-illesztőprogramot használja, de a Flarum azt észlelte, hogy az adatbázis-kiszolgáló valójában <code>{actual}</code>.\n\nA hibás illesztőprogram használata rejtett, nehezen diagnosztizálható hibákat okozhat. Állítsa be a következőt a <code>config.php</code> fájl <code>database</code> szakaszában: <code>'driver' => ''{actual}''</code>. További információkért lásd a <link>Flarum dokumentációját</link>.\n"
       label: 'Eltérő adatbázis-illesztőprogram'
+    database-version-warning:
+      below-recommended-detail: "A(z) {server} kiszolgáló a következő verziót futtatja: <code>{version}</code>. Ez támogatott, de a Flarum azt javasolja, hogy a legjobb teljesítmény érdekében, és hogy karbantartott kiadást használjon, frissítsen a(z) {server} <code>{recommended}</code> vagy újabb verzióra. További információkért lásd a <link>Flarum dokumentációját</link>.\n"
+      below-recommended-label: 'Az adatbázis-verzió elavult'
     debug-warning:
       detail: "Ha a <code>hibakeresési</code> mód aktív, a Flarum újraépíti a <code>JavaScript</code> és <code>CSS</code> erőforrásait minden egyes kérésnél, és lehetséges, hogy egyéb információkat fog szivárogtatni, például adatbázistitkokat, környezeti változókat stb.\n\nÉles üzemben nagyon ajánlott kikapcsolni a <code>hibakeresést</code> a <code>config.php</code> fájlban. További információért lásd a <link>Flarum dokumentációját</link>.\n"
       label: 'A hibakeresési mód aktív'
@@ -315,6 +331,14 @@ core:
       section_suggested_help: 'A Flarum bővítmények további válaszható funkciókat nyújthatnak más bővítmények vagy csomagok megadásával. Ezek további funckiókat vagy integrációkat biztosíthatnak.'
       suggested_by: 'Javasolja: {extension}'
       title: 'Bővítmény egészséges'
+    failed_jobs:
+      delete: Törlés
+      details: Részletek
+      meta: '{queue} várólista · sikertelen {time}'
+      none: 'Nincsenek sikertelen feladatok.'
+      retry: Újra
+      retry_all: 'Összes újrapróbálása'
+      title: 'Sikertelen feladatok'
     header:
       get_help: Segítség
       log_out_button: '=> core.ref.log_out'
@@ -399,6 +423,12 @@ core:
       members_button: '=> core.group.members'
       signup_closed_button: Zárva
       signup_open_button: Nyitva
+    queue_widget:
+      failed: Sikertelen
+      pending: Függőben
+      refresh: Frissítés
+      reserved: Folyamatban
+      title: Várólista
     search_source:
       general:
         heading: Általános
@@ -554,6 +584,7 @@ core:
       session_dropdown_accessible_label: 'Munkamenet-beállítások legördülő menüje be/ki'
       settings_button: '=> core.ref.settings'
       sign_up_link: '=> core.ref.sign_up'
+      theme_switcher_accessible_label: 'Téma módosítása'
     index:
       all_discussions_link: '=> core.ref.all_discussions'
       cannot_start_discussion_button: 'Nem indíthat témát'
@@ -565,12 +596,14 @@ core:
       start_discussion_button: '=> core.ref.start_a_discussion'
       toggle_sidenav_dropdown_accessible_label: 'Navigációs legördülő menü be/ki'
     index_sort:
-      latest_button: Legutóbbi
+      az_button: '=> core.ref.title_az'
+      latest_button: '=> core.ref.latest'
       newest_button: '=> core.ref.newest'
       oldest_button: '=> core.ref.oldest'
       relevance_button: '=> core.ref.relevance'
       toggle_dropdown_accessible_label: 'Témák rendezésének megváltoztatása'
-      top_button: Felkapott
+      top_button: '=> core.ref.top'
+      za_button: '=> core.ref.title_za'
     log_in:
       forgot_password_link: 'Elfelejtette a jelszavát?'
       invalid_login_message: '=> core.ref.invalid_login_message'
@@ -802,6 +835,14 @@ core:
         group:
           hint: 'egy vagy több csoportnév'
           key: csoport
+    index_sort:
+      az_button: '=> core.ref.title_az'
+      latest_button: '=> core.ref.latest'
+      newest_button: '=> core.ref.newest'
+      oldest_button: '=> core.ref.oldest'
+      relevance_button: '=> core.ref.relevance'
+      top_button: '=> core.ref.top'
+      za_button: '=> core.ref.title_za'
     input:
       clear_button: 'Bemenet törlése'
     loading_indicator:
@@ -815,6 +856,7 @@ core:
       placeholder: 'Több lehetőség kiválasztása'
     nav:
       drawer_button: 'Navigációs fiók kinyitása'
+      pin_pane_button: 'Témalista kitűzése'
     notices:
       bisecting: 'A bővítmények felező hibakeresési folyamatának futtatása, hogy kiderüljön, melyik bővítmény okoz problémát.'
       bisecting_continue: 'Felező hibakeresés folytatása'
@@ -823,6 +865,8 @@ core:
     number_suffix:
       kilo_text: e
       mega_text: m
+    overflowing_list:
+      toggle_accessible_label: 'További elemek'
     pagination:
       back_button: 'Előző oldal'
       first_button: 'Ugrás az első oldalra'
@@ -838,6 +882,7 @@ core:
       options_heading: 'Keresési beállítások'
       placeholder: Keresés…
       preview_heading: 'Keresés előnézete'
+      search_active_button_accessible_label: 'Keresés módosítása: {query}'
       search_clear_button_accessible_label: 'Keresési kifejezés törlése'
       title: Keresés
     search_source:
@@ -886,6 +931,7 @@ core:
     icon: Ikon
     icon_text: 'Adja meg egy <a>FontAwesome</a> ikonosztály nevét, <em>beleértve</em> előtagot is (például <code>fas fa-flag</code> vagy <code>fa-solid fa-flag</code>).'
     invalid_login_message: 'A belépési adatai hibásak.'
+    latest: Legutóbbi
     light_hc_mode_label: 'Világos, magas kontrasztú mód'
     light_mode_label: 'Világos mód'
     load_more: 'Továbbiak betöltése'
@@ -918,6 +964,9 @@ core:
     sign_up: Regisztráció
     some_others: '{count} további'
     start_a_discussion: 'Új téma indítása'
+    title_az: 'Cím (A–Z)'
+    title_za: 'Cím (Z–A)'
+    top: Legnépszerűbb
     username: Felhasználónév
     username_or_email_placeholder: 'Felhasználónév vagy e-mail-cím'
     users: Felhasználók
