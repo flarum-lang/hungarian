@@ -2,6 +2,35 @@ CHANGELOG
 =========
 
 
+3.0.2 (2026-08-25)
+------------------
+
+**Általános változások**:
+
+* Flarum core fordítások frissítve.
+
+
+**Új bővítmények támogatása hozzáadva**:
+
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+
+
+**Bővítményfordítások frissítve**:
+
+* [`flarum/akismet`](https://github.com/flarum/akismet)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+* [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+
+
+Összes változás: [v3.0.1...v3.0.2](https://github.com/flarum-lang/hungarian/compare/v3.0.1...v3.0.2).
+
+
 3.0.1 (2026-07-27)
 ------------------
 
