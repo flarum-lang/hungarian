@@ -17,7 +17,10 @@ CHANGELOG
 
 **Bővítményfordítások frissítve**:
 
+* [`flarum/akismet`](https://github.com/flarum/akismet)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
 * [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
 * [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
