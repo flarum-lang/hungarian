@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+3.0.3 (XXXX-XX-XX)
+------------------
+
+**Új bővítmények támogatása hozzáadva**:
+
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
+
+
+Összes változás: [v3.0.2...v3.0.3](https://github.com/flarum-lang/hungarian/compare/v3.0.2...v3.0.3).
+
+
 3.0.2 (2026-08-25)
 ------------------
 
