@@ -43,6 +43,7 @@ CHANGELOG
 **Bővítményfordítások frissítve**:
 
 * [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
