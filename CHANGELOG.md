@@ -12,6 +12,11 @@ CHANGELOG
 * [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
 
 
+**Bővítményfordítások frissítve**:
+
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+
+
 Összes változás: [v3.0.2...v3.0.3](https://github.com/flarum-lang/hungarian/compare/v3.0.2...v3.0.3).
 
 
