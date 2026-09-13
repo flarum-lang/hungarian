@@ -7,6 +7,7 @@ CHANGELOG
 
 **Új bővítmények támogatása hozzáadva**:
 
+* [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries)
 * [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
 * [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
 * [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
