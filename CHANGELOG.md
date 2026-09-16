@@ -15,8 +15,11 @@ CHANGELOG
 
 **Bővítményfordítások frissítve**:
 
+* [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar)
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 * [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
 
 
 Összes változás: [v3.0.2...v3.0.3](https://github.com/flarum-lang/hungarian/compare/v3.0.2...v3.0.3).
