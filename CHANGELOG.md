@@ -16,6 +16,7 @@ CHANGELOG
 **Bővítményfordítások frissítve**:
 
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+* [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard)
 
 
 Összes változás: [v3.0.2...v3.0.3](https://github.com/flarum-lang/hungarian/compare/v3.0.2...v3.0.3).
