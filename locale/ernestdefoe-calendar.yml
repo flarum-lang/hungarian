@@ -34,6 +34,11 @@ ernestdefoe-calendar:
     week_monday: Hétfő
     week_starts_on: 'Hét kezdete'
     week_sunday: Vasárnap
+  api:
+    category_name_required: 'A kategórianév kötelező.'
+    end_before_start: 'A végének a kezdete után kell lennie.'
+    start_required: 'Érvényes kezdő dátum/időpont szükséges.'
+    title_required: 'A cím kötelező.'
   forum:
     add_event: 'Esemény hozzáadása'
     add_to_google: 'Hozzáadás a Google Naptárhoz'

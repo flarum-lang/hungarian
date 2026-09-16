@@ -13,6 +13,8 @@ ianm-follow-users:
   admin:
     permissions:
       be_followed_label: 'Követés engedélyezése a felhasználók számára'
+      follow_label: 'Más felhasználók követése'
+      view_followed_users_label: 'Megtekintés, hogy egy tag mely felhasználókat követi'
     settings:
       button-on-profile-label: 'A Követés gomb megjelenítése közvetlenül a felhasználó profiljának fejlécében'
       stats-on-profile-label: 'Követők és követések számának megjelenítése a felhasználói profilokon'

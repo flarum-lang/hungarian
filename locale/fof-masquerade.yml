@@ -34,12 +34,15 @@ fof-masquerade:
       hide-empty-fields: 'Üres mezők elrejtése'
       icon: Ikon
       icon-help: "Egy ikont jelenít meg a felhasználó által megadott értékek előtt. Az elérhető ikonok referenciájához nézze meg a <a>Fontawesome weboldalát</a>. A „fa-” előtagú ikonneveket használja, például „fas fa-info”.\n"
+      is_restricted: 'Mező láthatóságának korlátozása'
       name: 'Mező neve'
       name-help: "A nyilvánosan látható (nem lefordítható) mezőcímke.\n"
       on_bio: 'A mezőre adott válasz megjelenítése a felhasználói életrajzban'
       option-comma-warning: 'A lehetőség címkéje nem tartalmazhat vesszőt („,”).'
       option-new: 'Új lehetőség'
       options: Lehetőségek
+      permissions: 'Mező láthatósága'
+      permissions-alert: 'Az engedélybeállítások akkor lesznek elérhetőek, ha létrehozás után szerkeszti a mezőt.'
       required: 'Megjelölés kötelezőként'
       title: Mezők
       type: Típus
@@ -71,7 +74,10 @@ fof-masquerade:
       select:
         none-optional: 'Nincs kiválasztva lehetőség (nem kötelező)'
         none-required: 'Válasszon egy lehetőséget (kötelező)'
+    profile:
+      empty-text: 'Ez a felhasználó még egyetlen profilmezőt sem töltött ki.'
   lib:
     gambits:
       answer:
+        hint: 'felhasználói profil mezőinek értékei'
         key: válasz
