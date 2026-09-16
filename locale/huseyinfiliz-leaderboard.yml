@@ -10,7 +10,9 @@ huseyinfiliz-leaderboard:
       none_selected: 'Nincs kiválasztva'
       save: Mentés
       select_groups: 'Csoportok kiválasztása'
-      select_tags: 'Cimkék kijelölése'
+      select_tags: 'Címkék kiválasztása'
+    permissions:
+      view_leaderboard: 'Ranglista megtekintése'
     settings:
       already_running: 'Az újraszámítás már folyamatban van. Várjon, hogy befejeződjön.'
       excluded_groups_help: 'A kiválasztott csoportokban lévő felhasználók ki lesznek zárva a ranglistáról.'
@@ -83,6 +85,7 @@ huseyinfiliz-leaderboard:
       quarterly: Negyedévente
       weekly: Hetente
       yearly: Évente
+    permission_denied: 'Nincs engedélye, hogy megtekintse a ranglistát.'
     podium:
       first: '1.'
       second: '2.'
