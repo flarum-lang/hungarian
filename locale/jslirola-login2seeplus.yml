@@ -8,6 +8,9 @@ jslirola-login2seeplus:
     hide: Elrejtés
     image: Képek
     link: Hivatkozások
+    link_hide: 'Teljes hivatkozás elrejtése'
+    link_mask: 'Csak a cél elrejtése (a hivatkozásszöveg megtartása)'
+    link_off: 'Ne rejtse el'
     post:
       title: 'Ezt a hosszt meghaladó tartalom elrejtése (<em>-1</em> az összes megjelenítéséhez.)'
     title: Login2SeePlus
