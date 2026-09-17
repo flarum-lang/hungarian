@@ -5,8 +5,15 @@
 core:
   forum:
     index_sort:
-      least_viewed_button: 'Legkevesebbet megtekintett'
-      most_viewed_button: 'Legtöbbet megtekintett'
+      least_viewed_button: '=> core.ref.least_viewed'
+      most_viewed_button: '=> core.ref.most_viewed'
+  lib:
+    index_sort:
+      least_viewed_button: '=> core.ref.least_viewed'
+      most_viewed_button: '=> core.ref.most_viewed'
+  ref:
+    least_viewed: 'Legkevesebbet megtekintett'
+    most_viewed: 'Legtöbbet megtekintett'
 fof-discussion-views:
   admin:
     permissions:
