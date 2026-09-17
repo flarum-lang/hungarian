@@ -15,8 +15,10 @@ CHANGELOG
 
 **Bővítményfordítások frissítve**:
 
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
 * [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar)
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 * [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
