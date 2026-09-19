@@ -18,6 +18,7 @@ CHANGELOG
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
 * [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar)
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+* [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 * [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard)
