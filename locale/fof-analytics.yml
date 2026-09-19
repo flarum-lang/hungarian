@@ -30,3 +30,16 @@ fof-analytics:
         email: 'Követés e-mail alapján'
         none: 'Ne legyen követve'
         username: 'Követés felhasználónév alapján'
+  forum:
+    consent:
+      cookies:
+        ga: 'Megkülönbözteti a látogatásokat, így az ismétlődő felkeresések nem számítanak új embereknek.'
+        gat: 'Korlátozza, hogy milyen gyakran legyen az adatok elküldve a Google-nek.'
+        gid: 'Megkülönbözteti a látogatásokat, 24 óráig megtartva.'
+        matomo_sessid: 'Rögzítés során megtartja a Matomo-munkamenetet.'
+        pk_cvar: 'Egyéni részleteket tárol a jelenlegi látogatásról.'
+        pk_hsr: 'Feljegyzi a jelenlegi látogatást hőtérképek és munkamenet-rögzítés céljából.'
+        pk_id: 'Megkülönbözteti a látogatásokat, így az ismétlődő felkeresések nem számítanak új embereknek.'
+        pk_ref: 'Rögzíti, hogy miként jutott el az oldalra.'
+        pk_ses: 'Követi a jelenlegi látogatást, 30 percig van megtartva.'
+        utm: 'Régebbi Google Analytics sütik, melyek azt rögzítik, hogy miként jutott az oldalra.'
