@@ -25,7 +25,7 @@ fof-moderator-warnings:
     post_controls:
       warning_button: 'Felhasználó figyelmeztetése'
     settings:
-      warning_notification_label: 'Egy moderátor figyelmeztetett'
+      warning_notification_label: 'Egy moderátor figyelmeztet'
     user:
       warnings: 'Moderátori figyelmeztetések'
     validation:

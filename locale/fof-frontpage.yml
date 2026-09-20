@@ -10,7 +10,7 @@ core:
     badge:
       frontpage_tooltip: 'Főoldalnak jelölve'
     index_sort:
-      front_button: Főoldal
+      front_button: Kezdőoldal
     post_controls:
       pull_from_front_button: 'Levétel a főoldalról'
       push_to_front_button: 'Kitevés a főoldalra'

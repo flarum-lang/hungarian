@@ -138,7 +138,7 @@ core:
       heading: '=> core.ref.email'
       mail_encryption_label: Titkosítás
       mail_host_label: Kiszolgáló
-      mail_mailgun_domain_label: Domén
+      mail_mailgun_domain_label: Domain
       mail_mailgun_region_label: Régió
       mail_mailgun_secret_label: 'Titkos kulcs'
       mail_mandrill_secret_label: 'Titkos kulcs'
@@ -153,7 +153,7 @@ core:
       not_sending_message: 'A Flarum jelenleg nem küld ki e-maileket. Ennek oka lehet a kiválasztott meghajtó, vagy a rosszul megadott beállítások.'
       send_test_mail_button: Küldés
       send_test_mail_heading: 'Tesztlevél küldése'
-      send_test_mail_success: 'A teszt levél sikeresen elküldve.'
+      send_test_mail_success: 'A teszt levél sikeresen elküldve!'
       send_test_mail_text: 'Ez egy levelet fog küldeni a fenti beállításokkal az e-mail-címére: {email}.'
       ses_heading: 'SES beállítások'
       smtp_heading: 'SMTP beállítások'
@@ -167,7 +167,7 @@ core:
       confirm_purge: 'A tisztítás eltávolítja az összes, a bővítményhez tartozó adatbázis-bejegyzést és erőforrást. Nem távolítja el a bővítményt; azt a Composer segítségével kell megtenni. Valóban folytatja?'
       confirm_uninstall: 'A bővítmény eltávolítása törli az összes bővítménnyel kapcsolatos adatbázis-bejegyzést és beállítást. Valóban folytatja?'
       deprecated: Elavult
-      disabled: Tiltva
+      disabled: Letiltva
       enable_to_see: 'Engedélyezze a bővítményt, hogy hozzáférjen a beállításaihoz.'
       enabled: Engedélyezve
       info_links:
@@ -186,7 +186,7 @@ core:
         button_label: README
         no_readme: 'Úgy tűnik, hogy ehhez a bővítményhez nem tartozik README fájl'
         title: '{extName} dokumentáció'
-      replaced: Leváltották
+      replaced: Leváltva
       uninstall_button: Eltávolítás
     extensions:
       add_button: 'Kiegészítő hozzáadása'
@@ -261,13 +261,13 @@ core:
       view_discussions_label: 'Témák megtekintése'
       view_forum_label: 'Fórum megtekintése (témák és felhasználók)'
       view_hidden_groups_label: 'Rejtett csoportjelvények megtekintése'
-      view_last_seen_at_label: 'Utolsó látogatás idejének megtekintése'
+      view_last_seen_at_label: 'Utolsó látogatás idejének megtekintése mindig'
       view_post_ips_label: 'IP-címek megtekintése'
       view_user_list_label: 'Tagok listájának megtekintése'
     permissions_controls:
       allow_indefinitely_button: 'Korlátlan ideig'
       allow_never_button: '=> core.ref.never'
-      allow_some_minutes_button: '{count} percig'
+      allow_some_minutes_button: '{count, plural, one {# percig} other {# percig}}'
       allow_ten_minutes_button: '10 percig'
       allow_until_reply_button: 'A következő válaszig'
       everyone_button: Mindenki
@@ -299,7 +299,7 @@ core:
             no_badges: Nem
             title: Csoportok
           join_time:
-            title: Csatlakozott
+            title: Csatlakozva
           user_actions:
             title: Műveletek
           user_id:
@@ -396,7 +396,7 @@ core:
       replied_text: '{username} válaszolt {ago}'
       started_text: '{username} indította {ago}'
       total_replies_a11y_label: '{count} válasz'
-      unread_replies_a11y_label: '{count} olvasatlan válasz. Olvasatlan {count, plural, one {válasz} other {válaszok}} olvasottnak jelölése.'
+      unread_replies_a11y_label: '{count, plural, one {# olvasatlan válasz} other {# olvasatlan válasz}}. Olvasatlan {count, plural, one {válasz} other {válaszok}} olvasottnak jelölése.'
     edit_user:
       activate_button: 'Felhasználó aktiválása'
       email_heading: '=> core.ref.email'
@@ -663,7 +663,7 @@ core:
     edit_user: 'Felhasználó szerkesztése'
     email: E-mail
     extensions: Bővítmények
-    generic_confirmation_message: 'Biztos, hogy folytatja? Ez a művelet nem vonható vissza.'
+    generic_confirmation_message: 'Valóban folytatja? Ez a művelet nem vonható vissza.'
     icon: Ikon
     icon_text: 'Adja meg egy tetszőleges <a>FontAwesome</a> ikonosztály nevét, <em>beleértve</em> a <code>fas fa-</code> előtagot is.'
     load_more: 'Továbbiak betöltése'

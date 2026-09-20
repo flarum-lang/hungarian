@@ -130,7 +130,7 @@ fof-upload:
       image-preview_description: "Soron belül jeleníti meg a teljes képet. Nincs letöltési funkció, nincs statisztikagyűjtés, és a hivatkozásvédelem figyelmen kívül lesz hagyva.\n"
       image_description: "Megjeleníti a kép bélyegképét, és PHP-n keresztül proxyzza. Lehetővé teszi a statisztikagyűjtést és a hivatkozásvédelmet.\n"
       just-url: 'Csak a webcím'
-      just-url_description: "Csak az URL-t illeszti be. A megjelenítést más, automatikus hivatkozásra képes kiegészítők kezelhetik. Nincs letöltési funkció, és statisztika sem keletkezik, valamint a hivatkozásvédelem is figyelmen kívül lesz hagyva.\n"
+      just-url_description: "Csak a webcímet illeszti be. A megjelenítést más, automatikus hivatkozásra képes kiegészítők kezelhetik. Nincs letöltési funkció, és statisztika sem keletkezik, valamint a hivatkozásvédelem is figyelmen kívül lesz hagyva.\n"
       markdown-image: 'Markdown képsablon'
       markdown-image_description: "A teljes kép megjelenítése soron belül, Markdown használatával. <strong>A működéséhez telepíteni kell a flarum/markdown csomagot, és engedélyeznie kell azt.</strong> Nincs letöltési funkció, nincs statisztikagyűjtés, és a hivatkozásvédelem figyelmen kívül lesz hagyva.\n"
       text-preview: 'Szöveg előnézete'

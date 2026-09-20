@@ -16,7 +16,7 @@ flarum-mentions:
         body: '{mentioner_display_name} a következő bejegyzésben megemlített egy csoportot, melynek a tagja: [{title}]({url}).'
       plain:
         body: "{mentioner_display_name} a következő bejegyzésben megemlített egy csoportot, melynek a tagja: {title}.\n\n{url}\n\n---\n\n{content}\n"
-      subject: '{mentioner_display_name} a következő bejegyzésben megemlített egy csoportot, melynek a tagja: {title}'
+      subject: '{mentioner_display_name} a következő témában megemlített egy csoportot, melynek a tagja: {title}'
     post_mentioned:
       body: "Kedves {recipient_display_name}!\n\n{replier_display_name} válaszolt a bejegyzésére (#{post_number}) itt: {title}\n\n{url}\n\n---\n\n{content}\n"
       html:
