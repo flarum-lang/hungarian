@@ -19,9 +19,14 @@ CHANGELOG
 * [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (4 added)
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (2 added, 1 removed)
 * [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) (10 added)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) (1 changed)
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views) (4 added, 2 changed)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) (1 changed)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links) (1 removed)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) (5 added)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request) (2 changed)
 * [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard) (2 added, 1 changed)
+* [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest) (1 changed, 1 removed)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users) (2 added)
 
 
