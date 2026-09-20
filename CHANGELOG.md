@@ -19,6 +19,7 @@ CHANGELOG
 * [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (4 added)
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (2 added, 1 removed)
 * [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) (10 added)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (2 changed)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) (1 changed)
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views) (4 added, 2 changed)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) (1 changed)
