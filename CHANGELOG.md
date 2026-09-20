@@ -30,33 +30,33 @@ CHANGELOG
 2.10.5 (XXXX-XX-XX)
 -------------------
 
-**Általános változások**:
+**General changes**:
 
-* Flarum core fordítások frissítve.
+* Updated Flarum core translations (14 added, 1 changed).
 
 
-**Új bővítmények támogatása hozzáadva**:
+**Added support for new extensions**:
 
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
 
 
-**Bővítményfordítások frissítve**:
+**Updated translations for extensions**:
 
-* [`flarum/sticky`](https://github.com/flarum/sticky)
-* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
-* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
-* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
-* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
-* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
-* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
-* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
-* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
-* [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
-* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
-* [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
+* [`flarum/sticky`](https://github.com/flarum/sticky) (2 added)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (1 removed)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (2 added)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (2 added)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman) (2 changed)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) (17 added)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip) (20 added)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) (4 added)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (27 added)
+* [`forumaker/magicbb`](https://github.com/forumaker/magicbb) (19 added, 3 changed)
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub) (19 added)
+* [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title) (5 added)
 
 
-Összes változás: [v2.10.4...v2.10.5](https://github.com/flarum-lang/hungarian/compare/v2.10.4...v2.10.5).
+All changes: [v2.10.4...2.10.5](https://github.com/flarum-lang/hungarian/compare/v2.10.4...2.10.5).
 
 
 2.10.4 (2026-04-17)
