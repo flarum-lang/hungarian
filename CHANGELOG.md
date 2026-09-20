@@ -5,7 +5,7 @@ CHANGELOG
 3.0.3 (XXXX-XX-XX)
 ------------------
 
-**Új bővítmények támogatása hozzáadva**:
+**Added support for new extensions**:
 
 * [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries)
 * [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
@@ -13,19 +13,19 @@ CHANGELOG
 * [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
 
 
-**Bővítményfordítások frissítve**:
+**Updated translations for extensions**:
 
-* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
-* [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar)
-* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
-* [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
-* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
-* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
-* [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard)
-* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) (1 added)
+* [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (4 added)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (2 added, 1 removed)
+* [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) (10 added)
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views) (4 added, 2 changed)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) (5 added)
+* [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard) (2 added, 1 changed)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users) (2 added)
 
 
-Összes változás: [v3.0.2...v3.0.3](https://github.com/flarum-lang/hungarian/compare/v3.0.2...v3.0.3).
+All changes: [v3.0.2...3.0.3](https://github.com/flarum-lang/hungarian/compare/v3.0.2...3.0.3).
 
 
 3.0.2 (2026-08-25)
