@@ -11,6 +11,7 @@ acpl-mobile-tab:
     edit_item:
       delete_button: Törlés
       delete_item_confirmation: 'Biztos, hogy törli ezt az elemet?'
+      help: 'Többre van szüksége egy hivatkozásnál? Nézze meg a <a>fejlesztői dokumentációt</a> az egyéni elemekhez és viselkedéshez.'
       icon: Ikon
       icon_help: 'Adja meg egy <a>FontAwesome</a> ikonosztály nevét, beleértve a <code>fas fa-</code> előtagot.'
       is_internal_checkbox: 'Ez belső hivatkozás?'
@@ -20,7 +21,18 @@ acpl-mobile-tab:
       open_new_tab_checkbox: 'Hivatkozás megnyitása új lapon'
       path: 'Elérési út'
       submit_button: Mentés
-      url: Webcím
+      type:
+        external:
+          help: 'Egy a fórumtól eltérő címre vezet.'
+          label: 'Egy másik webhelyre vezet'
+        heading: 'Mit csinál ez a hivatkozás'
+        internal:
+          help: 'A lap újratöltése nélkül nyílik meg.'
+          label: 'A fórum egyik lapjára vezet'
+      url: URL
+      url_help:
+        external: 'A teljes cím a <code>https://</code> résszel együtt.'
+        internal: 'A cím {baseUrl} utáni része, amely / jellel kezdődik.'
     scroll_settings:
       threshold_help: 'Görgetési távolság a jelenlegi pozíciótól a láthatóság átállításához.'
       threshold_label: 'Görgetés küszöbértéke (képpont)'
@@ -32,7 +44,7 @@ acpl-mobile-tab:
       empty_help: 'Húzzon elemeket ide, hogy hozzáadja ehhez a változathoz.'
       enabled: Engedélyezve
       heading: 'Mobilos lapváltozatok'
-      help: 'A változatok ellenőrzése fentről lefelé történik. A felhasználók az első olyan engedélyezett változatot látják, amelynek megtekintésére jogosultak. Helyezze az első helyre a szűkebb szerepköröket, például: #1 adminisztrátorok, #2 moderátorok, #3 tagok, #4 mindenki.'
+      help: 'A változatok ellenőrzése fentről lefelé történik. A felhasználók az első olyan engedélyezett változatot látják, amelynek megtekintésére jogosultak. Helyezze az első helyre a szűkebb szerepköröket, például: #1 adminisztrátorok, #2 moderátorok, #3 tagok, #4 mindenki. Hagyja üresen a változatot, hogy teljesen elrejtse a kiválasztott csoportok elől.'
       number: '#{number}'
       reorder: 'Változat átrendezése'
       visible_to: 'Következők számára látható'
