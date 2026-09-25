@@ -2,6 +2,38 @@ CHANGELOG
 =========
 
 
+3.0.3 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries)
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
+* [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
+
+
+**Updated translations for extensions**:
+
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) (21 added, 2 changed)
+* [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (4 added)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (2 added, 1 removed)
+* [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) (10 added)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (2 changed)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) (1 changed)
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views) (4 added, 2 changed)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) (1 changed)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links) (1 removed)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) (5 added)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request) (2 changed)
+* [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard) (2 added, 1 changed)
+* [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest) (1 changed, 1 removed)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users) (2 added)
+
+
+All changes: [v3.0.2...3.0.3](https://github.com/flarum-lang/hungarian/compare/v3.0.2...3.0.3).
+
+
 3.0.2 (2026-08-25)
 ------------------
 
