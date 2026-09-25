@@ -15,7 +15,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
-* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) (13 added, 1 changed)
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) (21 added, 2 changed)
 * [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (4 added)
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (2 added, 1 removed)
 * [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) (10 added)
