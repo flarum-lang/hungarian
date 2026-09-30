@@ -2,6 +2,38 @@ CHANGELOG
 =========
 
 
+3.0.3 (2026-09-30)
+------------------
+
+**Added support for new extensions**:
+
+* [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries) (100% complete)
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent) (11% complete)
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter) (100% complete)
+* [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus) (100% complete)
+
+
+**Updated translations for extensions**:
+
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) (21 added, 2 changed, 100% complete)
+* [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (4 added, 100% complete)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (2 added, 1 removed, 100% complete)
+* [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) (10 added, 100% complete)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (2 changed, 62% complete)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) (1 changed, 100% complete)
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views) (4 added, 2 changed, 100% complete)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) (1 changed, 100% complete)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links) (1 removed, 43% complete)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) (5 added, 100% complete)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request) (2 changed, 100% complete)
+* [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard) (2 added, 1 changed, 100% complete)
+* [`huseyinfiliz/stickiest`](https://github.com/huseyinfiliz/stickiest) (1 changed, 1 removed, 8% complete)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users) (2 added, 100% complete)
+
+
+All changes: [v3.0.2...3.0.3](https://github.com/flarum-lang/hungarian/compare/v3.0.2...3.0.3).
+
+
 3.0.2 (2026-08-25)
 ------------------
 
