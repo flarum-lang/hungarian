@@ -78,6 +78,7 @@ fof-upload:
         toggle: Letiltás
       imgur:
         client_id: 'Imgur kliensazonosító'
+        deprecated: 'Az Imgur már nem állít ki API-kliensazonosítókat, így ez az adapter elavult, és egy jövőbeli kiadásban el lesz távolítva. Helyezze át ezeket a fájltípusokat egy másik tárolóadapterhez.'
         title: 'Imgur képtároló beállításai'
         tos: 'Az Ön felelőssége, hogy a fórum felhasználói betartsák az Imgur <a>szolgáltatási feltételeit</a>'
       inspect-mime: 'Fájl MIME-típusának tesztelése'
@@ -274,6 +275,7 @@ fof-upload:
         show_confirmation: 'Biztos, hogy nyilvánossá teszi a(z) „{fileName}” fájlt? A fájl nyilvánossá tétele bárki számára elérhetővé teszi egy nyilvános webcímmel, és bárki megoszthatja a médiakezelő használatával.'
         show_fail: 'A(z) „{fileName}” nem tehető nyilvánossá'
         show_success: 'A fájl nyilvánossá téve'
+      load_error: 'Nem sikerült betölteni a fájlokat. Próbálja újra.'
       load_more_files_btn: 'További fájlok betöltése'
       loading: 'Fájlok betöltése…'
       modal_empty_desktop: 'A fájllista üres. Kattintson a gombra, vagy húzza ide a fájlt a feltöltéshez.'

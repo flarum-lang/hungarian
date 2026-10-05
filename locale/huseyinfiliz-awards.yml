@@ -64,6 +64,8 @@ huseyinfiliz-awards:
       select_category: 'Kategória kiválasztása'
       title: 'Jelöltek kezelése'
       vote_adjustment_title: Szavazatmódosítás
+      website_url: 'Webhely/hivatkozás webcíme'
+      website_url_help: 'Külső webcím ehhez a jelölthöz (http:// vagy https:// protokollal kell kezdődnie)'
     permissions:
       manage: 'Díjak kezelése'
       view: 'Díjak megtekintése'
@@ -112,6 +114,7 @@ huseyinfiliz-awards:
       no_categories: 'Még nincsenek kategóriák ebben a díjban.'
       no_nominees: 'Még nincsenek jelöltek ebben a kategóriában.'
     error:
+      already_voted: 'Már szavazott erre a jelöltre.'
       cannot_delete_processed_suggestion: 'Csak a függőben lévő javaslatok vonhatóak vissza.'
       not_available: 'Ez a díj még nem érhető el.'
       other_not_allowed: 'Ez a kategória nem fogad el javaslatokat.'
@@ -142,6 +145,8 @@ huseyinfiliz-awards:
       all_categories: 'Összes kategória'
       categories: Kategóriák
       title: Díjak
+    nominee:
+      open_link: 'Hivatkozás megnyitása új lapon'
     notification:
       results_published: 'A(z) {awardName} eredményei közzé lettek téve!'
     other:
