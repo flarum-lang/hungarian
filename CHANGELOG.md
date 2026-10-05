@@ -2,6 +2,20 @@ CHANGELOG
 =========
 
 
+3.0.4 (2026-10-05)
+------------------
+
+**Updated translations for extensions**:
+
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts) (1 added, 1 changed, 100% complete)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (3 added, 1 changed, 100% complete)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (2 added, 100% complete)
+* [`huseyinfiliz/awards`](https://github.com/huseyinfiliz/awards) (4 added, 100% complete)
+
+
+All changes: [3.0.3...3.0.4](https://github.com/flarum-lang/hungarian/compare/3.0.3...3.0.4).
+
+
 3.0.3 (2026-09-30)
 ------------------
 
