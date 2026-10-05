@@ -2,6 +2,57 @@ CHANGELOG
 =========
 
 
+2.10.5 (2026-10-05)
+-------------------
+
+**General changes**:
+
+* Updated Flarum core translations (14 added, 10 changed).
+* Updated validation translations (1 changed).
+
+
+**Added support for new extensions**:
+
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog) (100% complete)
+* [`fof/forum-stats-widget`](https://github.com/FriendsOfFlarum/forum-stats-widget) (100% complete)
+
+
+**Updated translations for extensions**:
+
+* [`flarum/lock`](https://github.com/flarum/lock) (2 changed, 100% complete)
+* [`flarum/mentions`](https://github.com/flarum/mentions) (1 changed, 100% complete)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames) (3 changed, 100% complete)
+* [`flarum/sticky`](https://github.com/flarum/sticky) (2 added, 1 changed, 100% complete)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions) (1 changed, 100% complete)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (2 added, 1 removed, 100% complete)
+* [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) (4 changed, 100% complete)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (2 added, 100% complete)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) (1 changed, 100% complete)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (2 added, 2 changed, 100% complete)
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences) (3 changed, 100% complete)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman) (2 changed, 100% complete)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) (17 added, 100% complete)
+* [`fof/frontpage`](https://github.com/FriendsOfFlarum/frontpage) (1 changed, 100% complete)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip) (20 added, 100% complete)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) (4 added, 100% complete)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings) (1 changed, 100% complete)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (3 added, 1 changed, 100% complete)
+* [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective) (1 changed, 100% complete)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (27 added, 100% complete)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha) (1 changed, 100% complete)
+* [`fof/split`](https://github.com/FriendsOfFlarum/split) (5 changed, 100% complete)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (1 changed, 100% complete)
+* [`forumaker/magicbb`](https://github.com/forumaker/magicbb) (19 added, 4 changed, 100% complete)
+* [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength) (1 changed, 100% complete)
+* [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard) (1 changed, 100% complete)
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub) (19 added, 100% complete)
+* [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title) (5 added, 100% complete)
+* [`justoverclock/related-discussions`](https://flarum.org/extension/justoverclock/related-discussions) (1 changed, 100% complete)
+
+
+All changes: [v2.10.4...2.10.5](https://github.com/flarum-lang/hungarian/compare/v2.10.4...2.10.5).
+
+
 2.10.4 (2026-04-17)
 -------------------
 
