@@ -6,5 +6,6 @@ clarkwinkelmann-selective-mediaembed:
   admin:
     clearCache: 'Gyorsítótár ürítése most'
     mustClearCache: 'A változtatások mentése után ürítenie kell a gyorsítótárat!'
+    searchIndexTreeSites: Webhelyek
     selectAll: 'Összes kiválasztása'
     unselectAll: 'Kiválasztás megszüntetése'

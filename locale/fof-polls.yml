@@ -2,6 +2,20 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-polls/hu/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      poll:
+        created: 'A(z) {title} szavazás létrehozva'
+        deleted: 'A(z) {title} szavazás törölve'
+        published: 'A(z) {title} szavazás közzétéve'
+        unpublished: 'A(z) {title} szavazás közzététele visszavonva'
+        updated: 'A(z) {title} szavazás frissítve'
+        voted: 'Szavazat leadva a(z) {title} szavazásban'
+      poll_group:
+        created: 'A(z) {name} szavazáscsoport létrehozva'
+        deleted: 'A(z) {name} szavazáscsoport törölve'
+        updated: 'A(z) {name} szavazáscsoport frissítve'
 fof-polls:
   admin:
     permissions:
@@ -68,7 +82,7 @@ fof-polls:
       edit_poll: '=> fof-polls.forum.moderation.edit'
       no_permission_alert: 'Nem indíthat szavazást.'
     days_remaining: 'A szavazás véget ér: {time}.'
-    max_votes_allowed: 'A szavazásban legfeljebb {max} lehetőség választható.'
+    max_votes_allowed: 'A szavazásban legfeljebb {max, plural, one {# lehetőség} other {# lehetőség}} választható.'
     modal:
       add_option_label: 'Lehetőség hozzáadása'
       add_title: 'Szavazás hozzáadása'
@@ -102,6 +116,7 @@ fof-polls:
         label: 'Szavazás válaszának képe'
       public_poll_label: 'A felhasználók megnézhetik ki szavazott'
       question_placeholder: Kérdés
+      settings_label: Szavazás
       submit: Beküldés
       subtitle_placeholder: 'Felirat/leírás (nem kötelező)'
       tooltip:
@@ -154,7 +169,10 @@ fof-polls:
         add_title: 'Szavazáscsoport hozzáadása'
         delete: 'Szavazáscsoport törlése'
         edit_title: 'Szavazáscsoport szerkesztése'
+        error: 'Hiba történt a szavazáscsoport mentésekor, vegye fel a kapcsolatot egy rendszergazdával.'
         groups_manager: Szavazáscsoport-kezelő
+        name_label: Név
+        name_required: 'Névre van szükség egy szavazáscsoporthoz.'
         save_changes: '=> core.ref.save_changes'
         success: 'Szavazáscsoport sikeresen mentve.'
         view_group: 'Szavazáscsoport megtekintése'
@@ -200,7 +218,7 @@ fof-polls:
       no-recent-polls: 'Jelenleg nincs nemrég befejeződött szavazás.'
     tooltip:
       badge: Szavazás
-      votes: '{count} szavazat'
+      votes: '{count, plural, one {# szavazat} other {# szavazat}}'
     upload_image:
       remove_button: 'Kép törlése'
       upload_button: 'Kép feltöltése'

@@ -16,6 +16,9 @@ fof-oauth:
       disable_avatars_label: 'Szolgáltatótól származó profilképek letiltása'
       fullscreen_popup_help: 'Ha be van kapcsolva, akkor az OAuth-ot használó bejelentkezés teljes képernyős felugró ablakban nyílik meg. Ha be van kapcsolva, akkor a szélesség és magasság beállítása figyelmen kívül lesz hagyva.'
       fullscreen_popup_label: 'Teljes képernyős felugró ablak használata az OAuth-hoz'
+      oauth_only_help: "Ha ez a beállítás engedélyezve van, a tagok többé nem tudnak jelszóval bejelentkezni, regisztrálni vagy jelszót visszaállítani; ehelyett a engedélyezett szolgáltatókat kell használniuk. A rendszergazdák továbbra is jelszóval tudnak bejelentkezni a bejelentkezési ablakban található „Rendszergazdai bejelentkezés” hivatkozás segítségével. A már regisztrált tagok, akiknek még nincs összekapcsolt szolgáltatójuk, az első szolgáltatói bejelentkezéskor lesznek összekapcsolva, amennyiben a szolgáltató megerősíti ugyanazt az e-mail-címet; mindenki másnak rendszergazdai segítségére lesz szüksége. Ha nincs engedélyezett szolgáltató, ennek a beállításnak nincs hatása. Az „Engedélyek” menüpontban a „Regisztráció” beállítást hagyja „Nyitva” állapotban, ellenkező esetben az új tagok szolgáltatón keresztül sem tudnak regisztrálni.\n"
+      oauth_only_label: 'Csak az OAuth-szolgáltatóval való bejelentkezés és regisztráció engedélyezése'
+      oauth_only_sign_up_closed_warning: 'A regisztráció Zárva értékre van állítva az <a>Engedélyekben</a>. A Flarum ezt a beállítást használja a szolgáltatói regisztrációkra is, így míg zárva van, senki sem csatlakozhat.'
       only_icons_label: 'Csak az ikonok megjelenítése (alternatív elrendezés)'
       popup_height_help: 'Az OAuth felugró ablakának magasságának beállítása. Ez a beállítás figyelmen kívül lesz hagyva, ha a „Teljes képernyős felugró ablak használata az OAuth-hoz” beállítás be van kapcsolva.'
       popup_height_label: 'OAuth felugró ablakának magassága'
@@ -73,7 +76,9 @@ fof-oauth:
       bad_verification_code: 'Hibás vagy lejárt ellenőrzőtoken. Próbálja újra.'
       invalid_state: 'Érvénytelen állapot. Próbálja újra.'
     log_in:
+      admin_log_in_link: 'Rendszergazdai bejelentkezés'
       unverified_email_in_use: 'A(z) {provider} nem erősítette meg ezt az e-mail-címet, így nem tud bejelentkezni. Ha már van fiókja, jelentkezzen be alább, majd kösse hozzá a(z) {provider} szolgáltatót a fiókbeállításaiban.'
+      unverified_email_in_use_oauth_only: 'A(z) {provider} nem erősítette meg ezt az e-mail-címet, így nem lehet bejelentkezésre használni. Erősítse meg a címet a(z) {provider} szolgáltatóval, és próbálja újra, vagy kérje egy rendszergazda segítségét.'
       with_button: 'Bejelentkezés ezzel: {provider}'
       with_discord_button: '=> fof-oauth.forum.log_in.with_button'
       with_facebook_button: '=> fof-oauth.forum.log_in.with_button'
