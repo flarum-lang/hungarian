@@ -5,10 +5,20 @@ CHANGELOG
 3.0.5 (XXXX-XX-XX)
 ------------------
 
+**General changes**:
+
+* Updated Flarum core translations (3 added).
+
+
 **Added support for new extensions**:
 
 * [`clarkwinkelmann/flarum-ext-prominent-post-numbers`](https://github.com/clarkwinkelmann/flarum-ext-prominent-post-numbers) (100% complete)
 * [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed) (80% complete)
+
+
+**Updated translations for extensions**:
+
+* [`flarum/tags`](https://github.com/flarum/tags) (3 added, 100% complete)
 
 
 All changes: [3.0.4...3.0.5](https://github.com/flarum-lang/hungarian/compare/3.0.4...3.0.5).
