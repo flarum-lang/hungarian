@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+2.10.6 (XXXX-XX-XX)
+-------------------
+
+**General changes**:
+
+* Updated Flarum core translations (1 changed).
+
+
+**Updated translations for extensions**:
+
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (2 changed, 100% complete)
+
+
+All changes: [2.10.5...2.10.6](https://github.com/flarum-lang/hungarian/compare/2.10.5...2.10.6).
+
+
 2.10.5 (2026-10-05)
 -------------------
 
