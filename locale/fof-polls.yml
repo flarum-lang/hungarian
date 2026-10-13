@@ -63,7 +63,7 @@ fof-polls:
       edit_poll: '=> fof-polls.forum.moderation.edit'
       no_permission_alert: 'Nem indíthat szavazást.'
     days_remaining: 'A szavazás véget ér: {time}.'
-    max_votes_allowed: 'A szavazásban legfeljebb {max} lehetőség választható.'
+    max_votes_allowed: 'A szavazásban legfeljebb {max, plural, one {# lehetőség} other {# lehetőség}} választható.'
     modal:
       add_option_label: 'Lehetőség hozzáadása'
       add_title: 'Szavazás hozzáadása'
@@ -192,7 +192,7 @@ fof-polls:
       no-recent-polls: 'Jelenleg nincs nemrég befejeződött szavazás.'
     tooltip:
       badge: Szavazás
-      votes: '{count} szavazat'
+      votes: '{count, plural, one {# szavazat} other {# szavazat}}'
     upload_image:
       remove_button: 'Kép törlése'
       upload_button: 'Kép feltöltése'

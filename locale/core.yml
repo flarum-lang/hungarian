@@ -481,7 +481,7 @@ core:
       now_link: Most
       original_post_link: 'Eredeti bejegyzés'
       unread_text: '{count} olvasatlan'
-      viewing_text: '{index}. / {formattedCount} bejegyzés'
+      viewing_text: '{index}. bejegyzés / {formattedCount}'
     post_stream:
       discussion_renamed_old_tooltip: 'A régi cím: „{old}”'
       discussion_renamed_text: '{username} {time} a következőre módosította a címet: {new}.'
