@@ -2,6 +2,35 @@ CHANGELOG
 =========
 
 
+3.0.5 (2026-10-20)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations (17 added, 1 changed).
+
+
+**Added support for new extensions**:
+
+* [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) (100% complete)
+* [`clarkwinkelmann/flarum-ext-prominent-post-numbers`](https://github.com/clarkwinkelmann/flarum-ext-prominent-post-numbers) (100% complete)
+* [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed) (100% complete)
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (59% complete)
+* [`fof/mason`](https://github.com/FriendsOfFlarum/mason) (65% complete)
+* [`ianm/gravatar`](https://github.com/imorland/gravatar) (100% complete)
+
+
+**Updated translations for extensions**:
+
+* [`flarum/tags`](https://github.com/flarum/tags) (3 added, 100% complete)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip) (19 added, 100% complete)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (5 added, 100% complete)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls) (13 added, 2 changed, 100% complete)
+
+
+All changes: [3.0.4...3.0.5](https://github.com/flarum-lang/hungarian/compare/3.0.4...3.0.5).
+
+
 3.0.4 (2026-10-05)
 ------------------
 
