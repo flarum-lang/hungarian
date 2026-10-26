@@ -23,6 +23,8 @@ fof-drafts:
       schedule_log_output: 'Az ütemező kimenetének hozzáfűzése a naplóhoz'
       schedule_on_one_server: 'Az „onOneServer()” direktíva használata a feladatütemezőhöz (Redis/Memcache szükséges)'
       title: 'FoF vázlatok'
+  api:
+    empty_draft_message: 'Még nincs mit menteni ebben a vázlatban.'
   console:
     no_title_error: 'Vázlat kihagyva: a téma címe hiányzik.'
     scheduled_drafts_disabled: 'Jelenleg az időzítés ki van kapcsolva a beállításokban.'
