@@ -208,6 +208,7 @@ php flarum cache:clear
 | [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum2/hu/sycho-move-posts/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/sycho-move-posts/hu/) |
 | [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum2/hu/sycho-private-facade/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/sycho-private-facade/hu/) |
 | [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum2/hu/sycho-profile-cover/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/sycho-profile-cover/hu/) |
+| [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification) | [![Fordítás állapota](https://weblate.rob006.net/widgets/flarum2/hu/tpokorra-post-notification/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/tpokorra-post-notification/hu/) |
 
 <!-- various-extensions-list-stop -->
 
