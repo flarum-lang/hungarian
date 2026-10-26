@@ -7,8 +7,15 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats) (100% complete)
+* [`ralkage/flarum-ext-word-counter`](https://github.com/Ralkage/flarum-ext-word-counter) (100% complete)
 * [`ramon/canela`](https://github.com/ram0ng1/canela) (95% complete)
 * [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification) (100% complete)
+
+
+**Updated translations for extensions**:
+
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts) (1 added, 100% complete)
 
 
 All changes: [3.0.5...3.0.6](https://github.com/flarum-lang/hungarian/compare/3.0.5...3.0.6).
