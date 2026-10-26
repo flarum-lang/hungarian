@@ -8,6 +8,7 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats) (100% complete)
+* [`linkrobins/auto-verify`](https://github.com/linkrobins/auto-verify) (50% complete)
 * [`ralkage/flarum-ext-word-counter`](https://github.com/Ralkage/flarum-ext-word-counter) (100% complete)
 * [`ramon/canela`](https://github.com/ram0ng1/canela) (95% complete)
 * [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification) (100% complete)
