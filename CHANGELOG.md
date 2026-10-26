@@ -8,6 +8,7 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`ramon/canela`](https://github.com/ram0ng1/canela) (95% complete)
+* [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification) (100% complete)
 
 
 All changes: [3.0.5...3.0.6](https://github.com/flarum-lang/hungarian/compare/3.0.5...3.0.6).
