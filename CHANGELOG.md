@@ -2,6 +2,38 @@ CHANGELOG
 =========
 
 
+3.0.6 (XXXX-XX-XX)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations (3 added).
+
+
+**Added support for new extensions**:
+
+* [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats) (100% complete)
+* [`linkrobins/auto-verify`](https://github.com/linkrobins/auto-verify) (50% complete)
+* [`ralkage/flarum-ext-word-counter`](https://github.com/Ralkage/flarum-ext-word-counter) (100% complete)
+* [`ramon/canela`](https://github.com/ram0ng1/canela) (87% complete)
+* [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification) (100% complete)
+
+
+**Updated translations for extensions**:
+
+* [`flarum/gdpr`](https://github.com/flarum/gdpr) (3 added, 100% complete)
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts) (1 added, 100% complete)
+* [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist) (2 added, 2 changed, 100% complete)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions) (7 added, 1 changed, 100% complete)
+* [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text) (2 changed, 100% complete)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload) (1 added, 2 changed, 100% complete)
+* [`ianm/html-head`](https://github.com/imorland/html-head) (3 added, 100% complete)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) (1 added, 100% complete)
+
+
+All changes: [3.0.5...3.0.6](https://github.com/flarum-lang/hungarian/compare/3.0.5...3.0.6).
+
+
 3.0.5 (2026-10-20)
 ------------------
 
