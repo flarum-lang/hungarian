@@ -11,6 +11,7 @@ michaelbelgium-discussion-views:
   admin:
     permissions:
       reset_views_label: 'A beszélgetés nézettségének visszaállítása'
+      view_list_label: 'Témák megjelenítési listáinak (oldalsáv + lábléc) megtekintése'
       view_number_label: 'Nézettség megtekintése'
     settings:
       abbr_numbers_label: 'Megtekintések számának rövidítése'

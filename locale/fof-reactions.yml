@@ -2,6 +2,15 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-reactions/hu/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      fof-reactions:
+        reaction_created: 'Reakció létrehozva: {reaction}'
+        reaction_deleted: 'Reakció törölve: {reaction}'
+        reaction_disabled: 'Reakció letiltva: {reaction}'
+        reaction_enabled: 'Reakció engedélyezve: {reaction}'
+        reaction_updated: 'A(z) {reaction} reakció {key} kulcsa megváltoztatva erről: {old_value}, erre: {new_value}'
 fof-reactions:
   admin:
     page:

@@ -158,3 +158,8 @@ flarum-gdpr:
       request_button: 'Archívum kérése'
       text: "Egy ZIP-archívum lesz elkészítve. Amint elkészül, értesítést fog kapni a letöltési hivatkozással. A hivatkozás egy napig marad aktív.\n"
       title: 'Adatok kérése ehhez: {username}'
+  views:
+    confirm_erasure:
+      submit_button: 'Törlés megerősítése'
+      text: 'Erősítse meg, hogy törölni akarja a fiókot és az adatait. A kérés feldolgozásáig még megszakíthatja a beállításaiból.'
+      title: 'Fiók törlésének megerősítése'

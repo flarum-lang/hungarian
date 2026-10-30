@@ -162,11 +162,12 @@ fof-upload:
       title: Feltöltés
     permissions:
       access_shared_label: 'Megosztott fájlok elérése a médiakezelőben'
-      delete_uploads_of_others_label: 'Felhasználói feltöltések törlése'
+      delete_own_uploads_label: 'Saját feltöltések törlése'
+      delete_uploads_of_others_label: 'Más felhasználók feltöltéseinek elrejtése és törlése'
       download_label: 'Fájlok letöltése'
       upload_label: 'Fájlok feltöltése (alapvető engedély, az összes feltöltéshez szükséges)'
       upload_mime_label: '{label} feltöltése'
-      upload_shared_label: 'Megosztott fájlok feltöltése'
+      upload_shared_label: 'Megosztott fájlok feltöltése, elrejtése és törlése'
       view_user_uploads_label: 'Felhasználói feltöltések megtekintése'
     shared-uploads:
       description: 'Olyan fájlok feltöltése, melyeket a fórum összes felhasználója használhat.'

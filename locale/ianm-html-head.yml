@@ -37,8 +37,11 @@ ianm-html-head:
       location_label: 'Beszúrás ide:'
       meta:
         content_label: Tartalom
+        name_help: 'Az elemek megadott leírása, nézőpontja vagy témaszíne lecseréli a Flarum által használt címkét, ahelyett hogy másodikként adná hozzá.'
         name_label: 'name=""'
+        name_placeholder: 'Válasszon vagy írjon be egy nevet'
         property_label: 'property="" (Open Graph)'
+        property_placeholder: 'Válasszon vagy írjon be egy tulajdonságot'
         variant_label: Változat
       pages:
         admin: 'Adminisztrátori panel'

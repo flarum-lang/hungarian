@@ -73,8 +73,8 @@ fof-linguist:
       locale: 'Területi beállítás'
       locale-all: '„Összes” fiktív területi beállítás'
       override-existing: 'Meglévő saját egyéni fordítások felülírása'
-      results: "Az importálás kész. {imported} szöveg lett importálva, és {identical} egyező szöveg kihagyásra került. Az oldal most frissülni fog, hogy az új fordításokat jelenítse meg.\n"
-      results-with-ignore: "Az importálás kész. {imported} szöveg lett importálva, {ignored} meglévő szöveg figyelmen kívül lett hagyva és {identical} egyező szöveg kihagyásra került. Az oldal most frissülni fog, hogy az új fordításokat jelenítse meg.\n"
+      results: "Az importálás kész. {imported} szöveg lett importálva, valamint {identical} egyező és {empty} üres szöveg lett kihagyva. Az oldal most frissülni fog, hogy az új fordításokat jelenítse meg.\n"
+      results-with-ignore: "Az importálás kész. {imported} szöveg lett importálva, {ignored} meglévő szöveg lett figyelmen kívül hagyva, valamint {identical} egyező szöveg és {empty} üres szöveg lett kihagyva. Az oldal most frissülni fog, hogy az új fordításokat jelenítse meg.\n"
       submit: Importálás
       title: Importálás
     known-frontend:
@@ -99,3 +99,6 @@ fof-linguist:
       export: Exportálás
       import: Importálás
       strings: Fordítások
+  api:
+    cannot_change_key_or_locale: 'Egy mentett fordítás kulcsa vagy területi beállítása nem változtatható meg.'
+    invalid_icu_syntax: 'A fordítás nem érvényes ICU-üzenet, például lehet, hogy nem zárt be egy zárójelet.'

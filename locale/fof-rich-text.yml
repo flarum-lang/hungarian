@@ -6,12 +6,12 @@ fof-rich-text:
   admin:
     settings:
       force_compact_paragraphs: 'Kompakt bekezdések kényszerítése az összes felhasználónál (Az Enter sortörést hoz létre bekezdéstörés helyett)'
-      toggle_on_editor: 'Formázott szöveges mód kapcsolójának megjelenítése a szerkesztőben?'
+      toggle_on_editor: 'Formázott szöveges mód kapcsolójának megjelenítése a szerkesztőben'
   forum:
     settings:
       composer_heading: Szerkesztő
       rich_text_compact_paragraphs_label: 'Ne válassza el a bekezdéseket újsorral.'
-      use_rich_text_editor_label: 'Formázott szöveges szerkesztő használata?'
+      use_rich_text_editor_label: 'Formázott szöveges szerkesztő használata'
   lib:
     composer:
       additional_items_tooltip: 'További vezérlők'
