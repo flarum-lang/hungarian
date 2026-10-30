@@ -6,6 +6,8 @@ flarum-audit:
   lib:
     browser:
       fof-reactions:
+        post_reaction_removed: '{username} {reaction} reakciója eltávolítva {postuser} {post} bejegyzéséről itt: {discussion}'
+        post_reactions_removed: '{count, plural, one {# {reaction} reakció} other {# {reaction} reakció}} eltávolítva {postuser} {post} bejegyzéséről itt: {discussion}'
         reaction_created: 'Reakció létrehozva: {reaction}'
         reaction_deleted: 'Reakció törölve: {reaction}'
         reaction_disabled: 'Reakció letiltva: {reaction}'
@@ -69,7 +71,7 @@ fof-reactions:
     disabled-reaction: 'Jelenleg nem használhatja ezt a reakciót, frissítse az oldalt'
     mod_item: 'Reakciók megtekintése'
     modal:
-      anonymous_count: '{count} névtelen felhasználó'
+      anonymous_count: '{count, plural, one {# névtelen felhasználó} other {# névtelen felhasználó}}'
       confirm_remove_all_reaction_type: 'Biztos, hogy eltávolítja mind a(z) {reaction} reakciót erről a bejegyzésről? Ez a művelet nem vonható vissza.'
       confirm_remove_user_reaction: 'Biztos, hogy eltávolítja {username} {reaction} reakcióját a bejegyzésről? Ez a művelet nem vonható vissza.'
       load_more: 'Továbbiak betöltése'
