@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+3.0.7 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`huseyinfiliz/custom-profile-page`](https://github.com/huseyinfiliz/custom-profile-page) (100% complete)
+
+
+All changes: [3.0.6...3.0.7](https://github.com/flarum-lang/hungarian/compare/3.0.6...3.0.7).
+
+
 3.0.6 (2026-11-01)
 ------------------
 
