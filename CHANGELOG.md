@@ -10,6 +10,24 @@ CHANGELOG
 * [`huseyinfiliz/custom-profile-page`](https://github.com/huseyinfiliz/custom-profile-page) (100% complete)
 
 
+**Updated translations for extensions**:
+
+* [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (34 added, 2 changed, 86% complete)
+* [`flarum/sticky`](https://github.com/flarum/sticky) (2 changed, 100% complete)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (2 added, 100% complete)
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges) (26 added, 100% complete)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (5 added, 10 changed, 100% complete)
+* [`fof/categories`](https://github.com/FriendsOfFlarum/categories) (10 changed, 100% complete)
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences) (2 added, 100% complete)
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (13 added, 100% complete)
+* [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users) (2 added, 100% complete)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) (8 added, 3 changed, 100% complete)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions) (3 added, 100% complete)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry) (5 changed, 100% complete)
+* [`fof/split`](https://github.com/FriendsOfFlarum/split) (2 added, 100% complete)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor) (10 added, 100% complete)
+
+
 All changes: [3.0.6...3.0.7](https://github.com/flarum-lang/hungarian/compare/3.0.6...3.0.7).
 
 
