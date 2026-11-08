@@ -25,8 +25,8 @@ flarum-sticky:
       sticky_button: '=> flarum-sticky.ref.sticky'
       unsticky_button: 'Kitűzés eltávolítása'
     post_stream:
-      discussion_stickied_text: '{username} {time} kitűzte a témát.'
-      discussion_unstickied_text: '{username} {time} megszüntette a téma kitűzését.'
+      discussion_stickied_text: '{username} kitűzte a témát ekkor: {time}.'
+      discussion_unstickied_text: '{username} megszüntette a téma kitűzését ekkor: {time}.'
   lib:
     gambits:
       discussions:

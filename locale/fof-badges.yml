@@ -239,6 +239,48 @@ fof-badges:
     uncategorized: 'Nem kategorizált'
     validation:
       tag_required: 'Választani kell egy címkét, ha a „Bejegyzések a címkében” metrikát használja.'
+  defaults:
+    badges:
+      active-member:
+        description: '50 bejegyzés közzététele'
+        name: 'Aktív tag'
+      anniversary:
+        description: 'Egy éves tagság'
+        name: Évforduló
+      conversation-starter:
+        description: 'Az első téma indítása'
+        name: Beszélgetésindító
+      editor:
+        description: '10 bejegyzés jobbá tétele'
+        name: Szerkesztő
+      first-post:
+        description: 'Az első bejegyzés megírása'
+        name: 'Első bejegyzés'
+      first-week:
+        description: '7 napos tagság'
+        name: 'Első hét'
+      profile-picture:
+        description: 'Egy profilkép feltöltése'
+        name: Profilkép
+      prolific:
+        description: '200 válasz közzététele'
+        name: Termékeny
+      regular:
+        description: '30 napos tagság'
+        name: 'Rendes tag'
+      topic-starter:
+        description: '10 téma indítása'
+        name: Témaindító
+    categories:
+      getting-started:
+        description: 'Jelvények a kezdő lépéseket megtevő tagok számára'
+        name: 'Kezdő lépések'
+      milestones:
+        description: 'Jelvények a fontos mérföldkövek eléréséhez'
+        name: Mérföldkövek
+      posting:
+        description: 'Jelvények a bejegyzési és közreműködési mérföldkövekhez'
+        name: Bejegyzések
   forum:
     all_badges: 'Összes jelvény'
     badges_subtitle: 'Szerezzen jelvényeket a közösségben való részvétellel!'

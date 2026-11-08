@@ -7,6 +7,8 @@ fof-default-user-preferences:
     settings:
       discloseOnline: 'Online állapot megosztása'
       discloseOnline-help: 'Ha engedélyezve van, akkor az új felhasználók megjelenítik másoknak az online állapotukat. Az adminisztrátorok és a jogosultsággal rendelkező más felhasználók ettől a beállítástól függetlenül láthatják az online állapotukat.'
+      followAfterCreate: 'Követés létrehozás után'
+      followAfterCreate-help: 'Ha engedélyezve van, az új felhasználók automatikusan követni fogják a létrehozott témáikat.'
       followAfterReply: 'Követés válasz után'
       followAfterReply-help: 'Ha be van kapcsolva, az új felhasználók automatikusan követik a témákat, amelyekhez hozzászólnak.'
       groupMentioned: 'Csoportmegemlítési e-mail'

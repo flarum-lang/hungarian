@@ -20,7 +20,9 @@ fof-merge-discussions:
       deleting_failed: 'Az üres témák törlése sikertelen.'
       fixing_posts_number_failed: 'A bejegyzésszámok rögzítése sikertelen.'
       fixing_posts_number_meta_failed: 'A bejegyzésszámok rögzítése sikertelen.'
+      into_itself: 'Egy téma nem vonható össze saját magával.'
       merging_failed: 'A témák összevonása sikertelen.'
+      redirecting_failed: 'Az összevont témák átirányítása sikertelen.'
       updating_failed: 'A téma részleteinek frissítése sikertelen.'
   email:
     merged:
@@ -36,6 +38,7 @@ fof-merge-discussions:
       ordering_heading: 'Összevonási sorrend'
       ordering_suffix_help: 'A bejegyzések a megmaradó téma végéhez lesznek fűzve'
       ordering_suffix_label: 'Az beolvasztott bejegyzések a téma végéhez fűzése'
+      preview_truncated: 'Bejegyzések megjelenítése: {from} – {to} / {total}.'
       search_discussions_placeholder: 'Témák keresése…'
       submit_button: '=> fof-merge-discussions.ref.merge'
       title: 'Témák összevonása'

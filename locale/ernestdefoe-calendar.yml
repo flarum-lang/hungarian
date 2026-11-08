@@ -11,18 +11,34 @@ ernestdefoe-bespoke:
 ernestdefoe-calendar:
   admin:
     categories: Eseménykategóriák
-    categories_help: 'A színkódolt kategóriák lehetővé teszik, hogy a tagok leszűrjék a naptárat, és minden eseménynek színes kiemelést adjanak. A változások soronként vannak mentve.'
+    categories_help: 'A színkódolt kategóriák lehetővé teszik, hogy a tagok leszűrjék a naptárat, és minden eseménynek színes kiemelést adjanak. Kategóriánként átnevezheti az RSVP gombokat vagy ki is kapcsolhatja őket (például a kiadási dátumoknál). A változások soronként vannak mentve.'
     category_add: 'Kategória hozzáadása'
     category_color: Szín
+    category_delete: 'Kategória törlése'
     category_delete_confirm: 'Törli a kategóriát? Az események megtartják az adataikat, de a színcímkét elveszítik.'
+    category_going_label: 'Részt vesz'
+    category_interested_label: Érdeklődik
+    category_label_aria: 'A(z) „{label}” gomb szövegezése'
     category_name: Név
+    category_preset: '{color} szín használata'
+    category_rsvp: 'RSVP gombok'
+    category_save: 'Kategória mentése'
     category_saved: 'Kategória elmentve.'
     default_view: 'Alapértelmezett naptárnézet'
+    event_discussion_author_placeholder: 'A tag, aki létrehozta az eseményt'
+    event_discussion_tags: 'Eseménytémák címkézése'
+    event_discussion_tags_help: 'Válasszon legalább egyet – egy címkékkel rendelkező fórumban minden új témának szüksége van címkére. A fióknak, amely közzéteszi, létre kell tudni hoznia témákat.'
     hide_nav_link: 'Naptárhivatkozás elrejtése az oldalsáv-navigációban'
     hide_nav_link_help: 'A naptár elérhető marad a Közelgő események modulról, és a /calendar webcímről – hasznos, ha a navigáció zsúfolttá válik.'
     index_widget_count: 'A kezdőlapi modulon megjelenítendő események'
+    onthisday_exclude_tags: 'Sose jelenítsen meg témákat ezekből a címkékből a „Mai napon” modulban'
+    onthisday_exclude_tags_help: 'A csak olvasható címkék esetén hasznos, ahol a tagok nem tudnak válaszolni az emlékre.'
     permission_create: 'Naptáresemények létrehozása'
     permission_manage: 'Összes naptáresemény kezelése'
+    pulse_exclude_groups: 'Ezen csoportok kihagyása a Fórum impulzusából'
+    pulse_exclude_groups_help: 'Jelöljön be amennyit szeretne. Az automatizált fiókokhoz – például egy bot, amely minden nap tesz közzé, mindig a rangsor tetején lenne. A bejegyzéseik ki lesznek hagyva a tevékenységdiagramból is.'
+    pulse_exclude_users: 'Ezen tagok kihagyása a Fórum impulzusából'
+    pulse_exclude_users_help: 'Felhasználónevek, vesszővel elválasztva – annyi, amennyit szeretne.'
     settings_title: Naptár
     show_celebrations_widget: 'Egy „Mai ünnepeltek” modul megjelenítése a fórum kezdőlapján'
     show_index_widget: 'A „Közelgő események” modul megjelenítése a fórum kezdőlapján'
@@ -36,6 +52,7 @@ ernestdefoe-calendar:
     week_sunday: Vasárnap
   api:
     category_name_required: 'A kategórianév kötelező.'
+    discussion_needs_tag: 'Az eseménytémákhoz címke szükséges. Egy adminisztrátor választhat egyet a Naptár beállításaiban.'
     end_before_start: 'A végének a kezdete után kell lennie.'
     start_required: 'Érvényes kezdő dátum/időpont szükséges.'
     title_required: 'A cím kötelező.'
@@ -69,6 +86,12 @@ ernestdefoe-calendar:
     celebrations_anniversary: '{years} éve a fórumon'
     celebrations_birthday: 'Születésnap 🎂'
     celebrations_title: 'Mai ünnepeltek'
+    coming_up: Hamarosan
+    cover_browse: 'Választás a saját feltöltésekből'
+    cover_browse_close: 'Saját feltöltések bezárása'
+    cover_browse_empty: 'Még egyetlen képet sem töltött fel.'
+    cover_browse_error: 'Nem sikerült a feltöltései betöltése.'
+    cover_browse_more: 'Több betöltése'
     cover_error: 'Nem sikerült a kép felöltése – próbálja újra vagy illesszen be egy webcímet.'
     cover_or_url: '…vagy illessze be egy kép webcímét'
     cover_remove: 'Borítókép eltávolítása'
@@ -79,18 +102,20 @@ ernestdefoe-calendar:
     download_ics: 'Az .ics letöltése'
     edit_event: 'Esemény szerkesztése'
     ends: Befejezés
+    ends_at: 'Véget ér: {date}'
     export: Exportálás
     field_all_day: 'Egész napos esemény'
     field_category: Kategória
     field_cover: 'Borítókép (nem kötelező)'
     field_description: Leírás
     field_end: Befejezés
-    field_location: Hely
+    field_location: 'Hely (nem kötelező)'
     field_repeat: Ismétlés
     field_start: Kezdés
     field_timezone: Időzóna
     field_title: Cím
     field_url: 'Hivatkozás (nem kötelező)'
+    happening_now: 'Most történik'
     heat_active_days: 'aktív nap'
     heat_cell: '{count} ekkor: {date}'
     heat_contributions: közreműködés
@@ -100,12 +125,14 @@ ernestdefoe-calendar:
     heat_more: Több
     link: Hivatkozás
     location: Hely
+    location_placeholder: 'Város, Fő utca 12.'
     memories_empty: 'Még nincsenek emlékek a mai dátumról – készítsen néhányat!'
     memories_replies: '{count} válasz'
     memories_title: 'Mai napon'
     memories_years_ago: '{years} éve'
     nav: Naptár
     no_events: 'Nincsenek közelgő események.'
+    no_events_day: 'Ezen a napon nincs semmi.'
     organizer: Szervező
     page_title: Naptár
     pulse_empty: 'Még nincsenek tevékenységek.'
@@ -125,6 +152,7 @@ ernestdefoe-calendar:
     saved: 'Esemény mentve.'
     section_details: Részletek
     section_when: Mikor
+    start_discussion: 'Téma indítása'
     starts: Kezdés
     starts_in: Kezdés
     subscribe: 'Feliratkozás (iCal-hírfolyam)'
@@ -136,6 +164,12 @@ ernestdefoe-calendar:
     view_list: Lista
     view_month: Hónap
     view_week: Hét
+    week_number: 'W{number}'
+    week_number_title: '{number}. hét'
+    wf_category: 'Kategória webcímrészlete (nem kötelező)'
+    wf_how_many: Mennyi
+    wf_leaderboard_size: 'Rangsor mérete'
+    wf_title: Cím
     widget_celebrations: Ünnepeltek
     widget_memories: 'Mai napon'
     widget_pulse: 'Fórum impulzusa'

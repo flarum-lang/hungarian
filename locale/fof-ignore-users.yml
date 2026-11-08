@@ -10,6 +10,10 @@ fof-ignore-users:
     badge:
       discussion_label: 'Egy figyelmen kívül hagyott felhasználó indította'
       user_label: 'Figyelmen kívül hagyott felhasználó'
+    messages:
+      cannot_send_text: 'Nem küldhet üzenetet ebbe a témába.'
+    post:
+      toggle_label: 'Figyelmen kívül hagyott felhasználó bejegyzésének megjelenítése vagy elrejtése'
     profile_link: 'Figyelmen kívül hagyott felhasználók'
     profile_page:
       no_ignored: 'Úgy néz ki, hogy senkit sem hagy figyelmen kívül.'

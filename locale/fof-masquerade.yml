@@ -8,6 +8,8 @@ flarum-audit:
       masquerade:
         field_created: 'A(z) „{name}” profilmező létrehozva'
         field_deleted: 'A(z) „{name}” profilmező törölve'
+        field_permanently_deleted: 'A(z) „{name}” profilmező véglegesen törölve'
+        field_restored: 'A(z) „{name}” profilmező helyreállítva'
         field_updated: 'A(z) „{name}” profilmező frissítve'
         profile_updated: '{username} profilmezői frissítve'
 flarum-gdpr:
@@ -21,15 +23,20 @@ fof-masquerade:
   admin:
     buttons:
       add-field: 'Mező létrehozása'
-      delete-field: 'Mező törlése'
+      add-option: 'Lehetőség hozzáadása'
+      delete-field: 'Áthelyezés a kukába'
+      delete-field-permanently: 'Mező végleges törlése: „{field}”'
+      delete-option: 'Lehetőség törlése'
       edit-field: 'Módosítások mentése'
+      restore-field: 'Mező helyreállítása: „{field}”'
     fields:
       add: '{field} mező hozzáadása'
       create: 'Mező létrehozása'
-      delete-confirmation: 'Biztos, hogy törli a(z) {field} mezőt? Ez nem vonható vissza.'
+      delete-confirmation: 'Biztos, hogy a kukába helyezi a(z) „{field}” mezőt?'
+      delete-permanently-confirmation: 'Biztos, hogy véglegesen törli a(z) „{field}” mezőt és az összes mentett válaszát? Ez nem vonható vissza.'
       description: 'Mező leírása'
       description-help: "Esetleges leírás a mező használatának/szükségének magyarázatához.\n"
-      edit: '{field} mező szerkesztése'
+      edit: 'Mező szerkesztése: „{field}”'
       force-user-to-completion: 'Felhasználó kötelezése hogy kitöltse a profil adatokat'
       hide-empty-fields: 'Üres mezők elrejtése'
       icon: Ikon
@@ -45,6 +52,7 @@ fof-masquerade:
       permissions-alert: 'Az engedélybeállítások akkor lesznek elérhetőek, ha létrehozás után szerkeszti a mezőt.'
       required: 'Megjelölés kötelezőként'
       title: Mezők
+      trash: Kuka
       type: Típus
       validation: Ellenőrzés
       validation-help: "A támogatott <a>Laravel ellenőrzési szabályok</a> vizsgálata. Például „string|min:5” vagy „url”.\n"

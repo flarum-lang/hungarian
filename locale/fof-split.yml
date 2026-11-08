@@ -12,6 +12,10 @@ fof-split:
   admin:
     permissions:
       split_discussion_label: 'Hozzászólások leválasztása a témákról'
+  api:
+    errors:
+      end_before_start: 'A leválasztásnak a kiinduló bejegyzésnél vagy azt követően kell véget érnie.'
+      first_post: 'A téma nyitóbejegyzése nem választható le.'
   forum:
     modal:
       new_discussion_label: 'Adja meg az új téma címét'

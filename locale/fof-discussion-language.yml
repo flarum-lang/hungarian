@@ -2,17 +2,31 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-discussion-language/hu/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-gdpr:
+  lib:
+    data:
+      subscriptionlanguages:
+        anonymize_description: 'Eltávolítja a felhasználó által követett címkékhez választott nyelvet.'
+        export_description: 'Címkefeliratkozásokkal exportálva, ahogy a fof/follow-tags is teszi.'
 fof-discussion-language:
   admin:
     permissions:
       allow_change_language_label: 'Nyelv szerkesztésének engedélyezése'
+      change_language_label: 'Téma nyelvének módosítása'
     settings:
+      attribution: 'Ez a bővítmény a <article>List of ISO 639-2 codes</article> Wikipédia-cikket használja, amely a <license>Creative Commons Nevezd meg! - Így add tovább! licenc 3.0</license> alatt kerül közreadásra.'
       composer_default_label: 'A jelenlegi területi beállítás előzetes kiválasztása a témaszerkesztőben'
       config:
+        add_button: 'Nyelv hozzáadása'
+        choose_country: 'Ország kiválasztása…'
+        choose_language: 'Nyelv kiválasztása…'
         country_label: 'Ország (a zászló megjelenítéséhez)'
         language_label: Nyelv
+        remove_button: '{language} eltávolítása'
       errors:
         missing_assets: 'A bővítmény számára szükséges erőforrások nem tölthetők be. Próbálja futtatni a <code>php flarum assets:publish</code> parancsot, és nézze meg, hogy megoldotta-e a problémát.'
+      languages_heading: Nyelvek
+      languages_help: 'A nyelvek, amelyen a téma lehet. Az ország választja ki a megjelenített zászlót.'
       locale_sort_label: 'Észlelt nyelv használata az alapértelmezett témaszűrőhöz'
       native_label: 'Anyanyelvi nyelvnevek használata'
       show_any_lang_opt_label: 'A „Bármely nyelv” lehetőség megjelenítése'
@@ -32,6 +46,13 @@ fof-discussion-language:
       change_language_button: 'Nyelv beállítása'
     index_language:
       any: 'Bármely nyelv'
+    language_dropdown:
+      toggle_label: 'Válassza ki a téma nyelvét'
     sub_controls:
       subscription_language_help: 'Ha itt kiválaszt egy nyelvet, akkor csak az ilyen nyelvű tevékenységekről fog értesítést kapni.'
       subscription_language_label: 'Téma nyelve'
+  lib:
+    gambits:
+      language:
+        hint: 'nyelvkód vagy nyelvkódok vesszővel elválasztott listája'
+        key: nyelv
