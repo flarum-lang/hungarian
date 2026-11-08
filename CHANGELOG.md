@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+2.10.7 (XXXX-XX-XX)
+-------------------
+
+**Updated translations for extensions**:
+
+* [`flarum/sticky`](https://github.com/flarum/sticky) (2 changed, 100% complete)
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges) (26 added, 100% complete)
+
+
+All changes: [2.10.6...2.10.7](https://github.com/flarum-lang/hungarian/compare/2.10.6...2.10.7).
+
+
 2.10.6 (2026-10-24)
 -------------------
 
