@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+3.0.8 (XXXX-XX-XX)
+------------------
+
+**General changes**:
+
+* Updated Day.js translations.
+
+
+All changes: [3.0.7...3.0.8](https://github.com/flarum-lang/hungarian/compare/3.0.7...3.0.8).
+
+
 3.0.7 (2026-11-08)
 ------------------
 
