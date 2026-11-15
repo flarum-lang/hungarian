@@ -13,6 +13,8 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`flarum/lock`](https://github.com/flarum/lock) (2 changed, 100% complete)
+* [`fof/frontpage`](https://github.com/FriendsOfFlarum/frontpage) (1 changed, 100% complete)
+* [`fof/split`](https://github.com/FriendsOfFlarum/split) (2 changed, 100% complete)
 * [`ianm/gravatar`](https://github.com/imorland/gravatar) (3 changed, 100% complete)
 
 
