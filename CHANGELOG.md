@@ -10,6 +10,12 @@ CHANGELOG
 * Updated Day.js translations.
 
 
+**Updated translations for extensions**:
+
+* [`flarum/lock`](https://github.com/flarum/lock) (2 changed, 100% complete)
+* [`ianm/gravatar`](https://github.com/imorland/gravatar) (3 changed, 100% complete)
+
+
 All changes: [3.0.7...3.0.8](https://github.com/flarum-lang/hungarian/compare/3.0.7...3.0.8).
 
 
