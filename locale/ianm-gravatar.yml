@@ -24,12 +24,12 @@ ianm-gravatar:
         g_label: 'g: tetszőleges weboldal és közönség számára megfelelő'
         helptext: 'A Gravatar lehetővé teszi a felhasználók számára, hogy értékeljék a saját képeiket, így jelezhetik, hogy egy kép megfelelő-e egy adott közönség számára. Alapértelmezetten csak a „G” besorolású képek jelennek meg, hacsak nem jelzi, hogy a magasabb besorolású képeket is látni akarja. Megadhatja a következő besorolások egyikét, hogy a legfeljebb ennek megfelelő képeket kérje.'
         pg_label: 'pg: durva gesztusokat, provokatívan öltözött személyeket, enyhébb csúnya szavakat vagy enyhe erőszakot tartalmazhat'
-        r_label: 'r: durva profanitást, heves erőszakot, meztelenséget vagy keménydrog-használatot tartalmazhat'
+        r_label: 'r: durva profanitást, heves erőszakot, meztelenséget vagy keménydroghasználatot tartalmazhat'
         title: Korhatár
         x_label: 'x: pornográf tartalmat vagy rendkívül heves erőszakot tartalmazhat'
       replace-flarum-custom:
-        helptext: 'Az fórumra már feltöltött egyéni profilképek lecserélése a Gravatarra'
-        title: 'Az fórumra feltöltött egyéni profilképek lecserélése'
+        helptext: 'A fórumra már feltöltött egyéni profilképek lecserélése Gravatarra'
+        title: 'A fórumra feltöltött egyéni profilképek lecserélése'
   forum:
     settings:
       edit-gravatar: 'Profilkép kezelése a gravatar.com-on'
