@@ -10,6 +10,14 @@ CHANGELOG
 * Updated Day.js translations.
 
 
+**Updated translations for extensions**:
+
+* [`flarum/lock`](https://github.com/flarum/lock) (2 changed, 100% complete)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman) (2 changed, 100% complete)
+* [`fof/frontpage`](https://github.com/FriendsOfFlarum/frontpage) (1 changed, 100% complete)
+* [`fof/split`](https://github.com/FriendsOfFlarum/split) (2 changed, 100% complete)
+
+
 All changes: [2.10.7...2.10.8](https://github.com/flarum-lang/hungarian/compare/2.10.7...2.10.8).
 
 
