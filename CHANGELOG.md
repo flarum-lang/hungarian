@@ -13,9 +13,18 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`flarum/lock`](https://github.com/flarum/lock) (2 changed, 100% complete)
+* [`fof/formatting`](https://github.com/FriendsOfFlarum/formatting) (3 changed, 100% complete)
 * [`fof/frontpage`](https://github.com/FriendsOfFlarum/frontpage) (1 changed, 100% complete)
+* [`fof/html-errors`](https://github.com/FriendsOfFlarum/html-errors) (1 changed, 100% complete)
+* [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes) (2 changed, 100% complete)
+* [`fof/pages`](https://github.com/FriendsOfFlarum/pages) (6 changed, 100% complete)
 * [`fof/split`](https://github.com/FriendsOfFlarum/split) (2 changed, 100% complete)
-* [`ianm/gravatar`](https://github.com/imorland/gravatar) (3 changed, 100% complete)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms) (1 changed, 100% complete)
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter) (1 changed, 100% complete)
+* [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff) (1 changed, 100% complete)
+* [`ianm/gravatar`](https://github.com/imorland/gravatar) (4 changed, 100% complete)
+* [`ianm/syndication`](https://github.com/imorland/syndication) (6 changed, 100% complete)
+* [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar) (1 changed, 100% complete)
 
 
 All changes: [3.0.7...3.0.8](https://github.com/flarum-lang/hungarian/compare/3.0.7...3.0.8).
