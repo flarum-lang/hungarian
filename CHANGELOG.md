@@ -12,6 +12,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (31 added, 100% complete)
 * [`flarum/lock`](https://github.com/flarum/lock) (2 changed, 100% complete)
 * [`fof/formatting`](https://github.com/FriendsOfFlarum/formatting) (3 changed, 100% complete)
 * [`fof/frontpage`](https://github.com/FriendsOfFlarum/frontpage) (1 changed, 100% complete)
