@@ -17,6 +17,7 @@ CHANGELOG
 * [`fof/frontpage`](https://github.com/FriendsOfFlarum/frontpage) (1 changed, 100% complete)
 * [`fof/html-errors`](https://github.com/FriendsOfFlarum/html-errors) (1 changed, 100% complete)
 * [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes) (2 changed, 100% complete)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth) (8 added, 4 changed, 100% complete)
 * [`fof/pages`](https://github.com/FriendsOfFlarum/pages) (6 changed, 100% complete)
 * [`fof/split`](https://github.com/FriendsOfFlarum/split) (2 changed, 100% complete)
 * [`fof/terms`](https://github.com/FriendsOfFlarum/terms) (1 changed, 100% complete)
