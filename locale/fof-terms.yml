@@ -25,7 +25,7 @@ fof-terms:
       see-user-policies-state: 'Megtekintheti a felhasználói házirendek állapotát'
     policies:
       export-url: 'Exportálási webcím'
-      export-url-help: "Minden „Összes házirendadat exportálása” jogosultsággal rendelkező felhasználói elérheti ezeket a webcímeket, hogy letöltse a házirendet elfogadó felhasználók listáját. Többet részletet tudhat meg az elérhető lehetőségekről a <a>bővítmény wikijén</a>.\n"
+      export-url-help: "Minden „Összes házirendadat exportálása” engedéllyel rendelkező felhasználói elérheti ezeket a webcímeket, hogy letöltse a házirendet elfogadó felhasználók listáját. Többet részletet tudhat meg az elérhető lehetőségekről a <a>bővítmény wikijén</a>.\n"
       name: Név
       name-help: 'Ez a név fog megjelenni a jelölőmező mellett és a frissítése párbeszédablak címeként.'
       optional: 'Nem kötelező házirend'
