@@ -23,7 +23,7 @@ CHANGELOG
 * [`fof/split`](https://github.com/FriendsOfFlarum/split) (2 changed, 100% complete)
 * [`fof/terms`](https://github.com/FriendsOfFlarum/terms) (1 changed, 100% complete)
 * [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter) (1 changed, 100% complete)
-* [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff) (1 changed, 100% complete)
+* [`huseyinfiliz/flarum-diff`](https://github.com/huseyinfiliz/flarum-diff) (1 changed, 94% complete)
 * [`ianm/gravatar`](https://github.com/imorland/gravatar) (4 changed, 100% complete)
 * [`ianm/syndication`](https://github.com/imorland/syndication) (6 changed, 100% complete)
 * [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar) (1 changed, 100% complete)
