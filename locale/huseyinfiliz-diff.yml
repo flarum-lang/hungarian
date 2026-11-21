@@ -49,7 +49,7 @@ huseyinfiliz-diff:
     editedInfo: '=> core.forum.post.edited_tooltip'
     editedText: '=> core.forum.post.edited_text'
     emptyText: 'Nincsenek verziók'
-    noDiff: 'Nem találhatók különbségek a két tartalom között.'
+    noDiff: 'Nem található különbség a két tartalom között.'
     optionsButton: Beállítások
     previewMode:
       currentContent: '=> huseyinfiliz-diff.ref.currentContent'

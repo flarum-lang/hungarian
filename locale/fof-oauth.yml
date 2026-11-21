@@ -22,11 +22,11 @@ fof-oauth:
       popup_width_help: 'Az OAuth felugró ablakának szélességének beállítása. Ez a beállítás figyelmen kívül lesz hagyva, ha a „Teljes képernyős felugró ablak használata az OAuth-hoz” beállítás be van kapcsolva.'
       popup_width_label: 'OAuth felugró ablakának szélessége'
       providers:
-        callback_url_text: 'Ha szükséges, akkor állítsa a visszahívási URL-t erre: {url}.'
+        callback_url_text: 'Ha szükséges, akkor állítsa a visszahívási webcímet erre: {url}.'
         discord:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
-          description: 'Hozzon létre egy alkalmazást itt: {link}. Adja meg az átirányítási URL-t az OAuth2 lapon.'
+          description: 'Hozzon létre egy alkalmazást itt: {link}. Adja hozzá az átirányítási webcímet az OAuth2 lapon.'
         facebook:
           app_id_label: '=> fof-oauth.ref.settings.app_id'
           app_secret_label: '=> fof-oauth.ref.settings.app_secret'
@@ -39,7 +39,7 @@ fof-oauth:
           client_id_label: '=> fof-oauth.ref.settings.app_id'
           client_secret_label: '=> fof-oauth.ref.settings.app_secret'
           description: 'Hozza létre az alkalmazást itt: {link}. Adjon az alkalmazásnak <code>read_user</code> hatókört.'
-          domain_label: 'GitLab domén'
+          domain_label: 'GitLab domain'
         google:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'

@@ -50,7 +50,7 @@ fof-reactions:
     disabled-reaction: 'Jelenleg nem használhatja ezt a reakciót, frissítse az oldalt'
     mod_item: 'Reakciók megtekintése'
     modal:
-      anonymous_count: '{count} névtelen felhasználó'
+      anonymous_count: '{count, plural, one {# névtelen felhasználó} other {# névtelen felhasználó}}'
       no_reactions: 'Még nincsenek reakciók'
       title: Reakciók
     notification: '{username} a következővel reagált a bejegyzésére: {reaction}'
