@@ -1,30 +1,32 @@
 {
 	"name": "flarum-lang/hungarian",
+	"description": "Hungarian Language Pack for Flarum",
 	"type": "flarum-extension",
-	"description": "Hungarian language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/hungarian",
 	"keywords": [
-		"locale",
-		"flarum",
-		"hungarian-locale"
+		"flarum-locale"
 	],
+	"homepage": "https://github.com/flarum-lang/hungarian",
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Rebootcode",
-			"email": "office@rebootcode.ro",
-			"homepage": "https://github.com/flarum-lang/hungarian"
+			"name": "meskobalazs",
+			"homepage": "https://github.com/meskobalazs",
+			"role": "Maintainer"
+		},
+		{
+			"name": "Rebootcodesoft",
+			"homepage": "https://github.com/Rebootcodesoft",
+			"role": "Maintainer"
 		}
 	],
 	"support": {
 		"issues": "https://github.com/flarum-lang/hungarian/issues",
+		"forum": "https://discuss.flarum.org/d/8931",
 		"source": "https://github.com/flarum-lang/hungarian"
 	},
 	"require": {
 		"flarum/core": "^2.0"
 	},
-	"minimum-stability": "dev",
-	"prefer-stable": true,
 	"extra": {
 		"flarum-extension": {
 			"title": "Hungarian",
@@ -37,13 +39,7 @@
 		},
 		"flarum-locale": {
 			"code": "hu",
-			"title": "Hungarian"
-		},
-		"extiverse": {
-			"discuss": ""
-		},
-		"branch-alias": {
-			"dev-master": "2.x-dev"
+			"title": "Magyar"
 		}
 	}
 }
