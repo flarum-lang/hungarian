@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+3.0.9 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`clarkwinkelmann/flarum-ext-popular-discussion-badge`](https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge) (100% complete)
+* [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read) (96% complete)
+
+
+All changes: [3.0.8...3.0.9](https://github.com/flarum-lang/hungarian/compare/3.0.8...3.0.9).
+
+
 3.0.8 (2026-11-23)
 ------------------
 
